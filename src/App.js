@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './css/normalize.css';
+
 import Status_section from './components/status/status-section';
 function App() {
   return (
