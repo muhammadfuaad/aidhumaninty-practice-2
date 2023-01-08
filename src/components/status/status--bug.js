@@ -1,4 +1,4 @@
-function Status_green() {
+function Status_bug() {
   return (
     <div className='card status status--pink'>
       <img src="./Icons/bug.svg" className='left' alt=""></img>
@@ -11,4 +11,4 @@ function Status_green() {
     </div>
   );
 }
-export default Status_green;
+export default Status_bug;
