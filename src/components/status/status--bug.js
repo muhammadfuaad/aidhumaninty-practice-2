@@ -1,6 +1,6 @@
 function Status_bug() {
   return (
-    <div className='card status status--pink'>
+    <div className='status status--pink'>
       <img src="./Icons/bug.svg" className='left' alt=""></img>
       <div className='right'>
         <h3>Oh no, there’s Bug!</h3>

@@ -1,6 +1,6 @@
 function Status_declined() {
   return (
-    <div className='card status status--pink'>
+    <div className='status status--pink'>
       <img src="./Icons/payment-declined.svg" className='left' alt=""></img>
       <div className='right'>
         <h3>Oh no, your Payment Failed!</h3>

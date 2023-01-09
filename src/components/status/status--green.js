@@ -1,6 +1,6 @@
 function Status_green() {
   return (
-    <div className='card status status--green'>
+    <div className='status status--green'>
       <img src="./Icons/fundraiser-hand.svg" className='left' alt=""></img>
       <div className='right'>
         <h3>We’ve Ready!</h3>
