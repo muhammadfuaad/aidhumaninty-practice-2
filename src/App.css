@@ -451,3 +451,19 @@ li:nth-last-child(2) {
 li:last-child {
   border: none;
 }
+
+/* dashbard sidebar */
+.dashboard-sidebar {
+  border: 1px solid black;
+}
+.dashboard-sidebar__header {
+  border-bottom: var(--border-light);
+}
+.dashboard-sidebar .list__item {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #102558;
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+}
