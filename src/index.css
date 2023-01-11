@@ -14,3 +14,9 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .border-bottom-light {
+    @apply border-b-[1px] border-[#e6e6e6];
+  }
+}
