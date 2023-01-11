@@ -5,7 +5,7 @@ import Profile from "./profile";
 function Payment_methods() {
   return (
     <section className="flex">
-      < Dashboard_sidebar />
+      <div className="w-[20%]">< Dashboard_sidebar /></div>
       <section className="bg-[#f5f6f7] w-[55%] relative">
         <div className="portal__header px-16 h-28 flex items-center border-bottom-light">
           <p className="portal-heading">Payment methods</p>
@@ -20,11 +20,14 @@ function Payment_methods() {
           </div>
         </div>
         <div className="absolute left-8 bottom-8 ">
-          <Dashboard_bottom_links />
+          < Dashboard_bottom_links />
         </div>
       </section>
       
-        <Profile />
+        <div className="w-[25%]">
+          <Profile />
+        </div>
+        
       
     </section>
   );

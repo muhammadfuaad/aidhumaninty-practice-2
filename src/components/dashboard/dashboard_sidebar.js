@@ -2,7 +2,7 @@ import Copyright from "./copyright";
 
 function Dashboard_sidebar() {
   return (
-    <section className="w-[20%] relative">
+    <section className="h-full relative">
       <div className="flex justify-between items-center px-8 h-28 border-bottom-light">
         <img src="./Icons/dashboard-sidebar-logo.svg" className="w-60"></img>
         <img src="./Icons/dashboard-sidebar-toggler.svg" className="w-6"></img>

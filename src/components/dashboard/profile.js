@@ -3,7 +3,7 @@ import Zakat from "./zakat";
 
 function Profile() {
   return (
-    <section className="border-2 w-[25%]">
+    <section className="">
       <div className="flex justify-between items-center px-8 h-28 border-bottom-light">
         <button className="flex space-x-4 items-enter bg-primary-dark rounded-2xl py-4 px-6 h-fit">
           <img src="./Icons/blue-plus.svg" className="w-4"></img>
