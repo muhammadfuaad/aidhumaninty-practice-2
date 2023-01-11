@@ -463,9 +463,7 @@ h2 {
 }
 
 /* dashbard sidebar */
-.dashboard-sidebar {
-  border: 1px solid black;
-}
+
 .dashboard-sidebar__header {
   border-bottom: var(--border-light);
 }

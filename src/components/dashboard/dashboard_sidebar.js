@@ -1,9 +1,11 @@
+import Copyright from "./copyright";
+
 function Dashboard_sidebar() {
   return (
-    <section className="dashboard-sidebar w-[20%] h-screen">
-      <div className="dashboard-sidebar__header flex justify-between p-8">
-        <img src="./Icons/dashboard-sidebar-logo.svg"></img>
-        <img src="./Icons/dashboard-sidebar-toggler.svg"></img>
+    <section className="dashboard-sidebar w-[20%] relative">
+      <div className="dashboard-sidebar__header flex justify-between items-center px-8 h-28">
+        <img src="./Icons/dashboard-sidebar-logo.svg" className="w-60"></img>
+        <img src="./Icons/dashboard-sidebar-toggler.svg" className="w-6"></img>
       </div>
       <div class="dashboard-sidebar__body">        
         <ul className="list">
@@ -26,6 +28,9 @@ function Dashboard_sidebar() {
           </div>
 
         </div>
+      </div>
+      <div className="absolute left-8 bottom-8">
+        <Copyright />
       </div>
     </section>
   );

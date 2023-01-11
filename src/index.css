@@ -19,4 +19,7 @@ code {
   .border-bottom-light {
     @apply border-b-[1px] border-[#e6e6e6];
   }
+  .portal-heading {
+    @apply text-[2rem] font-bold tracking-[-0.5px] text-headings;
+  }
 }

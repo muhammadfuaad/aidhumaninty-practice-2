@@ -4,9 +4,9 @@ import Zakat from "./zakat";
 function Profile() {
   return (
     <section className="border-2 w-[25%]">
-      <div className="flex justify-between p-8 border-bottom-light">
-        <button className="flex space-x-4 bg-primary-dark rounded-2xl p-6">
-          <img src="./Icons/drop-down.svg" className="w-4"></img>
+      <div className="flex justify-between items-center px-8 h-28 border-bottom-light">
+        <button className="flex space-x-4 items-enter bg-primary-dark rounded-2xl py-4 px-6 h-fit">
+          <img src="./Icons/blue-plus.svg" className="w-4"></img>
           <span className="text-white text-[1.4rem] font-semibold uppercase">New Appeal</span>
         </button>
         <div className="flex justify-between space-x-4">
