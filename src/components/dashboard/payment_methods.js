@@ -19,11 +19,13 @@ function Payment_methods() {
             </div>
           </div>
         </div>
-        <div className="absolute left-8 bottom-8">
+        <div className="absolute left-8 bottom-8 ">
           <Dashboard_bottom_links />
         </div>
       </section>
-      < Profile />
+      
+        <Profile />
+      
     </section>
   );
 }

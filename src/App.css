@@ -464,24 +464,21 @@ h2 {
 
 /* dashbard sidebar */
 
-.dashboard-sidebar__header {
-  border-bottom: var(--border-light);
-}
 .dashboard-sidebar__body {
   padding: 2rem;
 }
 .dashboard-sidebar .list__item {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem;
   font-weight: 500;
   color: #102558;
-  gap: 1.6rem;
+  gap: 1.6rem; */
 }
-.dashboard-sidebar__body a {
+/* .dashboard-sidebar__body a {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-}
+} */
 .dashboard-sidebar a img {
   width: 20px;
 }
