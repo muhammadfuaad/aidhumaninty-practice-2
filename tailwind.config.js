@@ -13,7 +13,8 @@ module.exports = {
         "primary-light": "#E0F7FF",
         "footer-text": "#8892AC",
         "amber": "#FFC100",
-        "green": "#00C98B"
+        "green": "#00C98B",
+        "light-gray": "#f1f1f1"
       }
     },
   },

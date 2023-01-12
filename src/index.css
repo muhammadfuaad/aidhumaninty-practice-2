@@ -16,9 +16,15 @@ code {
 @tailwind utilities;
 
 @layer components {
+  /* borders */
   .border-bottom-light {
     @apply border-b-[1px] border-[#e6e6e6];
   }
+  .border-bottom-light {
+    @apply border-b-[1px] border-[#999999];
+  }
+
+  /* headings */
   .portal-heading {
     @apply sm:text-[2rem] text-[2.6rem] font-bold sm:tracking-[-0.5px] tracking-[-0.65px] text-headings;
   }
