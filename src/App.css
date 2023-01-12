@@ -34,12 +34,12 @@ body {
   border-radius: 7px;
   width: 100%;
 }
-label {
+/* label {
   position: absolute;
   top: 10px;
   left: 2%;
   color: #7c7c7c;
-}
+} */
 #name:focus + label, #name:valid + label, #email:focus + label, #email:valid + label, #phone:focus + label,
 #phone:valid + label, #subject:focus + label, #subject:valid + label, #message:focus + label, 
 #message:valid + label {

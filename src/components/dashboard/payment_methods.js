@@ -1,5 +1,5 @@
 import Dashboard_bottom_links from "./dashboard_bottom_links";
-function payment_methods() {
+function Payment_methods() {
   return (
     <div className="bg-[#f5f6f7] h-full w-full">
       <div className="portal__header mt-8 sm:mt-0 px-8 sm:px-16 h-28 flex items-center sm:border-bottom-light">
@@ -20,5 +20,5 @@ function payment_methods() {
     </div>
   );
 }
-export default payment_methods;
+export default Payment_methods;
   

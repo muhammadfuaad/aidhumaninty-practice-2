@@ -9,6 +9,7 @@ import Dashboard_sidebar from './components/dashboard/dashboard_sidebar';
 import Portal from "./components/dashboard/portal"
 import Image_upload from './components/dashboard/image_upload';
 import Payment_methods_page from "./components/dashboard/payment_methods_page"
+import Profile_page from "./components/dashboard/profile_page"
 
 import { Route, Routes } from "react-router-dom";
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/dashboard-sidebar" element={<Dashboard_sidebar />} />
       <Route path="/portal" element={<Portal />} />
       <Route path="/payment_methods_page" element={<Payment_methods_page />} />
+      <Route path="/profile_page" element={<Profile_page />} />
       <Route path="/image_upload" element={<Image_upload />} />
 
 

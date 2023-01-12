@@ -1,7 +1,7 @@
 import Dashboard_bottom_links from "./dashboard_bottom_links";
 import Dashboard_sidebar from "./dashboard_sidebar";
 import Profile_sidebar from "./profile_sidebar";
-import Payment_methods from "./payment_methods";
+import Profile from "./profile";
 
 function Payment_methods_page() {
   return (
@@ -10,7 +10,7 @@ function Payment_methods_page() {
         < Dashboard_sidebar />
       </div>
       <section className="w-full sm:w-[60%] h-screen sm:h-auto relative">
-        < Payment_methods />
+        < Profile />
       </section>
       
         <div className="w-[25%] hidden sm:block">
