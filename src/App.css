@@ -40,7 +40,7 @@ body {
   left: 2%;
   color: #7c7c7c;
 } */
-#name:focus + label, #name:valid + label, #email:focus + label, #email:valid + label, #phone:focus + label,
+/* #name:focus + label, #name:valid + label, #email:focus + label, #email:valid + label, #phone:focus + label,
 #phone:valid + label, #subject:focus + label, #subject:valid + label, #message:focus + label, 
 #message:valid + label {
   top: 4px;
@@ -48,7 +48,7 @@ body {
 }
 input:focus {
   outline: 2px solid #00ADE9;
-}
+} */
 
 .message {
   height: 200px;
@@ -165,10 +165,10 @@ h2 {
   font-weight: normal;
   margin: 35px 0 40px 0;
 }
-.block {
+/* .block {
   padding: 0 120px;
   margin: auto;
-}
+} */
 .page__content {
   flex-basis: 80%;
   padding-right: 100px;
@@ -228,9 +228,9 @@ h2 {
   
 }
 @media screen and (max-width: 1280px) {
-  .block {
+  /* .block {
     padding: 0 20px;
-  }
+  } */
 }
 
 
