@@ -20,6 +20,6 @@ code {
     @apply border-b-[1px] border-[#e6e6e6];
   }
   .portal-heading {
-    @apply text-[2rem] font-bold tracking-[-0.5px] text-headings;
+    @apply sm:text-[2rem] text-[2.6rem] font-bold sm:tracking-[-0.5px] tracking-[-0.65px] text-headings;
   }
 }

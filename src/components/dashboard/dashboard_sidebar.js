@@ -2,13 +2,13 @@ import Copyright from "./copyright";
 
 function Dashboard_sidebar() {
   return (
-    <section className="h-full relative">
+    <section className="h-full min-w-[243px] relative">
       <div className="flex justify-between items-center px-8 h-28 border-bottom-light">
         <img src="./Icons/dashboard-sidebar-logo.svg" className="w-60"></img>
         <img src="./Icons/dashboard-sidebar-toggler.svg" className="w-6"></img>
       </div>
       <div className="px-8">       
-        <p className="text-[1rem] font-medium tracking-[0.5px] text-[#bdbdbd] mt-4 mb-2">MENU</p>
+        <p className="text-[1rem] font-medium tracking-[0.5px] text-[#bdbdbd] mt-12 mb-2">MENU</p>
 
         <ul className="text-[1.2rem] font-medium text-headings">
           <li className=""><a className="flex justify-start space-x-4 items-center py-4 border-bottom-light"><img src="./Icons/dashboard.svg" className="w-8" alt=""></img><span>Dashboard</span></a></li>
@@ -20,7 +20,9 @@ function Dashboard_sidebar() {
           <li className=""><a className="flex justify-start space-x-4 items-center py-4 border-bottom-light"><img src="./Icons/payment-methods.svg" className="w-8" alt=""></img><span>Payment methods</span></a></li>
           <li className=""><a className="flex justify-start space-x-4 items-center py-4"><img src="./Icons/preferences.svg" className="w-8" alt=""></img><span>Preferences</span></a></li>
         </ul>
-        <div className="bg-primary flex space-x-4 py-8 px-4 rounded-3xl mt-20">
+        <div className="bg-primary flex space-x-4 py-8 px-4 rounded-3xl mt-20 relative">
+          <img src="./Icons/yellow-star-small.svg" className="absolute left-3 top-4"></img>
+          <img src="./Icons/yellow-star-large.svg" className="absolute right-6 bottom-4"></img>
           <img src="./Icons/dashboard-sidebar-badge.svg" className="left"></img>
           <div className="right">
             <p className="text-[1.4rem] font-medium tracking-[-0.35px] text-[#fff]">Level <span className="font-semibold">Silver</span></p>
