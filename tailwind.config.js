@@ -12,7 +12,8 @@ module.exports = {
         "primary-dark": "#102558",
         "primary-light": "#E0F7FF",
         "footer-text": "#8892AC",
-        "amber": "#FFC100"
+        "amber": "#FFC100",
+        "green": "#00C98B"
       }
     },
   },
