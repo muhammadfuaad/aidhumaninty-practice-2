@@ -1,9 +1,10 @@
+import Total_given from "./total_given";
 import Total_raised from "./total_raised";
 import Zakat from "./zakat";
 
 function Profile() {
   return (
-    <section className="">
+    <section className="../../../Icons/yellow-ring-1.svg">
       <div className="flex justify-between items-center px-8 h-28 border-bottom-light">
         <button className="flex space-x-4 items-enter bg-primary-dark rounded-2xl py-4 px-6 h-fit">
           <img src="./Icons/blue-plus.svg" className="w-4"></img>
@@ -25,7 +26,7 @@ function Profile() {
         <button className="px-8 py-4 uppercase text-[1.4rem] font-semibold text-[#bdbdbd] outline outline-2 outline-[#bdbdbd] rounded-lg mt-6">Edit Profile</button>
         <div className="mt-12 flex space-x-4">
           <Total_raised />
-          <Total_raised />
+          <Total_given />
         </div>
         <div className="mt-12 w-full">
           <Zakat />
