@@ -4,7 +4,7 @@ function Zakat() {
       <div className="flex justify-between items-start">
         <span className="text-[3rem] font-bold tracking-[-0.75px] text-headings">Zakat</span>
         <div className="flex space-x-2">
-          <img src="./Icons/stopwatch.svg" className="mr-4 mt-4"></img>
+          <img src="./Icons/stopwatch.svg" className="mr-4 mt-4" alt=""></img>
           <div className="flex flex-col justify-center items-center">
             <span className="text-[2rem] font-semibold text-headings">234</span>
             <span className="text-[1rem] font-semibold tracking-[-0.25px] text-headings">days</span>

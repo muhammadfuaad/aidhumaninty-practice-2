@@ -34,4 +34,7 @@ code {
   .portal-subheading {
     @apply text-[1.8rem] font-bold tracking-[-0.45px] text-headings;
   }
+  .portal-body {
+    @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;
+  }
 }

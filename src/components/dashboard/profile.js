@@ -6,8 +6,7 @@ function Profile() {
         <p className="portal-heading">Profile</p>
       </div>
       <div className="px-8 sm:p-16">
-        <div className="bg-white rounded-2xl">
-          
+        <div className="bg-white rounded-2xl">          
           <div className="p-8 border-bottom-medium">
             <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-headings mb-8">Info</p>
             <div className="flex flex-col space-y-8">
@@ -75,13 +74,8 @@ function Profile() {
                   </li>
                 </ul>
             </div>
-
-
-
           </div>
         </div>
-
-        
       </div>
       <div className="absolute left-8 bottom-8 hidden sm:block ">
         < Dashboard_bottom_links />

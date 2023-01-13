@@ -10,6 +10,7 @@ import Portal from "./components/dashboard/portal"
 import Image_upload from './components/dashboard/image_upload';
 import Payment_methods_page from "./components/dashboard/payment_methods_page"
 import Profile_page from "./components/dashboard/profile_page"
+import Monthly_donations_page from "./components/dashboard/monthly_donations_page"
 
 import { Route, Routes } from "react-router-dom";
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path="/portal" element={<Portal />} />
       <Route path="/payment_methods_page" element={<Payment_methods_page />} />
       <Route path="/profile_page" element={<Profile_page />} />
+      <Route path="/monthly_donations_page" element={<Monthly_donations_page />} />
       <Route path="/image_upload" element={<Image_upload />} />
 
 

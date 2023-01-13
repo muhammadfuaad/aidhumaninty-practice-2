@@ -1,4 +1,3 @@
-import Dashboard_bottom_links from "./dashboard_bottom_links";
 import Dashboard_sidebar from "./dashboard_sidebar";
 import Profile_sidebar from "./profile_sidebar";
 import Payment_methods from "./payment_methods";
@@ -12,12 +11,9 @@ function Payment_methods_page() {
       <section className="w-full sm:w-[60%] h-screen sm:h-auto relative">
         < Payment_methods />
       </section>
-      
         <div className="w-[25%] hidden sm:block">
           <Profile_sidebar />
-        </div>
-        
-      
+        </div>   
     </section>
   );
 }
