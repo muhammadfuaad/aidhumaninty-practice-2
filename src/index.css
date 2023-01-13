@@ -24,7 +24,7 @@ code {
     @apply border-[1px] border-[#e6e6e6];
   }
   .border-bottom-medium {
-    @apply border-b-[1px] border-[#999999];
+    @apply border-b-[1px] border-[#bdbdbd];
   }
 
   /* headings */
@@ -35,6 +35,12 @@ code {
     @apply text-[1.8rem] font-bold tracking-[-0.45px] text-headings;
   }
   .portal-body {
+    @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;
+  }
+  .portal-toggle-label {
+    @apply text-[1.4rem] font-medium tracking-[0px] text-headings;
+  }
+  .portal-toggle-text {
     @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;
   }
 }
