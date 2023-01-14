@@ -13,7 +13,6 @@ function Donor_details({donor_name, location, appeal, category, amount, date}) {
             <img src="./Icons/calendar-clock.svg"></img>
             <span className="text-[1.1rem] font-medium tracking-[-0.28px] text-headings whitespace-nowrap">{date}</span>
           </div>
-
         </div>
       </div>
       <div className="flex justify-between mt-2">
@@ -21,7 +20,6 @@ function Donor_details({donor_name, location, appeal, category, amount, date}) {
         <img src="./Icons/eye.svg"></img>
       </div>
       <p className="text-[0.8rem] font-medium tracking-[-0.2px] text-[#bdbdbd]">{category}</p>
-
       <div className="flex justify-between mt-2">
         <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-primary">{amount}</p>
         <div className="flex space-x-8 relative">
