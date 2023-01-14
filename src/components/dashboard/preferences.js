@@ -1,4 +1,5 @@
 import Dashboard_bottom_links from "./dashboard_bottom_links";
+import Toggle from "./toggle";
 function Preferences() {
   return (
     <div className="bg-[#f5f6f7] h-full w-full">
@@ -14,38 +15,17 @@ function Preferences() {
             <div className="flex flex-col space-y-4">
               <div className="flex justify-between">
                 <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">Email marketing about other ways to give and fundraise</p>
-                <label class="relative inline-flex items-center cursor-pointer">
-                  <input type="checkbox" value="" className="sr-only peer"></input>
-                  <div className="w-12 h-8 bg-gray-200 rounded-full peer peer-checked:after:translate-x-4 peer-checked:after:border-white
-                    after:content-[''] after:absolute after:left-[3px] after:top-1 after:bg-white after:rounded-full after:h-6 after:w-6
-                    after:transition-all after:duration-500 peer-checked:bg-[#444445]">
-                  </div>
-                  <span className="ml-3 text-[1.4rem] font-medium tracking-[0px] text-headings">Enabled</span>
-                </label>
+                < Toggle state="Enabled"/>
               </div>
 
               <div className="flex justify-between">
                 <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">Email updates related to pages you donate to</p>
-                <label class="relative inline-flex items-center cursor-pointer">
-                  <input type="checkbox" value="" className="sr-only peer"></input>
-                  <div className="w-12 h-8 bg-gray-200 rounded-full peer peer-checked:after:translate-x-4 peer-checked:after:border-white
-                    after:content-[''] after:absolute after:left-[3px] after:top-1 after:bg-white after:rounded-full after:h-6 after:w-6
-                    after:transition-all after:duration-500 peer-checked:bg-[#444445]">
-                  </div>
-                  <span className="ml-3 text-[1.4rem] font-medium tracking-[0px] text-headings">Enabled</span>
-                </label>
+                < Toggle state="Enabled"/>
               </div>
 
               <div className="flex justify-between">
                 <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">Email updates realted to pages you create</p>
-                <label class="relative inline-flex items-center cursor-pointer">
-                  <input type="checkbox" value="" className="sr-only peer"></input>
-                  <div className="w-12 h-8 bg-gray-200 rounded-full peer peer-checked:after:translate-x-4 peer-checked:after:border-white
-                    after:content-[''] after:absolute after:left-[3px] after:top-1 after:bg-white after:rounded-full after:h-6 after:w-6
-                    after:transition-all after:duration-500 peer-checked:bg-[#444445]">
-                  </div>
-                  <span className="ml-3 text-[1.4rem] font-medium tracking-[0px] text-headings">Enabled</span>
-                </label>
+                < Toggle state="Enabled"/>
               </div>
             </div>
           </div>
@@ -62,7 +42,6 @@ function Preferences() {
             <span className="font-semibold text-primary"> Terms of Service</span> and  
             <span className="font-semibold text-primary"> Privacy policy</span></p>
             <button className="px-20 py-6 uppercase text-[1.4rem] font-semibold text-headings bg-green rounded-xl mt-8">Save Changes</button>
-
           </div>
         </div>
       </div>
