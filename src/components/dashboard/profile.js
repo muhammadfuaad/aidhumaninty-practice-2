@@ -1,4 +1,5 @@
 import Dashboard_bottom_links from "./dashboard_bottom_links";
+import Radio from "./radio"
 function Profile() {
   return (
     <div className="bg-[#f5f6f7] h-full w-full">
@@ -11,46 +12,11 @@ function Profile() {
             <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-headings mb-8">Info</p>
             <div className="flex flex-col space-y-8">
               <form className="flex space-x-12">
-                <label className="relative inline-flex items-center gap-2 cursor-pointer">
-                  <input type="radio" value="mr" name="status" className="sr-only peer"></input>
-                  <div className="w-6 h-6 rounded-full border-2 border-[#e6e6e6] peer peer-checked:after:bg-[#7c7c7c]
-                    after:content-[''] after:absolute  after:top-2 after:left-2 after:bg-[#e6e6e6] after:rounded-full after:h-2 after:w-2
-                    after:transition-all after:duration-500 peer-checked:border-body">
-                  </div>
-                  <span className="ml-2 text-[1.4rem] font-medium tracking-[-0.21px] text-[#181818]">Mr</span>
-                </label>
-                <label className="relative inline-flex items-center gap-2 cursor-pointer">
-                  <input type="radio" value="mrs" name="status" className="sr-only peer"></input>
-                  <div className="w-6 h-6 rounded-full border-2 border-[#e6e6e6] peer peer-checked:after:bg-[#7c7c7c]
-                    after:content-[''] after:absolute  after:top-2 after:left-2 after:bg-[#e6e6e6] after:rounded-full after:h-2 after:w-2
-                    after:transition-all after:duration-500 peer-checked:border-body">
-                  </div>
-                  <span className="ml-2 text-[1.4rem] font-medium tracking-[-0.21px] text-[#181818]">Mrs</span>
-                </label>
-                <label className="relative inline-flex items-center gap-2 cursor-pointer">
-                  <input type="radio" value="miss" name="status" className="sr-only peer"></input>
-                  <div className="w-6 h-6 rounded-full border-2 border-[#e6e6e6] peer peer-checked:after:bg-[#7c7c7c]
-                    after:content-[''] after:absolute  after:top-2 after:left-2 after:bg-[#e6e6e6] after:rounded-full after:h-2 after:w-2
-                    after:transition-all after:duration-500 peer-checked:border-body">
-                  </div>
-                  <span className="ml-2 text-[1.4rem] font-medium tracking-[-0.21px] text-[#181818]">Miss</span>
-                </label>
-                <label className="relative inline-flex items-center gap-2 cursor-pointer">
-                  <input type="radio" value="ms" name="status" className="sr-only peer"></input>
-                  <div className="w-6 h-6 rounded-full border-2 border-[#e6e6e6] peer peer-checked:after:bg-[#7c7c7c]
-                    after:content-[''] after:absolute  after:top-2 after:left-2 after:bg-[#e6e6e6] after:rounded-full after:h-2 after:w-2
-                    after:transition-all after:duration-500 peer-checked:border-body">
-                  </div>
-                  <span className="ml-2 text-[1.4rem] font-medium tracking-[-0.21px] text-[#181818]">Ms</span>
-                </label>
-                <label className="relative inline-flex items-center gap-2 cursor-pointer">
-                  <input type="radio" value="other" name="status" className="sr-only peer"></input>
-                  <div className="w-6 h-6 rounded-full border-2 border-[#e6e6e6] peer peer-checked:after:bg-[#7c7c7c]
-                    after:content-[''] after:absolute  after:top-2 after:left-2 after:bg-[#e6e6e6] after:rounded-full after:h-2 after:w-2
-                    after:transition-all after:duration-500 peer-checked:border-body">
-                  </div>
-                  <span className="ml-2 text-[1.4rem] font-medium tracking-[-0.21px] text-[#181818]">Other</span>
-                </label>
+                < Radio marital_status="Mr" />
+                < Radio marital_status="Mrs" />
+                < Radio marital_status="Miss" />
+                < Radio marital_status="Ms" />
+                < Radio marital_status="Other" />
               </form>
               
               <div className="flex space-x-4">
