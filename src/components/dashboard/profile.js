@@ -76,59 +76,53 @@ function Profile() {
           </div>
 
           <div className="p-8">
-            <p className="portal-subheading mb-8">Address</p>
-            
-            
-            <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-[#7c7c7c] 
-            tracking-[0px] px-4 py-5 inline-flex items-center border-light rounded-xl" type="button">United Kingdom <svg class="w-4 h-4 ml-2" 
-            aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-            </button>
-            
-            <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700">
-                <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-                  </li>
-                </ul>
-            </div>
-
-            <div className="flex space-x-4 mt-8">
-              <div class="relative w-1/2">
-                <input type="text" id="line-1" className="focus:border-none block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-headings tracking-[0px]" placeholder=" " />
-                <label for="line-1" className="absolute text-[1.1rem] font-semibold text-[#7c7c7c] tracking-[0px] top-2 left-4">Address Line 1</label>
+            <p className="portal-subheading mb-8">Address</p>            
+            <div className="flex flex-col space-y-8">
+              <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-[#7c7c7c]
+              tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl" type="button">
+                <span>United Kingdom</span>
+                <img src="./Icons/drop-down.svg" alt="dropdown"></img>
+              </button>
+    
+              <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700">
+                  <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+                    </li>
+                  </ul>
               </div>
-
-              <div class="relative w-1/2">
-                <input type="text" id="line-2" className="block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-headings tracking-[0px]" placeholder=" " />
-                <label for="line-2" className="absolute text-[1.1rem] font-semibold text-[#7c7c7c] tracking-[0px] top-2 left-4">Address Line 2</label>
-              </div>           
-            </div>
-
-            <div className="flex space-x-4 mt-8">
-              <div class="relative w-2/3">
-                <input type="text" id="town" className="focus:border-none block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-headings tracking-[0px]" placeholder=" " />
-                <label for="town" className="absolute text-[1.1rem] font-semibold text-[#7c7c7c] tracking-[0px] top-2 left-4">Town</label>
+              <div className="flex space-x-4">
+                <div class="relative w-1/2">
+                  <input type="text" id="line-1" className="focus:border-none block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-headings tracking-[0px]" placeholder=" " />
+                  <label for="line-1" className="absolute text-[1.1rem] font-semibold text-[#7c7c7c] tracking-[0px] top-2 left-4">Address Line 1</label>
+                </div>
+                <div class="relative w-1/2">
+                  <input type="text" id="line-2" className="block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-headings tracking-[0px]" placeholder=" " />
+                  <label for="line-2" className="absolute text-[1.1rem] font-semibold text-[#7c7c7c] tracking-[0px] top-2 left-4">Address Line 2</label>
+                </div>
               </div>
-
-              <div class="relative w-1/3">
-                <input type="text" id="zip" className="block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-headings tracking-[0px]" placeholder=" " />
-                <label for="zip" className="absolute text-[1.1rem] font-semibold text-[#7c7c7c] tracking-[0px] top-2 left-4">ZIP/Postal</label>
-              </div>           
+              <div className="flex space-x-4">
+                <div class="relative w-2/3">
+                  <input type="text" id="town" className="focus:border-none block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-headings tracking-[0px]" placeholder=" " />
+                  <label for="town" className="absolute text-[1.1rem] font-semibold text-[#7c7c7c] tracking-[0px] top-2 left-4">Town</label>
+                </div>
+                <div class="relative w-1/3">
+                  <input type="text" id="zip" className="block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-headings tracking-[0px]" placeholder=" " />
+                  <label for="zip" className="absolute text-[1.1rem] font-semibold text-[#7c7c7c] tracking-[0px] top-2 left-4">ZIP/Postal</label>
+                </div>
+              </div>
+              <button className="self-start px-20 py-6 uppercase text-[1.4rem] font-semibold text-headings bg-green rounded-xl">Save Changes</button>
             </div>
-            
-          </div>
-
-          
+          </div>          
         </div>
       </div>
       <div className="absolute left-8 bottom-8 hidden sm:block ">

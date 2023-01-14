@@ -8,7 +8,7 @@ function Preferences_page() {
       <div className="w-[15%] hidden sm:block">
         < Dashboard_sidebar />
       </div>
-      <div className="w-full sm:w-[60%] h-screen sm:h-auto relative">
+      <div className="grow h-screen sm:h-auto relative">
         < Preferences />
       </div>
       <div className="w-[25%] hidden sm:block">
