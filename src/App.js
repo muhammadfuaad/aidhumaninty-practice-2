@@ -14,6 +14,7 @@ import Monthly_donations_page from "./components/dashboard/monthly_donations_pag
 import Preferences_page from "./components/dashboard/preferences_page"
 import Donation_history_page from "./components/dashboard/donation_history_page"
 import Security_page from "./components/dashboard/security_page"
+import Fundraising_page from "./components/dashboard/fundraising_page"
 import Dashboard_layout from "./components/dashboard/dashboard_layout"
 
 import { Route, Routes } from "react-router-dom";
@@ -30,6 +31,8 @@ function App() {
       <Route path="/preferences_page" element={<Preferences_page />} />
       <Route path="/donation_history_page" element={<Donation_history_page />} />
       <Route path="/security_page" element={<Security_page />} />
+      <Route path="/fundraising_page" element={<Fundraising_page />} />
+
       <Route path="/dashboard_layout" element={<Dashboard_layout />} />
       <Route path="/" element={<Preferences_page />} />
 
