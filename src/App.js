@@ -8,6 +8,7 @@ import Congratulations_page from './components/congratulations_page';
 import Dashboard_sidebar from './components/dashboard/dashboard_sidebar';
 import Portal from "./components/dashboard/portal"
 import Image_upload from './components/dashboard/image_upload';
+import Badge_bronze from './components/dashboard/badge_bronze';
 import Payment_methods_page from "./components/dashboard/payment_methods_page"
 import Profile_page from "./components/dashboard/profile_page"
 import Monthly_donations_page from "./components/dashboard/monthly_donations_page"
@@ -37,6 +38,8 @@ function App() {
       <Route path="/" element={<Preferences_page />} />
 
       <Route path="/image_upload" element={<Image_upload />} />
+      <Route path="/badge_bronze" element={<Badge_bronze />} />
+
 
 
     </Routes>
