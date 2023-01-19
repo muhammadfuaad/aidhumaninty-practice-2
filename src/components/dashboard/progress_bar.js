@@ -14,7 +14,7 @@ function Progress_bar(props) {
 		width: `${props.progress}%`,
 		backgroundColor: "#00ade9",
 	  borderRadius:40,
-		textAlign: 'center'
+		textAlign: 'right'
 	}
 	
 	const progresstext = {
@@ -22,15 +22,28 @@ function Progress_bar(props) {
 		fontWeight: 900,
     fontSize: "1.1rem"
 	}
-		
-	return (
-	<div className='flex justify-between'>
-    <div style={Parentdiv}>
-      <div style={Childdiv}></div>
-    </div>
-    <span style={progresstext}>{`${props.progress}%`}</span>
-  </div>
-	)
+	
+  
+  const option = props.option
+  if (option == 1) {
+    return (
+      <div className='flex justify-between'>
+        <div style={Parentdiv}>
+          <div style={Childdiv}></div>
+        </div>
+        <span style={progresstext}>{`${props.progress}%`}</span>
+      </div>
+    )
+  }
+  if (option == 2) {
+    return (
+      <div style={Parentdiv}>
+        <div style={Childdiv}></div>
+        <span style={progresstext}>{`${props.progress}%`}</span>
+      </div>
+    )
+  }
+	
 }
 
 export default Progress_bar;

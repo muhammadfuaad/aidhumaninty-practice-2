@@ -17,10 +17,10 @@ function Appeal_status_1(props) {
           <p className="text-[0.8rem] font-medium tracking-[-0.2px] text-[#bdbdbd] mb-1">{props.category}</p>
           < Progress_bar progress="30" option="2" />
           <div className="flex mt-1">
-            <p className="text-[1.1rem] font-semibold tracking-[-0.17px]"><span className="text-primary">{amount_raised}</span><span className=" text-[#bdbdbd]">{`/${amount_remaining}`}</span></p>
+            <p className="text-[1.1rem] font-semibold tracking-[-0.17px]"><span className="text-primary">{amount_raised}</span><span className=" text-[#bdbdbd]">ASDF</span></p>
             <div className="flex space-x-2">
               <img src="./Icons/user-circle.svg"></img>
-              <p className="text-[1rem] font-medium tracking-[-0.15px] text-body">{`${supporters} supporters`}</p>
+              <p className="text-[1rem] font-medium tracking-[-0.15px] text-body">ASDF</p>
             </div>
           </div>
         </div>

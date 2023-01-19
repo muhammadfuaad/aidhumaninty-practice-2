@@ -1,9 +1,6 @@
-import Toggle from "./toggle";
-import Button from "./button";
-import Input from "./input";
+import Circular_progress_bar from "./circular_progress_bar";
 function Fundraising() {
   return (
-    <>
     <div className="bg-white rounded-3xl p-8">
         <p className="portal-subheading mb-8">Active pages</p>
         <div className="flex space-x-4 items-start bg-primary-light px-10 py-8 rounded-xl mb-8">
@@ -39,36 +36,12 @@ function Fundraising() {
                 <span>117</span><span className="font-semibold">supporters</span>
               </p>
             </div>
-            <img src="./Icons/loader-medium.svg" className="w-24"></img>
+            <div className="w-[35%]">
+              <Circular_progress_bar />
+            </div>
           </div>
         </div>      
     </div>
-    <table className="w-full p-4 pt-0 border-2">
-      <tr className="text-[0.9rem] font-medium tracking-[0px] text-[#bdbdbd] uppercase">
-        <th width="25%" className="text-left py-4 border-bottom-light">Name</th>
-        <th width="25%" className="text-left py-4 border-bottom-light">Country</th>
-        <th width="20%" className="text-left py-4 border-bottom-light">Date</th>
-        <th width="30%" className="text-left py-4 border-bottom-light">Amount</th>
-      </tr>
-      <tr className="text-[1.1rem] tracking-[-0.28px]">
-        <td className="flex space-x-2 items-center py-4 border-bottom-light">
-          <img src="./Icons/user-circle.svg"></img>
-          <span className="font-semibold text-primary-dark">Ron Hill</span>
-        </td>
-        
-        <td className="flex"><span className="font-medium text-headings py-4 border-bottom-light">Great Britain</span></td>
-
-        <td className="flex space-x-2 items-center py-4 border-bottom-light">
-          <img src="./Icons/calendar-clock.svg"></img>
-          <span>Tue 12 Dec, 08:15</span>
-        </td>
-        <td className="flex space-x-2 items-center py-4 border-bottom-light">
-          <span>£231.50</span>
-          <img src="./Icons/eye.svg"></img>
-        </td>        
-      </tr>
-    </table>
-  </>       
   );
 }
 export default Fundraising;

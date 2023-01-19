@@ -4,7 +4,7 @@ import Dashboard_bottom_links from "./dashboard_bottom_links";
 
 function Dashboard_layout(props) {
   return (
-    <section className="flex">
+    <section className="flex overflow-hidden">
       <div className="w-[20%] hidden sm:block">
         < Dashboard_sidebar />
       </div>

@@ -4,7 +4,8 @@ import Zakat from "./zakat";
 
 function Profile_sidebar() {
   return (
-    <section className="../../../Icons/footer-background-logo.svg">
+    <section className=" relative">
+      <img src="./Icons/footer-background-logo.svg" className="absolute left-40 top-[35rem] -z-10"></img>
       <div className="flex justify-between items-center px-8 h-28 border-bottom-light">
         <button className="flex space-x-4 items-enter bg-primary-dark rounded-2xl py-4 px-6 h-fit">
           <img src="./Icons/blue-plus.svg" className="w-4"></img>
@@ -17,7 +18,7 @@ function Profile_sidebar() {
       </div>
       <div className="flex flex-col items-center px-8 pb-[50rem]">
         <div className="mt-20 w-48 h-48 rounded-[50%] bg-[#7c7c7c] flex justify-center items-center relative">
-          <img src="./Icons/user-circle.svg" className="w-24 fill-white"></img>
+          <img src="./Icons/user-circle.svg" className="w-24 brightness-[2000]"></img>
           <div className="flex justify-center bg-[#e6e6e6] w-16 h-16 rounded-full absolute bottom-1 right-1 align-middle"><img src="./Icons/edit.svg" className="w-12"></img></div>
         </div>
         <p className="mt-6 text-[1.8rem] font-bold tracking-[-0.45px] text-headings">James Matthews</p>
