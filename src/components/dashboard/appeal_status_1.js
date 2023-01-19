@@ -14,24 +14,25 @@ function Appeal_status_1(props) {
             {props.title}
           </p>
           <div className="bg-amber rounded-full w-8 h-8 flex justify-center items-center">
-            <p className="text-[0.8rem] font-bold text-headings">Z</p>
+            <p className="text-[1rem] font-[800] text-headings">{props.eligibility}</p>
           </div>
         </div>
         <p className="text-[0.8rem] font-medium tracking-[-0.2px] text-[#bdbdbd] mb-1">
           {props.category}
         </p>
         <Progress_bar progress="30" option="2" />
-        <div className="flex mt-1">
+        <div className="flex space-x-6 mt-2 relative">
           <p className="text-[1.1rem] font-semibold tracking-[-0.17px]">
             <span className="text-primary">{amount_raised}</span>
-            <span className=" text-[#bdbdbd]">ASDF</span>
+            <span className=" text-[#bdbdbd]">{`/${props.amount_remaining}`}</span>
           </p>
-          <div className="flex space-x-2">
-            <img src="./Icons/user-circle.svg"></img>
+          <div className="flex space-x-1">
+            <img src="./Icons/user-circle.svg" className='w-5'></img>
             <p className="text-[1rem] font-medium tracking-[-0.15px] text-body">
-              ASDF
+            {`${props.supporters} supporters`}
             </p>
           </div>
+          <div className='h-4 w-[1px] bg-body absolute left-12 top-[1px]'></div>
         </div>
       </div>
     </div>

@@ -4,7 +4,13 @@ function Progress_bar(props) {
 	
 	const Parentdiv = {
 		height: 10,
-		width: '80%',
+    width: "80%",
+		backgroundColor: '#f1f1f1',
+		borderRadius: 40,
+	}
+  const Parentdiv2 = {
+		height: 10,
+    width: "100%",
 		backgroundColor: '#f1f1f1',
 		borderRadius: 40,
 	}
@@ -37,9 +43,9 @@ function Progress_bar(props) {
   }
   if (option == 2) {
     return (
-      <div style={Parentdiv}>
+      <div className='relative' style={Parentdiv2}>
         <div style={Childdiv}></div>
-        <span style={progresstext}>{`${props.progress}%`}</span>
+        <span className='absolute right-0 top-5' style={progresstext}>{`${props.progress}%`}</span>
       </div>
     )
   }
