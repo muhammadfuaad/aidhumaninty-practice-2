@@ -17,9 +17,9 @@ function Profile_sidebar() {
         </div>
       </div>
       <div className="flex flex-col items-center px-8 pb-[50rem]">
-        <div className="mt-20 w-48 h-48 rounded-[50%] bg-[#7c7c7c] flex justify-center items-center relative">
-          <img src="./Icons/user-circle.svg" className="w-24 brightness-[2000]"></img>
-          <div className="flex justify-center bg-[#e6e6e6] w-16 h-16 rounded-full absolute bottom-1 right-1 align-middle"><img src="./Icons/edit.svg" className="w-12"></img></div>
+        <div className="mt-20 w-48 h-48 rounded-[50%] bg-[#bdbdbd] flex justify-center items-center relative">
+          <img src="./Icons/user-circle.svg" className="w-24 brightness-[1000]"></img>
+          <div className="flex justify-center bg-[#e6e6e6] w-12 h-12 rounded-full absolute bottom-1 right-1 align-middle"><img src="./Icons/edit.svg" className="w-8"></img></div>
         </div>
         <p className="mt-6 text-[1.8rem] font-bold tracking-[-0.45px] text-headings">James Matthews</p>
         <div className="flex space-x-2 items-center">
