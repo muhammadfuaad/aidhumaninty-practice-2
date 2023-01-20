@@ -11,8 +11,8 @@ function Fundraising() {
         <div className="flex w-1/2 justify-start items-center">
           <div className="relative">
             <img src="./images/pakistan-floods.png"></img>
-            <div className="bg-amber rounded-full w-8 h-8 absolute -right-2 top-[40%] flex justify-center items-center">
-              <p className="text-[0.8rem] font-bold text-headings">Z</p>
+            <div className="bg-amber rounded-full w-8 h-8 absolute -right-4 top-[40%] flex justify-center items-center">
+              <p className="text-[1rem] font-bold text-headings">Z</p>
             </div>
           </div>
           <div className="flex flex-col ml-8">
@@ -22,7 +22,7 @@ function Fundraising() {
             <div className="flex space-x-8 relative">
               <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-[#999999]">Edit</button>
               <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-[#999999]">View</button>
-              <div class="absolute top-1 left-4 w-0.5 h-4 bg-gray-600"></div>
+              <div class="absolute top-1 left-4 w-[1px] h-4 bg-[#e6e6e6]"></div>
             </div>
           </div>
         </div>
@@ -32,11 +32,11 @@ function Fundraising() {
             <p className="text-[1.1rem] font-semibold tracking-[-0.17px] text-primary">Raised: £156<span className="text-green">/£634</span></p>
             <p className="flex space-x-2 text-[1.1rem] font-medium tracking-[-0.17px] text-[#999999]">
               <span>by</span>
-              <img src="./Icons/user-circle.svg" className="w-5"></img>
+              <img src="./Icons/user-circle.svg" className="w-5 brightness-50"></img>
               <span>117</span><span className="font-semibold">supporters</span>
             </p>
           </div>
-          <div className="w-[35%]">
+          <div className="w-[15%]">
             <Circular_progress_bar />
           </div>
         </div>

@@ -4,8 +4,8 @@ function Dashboard_sidebar() {
   return (
     <section className="h-full relative">
       <div className="flex justify-between items-center px-8 h-28 border-bottom-light">
-        <img src="./Icons/dashboard-sidebar-logo.svg" className="w-60"></img>
-        <img src="./Icons/dashboard-sidebar-toggler.svg" className="w-6"></img>
+        <a href="#"><img src="./Icons/dashboard-sidebar-logo.svg" className="w-60"></img></a>
+        <a href="#"><img src="./Icons/dashboard-sidebar-toggler.svg" className="w-6"></img></a>
       </div>
       <div className="">       
         <p className="text-[1rem] font-medium tracking-[0.5px] text-[#bdbdbd] mt-12 mb-2 px-8">MENU</p>

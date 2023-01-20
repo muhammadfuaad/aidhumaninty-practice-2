@@ -1,5 +1,5 @@
-import Dashboard_bottom_links from "./dashboard_bottom_links";
 import Donor_details from "./donor_details";
+import Button from "./button"
 function Donation_history() {
   return (    
     <div className="bg-white p-8 rounded-3xl">
@@ -18,6 +18,15 @@ function Donation_history() {
         appeal="Water Hands Pumps Uganda" category="Water for All" amount="£231.50"/>
         < Donor_details donor_name="Alexander Jacob" location="Germany" date="Sat 8 Sep, 09:03"
         appeal="Pakistan Floods" category="Disaster & Emergency Appeals" amount="£301.50"/>
+      </div>
+
+      <div className="flex justify-between items-center">
+        <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-headings">24 results</p>
+        <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-headings">1234</p>
+        <div className="flex space-x-4">
+          < Button text="Previous" classNames="outline outline-1 outline-[#999] text-[#999] text-[1rem] bg-[#e6e6e6] px-8 py-4"/>
+          < Button text="Next" classNames="outline outline-1 outline-[#999] text-[#999] text-[1rem] px-8 py-4"/>
+        </div>
       </div>
     </div>      
   );
