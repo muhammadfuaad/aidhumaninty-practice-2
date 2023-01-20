@@ -13,19 +13,17 @@ function Circular_progress_bar() {
         text={`${percentage}%`}
         background
         backgroundPadding={0}
-        style={{
-          fontSize: "2.5rem",
-        }}
-        
-
+    
         styles={buildStyles({
-          fontSize: "2.5rem",
+          textSize: "2.5rem",
+          textWeight: "900",
           fontWeight: "900",   
           backgroundColor: "#102558",
           textColor: "#fff",
           pathColor: "#00ade9",
           trailColor: "transparent",
           transform: "rotate(90deg)",
+          transformOrigin: 'center center',
           rotation: 1 / 7 + 1 / 10,
           text: {
             // Text color
