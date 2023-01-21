@@ -1,9 +1,14 @@
+import { DomPlatform } from "chart.js";
 import Funding_stats from "./funding_stats";
 import Zakat from "./zakat";
+import React from "react";
+import Image_upload from "./image_upload";
 
 function Profile_sidebar() {
+  const [visibility, setVisibility] = React.useState(false);
   return (
     <section className=" relative">
+      {visibility? <div className="fixed right-0 z-10"><Image_upload /></div> : null}
       <img src="./Icons/footer-background-logo.svg" className="absolute left-40 top-[35rem] -z-10"></img>
       <div className="flex justify-between items-center px-8 h-28 border-bottom-light">
         <button className="flex space-x-4 items-center bg-primary-dark rounded-2xl py-4 px-6 h-fit">
@@ -16,10 +21,10 @@ function Profile_sidebar() {
           <a href="#" className="flex space-x-2 items-center"><img src="./Icons/logout.svg" className="w-8" alt=""></img><span className="text-[1.3rem] font-medium tracking-[-0.2px] text-headings">Log Out</span></a>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center px-8 pb-[50rem]">
+      <div className="flex flex-col justify-center items-center px-8 pb-[30rem]">
         <div className="mt-20 w-48 h-48 rounded-[50%] bg-[#bdbdbd] flex justify-center items-center relative">
           <img src="./Icons/user-circle.svg" className="w-24 brightness-[1000]"></img>
-          <div className="flex justify-center bg-[#e6e6e6] w-14 h-14 rounded-full absolute bottom-1 right-1 align-middle"><img src="./Icons/edit.svg" className="w-8"></img></div>
+          <a href="#" className="flex justify-center bg-[#e6e6e6] w-14 h-14 rounded-full absolute bottom-1 right-1 align-middle" onClick={()=>setVisibility(current=> !current)}><img src="./Icons/edit.svg" className="w-8"></img></a>
         </div>
         <p className="mt-6 text-[1.8rem] font-bold tracking-[-0.45px] text-headings">James Matthews</p>
         <div className="flex space-x-2 items-center">

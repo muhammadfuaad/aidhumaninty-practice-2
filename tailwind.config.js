@@ -1,3 +1,4 @@
+const plugin = require('tailwindcss/plugin');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/*.{js,jsx,ts,tsx}",
@@ -5,6 +6,7 @@ module.exports = {
             "./src/***/**/*.{js,jsx,ts,tsx}" ],
   theme: {
     extend: {
+      
       colors: {
         "headings": "#1D1D1D",
         "body": "#444445",
@@ -18,5 +20,13 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  variants: {
+    borderColor: ["active"],
+    extend: {}
+  },
+  plugins: [
+    plugin(function({ addVariant }) {
+      addVariant('current', '&.active');
+  })
+  ],
 }
