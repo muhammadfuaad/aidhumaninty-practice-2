@@ -7,6 +7,7 @@ import Status_bug from './components/status/status--bug';
 import Status_section from './components/status/status-section';
 import Congratulations_page from './components/congratulations_page';
 import Dashboard_sidebar from './components/dashboard/dashboard_sidebar';
+import Profile_sidebar from './components/dashboard/profile_sidebar';
 import Portal from "./components/dashboard/portal"
 import Image_upload from './components/dashboard/image_upload';
 import Badge_bronze from './components/dashboard/badge_bronze';
@@ -27,7 +28,8 @@ function App() {
     
     <Routes>
       <Route path="/congratulations" element={<Congratulations_page />} />
-      <Route path="/dashboard-sidebar" element={<Dashboard_sidebar />} />
+      <Route path="/dashboard_sidebar" element={<Dashboard_sidebar />} />
+      <Route path="/profile_sidebar" element={<Profile_sidebar />} />
       <Route path="/portal" element={<Portal />} />
       <Route path="/payment_methods_page" element={<Payment_methods_page />} />
       <Route path="/profile_page" element={<Profile_page />} />
@@ -36,7 +38,7 @@ function App() {
       <Route path="/donation_history_page" element={<Donation_history_page />} />
       <Route path="/security_page" element={<Security_page />} />
       <Route path="/fundraising_page" element={<Fundraising_page />} />
-      <Route path="/dashboard_page" element={<Dashboard_page />} />
+      <Route path="/portal/dashboard_page" element={<Dashboard_page />} />
 
       <Route path="/dashboard_layout" element={<Dashboard_layout />} />
       <Route path="/" element={<Preferences_page />} />

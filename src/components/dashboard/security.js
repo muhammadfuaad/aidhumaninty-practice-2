@@ -6,7 +6,7 @@ function Security() {
     <div className="bg-white rounded-3xl">
       <div className="border-bottom-medium p-8">
         <p className="portal-subheading mb-8">Change Password</p>
-        <Input type="password" id="current" label="Current"/>
+        <Input type="password" id="current" label="Current" display_toggle="hidden" />
         <Input type="password" id="new" label="New" />
         <div className="flex flex-col space-y-2 mb-6">
           <div className="flex space-x-4 items-start">
