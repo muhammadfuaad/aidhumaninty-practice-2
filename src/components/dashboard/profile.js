@@ -6,24 +6,24 @@ function Profile() {
       <div className="p-8 border-bottom-medium">
         <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-headings mb-8">Info</p>
         <div className="flex flex-col space-y-8">
-          <form className="flex space-x-12">
+          <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-12">
             < Radio marital_status="Mr" />
             < Radio marital_status="Mrs" />
             < Radio marital_status="Miss" />
             < Radio marital_status="Ms" />
             < Radio marital_status="Other" />
-          </form>
+          </div>
           
-          <div className="flex space-x-4">
-            <Input type="text" id="first-name" label="First Name" display_toggle="hidden" />
+          <div className="flex flex-col sm:flex-row sm:space-x-4">
+            <div className="sm:w-1/2 my-4 sm:my-0"><Input type="text" id="first-name" label="First Name" display_toggle="hidden" /></div>
 
-            <Input type="text" id="last-name" label="Last Name" display_toggle="hidden" />          
+            <div className="sm:w-1/2 my-4 sm:my-0"><Input type="text" id="last-name" label="Last Name" display_toggle="hidden" /></div>          
           </div>
         </div>
       </div> 
       <div className="p-8 border-bottom-medium">
-        <p className="portal-subheading mb-8">Email</p>
-        <Input type="text" id="email" label="Email" display_toggle="hidden" />
+        <p className="portal-subheading mb-8 hidden sm:block">Email</p>
+        <div className="my-4 sm:my-0"><Input type="text" id="email" label="Email" display_toggle="hidden" /></div>
       </div>
 
       <div className="p-8">
@@ -52,21 +52,21 @@ function Profile() {
             </ul>
           </div>
 
-          <div className="flex space-x-4">
-            <Input type="text" id="address-line-1" label="Address Line 1" display_toggle="hidden" />
-            <Input type="text" id="address-line-2" label="Address Line 2" display_toggle="hidden" />
+          <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
+            <div class="sm:w-1/2"><Input type="text" id="address-line-1" label="Address Line 1" display_toggle="hidden" /></div>
+            <div class="sm:w-1/2"><Input type="text" id="address-line-2" label="Address Line 2" display_toggle="hidden" /></div>
           </div>
 
-          <div className="flex space-x-4">
-            <div class="w-2/3">
+          <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
+            <div class="w-full sm:w-2/3">
               <Input type="text" id="town" label="Town" display_toggle="hidden" />            
             </div>
 
-            <div class="w-1/3">
+            <div class="w-full sm:w-1/3">
               <Input type="text" id="zip" label="ZIP/Postal" display_toggle="hidden" />            
             </div>
           </div>
-          <button className="self-start px-20 py-6 uppercase text-[1.4rem] font-semibold text-headings bg-green rounded-xl">Save Changes</button>
+          <button className="self-start fixed left-0 sm:static bottom-0 w-full sm:w-fit sm:px-20 py-8 sm:py-6 uppercase text-[1.4rem] font-semibold text-headings bg-green sm:rounded-xl">Save Changes</button>
         </div>
       </div>          
     </div>  

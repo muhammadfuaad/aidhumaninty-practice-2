@@ -38,7 +38,7 @@ function App() {
       <Route path="/donation_history_page" element={<Donation_history_page />} />
       <Route path="/security_page" element={<Security_page />} />
       <Route path="/fundraising_page" element={<Fundraising_page />} />
-      <Route path="/portal/dashboard_page" element={<Dashboard_page />} />
+      <Route path="/dashboard_page" element={<Dashboard_page />} />
 
       <Route path="/dashboard_layout" element={<Dashboard_layout />} />
       <Route path="/" element={<Preferences_page />} />
