@@ -7,7 +7,7 @@ import Status_bug from './components/status/status--bug';
 import Status_section from './components/status/status-section';
 import Congratulations_page from './components/congratulations_page';
 import Sidebar from './components/dashboard/sidebar/sidebar';
-import Profile_sidebar from './components/dashboard/profile_sidebar';
+import Profile_sidebar from './components/dashboard/profile_sidebar/profile_sidebar';
 import Portal from "./components/dashboard/portal"
 import Image_upload from './components/dashboard/image_upload';
 import Badge_bronze from './components/dashboard/badge_bronze';

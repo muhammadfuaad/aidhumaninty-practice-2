@@ -2,9 +2,9 @@ import { DomPlatform } from "chart.js";
 import Funding_stats from "./funding_stats";
 import Zakat from "./zakat";
 import React from "react";
-import Image_upload from "./image_upload";
-import Profile_sidebar_header from "./profile_sidebar_header";
-import Profile_sidebar_header_mobile from "./profile_sidebar_header_mobile";
+import Image_upload from "../image_upload";
+import Profile_sidebar_header from "../profile_sidebar_header";
+import Profile_sidebar_header_mobile from "../profile_sidebar_header_mobile";
 
 function Profile_sidebar() {
   const [visibility, setVisibility] = React.useState(false);
@@ -31,7 +31,7 @@ function Profile_sidebar() {
         <button className="px-16 py-4 uppercase text-[1.4rem] font-semibold text-primary outline outline-2 outline-primary rounded-lg mt-8">View Profile</button>
         <button className="px-8 py-4 uppercase text-[1.4rem] font-semibold text-[#bdbdbd] outline outline-2 outline-[#bdbdbd] rounded-lg mt-6">Edit Profile</button>
         <div className="mt-12 flex space-x-4 z-10">
-        <Funding_stats title="Total raised" amount="£100" percentage="10%" classNames="bg-primary" symbol="plus"
+          <Funding_stats title="Total raised" amount="£100" percentage="10%" classNames="bg-primary" symbol="plus"
           img="bottom" />
           <Funding_stats title="Total given" amount="£100" percentage="10%" classNames="bg-green" symbol="minus"
           img="top" />

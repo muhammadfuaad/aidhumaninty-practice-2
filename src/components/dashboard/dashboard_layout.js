@@ -1,5 +1,5 @@
 import Sidebar from "./sidebar/sidebar";
-import Profile_sidebar from "./profile_sidebar";
+import Profile_sidebar from "./profile_sidebar/profile_sidebar";
 import Dashboard_bottom_links from "./dashboard_bottom_links";
 import Dashboard_header_mobile from "./dashboard_header_mobile";
 
