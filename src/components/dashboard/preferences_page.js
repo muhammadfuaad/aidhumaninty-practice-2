@@ -1,20 +1,9 @@
-import Dashboard_sidebar from "./dashboard_sidebar";
-import Profile_sidebar from "./profile_sidebar";
 import Preferences from "./preferences";
+import Dashboard_layout from "./dashboard_layout";
 
 function Preferences_page() {
   return (
-    <section className="flex">
-      <div className="w-[15%] hidden sm:block">
-        < Dashboard_sidebar />
-      </div>
-      <div className="grow h-screen sm:h-auto relative">
-        < Preferences />
-      </div>
-      <div className="w-[25%] hidden sm:block">
-        <Profile_sidebar />
-      </div>  
-    </section>
+    < Dashboard_layout dashboard_page={<Preferences />} heading="Preferences" />
   );
 }
 export default Preferences_page;

@@ -1,25 +1,27 @@
-import Total_given from "./total_given";
-import Total_raised from "./total_raised";
+import { DomPlatform } from "chart.js";
+import Funding_stats from "./funding_stats";
 import Zakat from "./zakat";
+import React from "react";
+import Image_upload from "./image_upload";
+import Profile_sidebar_header from "./profile_sidebar_header";
+import Profile_sidebar_header_mobile from "./profile_sidebar_header_mobile";
 
 function Profile_sidebar() {
+  const [visibility, setVisibility] = React.useState(false);
   return (
-    <section className=" relative">
-      <img src="./Icons/footer-background-logo.svg" className="absolute left-40 top-[35rem] -z-10"></img>
-      <div className="flex justify-between items-center px-8 h-28 border-bottom-light">
-        <button className="flex space-x-4 items-enter bg-primary-dark rounded-2xl py-4 px-6 h-fit">
-          <img src="./Icons/blue-plus.svg" className="w-4"></img>
-          <span className="text-white text-[1.4rem] font-semibold uppercase">New Appeal</span>
-        </button>
-        <div className="flex justify-between space-x-4">
-          <a className="flex space-x-2 items-center"><span className="text-[1.4rem] font-medium tracking-[-0.21px] text-[#999999]">En</span><img src="./Icons/drop-down.svg" alt=""></img></a>
-          <a className="flex space-x-2 items-center"><img src="./Icons/logout.svg" className="w-8" alt=""></img><span className="text-[1.3rem] font-medium tracking-[-0.2px] text-headings">Log Out</span></a>
-        </div>
+    <section className="overflow-hidden relative">
+      {visibility? <div className="fixed right-0 z-10"><Image_upload /></div> : null}
+      <img src="./Icons/footer-background-logo.svg" className="absolute left-40 top-[35rem] z-0 sm:-z-10"></img>
+      <div className="hidden sm:block">
+        <Profile_sidebar_header />
       </div>
-      <div className="flex flex-col items-center px-8 pb-[50rem]">
-        <div className="mt-20 w-48 h-48 rounded-[50%] bg-[#7c7c7c] flex justify-center items-center relative">
-          <img src="./Icons/user-circle.svg" className="w-24 brightness-[2000]"></img>
-          <div className="flex justify-center bg-[#e6e6e6] w-16 h-16 rounded-full absolute bottom-1 right-1 align-middle"><img src="./Icons/edit.svg" className="w-12"></img></div>
+      <div className="sm:hidden">
+        <Profile_sidebar_header_mobile />
+      </div>
+      <div className="flex flex-col justify-center items-center bg-[#fafafa] sm:bg-white px-8 pb-6 sm:pb-[30rem]">
+        <div className="mt-20 w-48 h-48 rounded-[50%] bg-[#bdbdbd] flex justify-center items-center relative">
+          <img src="./Icons/user-circle.svg" className="w-24 brightness-[1000]"></img>
+          <a href="#" className="flex justify-center bg-[#e6e6e6] w-14 h-14 rounded-full absolute bottom-1 right-1 align-middle" onClick={()=>setVisibility(current=> !current)}><img src="./Icons/edit.svg" className="w-8"></img></a>
         </div>
         <p className="mt-6 text-[1.8rem] font-bold tracking-[-0.45px] text-headings">James Matthews</p>
         <div className="flex space-x-2 items-center">
@@ -28,11 +30,13 @@ function Profile_sidebar() {
         </div>
         <button className="px-16 py-4 uppercase text-[1.4rem] font-semibold text-primary outline outline-2 outline-primary rounded-lg mt-8">View Profile</button>
         <button className="px-8 py-4 uppercase text-[1.4rem] font-semibold text-[#bdbdbd] outline outline-2 outline-[#bdbdbd] rounded-lg mt-6">Edit Profile</button>
-        <div className="mt-12 flex space-x-4">
-          <Total_raised />
-          <Total_given />
+        <div className="mt-12 flex space-x-4 z-10">
+        <Funding_stats title="Total raised" amount="£100" percentage="10%" classNames="bg-primary" symbol="plus"
+          img="bottom" />
+          <Funding_stats title="Total given" amount="£100" percentage="10%" classNames="bg-green" symbol="minus"
+          img="top" />
         </div>
-        <div className="mt-12 w-full">
+        <div className="mt-12 w-full z-10">
           <Zakat />
         </div>
       </div>
