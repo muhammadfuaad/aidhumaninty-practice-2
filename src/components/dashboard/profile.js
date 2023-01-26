@@ -1,5 +1,6 @@
 import Radio from "./radio";
 import Input from "./input";
+import Button from "./button";
 function Profile() {
   return (
     <div className="bg-white rounded-2xl">          
@@ -66,7 +67,7 @@ function Profile() {
               <Input type="text" id="zip" label="ZIP/Postal" display_toggle="hidden" />            
             </div>
           </div>
-          <button className="self-start fixed left-0 sm:static bottom-0 w-full sm:w-fit sm:px-20 py-8 sm:py-6 uppercase text-[1.4rem] font-semibold text-headings bg-green sm:rounded-xl">Save Changes</button>
+          <Button text="Save Changes" type="fixed" />
         </div>
       </div>          
     </div>  

@@ -9,13 +9,13 @@ function Dashboard_layout(props) {
       <div className="w-[20%] hidden sm:block">
         < Dashboard_sidebar />
       </div>
-      <div className="w-[50%] h-screen sm:h-auto relative">
+      <div className="w-full sm:w-[50%] h-full sm:h-auto relative">
         <div className="bg-[#f5f6f7] h-full w-full">
           <div className="sm:hidden">< Dashboard_header_mobile /></div>
           <div className="portal__header mt-8 sm:mt-0 px-8 sm:px-16 h-28 flex items-center sm:border-bottom-light">
             <p className="portal-heading">{props.heading}</p>
           </div>
-          <div className="px-8 sm:p-16">
+          <div className="px-8 sm:p-16 pb-20">
             {props.dashboard_page}
           </div>         
         </div>

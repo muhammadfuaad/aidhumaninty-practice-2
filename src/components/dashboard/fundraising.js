@@ -7,8 +7,8 @@ function Fundraising() {
         <img src="./Icons/blue-info-circle.svg"></img>
         <p className="text-[1.2rem] font-bold tracking-[-0.3px] text-primary">Raising money for a charity? Your donations are being sent to them automatically.</p>
       </div>
-      <div className="flex justify-between">
-        <div className="flex w-1/2 justify-start items-center">
+      <div className="flex flex-col sm:flex-row sm:justify-between">
+        <div className="flex sm:w-1/2 justify-start items-center">
           <div className="relative">
             <img src="./images/pakistan-floods.png"></img>
             <div className="bg-amber rounded-full w-8 h-8 absolute -right-4 top-[40%] flex justify-center items-center">
@@ -27,7 +27,7 @@ function Fundraising() {
           </div>
         </div>
 
-        <div className="flex w-1/2 justify-end items-center space-x-6">
+        <div className="flex sm:w-1/2 justify-end items-center space-x-6">
           <div className="flex flex-col">
             <p className="text-[1.1rem] font-semibold tracking-[-0.17px] text-primary">Raised: £156<span className="text-green">/£634</span></p>
             <p className="flex space-x-2 text-[1.1rem] font-medium tracking-[-0.17px] text-[#999999]">
