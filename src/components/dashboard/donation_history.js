@@ -30,12 +30,12 @@ function Donation_history() {
         </div>
       </div>
 
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center mt-10 sm:mt-8">
         <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-headings">24 results</p>
         <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-headings">1234</p>
         <div className="flex space-x-4">
           < Button text="Previous" classNames="outline outline-1 outline-[#999] text-[#999] text-[1rem] bg-[#e6e6e6] px-8 py-4"/>
-          < Button text="Next" classNames="outline outline-1 outline-[#999] text-[#999] text-[1rem] px-8 py-4 bg-[#e6e6e6]"/>
+          < Button text="Next" classNames="outline outline-1 outline-[#999] text-[#999] text-[1rem] px-8 py-4 bg-[#f5f6f7]"/>
         </div>
       </div>
     </div>      

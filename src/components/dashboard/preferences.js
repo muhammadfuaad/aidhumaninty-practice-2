@@ -35,7 +35,7 @@ function Preferences() {
         <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body mb-6">Please see our 
         <span className="font-semibold text-primary"> Terms of Service</span> and  
         <span className="font-semibold text-primary"> Privacy policy</span></p>
-        <Button text="Save Changes" type="fixed" />        
+        < Button text="Save Changes" type="fixed" />        
       </div>
     </div>
   );

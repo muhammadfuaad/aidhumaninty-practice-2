@@ -67,7 +67,7 @@ function Profile() {
               <Input type="text" id="zip" label="ZIP/Postal" display_toggle="hidden" />            
             </div>
           </div>
-          <Button text="Save Changes" type="fixed" />
+          < Button text="Save Changes" type="fixed" />
         </div>
       </div>          
     </div>  

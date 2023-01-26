@@ -3,8 +3,8 @@ import Funding_stats from "./funding_stats";
 import Zakat from "./zakat";
 import React from "react";
 import Image_upload from "./image_upload";
-import Profile_header from "./profile_header";
-import Profile_header_mobile from "./profile_header_mobile";
+import Profile_sidebar_header from "./profile_sidebar_header";
+import Profile_sidebar_header_mobile from "./profile_sidebar_header_mobile";
 
 function Profile_sidebar() {
   const [visibility, setVisibility] = React.useState(false);
@@ -13,10 +13,10 @@ function Profile_sidebar() {
       {visibility? <div className="fixed right-0 z-10"><Image_upload /></div> : null}
       <img src="./Icons/footer-background-logo.svg" className="absolute left-40 top-[35rem] z-0 sm:-z-10"></img>
       <div className="hidden sm:block">
-        <Profile_header />
+        <Profile_sidebar_header />
       </div>
       <div className="sm:hidden">
-        <Profile_header_mobile />
+        <Profile_sidebar_header_mobile />
       </div>
       <div className="flex flex-col justify-center items-center bg-[#fafafa] sm:bg-white px-8 pb-6 sm:pb-[30rem]">
         <div className="mt-20 w-48 h-48 rounded-[50%] bg-[#bdbdbd] flex justify-center items-center relative">

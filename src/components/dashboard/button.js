@@ -8,7 +8,7 @@ function Button(props) {
   } else {
     return (
       <button className={`self-start px-20 py-6 uppercase text-[1.4rem] font-semibold text-headings bg-green
-      sm:rounded-xl ${props.classNames}`}>{props.text}</button>
+      rounded-xl ${props.classNames}`}>{props.text}</button>
     );
   }
 }

@@ -201,9 +201,9 @@ h2 {
   .navigator {
     display: none;
   }
-  .block {
+  /* .block {
     padding: 0 20px;
-  }
+  } */
   .media-section {
     flex-direction: column;
   }

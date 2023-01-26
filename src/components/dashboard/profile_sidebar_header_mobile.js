@@ -1,4 +1,4 @@
-function Profile_header_mobile() {
+function Profile_sidebar_header_mobile() {
   return (
     <div className="flex justify-between items-center px-4 h-20 border-bottom-light">
       <a className="flex space-x-4">
@@ -12,4 +12,4 @@ function Profile_header_mobile() {
   )
   
 }
-export default Profile_header_mobile;
+export default Profile_sidebar_header_mobile;

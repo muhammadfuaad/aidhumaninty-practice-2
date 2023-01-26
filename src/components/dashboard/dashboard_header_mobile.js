@@ -1,7 +1,7 @@
 function Dashboard_header_mobile() {
   return (
     <div className="flex justify-between bg-white p-6">
-      <div className="flex space-x-4">
+      <div className="flex space-x-8">
         <img src="./Icons/dashboard-sidebar-toggler.svg"></img>
         <img src="./Icons/dashboard-sidebar-logo.svg"></img>
       </div>
