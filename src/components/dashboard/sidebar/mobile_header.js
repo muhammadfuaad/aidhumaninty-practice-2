@@ -1,4 +1,4 @@
-function Dashboard_sidebar_header_mobile() {
+function Mobile_header() {
   return (
     <div className="bg-white flex justify-between items-center px-4 h-20 border-bottom-light">
       <a className="flex space-x-4">
@@ -7,6 +7,5 @@ function Dashboard_sidebar_header_mobile() {
       </a>
     </div>
   )
-  
 }
-export default Dashboard_sidebar_header_mobile;
+export default Mobile_header;

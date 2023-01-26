@@ -5,7 +5,7 @@ import Appeal_status_1 from "./appeal_status_1";
 import Circular_chart from "./circular_chart";
 import Line_chart from "./line_chart";
 import Table_mobile from './table_mobile';
-import Copyright from "./copyright";
+import Copyright from "../copyright";
 
 function Dashboard() {
   return (

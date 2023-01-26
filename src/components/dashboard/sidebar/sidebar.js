@@ -1,18 +1,16 @@
-import Copyright from "./copyright";
+import Copyright from "../../copyright";
 import { Link } from "react-router-dom";
 import Badge_silver from './badge_silver';
-import Dashboard_sidebar_header_mobile from './dashboard_sidebar_header_mobile';
-import Dashboard_sidebar_footer_mobile from './dashboard_sidebar_foter_mobile';
-function Dashboard_sidebar() {
+import Mobile_header from './mobile_header';
+import Mobile_footer from './mobile_footer';
+import Desktop_header from './desktop_header';
+function Sidebar() {
   
   return (
     <section className="h-full bg-[#f5f6f7] sm:bg-white relative">
-      <div className="hidden sm:flex justify-between items-center px-8 h-28 border-bottom-light">
-        <a href="#"><img src="./Icons/dashboard-sidebar-logo.svg" className="w-60"></img></a>
-        <a href="#"><img src="./Icons/dashboard-sidebar-toggler.svg" className="w-6"></img></a>
-      </div>
+      < Desktop_header />
       <div className="sm:hidden">
-        < Dashboard_sidebar_header_mobile />
+        < Mobile_header />
       </div>
       <div className="mt-8 sm:mt-0">       
         <p className="text-[1rem] font-medium tracking-[0.5px] text-[#bdbdbd] mt-12 mb-2 px-8 hidden sm:block">MENU</p>
@@ -36,7 +34,7 @@ function Dashboard_sidebar() {
         </div>       
       </div>
       <div className=" sm:hidden">
-        < Dashboard_sidebar_footer_mobile />
+        < Mobile_footer />
       </div>
       <div className="absolute left-8 bottom-8 hidden sm:block">
         < Copyright />
@@ -44,4 +42,4 @@ function Dashboard_sidebar() {
     </section>
   );
 }
-export default Dashboard_sidebar;
+export default Sidebar;

@@ -1,4 +1,4 @@
-function Dashboard_sidebar_footer_mobile() {
+function Mobile_footer() {
   return (
     <ul className="flex flex-col space-y-4 text-[1rem] font-regular tracking-[0.05px] text-[#999999] my-8">
       <div className="flex">
@@ -12,4 +12,4 @@ function Dashboard_sidebar_footer_mobile() {
     </ul>
   );
 }
-export default Dashboard_sidebar_footer_mobile;
+export default Mobile_footer;
