@@ -10,9 +10,9 @@ function Dashboard_layout(props) {
         < Sidebar />
       </div>
       <div className="w-full sm:w-[50%] h-full sm:h-auto relative">
-        <div className="bg-[#f5f6f7] h-full w-full">
+        <div className="bg-[#f5f6f7] h-full w-full min-h-screen">
           <div className="sm:hidden">< Dashboard_header_mobile /></div>
-          <div className="portal__header mt-8 sm:mt-0 px-8 sm:px-16 h-28 flex items-center sm:border-bottom-light">
+          <div className="mt-8 sm:mt-0 px-8 sm:px-16 h-28 flex items-center sm:border-bottom-light">
             <p className="portal-heading">{props.heading}</p>
           </div>
           <div className="px-8 sm:p-16 pb-20 relative">
