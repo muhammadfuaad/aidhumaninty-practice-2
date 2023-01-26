@@ -7,11 +7,11 @@ import Desktop_header from './desktop_header';
 function Sidebar() {
   
   return (
-    <section className="h-full bg-[#f5f6f7] sm:bg-white relative">
-      < Desktop_header />
-      <div className="sm:hidden">
-        < Mobile_header />
-      </div>
+    <section className="h-full bg-[#f5f6f7] sm:bg-white relative overflow-hidden min-h-screen">
+      <img src="./Icons/footer-background-logo.svg" className="absolute -right-6 top-6"></img>
+      <div className="hidden sm:flex">< Desktop_header /></div>
+      <div className="sm:hidden">< Mobile_header /></div>
+
       <div className="mt-8 sm:mt-0">       
         <p className="text-[1rem] font-medium tracking-[0.5px] text-[#bdbdbd] mt-12 mb-2 px-8 hidden sm:block">MENU</p>
 

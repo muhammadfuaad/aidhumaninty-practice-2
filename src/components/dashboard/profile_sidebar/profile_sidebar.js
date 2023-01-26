@@ -11,7 +11,7 @@ function Profile_sidebar() {
   return (
     <section className="overflow-hidden relative">
       {visibility? <div className="fixed right-0 z-10"><Image_upload /></div> : null}
-      <img src="./Icons/footer-background-logo.svg" className="absolute left-40 top-[35rem] z-0 sm:-z-10"></img>
+      <img src="./Icons/footer-background-logo.svg" className="absolute left-40 top-[35rem] z-0"></img>
       <div className="hidden sm:block">
         <Profile_sidebar_header />
       </div>
