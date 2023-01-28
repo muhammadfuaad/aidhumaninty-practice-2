@@ -1,10 +1,10 @@
-import Sidebar from "./sidebar/sidebar";
+import Dashboard_sidebar from "./dashboard_sidebar/dashboard_sidebar";
 import Profile_sidebar from "./profile_sidebar/profile_sidebar";
 
 function Portal() {
   return (
     <section className="flex justify-between">
-      < Sidebar />
+      < Dashboard_sidebar />
       < Profile_sidebar />
     </section>
   );

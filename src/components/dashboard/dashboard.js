@@ -67,7 +67,7 @@ function Dashboard() {
           < Table_mobile />
         </div>
       </div>
-      <div className="absolute bottom-8">
+      <div className="absolute bottom-8 sm:hidden">
         < Copyright />
       </div>
     </div>   

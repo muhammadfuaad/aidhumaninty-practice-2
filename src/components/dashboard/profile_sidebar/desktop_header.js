@@ -1,4 +1,4 @@
-function Profile_sidebar_header() {
+function Desktop_header() {
   return (
     <div className="flex justify-between items-center px-8 h-28 border-bottom-light">
       <button className="flex space-x-4 items-center bg-primary-dark rounded-2xl py-4 px-6 h-fit">
@@ -13,4 +13,4 @@ function Profile_sidebar_header() {
     </div>
   )
 }
-export default Profile_sidebar_header;
+export default Desktop_header;
