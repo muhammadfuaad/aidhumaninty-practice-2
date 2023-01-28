@@ -16,7 +16,8 @@ module.exports = {
         "footer-text": "#8892AC",
         "amber": "#FFC100",
         "green": "#00C98B",
-        "light-gray": "#f1f1f1"
+        "light-gray": "#f1f1f1",
+        "red": "#FD4949"
       }
     },
   },

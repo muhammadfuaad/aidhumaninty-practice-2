@@ -11,16 +11,17 @@ import Profile_sidebar from './components/dashboard/profile_sidebar/profile_side
 import Portal from "./components/dashboard/portal"
 import Image_upload from './components/dashboard/image_upload';
 import Badge_bronze from './components/dashboard/badge_bronze';
-import Payment_methods_page from "./components/dashboard/payment_methods_page"
-import Profile_page from "./components/dashboard/profile_page"
-import Monthly_donations_page from "./components/dashboard/monthly_donations_page"
-import Preferences_page from "./components/dashboard/preferences_page"
-import Donation_history_page from "./components/dashboard/donation_history_page"
-import Security_page from "./components/dashboard/security_page"
-import Fundraising_page from "./components/dashboard/fundraising_page"
-import Dashboard_page from "./components/dashboard/dashboard_page"
-import Dashboard_layout from "./components/dashboard/dashboard_layout"
-import Circular_progress_bar from "./components/dashboard/circular_progress_bar"
+import Payment_methods_page from "./components/dashboard/payment_methods_page";
+import Profile_page from "./components/dashboard/profile_page";
+import Monthly_donations_page from "./components/dashboard/monthly_donations_page";
+import Preferences_page from "./components/dashboard/preferences_page";
+import Donation_history_page from "./components/dashboard/donation_history_page";
+import Security_page from "./components/dashboard/security_page";
+import Fundraising_page from "./components/dashboard/fundraising_page";
+import Dashboard_page from "./components/dashboard/dashboard_page";
+import Dashboard_layout from "./components/dashboard/dashboard_layout";
+import Circular_progress_bar from "./components/dashboard/circular_progress_bar";
+import Appeal_view from './components/appeal_view';
 
 import { Route, Routes } from "react-router-dom";
 function App() {
@@ -41,7 +42,10 @@ function App() {
       <Route path="/dashboard_page" element={<Dashboard_page />} />
 
       <Route path="/dashboard_layout" element={<Dashboard_layout />} />
+      <Route path="/Appeal_view" element={<Appeal_view />} />
+
       <Route path="/" element={<Preferences_page />} />
+
 
       <Route path="/image_upload" element={<Image_upload />} />
       <Route path="/badge_bronze" element={<Badge_bronze />} />
