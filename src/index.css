@@ -43,4 +43,15 @@ code {
   .portal-toggle-text {
     @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;
   }
+
+  /* button */
+  .btn {
+    @apply px-20 py-6 uppercase text-[1.4rem] font-semibold tracking-[-0.4px] text-headings bg-green
+    rounded-xl
+  }
+
+  .btn-outline {
+    @apply px-20 py-6 uppercase text-[1.4rem] font-semibold tracking-[-0.4px] text-primary outline-2 
+    outline-primary bg-green rounded-xl
+  }
 }

@@ -22,6 +22,7 @@ import Dashboard_page from "./components/dashboard/dashboard_page";
 import Dashboard_layout from "./components/dashboard/dashboard_layout";
 import Circular_progress_bar from "./components/dashboard/circular_progress_bar";
 import Appeal_view from './components/appeal_view';
+import Appeal_share from './components/appeal_share';
 
 import { Route, Routes } from "react-router-dom";
 function App() {
@@ -43,6 +44,7 @@ function App() {
 
       <Route path="/dashboard_layout" element={<Dashboard_layout />} />
       <Route path="/Appeal_view" element={<Appeal_view />} />
+      <Route path="/Appeal_share" element={<Appeal_share />} />
 
       <Route path="/" element={<Preferences_page />} />
 

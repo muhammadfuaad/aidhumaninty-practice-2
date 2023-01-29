@@ -26,7 +26,7 @@ function Appeal_status() {
       </div>
 
       <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-headings bg-green
-        rounded-xl mt-4">Edit Your Page</button>
+        rounded-xl mt-4">Donate</button>
       <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#999999] bg-transparent outline outline-[#999999]
         rounded-xl flex justify-center space-x-4 mt-6"><img src="./Icons/share-icon.svg"></img><span>Share</span></button>
     </div>
