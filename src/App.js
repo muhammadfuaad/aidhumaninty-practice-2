@@ -26,6 +26,7 @@ import Appeal_share from './components/appeals/appeal_share';
 import Appeal_media from './components/appeals/appeal_media';
 import Appeal_donations from './components/appeals/appeal_donations';
 import Appeal_settings from './components/appeals/appeal_settings';
+import Appeal_cancel from './components/appeals/appeal_cancel';
 
 
 import { Route, Routes } from "react-router-dom";
@@ -47,11 +48,14 @@ function App() {
       <Route path="/dashboard_page" element={<Dashboard_page />} />
 
       <Route path="/dashboard_layout" element={<Dashboard_layout />} />
-      <Route path="/Appeal_view" element={<Appeal_view />} />
-      <Route path="/Appeal_share" element={<Appeal_share />} />
-      <Route path="/Appeal_media" element={<Appeal_media />} />
-      <Route path="/Appeal_donations" element={<Appeal_donations />} />
-      <Route path="/Appeal_settings" element={<Appeal_settings />} />
+      <Route path="/appeal_view" element={<Appeal_view />} />
+      <Route path="/appeal_share" element={<Appeal_share />} />
+      <Route path="/appeal_media" element={<Appeal_media />} />
+      <Route path="/appeal_donations" element={<Appeal_donations />} />
+      <Route path="/appeal_settings" element={<Appeal_settings />} />
+      <Route path="/appeal_cancel" element={<Appeal_cancel />} />
+      <Route path="/appeal_settings" element={<Appeal_settings />} />
+
 
 
       <Route path="/" element={<Preferences_page />} />

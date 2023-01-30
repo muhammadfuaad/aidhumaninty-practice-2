@@ -6,7 +6,7 @@ import Dashboard_header_mobile from '../dashboard/dashboard_header_mobile';
 
 function Appeal_view() {
   return (
-    <div className="flex flex-col  bg-[#f5f6f7]">
+    <div className="flex flex-col bg-[#f5f6f7] min-h-screen pb-40">
       < Dashboard_header_mobile />
       < Take_off />
       <div className="px-8 py-12 bg-white">

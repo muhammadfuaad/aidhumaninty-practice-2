@@ -1,7 +1,7 @@
 import Dashboard_header_mobile from '../dashboard/dashboard_header_mobile';
 import Fixed_navigator from '../fixed_navigator';
 
-function Appeal_media() {
+function Appeal_layout() {
   return (
     <div className="flex flex-col bg-[#f5f6f7] min-h-screen pb-40">
       < Dashboard_header_mobile />
@@ -59,4 +59,4 @@ function Appeal_media() {
     </div>
   )
 }
-export default Appeal_media;
+export default Appeal_layout;
