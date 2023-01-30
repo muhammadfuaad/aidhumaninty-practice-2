@@ -22,5 +22,10 @@
     <span>Share</span>
   </button>
 
+  {/* fixed button */}
+  <button className="self-start fixed left-0 sm:static bottom-0 w-full sm:w-fit sm:px-20 py-8 sm:py-6 
+  uppercase text-[1.4rem] font-semibold text-headings bg-green sm:rounded-xl">Save Changes</button>
+
+
 </div>
 

@@ -27,6 +27,8 @@ import Appeal_media from './components/appeals/appeal_media';
 import Appeal_donations from './components/appeals/appeal_donations';
 import Appeal_settings from './components/appeals/appeal_settings';
 import Appeal_cancel from './components/appeals/appeal_cancel';
+import Appeal_edit from './components/appeals/appeal_edit';
+
 
 
 import { Route, Routes } from "react-router-dom";
@@ -54,7 +56,7 @@ function App() {
       <Route path="/appeal_donations" element={<Appeal_donations />} />
       <Route path="/appeal_settings" element={<Appeal_settings />} />
       <Route path="/appeal_cancel" element={<Appeal_cancel />} />
-      <Route path="/appeal_settings" element={<Appeal_settings />} />
+      <Route path="/appeal_edit" element={<Appeal_edit />} />
 
 
 
