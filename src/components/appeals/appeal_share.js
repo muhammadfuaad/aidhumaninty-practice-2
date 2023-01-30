@@ -1,6 +1,4 @@
 
-import Mobile_header from './dashboard/profile_sidebar/mobile_header';
-
 function Appeal_share() {
   return (
     <div className="flex flex-col bg-[#f5f6f7] min-h-screen">

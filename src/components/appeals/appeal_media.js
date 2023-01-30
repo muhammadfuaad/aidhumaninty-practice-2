@@ -1,5 +1,5 @@
-import Dashboard_header_mobile from './dashboard/dashboard_header_mobile';
-import Fixed_navigator from './fixed_navigator';
+import Dashboard_header_mobile from '../dashboard/dashboard_header_mobile';
+import Fixed_navigator from '../fixed_navigator';
 
 function Appeal_media() {
   return (

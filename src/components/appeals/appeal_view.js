@@ -1,8 +1,8 @@
-import Take_off from './take_off';
+import Take_off from '../take_off';
 import Appeal_status from './appeal_status';
-import Fixed_navigator from './fixed_navigator';
+import Fixed_navigator from '../fixed_navigator';
 import Appeal_description from "./appeal_description"
-import Dashboard_header_mobile from './dashboard/dashboard_header_mobile';
+import Dashboard_header_mobile from '../dashboard/dashboard_header_mobile';
 
 function Appeal_view() {
   return (

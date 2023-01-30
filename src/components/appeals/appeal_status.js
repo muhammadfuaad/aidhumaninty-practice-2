@@ -1,4 +1,4 @@
-import Circular_progress_bar from "./dashboard/circular_progress_bar";
+import Circular_progress_bar from "../dashboard/circular_progress_bar";
 
 function Appeal_status() {
   return (
