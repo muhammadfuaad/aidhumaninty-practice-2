@@ -27,7 +27,7 @@ function Appeal_status_1(props) {
             <span className=" text-[#bdbdbd]">{`/${props.amount_remaining}`}</span>
           </p>
           <div className="flex space-x-1">
-            <img src="./Icons/user-circle.svg" className='w-5 brightness-50'></img>
+            <img src="./icons/user-circle.svg" className='w-5 brightness-50'></img>
             <p className="text-[1rem] font-medium tracking-[-0.15px] text-body">
             {`${props.supporters} supporters`}
             </p>

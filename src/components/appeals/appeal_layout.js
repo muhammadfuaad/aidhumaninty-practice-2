@@ -15,7 +15,7 @@ function Appeal_layout() {
             <p className='text-[1.6rem] font-normal tracking-[-0.4px] text-body'>Upload a photo, select a photo from your gallery, or add a live stream video.</p>
           </div>
           <div className='bg-[#bdbdbd] h-96 w-full flex justify-center items-center'>
-            <img src="./Icons/image.svg"></img>
+            <img src="./icons/image.svg"></img>
           </div>
           <div className='m-12'>
             <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-headings bg-green rounded-xl">
@@ -31,20 +31,20 @@ function Appeal_layout() {
               Select From Gallery
             </button>
             <div className='bg-[#bdbdbd] h-96 w-full flex justify-center items-center rounded-3xl mt-8 relative'>
-              <img src="./Icons/black-cross-circle.svg" className='absolute top-6 right-6'></img>
-              <img src="./Icons/image.svg"></img>
+              <img src="./icons/black-cross-circle.svg" className='absolute top-6 right-6'></img>
+              <img src="./icons/image.svg"></img>
             </div>
 
             <div className='bg-[#bdbdbd] h-96 w-full flex justify-center items-center rounded-3xl mt-6 relative'>
-              <img src="./Icons/black-cross-circle.svg" className='absolute top-6 right-6'></img>
+              <img src="./icons/black-cross-circle.svg" className='absolute top-6 right-6'></img>
               <button className="px-6 py-6 uppercase text-[1.4rem] font-semibold text-headings bg-green rounded-xl">
                 Set As Cover
               </button>
             </div>
 
             <div className='bg-[#bdbdbd] h-96 w-full flex justify-center items-center rounded-3xl mt-6 relative'>
-              <img src="./Icons/black-cross-circle.svg" className='absolute top-6 right-6'></img>
-              <img src="./Icons/image.svg"></img>
+              <img src="./icons/black-cross-circle.svg" className='absolute top-6 right-6'></img>
+              <img src="./icons/image.svg"></img>
             </div>
 
             <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#102558] bg-transparent outline

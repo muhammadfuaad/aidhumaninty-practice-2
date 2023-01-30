@@ -5,7 +5,7 @@ function Appeal_cancel() {
 
       <div className="flex justify-between items-center bg-white px-4 h-28 border-bottom-light">
         <a className="flex space-x-4">
-          <img src="./Icons/angle-left.svg" className="w-3"></img>
+          <img src="./icons/angle-left.svg" className="w-3"></img>
           <span className="text-[1.8rem] font-bold tracking-[-0.27px] text-headings">Cancel page</span>
         </a>      
       </div>

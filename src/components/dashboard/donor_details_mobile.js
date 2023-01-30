@@ -3,7 +3,7 @@ function Donor_details_mobile(props) {
     <div className="p-8 bg-white sm:bg-[#f9f9f9] rounded-3xl">
       <div className="flex justify-between items-center"> 
         <div className="flex space-x-4">
-          <img src="./Icons/user-circle.svg" className=""></img>
+          <img src="./icons/user-circle.svg" className=""></img>
           <p className="text-[1.5rem] font-semibold tracking-[-0.38px] text-primary-dark">{props.donor_name}</p>
         </div>
 
@@ -14,7 +14,7 @@ function Donor_details_mobile(props) {
           <p className="text-[1.1rem] font-normal tracking-[-0.28px] text-headings">From 
           <span className="font-semibold"> {props.location}</span></p>
           <div className="flex space-x-1 items-center">
-            <img src="./Icons/calendar-clock.svg"></img>
+            <img src="./icons/calendar-clock.svg"></img>
             <span className="text-[1.1rem] font-medium tracking-[-0.28px] text-headings whitespace-nowrap">{props.date}</span>
           </div>
         </div>
@@ -28,7 +28,7 @@ function Donor_details_mobile(props) {
           <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-[#999999] mr-8">Edit</button>
           <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-[#999999]">View</button>
         </div>
-        <img src="./Icons/arrow-right.svg"></img>
+        <img src="./icons/arrow-right.svg"></img>
       </div>
     </div>
   );

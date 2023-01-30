@@ -27,7 +27,7 @@ function Contact_form() {
     <p className="character-limit">9/999</p>
     
     <div className="flex space-x-2 my-2">
-      <a href=""><img className="w-5 mt-1" src="/Icons/icon_toogle-off.svg" alt="logo_facebook" /></a>
+      <a href=""><img className="w-5 mt-1" src="/icons/icon_toogle-off.svg" alt="logo_facebook" /></a>
       <p className="disclaimer">I agree to <span className="highlights">Terms & Conditions </span>
       and <span className="highlights">Privacy Policy</span></p>
     </div>

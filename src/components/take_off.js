@@ -3,7 +3,7 @@ function Take_off() {
   return (
     <div className="flex flex-col bg-primary-light px-8 py-12">
         <div className="flex justify-between space-x-8 mt-8">
-          <img src="./Icons/rocket.svg"></img>
+          <img src="./icons/rocket.svg"></img>
           <div className="flex flex-col space-y-4">
             <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-headings">Ready for take-off?</p>
             <p className="text-[1.6rem] font-normal tracking-[-0.4px] text-body">Share your page to get your first supporters.</p>

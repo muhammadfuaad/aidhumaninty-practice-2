@@ -33,7 +33,7 @@ function Profile() {
           <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-[#7c7c7c]
           tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl" type="button">
             <span>United Kingdom</span>
-            <img src="./Icons/drop-down.svg" alt="dropdown"></img>
+            <img src="./icons/drop-down.svg" alt="dropdown"></img>
           </button>
 
           <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700">

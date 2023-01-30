@@ -4,7 +4,7 @@ function Fundraising() {
     <div className="bg-white rounded-3xl p-8">
       <p className="portal-subheading mb-8">Active pages</p>
       <div className="flex space-x-4 items-start bg-primary-light px-10 py-8 rounded-xl mb-8">
-        <img src="./Icons/blue-info-circle.svg"></img>
+        <img src="./icons/blue-info-circle.svg"></img>
         <p className="text-[1.2rem] font-bold tracking-[-0.3px] text-primary">Raising money for a charity? Your donations are being sent to them automatically.</p>
       </div>
       <div className="flex flex-col sm:flex-row sm:justify-between">
@@ -32,7 +32,7 @@ function Fundraising() {
             <p className="text-[1.1rem] font-semibold tracking-[-0.17px] text-primary">Raised: £156<span className="text-green">/£634</span></p>
             <p className="flex space-x-2 text-[1.1rem] font-medium tracking-[-0.17px] text-[#999999]">
               <span>by</span>
-              <img src="./Icons/user-circle.svg" className="w-5 brightness-50"></img>
+              <img src="./icons/user-circle.svg" className="w-5 brightness-50"></img>
               <span>117</span><span className="font-semibold">supporters</span>
             </p>
           </div>

@@ -58,7 +58,7 @@ function Donation_page() {
             </div>
             <div className="relative min-w-full">
               <Page_sidebar />
-              <img src="./Icons/footer-background-logo.svg" className="absolute right-[-150px] bottom-[600px]"></img>
+              <img src="./icons/footer-background-logo.svg" className="absolute right-[-150px] bottom-[600px]"></img>
             </div>
           </div>
         </div>

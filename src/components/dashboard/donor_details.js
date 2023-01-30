@@ -3,21 +3,21 @@ function Donor_details(props) {
     <div className="p-8 bg-white sm:bg-[#f9f9f9] rounded-3xl">
       <div className="flex justify-between items-center">
         <div className="flex space-x-4">
-          <img src="./Icons/user-circle.svg" className=""></img>
+          <img src="./icons/user-circle.svg" className=""></img>
           <p className="text-[1.5rem] font-semibold tracking-[-0.38px] text-primary-dark">{props.donor_name}</p>
         </div>
         <div className="flex space-x-8 items-center">
           <p className="text-[1.1rem] font-normal tracking-[-0.28px] text-headings">From 
           <span className="font-semibold"> {props.location}</span></p>
           <div className="flex space-x-1 items-center">
-            <img src="./Icons/calendar-clock.svg"></img>
+            <img src="./icons/calendar-clock.svg"></img>
             <span className="text-[1.1rem] font-medium tracking-[-0.28px] text-headings whitespace-nowrap">{props.date}</span>
           </div>
         </div>
       </div>
       <div className="flex justify-between mt-2">
         <p className="text-[1.2rem] font-bold tracking-[-0.3px] text-headings">{props.appeal}</p>
-        <img src="./Icons/eye.svg"></img>
+        <img src="./icons/eye.svg"></img>
       </div>
       <p className="text-[0.8rem] font-medium tracking-[-0.2px] text-[#bdbdbd]">{props.category}</p>
       <div className="flex justify-between mt-2">

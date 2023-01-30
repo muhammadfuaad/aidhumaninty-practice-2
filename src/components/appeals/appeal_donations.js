@@ -50,12 +50,12 @@ function Appeal_media() {
               </tr>
               <tr className='text-[1.1rem] font-semibold tracking-[-0.28px]'>
                 <td className='flex space-x-2 items-center'>
-                  <img src="./Icons/user-circle.svg"></img>
+                  <img src="./icons/user-circle.svg"></img>
                   <p className='text-primary-dark'>Ron Hill</p>
                 </td>
                 <td className='text-primary'>£231.50</td>
                 <td className='flex space-x-2 items-center'>
-                  <img src="./Icons/calendar-clock.svg"></img>
+                  <img src="./icons/calendar-clock.svg"></img>
                   <p className='font-medium text-headings'>Tue 12 Dec, 08:15</p>
                 </td>
               </tr>

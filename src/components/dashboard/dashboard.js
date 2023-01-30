@@ -15,10 +15,10 @@ function Dashboard() {
           <div className="flex justify-between items-center">
             <p className="portal-subheading">Statisitics</p>
             <div className="flex space-x-4 items-center">
-              <img src="./Icons/calendar-clock.svg" className="hidden sm:inline-block"></img>
-              <img src="./Icons/calendar.svg" className="sm:hidden"></img>
+              <img src="./icons/calendar-clock.svg" className="hidden sm:inline-block"></img>
+              <img src="./icons/calendar.svg" className="sm:hidden"></img>
               <p className="text-[1.3rem] font-medium tracking-[0px] text-[#7c7c7c] whitespace-nowrap hidden sm:inline-block">Last 7 Days</p>
-              <img src="./Icons/drop-down.svg" className="w-4"></img>             
+              <img src="./icons/drop-down.svg" className="w-4"></img>             
             </div>
           </div>
         </div>

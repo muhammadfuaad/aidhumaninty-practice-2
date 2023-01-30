@@ -16,11 +16,11 @@ function Appeal_status() {
       <div className="flex justify-between items-center mt-16">
         <div className="flex space-x-2 items-center">
           <span className="text-[1rem] font-medium tracking-[-0.15px] text-body">by</span>
-          <img src="./Icons/user-circle.svg"></img>
+          <img src="./icons/user-circle.svg"></img>
           <span className="text-[1rem] font-medium tracking-[-0.15px] text-body">supporters</span>
         </div>
         <div className="flex space-x-2 items-center">
-          <img src="./Icons/red-clock.svg"></img>
+          <img src="./icons/red-clock.svg"></img>
           <span className="text-[1rem] font-semibold tracking-[-0.15px] text-red">Ends in 161 days</span>
         </div>
       </div>
@@ -28,7 +28,7 @@ function Appeal_status() {
       <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-headings bg-green
         rounded-xl mt-4">Donate</button>
       <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#999999] bg-transparent outline outline-[#999999]
-        rounded-xl flex justify-center space-x-4 mt-6"><img src="./Icons/share-icon.svg"></img><span>Share</span></button>
+        rounded-xl flex justify-center space-x-4 mt-6"><img src="./icons/share-icon.svg"></img><span>Share</span></button>
     </div>
   )
 }

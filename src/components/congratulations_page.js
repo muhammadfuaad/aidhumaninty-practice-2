@@ -6,7 +6,7 @@ function Congratulations_page() {
       <Page_header heading="Congratulations" />
       <div className='bg-[#f9f9f9] pt-12 pb-52'>
         <div className='greetings'>
-          <div className='circle my-6'><img src='./Icons/logo-without-text.svg'></img></div>
+          <div className='circle my-6'><img src='./icons/logo-without-text.svg'></img></div>
           <div className='text'>
             <p className="highlights font-semibold mb-5">You’ve madde a significant difference to people in need and played a major part in
               making the world a better place.
@@ -21,7 +21,7 @@ function Congratulations_page() {
               <li className='list__item'><span>Food pack for a family</span><span className='amount'>£50.00</span></li>
               <li className='list__item'>
                 <div className='flex space-x-4 items-center'>
-                  <img src="./Icons/gift.svg"></img> 
+                  <img src="./icons/gift.svg"></img> 
                   <span className='font-bold py-3 tracking-[-0.35px]'>Gift Aid</span>
                 </div>
                 <span className='amount'>£360.00</span>

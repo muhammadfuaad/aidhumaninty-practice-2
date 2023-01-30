@@ -11,18 +11,18 @@ function Footer() {
             <div className="flex flex-col basis-[40%]">
               <div className="mr-12 ">
                 <div className="flex">
-                  <img src="./Icons/footer-logo.svg" className= "h-[7.4rem] w-[10.6rem]" alt= "footer logo" />
+                  <img src="./icons/footer-logo.svg" className= "h-[7.4rem] w-[10.6rem]" alt= "footer logo" />
                   <div className="ml-12 flex flex-col justify-between">
                     <div className="flex space-x-2 items-center">
-                      <img src="./Icons/phone-volume.svg" className= "w-[17px] h-[1rem] mr-1" alt= "phone icon" />
+                      <img src="./icons/phone-volume.svg" className= "w-[17px] h-[1rem] mr-1" alt= "phone icon" />
                       <div><p className="text-primary text-lg font-bold tracking-[-.27px]">0330 057 9957</p></div>
                     </div>
                     <div><p className="text-amber text-lg font-semibold tracking-[-.27px]">info@aidhumanity.co.uk</p></div>
                     <div className="flex justify-between items-center w-[10.3rem]">
-                      <img src="./Icons/facebook.png" className= "w-[9px] h-[1rem]" alt= "facebook icon" />
-                      <img src="./Icons/twitter.png" className= "w-[20px] h-[17px]" alt= "twitter icon" />
-                      <img src="./Icons/instagram.png" className= "w-[25px] h-[25px]" alt= "instagram icon" />
-                      <img src="./Icons/linkedin.png" className= "w-[18px] h-[17px]" alt= "linkedin icon" />
+                      <img src="./icons/facebook.png" className= "w-[9px] h-[1rem]" alt= "facebook icon" />
+                      <img src="./icons/twitter.png" className= "w-[20px] h-[17px]" alt= "twitter icon" />
+                      <img src="./icons/instagram.png" className= "w-[25px] h-[25px]" alt= "instagram icon" />
+                      <img src="./icons/linkedin.png" className= "w-[18px] h-[17px]" alt= "linkedin icon" />
                     </div>
                   </div>
                 </div>
@@ -30,7 +30,7 @@ function Footer() {
               </div>
               <div className="flex items-center mt-[4rem]">
                 <span className="text-xs text-white opacity-50 font-medium mr-2">Registered with</span>
-                <img src="./Icons/regulator.svg" className= "w-[7.5rem] h-[2.25rem] mix-blend-luminosity" alt= "regulator icon" />
+                <img src="./icons/regulator.svg" className= "w-[7.5rem] h-[2.25rem] mix-blend-luminosity" alt= "regulator icon" />
               </div>
             </div>
       
@@ -84,7 +84,7 @@ function Footer() {
               </div>
               <div className="flex items-center text-white mt-[6.8rem]">
                 <span className="font-semibold text-lg tracking-[-.9px] mr-4">we transfer</span>
-                <img src="./Icons/100percent.svg" className= "w-[113px] h-[46px]" alt= "100percent" />
+                <img src="./icons/100percent.svg" className= "w-[113px] h-[46px]" alt= "100percent" />
                 <span className="font-semibold text-xs tracking-[-.6px] ml-1">of your donation</span>
               </div>
             </div>
@@ -105,10 +105,10 @@ function Footer() {
               <span className="font-medium">All rights reserved.</span>
             </p>
             <div className="flex justify-between items-center basis-[25%]">
-              <img src="./Icons/visa.png" className= "w-[43px] h-[14px] mix-blend-luminosity" alt= "visa logo" />
-              <img src="./Icons/mastercard.png" className= "w-[29px] h-[18px] mix-blend-luminosity" alt= "mastercard logo" />
-              <img src="./Icons/paypal.png" className= "w-[87px] h-[21px] mix-blend-luminosity" alt= "paypal logo" />
-              <img src="./Icons/stripe.png" className= "w-[53px] h-[22px] mix-blend-luminosity" alt= "stripe logo" />
+              <img src="./icons/visa.png" className= "w-[43px] h-[14px] mix-blend-luminosity" alt= "visa logo" />
+              <img src="./icons/mastercard.png" className= "w-[29px] h-[18px] mix-blend-luminosity" alt= "mastercard logo" />
+              <img src="./icons/paypal.png" className= "w-[87px] h-[21px] mix-blend-luminosity" alt= "paypal logo" />
+              <img src="./icons/stripe.png" className= "w-[53px] h-[22px] mix-blend-luminosity" alt= "stripe logo" />
             </div>
           </div>
         </div>

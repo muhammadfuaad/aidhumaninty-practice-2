@@ -42,7 +42,7 @@ function Appeal_settings() {
             <p className='text-[1.6rem] font-bold tracking-[-0.4px] text-headings mb-12'>Send a QR code</p>
             <p className='text-[1.6rem] font-normal tracking-[-0.4px] leading-9 text-body mb-8'>Here’s your very own QR code to help your supporters find your page more easily. Just open up the camera on your smart phone and point it at this screen and it’ll take you directly to the page. You can either save, screenshot, print posters, and send your QR code with family and friends on WhatsApp, text or email. It couldn’t be easier.
             </p>
-            <img src="./Icons/qr-code.svg" className="self-center w-1/2"></img>
+            <img src="./icons/qr-code.svg" className="self-center w-1/2"></img>
           </div>
 
           <div className='p-12 flex flex-col'>
