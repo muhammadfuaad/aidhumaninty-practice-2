@@ -4,9 +4,9 @@ function Appeal_description() {
     <div className="flex flex-col bg-white rounded-3xl">
       <div className="border-bottom-light py-16 px-8">
         <p className="text-[1.2rem] font-medium tracking-[-0.3px] text-[#bdbdbd] mb-1">Water for All</p>
-        <p className="text-[2rem] font-bold tracking-[-0.75px] text-headings mb-12">Water Hand Pumps</p>
+        <p className="text-[2rem] font-bold tracking-[-0.75px] text-black mb-12">Water Hand Pumps</p>
         <img src="./images/water-hand-pumps.png"></img>
-        <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-headings my-10">Story</p>
+        <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black my-10">Story</p>
         <div className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">
           <p className="mb-8 sm:mb-0">
             1 in every 3 people around the world do not have clean water to drink. Millions are forced
@@ -24,7 +24,7 @@ function Appeal_description() {
       </div>
 
       <div className="px-8 pb-16">
-      <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-headings my-10">About</p>
+      <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black my-10">About</p>
       <div className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">
           <p className="mb-8 sm:mb-0">
             1 in every 3 people around the world do not have clean water to drink. Millions are forced

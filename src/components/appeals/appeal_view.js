@@ -18,11 +18,12 @@ function Appeal_view() {
 
       <div className='flex flex-col space-y-16 sm:space-y-0 mt-16 sm:flex-row sm:space-x-10 px-56'>
         
-        <div className='px-8 sm:px-0 sm:w-[70%]'>
-          < Appeal_description />
-        </div>
-        <div className='px-8 sm:px-0 sm:w-[30%]'>
+        
+        <div className='px-8 sm:px-0 sm:w-[30%] sm:order-2'>
           < Appeal_status />
+        </div>
+        <div className='px-8 sm:px-0 sm:w-[70%] sm:order-1'>
+          < Appeal_description />
         </div>
       </div>
       < Fixed_navigator />

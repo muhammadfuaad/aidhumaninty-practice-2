@@ -5,7 +5,7 @@ function Appeal_settings() {
   return (
     <div className='flex flex-col bg-white rounded-3xl'>
       <div className='p-12 border-bottom-medium'>
-        <p className='text-[1.6rem] font-bold tracking-[-0.4px] text-headings'>Extend your page</p>
+        <p className='text-[1.6rem] font-bold tracking-[-0.4px] text-black'>Extend your page</p>
       </div>
       <div className='p-12 border-bottom-medium'>
         <p className='text-[1.6rem] font-normal tracking-[-0.4px] leading-9 text-body mb-8'>Your page will stop taking donations on <span className="font-semibold">08 March 2023</span></p>
@@ -19,12 +19,12 @@ function Appeal_settings() {
         </button>
       </div>
       <div className='p-12 border-bottom-medium'>
-        <p className='text-[1.6rem] font-bold tracking-[-0.4px] text-headings mb-12'>Thank you message</p>
+        <p className='text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-12'>Thank you message</p>
         <p className='text-[1.6rem] font-normal tracking-[-0.4px] leading-9 text-body mb-8'>Its really good idea to personalize the thank you message, which is sent automatically to 
           anyone who makes a donation through your Aid Humanity page.
         </p>
         <div className="px-6 py-10 h-48 border-light rounded-3xl">
-          <div className='text-[1.3rem] font-medium tracking-[0px] text-headings'>
+          <div className='text-[1.3rem] font-medium tracking-[0px] text-black'>
             <p>Thank you very much for your donation. It really means a lot to me.</p>
             <p className="mt-4">Ron Hill</p>
           </div>
@@ -32,14 +32,14 @@ function Appeal_settings() {
       </div>
 
       <div className='p-12 border-bottom-medium flex flex-col'>
-        <p className='text-[1.6rem] font-bold tracking-[-0.4px] text-headings mb-12'>Send a QR code</p>
+        <p className='text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-12'>Send a QR code</p>
         <p className='text-[1.6rem] font-normal tracking-[-0.4px] leading-9 text-body mb-8'>Here’s your very own QR code to help your supporters find your page more easily. Just open up the camera on your smart phone and point it at this screen and it’ll take you directly to the page. You can either save, screenshot, print posters, and send your QR code with family and friends on WhatsApp, text or email. It couldn’t be easier.
         </p>
         <img src="./icons/qr-code.svg" className="self-center w-60 h-60"></img>
       </div>
 
       <div className='p-12 flex flex-col'>
-        <p className='text-[1.6rem] font-bold tracking-[-0.4px] text-headings mb-12'>Cancel page</p>
+        <p className='text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-12'>Cancel page</p>
         <p className='text-[1.6rem] font-normal tracking-[-0.4px] leading-9 text-body mb-8'>Canceling your page is inreveraible and means:</p>
         <ul className="flex flex-col space-y-6">
           <li className="marker:text-primary list-inside list-disc mr-3 text-[1.4rem] font-normal tracking-[-0.35px] text-body">You won’t be able to collect any more online donations through this page</li>

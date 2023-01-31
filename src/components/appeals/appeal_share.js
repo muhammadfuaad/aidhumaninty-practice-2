@@ -6,7 +6,7 @@ function Appeal_share() {
       <div className="flex justify-between items-center bg-white px-4 h-28 border-bottom-light">
         <a className="flex space-x-4">
           <img src="./icons/angle-left.svg" className="w-3"></img>
-          <span className="text-[1.8rem] font-bold tracking-[-0.27px] text-headings">Share your page</span>
+          <span className="text-[1.8rem] font-bold tracking-[-0.27px] text-black">Share your page</span>
         </a>      
       </div>
 

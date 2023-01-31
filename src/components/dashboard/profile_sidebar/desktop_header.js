@@ -8,7 +8,7 @@ function Desktop_header() {
       <div className="flex justify-between space-x-10 relative">
         <div className="h-9 w-[1px] bg-[#bdbdbd] absolute left-[6.5rem] top-1"></div>
         <a href="#" className="flex space-x-2 items-center"><span className="text-[1.4rem] font-medium tracking-[-0.21px] text-[#999999]">En</span><img src="./icons/drop-down.svg" alt=""></img></a>
-        <a href="#" className="flex space-x-2 items-center"><img src="./icons/logout.svg" className="w-8" alt=""></img><span className="text-[1.3rem] font-medium tracking-[-0.2px] text-headings">Log Out</span></a>
+        <a href="#" className="flex space-x-2 items-center"><img src="./icons/logout.svg" className="w-8" alt=""></img><span className="text-[1.3rem] font-medium tracking-[-0.2px] text-black">Log Out</span></a>
       </div>
     </div>
   )

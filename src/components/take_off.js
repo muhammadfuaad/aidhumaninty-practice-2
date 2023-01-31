@@ -5,7 +5,7 @@ function Take_off() {
         <div className="flex space-x-8 mt-8">
           <img src="./icons/rocket.svg"></img>
           <div className="flex flex-col space-y-4">
-            <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-headings">Ready for take-off?</p>
+            <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black">Ready for take-off?</p>
             <p className="text-[1.6rem] font-normal tracking-[-0.4px] text-body whitespace-nowrap">Share your page to get your first supporters.</p>
           </div>
         </div>

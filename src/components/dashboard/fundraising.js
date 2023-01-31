@@ -12,12 +12,12 @@ function Fundraising() {
           <div className="relative">
             <img src="./images/pakistan-floods.png"></img>
             <div className="bg-amber rounded-full w-8 h-8 absolute -right-4 top-[40%] flex justify-center items-center">
-              <p className="text-[1rem] font-bold text-headings">Z</p>
+              <p className="text-[1rem] font-bold text-black">Z</p>
             </div>
           </div>
           <div className="flex flex-col ml-8">
-            <p className="text-[1.2rem] font-bold text-headings mt-4 mb-2">Pakistan Floods</p>
-            <p className="text-[0.8rem] font-medium text-headings mb-4">Disaster & Emergency Appeals</p>
+            <p className="text-[1.2rem] font-bold text-black mt-4 mb-2">Pakistan Floods</p>
+            <p className="text-[0.8rem] font-medium text-black mb-4">Disaster & Emergency Appeals</p>
           
             <div className="flex space-x-8 relative">
               <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-[#999999]">Edit</button>

@@ -11,16 +11,16 @@ function Donor_details_mobile(props) {
       </div>
       <div>
         <div className="flex space-x-8 items-center mt-4">
-          <p className="text-[1.1rem] font-normal tracking-[-0.28px] text-headings">From 
+          <p className="text-[1.1rem] font-normal tracking-[-0.28px] text-black">From 
           <span className="font-semibold"> {props.location}</span></p>
           <div className="flex space-x-1 items-center">
             <img src="./icons/calendar-clock.svg"></img>
-            <span className="text-[1.1rem] font-medium tracking-[-0.28px] text-headings whitespace-nowrap">{props.date}</span>
+            <span className="text-[1.1rem] font-medium tracking-[-0.28px] text-black whitespace-nowrap">{props.date}</span>
           </div>
         </div>
       </div>
       
-      <p className="text-[1.2rem] font-bold tracking-[-0.3px] text-headings mt-3">{props.appeal}</p>
+      <p className="text-[1.2rem] font-bold tracking-[-0.3px] text-black mt-3">{props.appeal}</p>
       <p className="text-[0.8rem] font-medium tracking-[-0.2px] text-[#bdbdbd] mt-1">{props.category}</p>
       <div className="flex justify-between mt-2">
         <div className="flex relative mt-4">

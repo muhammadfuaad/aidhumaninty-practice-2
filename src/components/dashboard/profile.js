@@ -5,7 +5,7 @@ function Profile() {
   return (
     <div className="bg-white rounded-2xl">          
       <div className="p-8 border-bottom-medium">
-        <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-headings mb-8">Info</p>
+        <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mb-8">Info</p>
         <div className="flex flex-col space-y-8">
           <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-12">
             < Radio marital_status="Mr" />

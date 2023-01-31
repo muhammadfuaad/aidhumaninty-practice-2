@@ -4,7 +4,7 @@ function Preferences() {
   return (
     <div className="bg-white rounded-2xl">          
       <div className="px-8 py-12 border-bottom-medium">
-        <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-headings mb-10">Aid Humanity communication</p>
+        <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mb-10">Aid Humanity communication</p>
         
         <div className="flex flex-col space-y-4">
           <div className="flex justify-between items-center">
@@ -25,12 +25,12 @@ function Preferences() {
       </div>
 
       <div className="px-8 py-12 border-bottom-medium">
-        <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-headings mb-10">Third-party app and website permissions</p>
+        <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mb-10">Third-party app and website permissions</p>
         <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">Please see our <span className="font-semibold text-primary">permissions</span> page to update your third-party app and website permissions.</p>
       </div>
 
       <div className="px-8 py-12">
-        <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-headings mb-10">Communication from charities</p>
+        <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mb-10">Communication from charities</p>
         <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body mb-6">If you opted in to hear from a charity when you donated on JustGiving, you’ll need to get in touch with the charity directly to update your preferences.</p> 
         <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body mb-6">Please see our 
         <span className="font-semibold text-primary"> Terms of Service</span> and  

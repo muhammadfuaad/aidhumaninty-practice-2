@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 @tailwind base;
@@ -27,18 +27,18 @@ code {
     @apply border-b-[1px] border-[#bdbdbd];
   }
 
-  /* headings */
+  /* black */
   .portal-heading {
-    @apply sm:text-[2rem] text-[2.6rem] font-bold sm:tracking-[-0.5px] tracking-[-0.65px] text-headings;
+    @apply sm:text-[2rem] text-[2.6rem] font-bold sm:tracking-[-0.5px] tracking-[-0.65px] text-black;
   }
   .portal-subheading {
-    @apply text-[1.8rem] font-bold tracking-[-0.45px] text-headings;
+    @apply text-[1.8rem] font-bold tracking-[-0.45px] text-black;
   }
   .portal-body {
     @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;
   }
   .portal-toggle-label {
-    @apply text-[1.4rem] font-medium tracking-[0px] text-headings;
+    @apply text-[1.4rem] font-medium tracking-[0px] text-black;
   }
   .portal-toggle-text {
     @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;
@@ -46,12 +46,12 @@ code {
 
   /* button */
   .btn {
-    @apply px-20 py-6 uppercase text-[1.4rem] font-semibold tracking-[-0.4px] text-headings bg-green
-    rounded-xl
+    @apply px-20 py-6 uppercase text-[1.4rem] font-semibold tracking-[-0.4px] text-black bg-green
+    rounded-xl;
   }
 
   .btn-outline {
     @apply px-20 py-6 uppercase text-[1.4rem] font-semibold tracking-[-0.4px] text-primary outline-2 
-    outline-primary bg-green rounded-xl
+    outline-primary bg-green rounded-xl;
   }
 }

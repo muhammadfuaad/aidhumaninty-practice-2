@@ -7,7 +7,7 @@ function Appeal_media() {
     
         <div className='flex flex-col bg-white rounded-3xl'>
           <div className='p-12 border-bottom-medium'>
-            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-headings'>Donations total</p>
+            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-black'>Donations total</p>
           </div>
           <div className='p-12 pr-32 sm:pr-[30rem] border-bottom-medium'>
             <div className='flex flex-col text-[1.6rem] font-semibold tracking-[-0.4px] text-body'>
@@ -32,24 +32,24 @@ function Appeal_media() {
           </div>
           
           <div className='p-12 border-bottom-medium'>
-            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-headings mb-6'>Offline donations</p>
-            <p className='text-[1.6rem] font-normal tracking-[-0.4px] text-headings mb-8'>Have you received any offline donations? Add the total amount here.</p>
+            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-black mb-6'>Offline donations</p>
+            <p className='text-[1.6rem] font-normal tracking-[-0.4px] text-black mb-8'>Have you received any offline donations? Add the total amount here.</p>
 
             <div className='flex flex-col space-y-6 sm:space-y-0 sm:flex-row items-center sm:space-x-6'>
               <div class="relative sm:w-[60%]">
-                <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-headings tracking-[0px]" placeholder=" " />
+                <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
                 <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c]  top-2 left-4"></label>
               </div>
 
-              <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-headings bg-green rounded-xl mt-4 sm:w-[40%]">
+              <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl mt-4 sm:w-[40%]">
                 Save Offline Donations
               </button>
             </div>
           </div>
 
           <div className='p-12'>
-            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-headings mb-6'>Donations made to your page</p>
-            <p className='text-[1.6rem] font-normal tracking-[-0.4px] text-headings mb-4'>You have 0 donations.</p>
+            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-black mb-6'>Donations made to your page</p>
+            <p className='text-[1.6rem] font-normal tracking-[-0.4px] text-black mb-4'>You have 0 donations.</p>
             <p className='text-[1.2rem] font-semibold tracking-[-0.3px] text-primary mb-4'>See what happens to your donations</p>
             <table className='w-full'>
               <tr className='text-[0.9rem] font-medium tracking-[0px] text-[#bdbdbd]'>
@@ -65,7 +65,7 @@ function Appeal_media() {
                 <td className='text-primary py-4'>£231.50</td>
                 <td className='flex space-x-2 items-center py-4'>
                   <img src="./icons/calendar-clock.svg"></img>
-                  <p className='font-medium text-headings'>Tue 12 Dec, 08:15</p>
+                  <p className='font-medium text-black'>Tue 12 Dec, 08:15</p>
                 </td>
               </tr>
             </table>

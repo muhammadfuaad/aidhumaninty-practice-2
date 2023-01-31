@@ -23,7 +23,7 @@ function Profile_sidebar() {
           <img src="./icons/user-circle.svg" className="w-24 brightness-[1000]"></img>
           <a href="#" className="flex justify-center bg-[#e6e6e6] w-14 h-14 rounded-full absolute bottom-1 right-1 align-middle" onClick={()=>setVisibility(current=> !current)}><img src="./icons/edit.svg" className="w-8"></img></a>
         </div>
-        <p className="mt-6 text-[1.8rem] font-bold tracking-[-0.45px] text-headings">James Matthews</p>
+        <p className="mt-6 text-[1.8rem] font-bold tracking-[-0.45px] text-black">James Matthews</p>
         <div className="flex space-x-2 items-center">
           <img src="./icons/calendar-clock.svg"></img>
           <p className="text-[1rem] font-medium tracking-[-0.15px] text-[#bdbdbd]">Joined 12th of August 2021</p>
