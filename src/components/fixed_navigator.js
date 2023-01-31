@@ -1,6 +1,6 @@
 function Fixed_navigator() {
   return (
-    <nav className="flex justify-between fixed bottom-0 px-8 sm:pl-56 sm:pr-48 bg-white">
+    <nav className="flex justify-between fixed w-full bottom-0 right-0 px-8 sm:pl-56 sm:pr-48 bg-white">
       <ul className="flex space-x-12 w-full bg-white text-[1.2rem] font-medium tracking-[-0.18px] text-headings">
         <li className="py-8 border-y-4 border-white hover:border-b-primary"><a href="#">View</a></li>
         <li className="py-8 border-y-4 border-white hover:border-b-primary"><a href="#">Edit</a></li>

@@ -28,6 +28,8 @@ import Appeal_donations from './components/appeals/appeal_donations';
 import Appeal_settings from './components/appeals/appeal_settings';
 import Appeal_cancel from './components/appeals/appeal_cancel';
 import Appeal_edit from './components/appeals/appeal_edit';
+import Appeal_media_page from './components/appeals/appeal_media_page';
+
 
 
 
@@ -53,6 +55,8 @@ function App() {
       <Route path="/appeal_view" element={<Appeal_view />} />
       <Route path="/appeal_share" element={<Appeal_share />} />
       <Route path="/appeal_media" element={<Appeal_media />} />
+      <Route path="/appeal_media_page" element={<Appeal_media_page />} />
+
       <Route path="/appeal_donations" element={<Appeal_donations />} />
       <Route path="/appeal_settings" element={<Appeal_settings />} />
       <Route path="/appeal_cancel" element={<Appeal_cancel />} />
