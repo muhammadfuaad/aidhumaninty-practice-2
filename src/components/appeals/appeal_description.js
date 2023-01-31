@@ -1,12 +1,27 @@
+import {ReactComponent as User_circle} from "../../icons/user-circle.svg";
 
 function Appeal_description() {
   return (
     <div className="flex flex-col bg-white rounded-3xl">
-      <div className="border-bottom-light py-16 px-8">
+      <div className="py-8 px-8">
         <p className="text-[1.2rem] font-medium tracking-[-0.3px] text-[#bdbdbd] mb-1">Water for All</p>
-        <p className="text-[2rem] font-bold tracking-[-0.75px] text-black mb-12">Water Hand Pumps</p>
-        <img src="./images/water-hand-pumps.png"></img>
-        <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black my-10">Story</p>
+        <div className="flex justify-between">
+          <p className="text-[2rem] font-bold tracking-[-0.75px] text-black mb-12 sm:mb-4">Water Hand Pumps</p>
+          <div className="bg-amber rounded-full w-10 h-10 hidden sm:flex justify-center items-center">
+            <p className="text-[1.2rem] font-bold text-black">Z</p>
+          </div>
+        </div>  
+        <div className="sm:flex space-x-2 items-center hidden">
+          <p className="text-[1.1rem] font-normal tracking-[-0.28px] text-body">fundraised by</p>
+          < User_circle stroke="#102558" />
+          <p className="text-[1.1rem] font-semibold tracking-[-0.28px] text-primary-dark">Ron Hill</p>
+        </div>
+      </div>
+      
+
+        <div className=""><img src="./images/water-hand-pumps.png"></img></div>
+      <div className="p-8 border-bottom-light">
+        <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-8">Story</p>
         <div className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">
           <p className="mb-8 sm:mb-0">
             1 in every 3 people around the world do not have clean water to drink. Millions are forced
@@ -23,8 +38,8 @@ function Appeal_description() {
         </div>
       </div>
 
-      <div className="px-8 pb-16">
-      <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black my-10">About</p>
+      <div className="p-8">
+      <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-8">About</p>
       <div className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">
           <p className="mb-8 sm:mb-0">
             1 in every 3 people around the world do not have clean water to drink. Millions are forced

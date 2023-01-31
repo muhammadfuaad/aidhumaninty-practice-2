@@ -16,13 +16,13 @@ function Appeal_view() {
         rounded-xl">Edit Your Page</button>
       </div>
 
-      <div className='flex flex-col space-y-16 sm:space-y-0 mt-16 sm:flex-row sm:space-x-10 px-56'>
+      <div className='flex flex-col space-y-12 px-8 sm:space-y-0 mt-16 sm:flex-row sm:gap-10 sm:px-56'>
         
         
-        <div className='px-8 sm:px-0 sm:w-[30%] sm:order-2'>
+        <div className='sm:px-0 sm:w-[30%] sm:order-2'>
           < Appeal_status />
         </div>
-        <div className='px-8 sm:px-0 sm:w-[70%] sm:order-1'>
+        <div className='sm:px-0 sm:w-[70%] sm:order-1'>
           < Appeal_description />
         </div>
       </div>

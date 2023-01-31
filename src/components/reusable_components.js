@@ -32,6 +32,11 @@
     <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c]  top-2 left-4"></label>   
   </div>
 
+  {/*  */}
+  <div className="bg-amber rounded-full w-8 h-8 flex justify-center items-center">
+    <p className="text-[1rem] font-bold text-black">Z</p>
+  </div>
+
 
 </div>
 
