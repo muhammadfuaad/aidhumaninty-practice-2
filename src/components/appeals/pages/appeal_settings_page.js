@@ -1,9 +1,9 @@
 import Appeal_layout from "../appeal_layout";
-import Appeal_donations from "../appeal_donations";
+import Appeal_settings from "../appeal_settings";
 
 function Appeal_donations_page() {
   return (
-    < Appeal_layout  title="Donations" appeal_page={<Appeal_donations />} />
+    < Appeal_layout  title="Settings" appeal_page={<Appeal_settings />} />
   )
 }
 export default Appeal_donations_page;
