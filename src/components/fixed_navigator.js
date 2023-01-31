@@ -9,7 +9,7 @@ function Fixed_navigator() {
         <li className="py-8 border-y-4 border-white hover:border-b-primary"><a href="#">Settings</a></li>
       </ul>
 
-      <div className="flex space-x-4 items-center">
+      <div className="hidden sm:flex space-x-4 items-center">
         <p className="text-[1.2rem] font-bold tracking-[-0.3px] text-headings whitespace-nowrap">Water Hand Pumps</p>
         <img src="./icons/arrow-left.svg" className="w-4"></img>
       </div>
