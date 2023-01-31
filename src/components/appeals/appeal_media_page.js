@@ -7,4 +7,3 @@ function Appeal_media_page() {
   )
 }
 export default Appeal_media_page;
-

@@ -27,8 +27,14 @@ import Appeal_media from './components/appeals/appeal_media';
 import Appeal_donations from './components/appeals/appeal_donations';
 import Appeal_settings from './components/appeals/appeal_settings';
 import Appeal_cancel from './components/appeals/appeal_cancel';
+// appeal pages
 import Appeal_edit from './components/appeals/appeal_edit';
 import Appeal_media_page from './components/appeals/appeal_media_page';
+import Appeal_donations_page from './components/appeals/pages/appeal_donations_page';
+import Appeal_view_page from './components/appeals/pages/appeal_view_page';
+import Appeal_edit_page from './components/appeals/pages/appeal_edit_page';
+import Appeal_settings_page from './components/appeals/pages/appeal_settings_page';
+
 
 
 
@@ -55,7 +61,14 @@ function App() {
       <Route path="/appeal_view" element={<Appeal_view />} />
       <Route path="/appeal_share" element={<Appeal_share />} />
       <Route path="/appeal_media" element={<Appeal_media />} />
+
+      {/* appeal pages */}
       <Route path="/appeal_media_page" element={<Appeal_media_page />} />
+      <Route path="/appeal_donations_page" element={<Appeal_donations_page />} />
+      <Route path="/appeal_view_page" element={<Appeal_view_page />} />
+      <Route path="/appeal_settings_page" element={<Appeal_settings_page />} />
+      <Route path="/appeal_edit_page" element={<Appeal_edit_page />} />
+
 
       <Route path="/appeal_donations" element={<Appeal_donations />} />
       <Route path="/appeal_settings" element={<Appeal_settings />} />
