@@ -9,7 +9,7 @@ function Layout(props) {
         {props.page}
         {props.card}
       </div>
-      <img src="./icons/modal-background-logo.svg" className="-mt-40 -ml-20"></img>
+      <img src="./icons/modal-background-logo.svg" className="-ml-20"></img>
     </div>
   )
 }  

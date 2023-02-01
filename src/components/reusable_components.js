@@ -4,9 +4,9 @@
   outline-[#999999] rounded-xl">Edit Your Page</button>
 
   {/* background-button */}
-  <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl mt-4">
-    Donate
-  </button>
+  <button className="w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl">
+          Add Donation
+        </button>
   
   {/* outline-button with icon */}
   <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#999999] bg-transparent outline 
@@ -49,6 +49,9 @@
   <div className="bg-amber rounded-full w-8 h-8 flex justify-center items-center">
     <p className="text-[1rem] font-bold text-black">Z</p>
   </div>
+
+  {/* border-light */}
+   className="border-[1px] border-[#e6e6e6]"
 
 
 </div>

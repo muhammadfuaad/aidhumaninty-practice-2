@@ -1,58 +1,49 @@
 import {ReactComponent as Drop_down} from "../../../../icons/drop-down.svg";
 import Radio from "../../../dashboard/radio";
+import Cause from "./cause";
+import Ways from "./ways";
+import Amount from "./amount";
 
 function Ramadan_card() {
   return (
-    <div className="bg-white rounded-3xl p-8 flex flex-col space-y-4">  
+    <div className="bg-white rounded-3xl p-8 flex flex-col gap-10">  
       <button className="w-full py-4 capitalize text-[1.2rem] font-semibold text-white bg-green rounded-xl">
         Recurring<br></br> Payments
       </button>
 
-      <p>Choose your Cause</p>
-      <p>Aid humanity supports hundreds of projects around the world and your donation on this month will be needed in those most neediest of places</p>
-
-      <div className="flex flex-col space-y-8 items-center">
-        <div className="flex space-x-4">
-          <Radio />
-          <img src="./icons/zakat.svg"></img>
-          <p>Most Needy</p>
+      <div className="flex flex-col gap-4">
+        <p className="text-[1.4rem] font-bold tracking-[-0.35px] text-black">Choose your Cause</p>
+        <p className="text-[1.1rem] font-normal tracking-[-0.28px] text-body">Aid humanity supports hundreds of projects around the world and your donation on this month will be needed in those most neediest of places</p>
+        <div className="flex flex-col space-y-4">
+          < Cause label="Most Needy" img="zakat" />
+          < Cause label="Zakat" img="zakat"/>
+          < Cause label="Food" img="zakat"/>
+          < Cause label="Sadaqah" img="zakat"/>
+          < Cause label="Water Wells" img="zakat"/>
+          < Cause label="Masjid Builds" img="mosque"/>
         </div>
+      </div>
 
-        <div className="flex space-x-4">
-          <Radio />
-          <img src="./icons/zakat.svg"></img>
-          <p>Most Needy</p>
+      <div className="flex flex-col gap-4">
+        <p className="text-[1.4rem] font-bold tracking-[-0.35px] text-black">Choose how you want to give</p>
+        <div className="flex flex-col space-y-4">
+          < Ways label="Daily 30 nights" />
+          < Ways label="Last 10 days"/>
+          < Ways label="Blessed odd days"/>
+          < Ways label="One Payment on the 27th Night"/>
         </div>
+      </div>
 
-        <div className="flex space-x-4">
-          <Radio />
-          <img src="./icons/zakat.svg"></img>
-          <p>Zakat</p>
+      <div className="flex flex-col gap-6">
+        <p className="text-[1.4rem] font-bold tracking-[-0.35px] text-black">Amount</p>
+        < Amount />
+        <div class="relative">
+          <input type="text" id="" className="h-20 focus:outline-none focus:bg-transparent block border-light rounded-xl pl-9 pr-3 py-4 w-full text-[1.3rem] font-medium tracking-[0px] text-black" placeholder=" " />
+          <label for="" className="absolute text-[1.7rem] font-medium tracking-[0px] text-primary top-7 left-4">£</label>   
         </div>
-
-        <div className="flex space-x-4">
-          <Radio />
-          <img src="./icons/zakat.svg"></img>
-          <p>Food</p>
-        </div>
-
-        <div className="flex space-x-4">
-          <Radio />
-          <img src="./icons/zakat.svg"></img>
-          <p>Sadaqah</p>
-        </div>
-
-        <div className="flex space-x-4">
-          <Radio />
-          <img src="./icons/zakat.svg"></img>
-          <p>Water Wells</p>
-        </div>
-
-        <div className="flex space-x-4">
-          <Radio />
-          <img src="./icons/mosque.svg"></img>
-          <p>Mosque Builds</p>
-        </div>
+        <button className="w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl">
+          Add Donation
+        </button>
       </div>
     </div>
   )
