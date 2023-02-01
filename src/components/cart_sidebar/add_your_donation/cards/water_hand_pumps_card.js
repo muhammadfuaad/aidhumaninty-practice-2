@@ -1,4 +1,5 @@
 import {ReactComponent as Drop_down} from "../../../../icons/drop-down.svg";
+import Check from './check';
 
 function Water_hand_pumps_card() {
   return (
@@ -14,13 +15,7 @@ function Water_hand_pumps_card() {
         </button>
       </div>   
 
-      <div className="flex flex-col">
-        <div className="flex space-x-4 mt-2 mb-1">
-          <img src="./icons/green-check-circle.svg"></img>
-          <p>£15</p>
-        </div>
-        <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-[#999999]">Water Solutions <br></br>(Sadaqah Jariyah)</p>
-      </div>
+      < Check />
       <div class="relative">
         <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl pl-9 pr-3 py-4 w-full text-[1.3rem] font-medium tracking-[0px] text-black" placeholder=" " />
         <label for="text-[1.3rem] font-medium tracking-[0px] text-[#7c7c7c]" className="absolute text-[1.7rem] font-medium tracking-[0px] text-primary top-4 left-4">£</label>   

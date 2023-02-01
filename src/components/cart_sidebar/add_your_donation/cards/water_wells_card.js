@@ -1,6 +1,6 @@
 import {ReactComponent as Drop_down} from "../../../../icons/drop-down.svg";
 
-function Water_hand_pumps_card() {
+function Water_wells_card() {
   return (
     <div className="bg-white rounded-3xl p-8 flex flex-col space-y-4">
       <div className="flex space-x-4">
@@ -45,4 +45,4 @@ function Water_hand_pumps_card() {
   )
 } 
  
-export default Water_hand_pumps_card;
+export default Water_wells_card;
