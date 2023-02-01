@@ -34,6 +34,8 @@ import Appeal_donations_page from './components/appeals/pages/appeal_donations_p
 import Appeal_view_page from './components/appeals/pages/appeal_view_page';
 import Appeal_edit_page from './components/appeals/pages/appeal_edit_page';
 import Appeal_settings_page from './components/appeals/pages/appeal_settings_page';
+// cart sidebar
+import Cart_sidebar from './components/cart_sidebar/cart_sidebar';
 
 
 
@@ -68,6 +70,9 @@ function App() {
       <Route path="/appeal_view_page" element={<Appeal_view_page />} />
       <Route path="/appeal_settings_page" element={<Appeal_settings_page />} />
       <Route path="/appeal_edit_page" element={<Appeal_edit_page />} />
+
+      {/* cart sidebar */}
+      <Route path="/cart_sidebar" element={<Cart_sidebar />} />
 
 
       <Route path="/appeal_donations" element={<Appeal_donations />} />
