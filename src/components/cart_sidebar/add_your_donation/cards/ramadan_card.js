@@ -15,11 +15,11 @@ function Ramadan_card() {
         <p className="text-[1.4rem] font-bold tracking-[-0.35px] text-black">Choose your Cause</p>
         <p className="text-[1.1rem] font-normal tracking-[-0.28px] text-body">Aid humanity supports hundreds of projects around the world and your donation on this month will be needed in those most neediest of places</p>
         <div className="flex flex-col space-y-4">
-          < Cause label="Most Needy" img="zakat" />
+          < Cause label="Most Needy" img="most-needy" />
           < Cause label="Zakat" img="zakat"/>
-          < Cause label="Food" img="zakat"/>
-          < Cause label="Sadaqah" img="zakat"/>
-          < Cause label="Water Wells" img="zakat"/>
+          < Cause label="Food" img="food"/>
+          < Cause label="Sadaqah" img="sadaqah"/>
+          < Cause label="Water Well" img="water-well"/>
           < Cause label="Masjid Builds" img="mosque"/>
         </div>
       </div>
