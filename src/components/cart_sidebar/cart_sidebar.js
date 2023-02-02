@@ -14,12 +14,12 @@ import Donation_added from "./donation_added/donation_added";
 function Cart_sidebar() {
   return (
     <div className="flex space-x-4">
-      < Layout card={<Water_wells_card />} page={<Water_wells />} />
-      < Layout card={<Jummah_giving_card />} page={<Jummah_giving />} />
-      < Layout card={<Ramadan_card />} page={<Ramadan />} />
-      < Layout card={<Rescue_a_child_card />} page={<Rescue_a_child />} />
-      < Layout card={<Water_hand_pumps_card />} page={<Water_hand_pumps />} />
-      < Donation_added />
+      <div>< Layout card={<Water_wells_card />} page={<Water_wells />} /></div>
+      <div>< Layout card={<Jummah_giving_card />} page={<Jummah_giving />} /></div>
+      <div>< Layout card={<Ramadan_card />} page={<Ramadan />} /></div>
+      <div>< Layout card={<Rescue_a_child_card />} page={<Rescue_a_child />} /></div>
+      <div>< Layout card={<Water_hand_pumps_card />} page={<Water_hand_pumps />} /></div>
+      <div>< Donation_added /></div>
     </div>
   )
 } 

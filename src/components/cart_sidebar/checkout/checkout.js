@@ -1,7 +1,7 @@
-import Donation_type_card from "./donation_type_card";
-function Donation_added() {
+import Checkout_card from "./checkout_card";
+function Checkout() {
   return (
-      <div className="w-[80%] sm:w-[25%] min-w-[33rem] bg-[#f5f6f7] overflow-hidden">
+      <div className="w-[80%] sm:w-[25%] bg-[#f5f6f7] overflow-hidden">
         <div className="p-8 flex justify-between border-b border-black">
           <div className="flex gap-2 items-center">
             <img src="./icons/green-plus.svg"></img>
@@ -13,9 +13,7 @@ function Donation_added() {
         <div className="p-8 flex flex-col">
           <p className="text-[1.6rem] font-semibold tracking-[-0.4px] text-body mb-16">You are donating to <span className="text-red">3 causes</span></p>
           <div className="flex flex-col gap-12">
-            < Donation_type_card label="Monthly" title="Sponsor a child for one year" category="MOST NEEDED, DONATION" amount="360" />
-            < Donation_type_card label="Monthly" title=<div>Water Solutions<br></br> (Sadaqah Jariyah)</div> category="MOST NEEDED, DONATION" amount="15" />
-            < Donation_type_card label="Monthly" title="Water Tankers" category="MOST NEEDED, DONATION" amount="5" />
+            
             
           </div>
           <div className="px-10 pt-10 pb-8 bg-white rounded-3xl flex flex-col border-2 border-primary mt-6">
@@ -39,4 +37,4 @@ function Donation_added() {
       </div>
   )
 }
-export default Donation_added;
+export default Checkout;
