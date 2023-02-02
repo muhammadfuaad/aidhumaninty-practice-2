@@ -37,6 +37,8 @@ import Appeal_settings_page from './components/appeals/pages/appeal_settings_pag
 // cart sidebar
 import Cart_sidebar from './components/cart_sidebar/cart_sidebar';
 
+// menu options
+import Menu from './components/menu_options/menu';
 
 
 
@@ -88,6 +90,9 @@ function App() {
       <Route path="/image_upload" element={<Image_upload />} />
       <Route path="/badge_bronze" element={<Badge_bronze />} />
       <Route path="/circular_progress_bar" element={<Circular_progress_bar />} />
+
+      {/* menu options */}
+      <Route path="/menu" element={<Menu />} />
 
 
 
