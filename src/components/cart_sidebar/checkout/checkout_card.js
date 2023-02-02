@@ -1,16 +1,13 @@
+import Check_circle from "./check-circle.svg";
 function Checkout_card(props) {
   return (
-    <div className="px-10 pt-10 pb-8 bg-white rounded-3xl flex flex-col border-2 border-green relative">
-      <div className="flex justify-between items-start gap-4 mb-1">
-        <p className="text-[1.2rem] font-semibold tracking-[-0.18px] text-black">{props.title}</p>
-        <p className="text-[1.2rem] font-bold tracking-[-0.18px] text-black">£{props.amount}</p>
+    <div className={`px-4 h-[5.5rem] rounded-2xl flex justify-between gap-4 items-center bg-green ${props.background}`}>
+      <div className="flex space-x-2 items-center">
+        <img src={Check_circle}></img>
+        <p className={`text-[1.3rem] font-semibold tracking-[-0.2px] text-white ${props.text_color}`}>{props.title}</p>
       </div>
-      <div className="flex justify-between items-start gap-4">
-        <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-[#999] uppercase">{props.category}</p>
-        <img src="./icons/red-cross.svg"></img>
-      </div>
-      <div className="bg-green absolute -top-6 left-8 px-8 py-4 rounded-xl">
-        <p className="text-[1rem] font-bold tracking-[0.15px] text-white">{props.label}</p>
+      <div>
+        <p className={`text-[1.3rem] font-bold tracking-[-0.2px] text-white ${props.text_color}`}>£{props.amount}</p>
       </div>
     </div>
   )

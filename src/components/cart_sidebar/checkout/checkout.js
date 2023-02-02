@@ -1,40 +1,38 @@
 import Checkout_card from "./checkout_card";
 function Checkout() {
   return (
-      <div className="w-[80%] sm:w-[25%] bg-[#f5f6f7] overflow-hidden">
-        <div className="p-8 flex justify-between border-b border-black">
-          <div className="flex gap-2 items-center">
-            <img src="./icons/green-plus.svg"></img>
+    <div className="w-[80%] sm:w-[25%] min-w-[33rem] h-full bg-primary-dark overflow-hidden">
+      <div className="p-8 flex justify-between border-b border-[#7c7c7c]">
+        <div className="flex gap-2 items-center">
+          <img src="./icons/cash-register.svg"></img>
 
-            <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-primary-dark">Donation added</p>
-          </div>
-          <img src="./icons/black-cross-circle-hollow.svg"></img>
+          <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-white">Checkout</p>
         </div>
-        <div className="p-8 flex flex-col">
-          <p className="text-[1.6rem] font-semibold tracking-[-0.4px] text-body mb-16">You are donating to <span className="text-red">3 causes</span></p>
-          <div className="flex flex-col gap-12">
-            
-            
-          </div>
-          <div className="px-10 pt-10 pb-8 bg-white rounded-3xl flex flex-col border-2 border-primary mt-6">
-            <div className="flex justify-between items-center mb-8">
-              <p className="text-[1.4rem] font-semibold tracking-[0px] text-[#181818] uppercase">Donations</p>
-              <p className="text-[1.8rem] font-bold tracking-[-0.27px] text-[#181818]">£380.00</p>
-            </div>
-            <button className="w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-white bg-green rounded-xl mb-4">
-              Add Donation
-            </button>
-            <button className="w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-white bg-primary rounded-xl">
-              Checkout
-            </button>
-
-          </div>
-          
-          <img src="./icons/blue-logo-without-text.svg" className="mt-6 self-center"></img>
-
-
-        </div>
+        <img src="./icons/white-cross-circle.svg"></img>
       </div>
+      <div className="p-8 flex flex-col">
+        <p className="text-[1.6rem] font-semibold tracking-[-0.4px] text-white mb-16">Help us furthr</p>
+        <div className="flex flex-col gap-6">
+          < Checkout_card title=<div className="flex space-x-2 items-center"><img src="./icons/donate-to-admin.svg"></img><p className="whitespace-wrap">Donate to Admin cost 1.5%</p></div>
+            text_color="#1d1d1d" amount="100" />
+          < Checkout_card title="Rescue a street child" amount="10"/>
+          < Checkout_card title="Food pack for a family" amount="100"/>
+          <div className="px-10 pt-10 pb-8 bg-primary rounded-3xl flex flex-col">
+            <div className="flex justify-between items-center mb-8">
+              <p className="text-[1.4rem] font-semibold tracking-[0px] text-white uppercase">Total</p>
+              <p className="text-[1.8rem] font-bold tracking-[-0.27px] text-white">£380.00</p>
+            </div>
+            <button className='w-full py-6 uppercase text-[1.4rem] font-semibold text-white bg-white rounded-xl 
+              flex space-x-4 justify-center items-center'>
+              
+              <span className="text-green">Complete Donation</span>
+              <img src="./icons/green-check-circle.svg"></img>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
   )
 }
 export default Checkout;

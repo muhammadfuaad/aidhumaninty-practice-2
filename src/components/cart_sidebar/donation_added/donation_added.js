@@ -1,7 +1,7 @@
 import Donation_type_card from "./donation_type_card";
 function Donation_added() {
   return (
-      <div className="w-[80%] sm:w-[25%] min-w-[33rem] bg-[#f5f6f7] overflow-hidden">
+      <div className="w-[80%] sm:w-[25%] min-w-[33rem] h-full bg-[#f5f6f7] overflow-hidden">
         <div className="p-8 flex justify-between border-b border-black">
           <div className="flex gap-2 items-center">
             <img src="./icons/green-plus.svg"></img>

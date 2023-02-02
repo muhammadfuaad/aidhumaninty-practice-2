@@ -11,6 +11,7 @@ import Jummah_giving from "./add_your_donation/pages/jummah_giving";
 
 import Layout from "./add_your_donation/pages/layout";
 import Donation_added from "./donation_added/donation_added";
+import Checkout from './checkout/checkout';
 function Cart_sidebar() {
   return (
     <div className="flex space-x-4">
@@ -20,6 +21,7 @@ function Cart_sidebar() {
       <div>< Layout card={<Rescue_a_child_card />} page={<Rescue_a_child />} /></div>
       <div>< Layout card={<Water_hand_pumps_card />} page={<Water_hand_pumps />} /></div>
       <div>< Donation_added /></div>
+      <div>< Checkout /></div>
     </div>
   )
 } 
