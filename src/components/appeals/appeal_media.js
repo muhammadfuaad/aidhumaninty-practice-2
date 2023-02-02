@@ -29,7 +29,7 @@ function Appeal_media() {
             Select From Gallery
           </button>
           <div className="hidden sm:block">< Image_upload /></div>
-          <div className="sm:flex space-x-10">
+          <div className="sm:flex sm:space-x-10">
             <div className="sm:w-1/3 bg-[#bdbdbd] h-96 w-full flex justify-center items-center rounded-3xl mt-8 sm:mt-10 relative">
               <img src="./icons/black-cross-circle.svg" className="absolute top-6 right-6"></img>
               <img src="./icons/image.svg"></img>
