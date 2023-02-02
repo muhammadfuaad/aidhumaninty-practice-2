@@ -10,6 +10,7 @@ import Ramadan from "./add_your_donation/pages/ramadan";
 import Jummah_giving from "./add_your_donation/pages/jummah_giving";
 
 import Layout from "./add_your_donation/pages/layout";
+import Donation_added from "./donation_added/donation_added";
 function Cart_sidebar() {
   return (
     <div className="flex space-x-4">
@@ -18,6 +19,7 @@ function Cart_sidebar() {
       < Layout card={<Ramadan_card />} page={<Ramadan />} />
       < Layout card={<Rescue_a_child_card />} page={<Rescue_a_child />} />
       < Layout card={<Water_hand_pumps_card />} page={<Water_hand_pumps />} />
+      < Donation_added />
     </div>
   )
 } 
