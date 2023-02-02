@@ -5,7 +5,7 @@ function Check(props) {
       <div className="flex space-x-2 items-center mt-2 mb-1">
         <div className="group">
           <div className="flex group-hover:hidden w-8">< Check_circle stroke="" /></div>
-          <div className="hidden group-hover:flex w-8"><img src="./icons/green-check-circle.svg"></img></div>
+          <div className="hidden group-hover:flex w-8 cursor-pointer"><img src="./icons/green-check-circle.svg"></img></div>
         </div>
         <p>£{props.amount}</p>
       </div>

@@ -15,17 +15,19 @@ function Rescue_a_child_card() {
         </button>
       </div>   
 
-      <div className="flex justify-between">
-        <div className="flex flex-col">
-          <Check amount="25" title="Rescue a Child"/>
-          <Check amount="360" title="Sponsor a Child for One Year"/>
-          <Check amount="100" title="Rescue 4 Street Children"/>
-        </div>
-        <div className="flex flex-col">
-          <Check amount="300" title="Rescue 12 Street Children"/>
-          <Check amount="1000" title="Help Running our Shelter"/>
-          <Check amount="360" title="Sponsor a Child for One Year"/>
-        </div>  
+      <div className="flex flex-col">
+          <div className="flex">
+            <div className="w-1/2"><Check amount="25" title="Rescue a Child"/></div>
+            <div className="w-1/2"><Check amount="360" title="Sponsor a Child for One Year"/></div>
+          </div>
+          <div className="flex">
+            <div className="w-1/2"><Check amount="100" title="Rescue 4 Street Children"/></div>
+            <div className="w-1/2"><Check amount="300" title="Rescue 12 Street Children"/></div>
+          </div>
+          <div className="flex">
+            <div className="w-1/2"><Check amount="1000" title="Help Running our Shelter"/></div>
+            <div className="w-1/2"><Check amount="360" title="Sponsor a Child for One Year"/></div>
+          </div>
       </div>
       <div class="relative">
         <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl pl-9 pr-3 py-4 w-full text-[1.3rem] font-medium tracking-[0px] text-black" placeholder=" " />
