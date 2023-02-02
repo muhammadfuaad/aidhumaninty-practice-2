@@ -39,6 +39,8 @@ import Cart_sidebar from './components/cart_sidebar/cart_sidebar';
 
 // menu options
 import Menu from './components/menu_options/menu';
+import Appeals from './components/menu_options/appeals';
+
 
 
 
@@ -93,6 +95,8 @@ function App() {
 
       {/* menu options */}
       <Route path="/menu" element={<Menu />} />
+      <Route path="/appeals" element={<Appeals />} />
+
 
 
 
