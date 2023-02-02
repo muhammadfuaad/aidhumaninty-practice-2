@@ -8,11 +8,11 @@ function Appeal_layout(props) {
     <div className="flex flex-col bg-[#f5f6f7] min-h-screen pb-40">
       <div className="sm:hidden">< Dashboard_header_mobile /></div>
       <div className="hidden sm:block">< Appeal_desktop_header /></div>
-      <div className='px-6 sm:px-[35rem]'>
-        <p className='text-[2.6rem] font-bold tracking-[-0.65px] text-primary ml-12 my-20'>{props.title}</p>
-        <div>{props.appeal_page}</div>
-
-        
+      <div className='px-6 flex flex-col items-center'>
+        <div className="flex flex-col sm:min-w-[73rem] sm:w-[65%]">
+          <p className='text-[2.6rem] font-bold tracking-[-0.65px] text-primary sm:ml-12 my-20'>{props.title}</p>
+          <div>{props.appeal_page}</div>
+        </div>  
       </div>
       < Fixed_navigator />
     </div>
