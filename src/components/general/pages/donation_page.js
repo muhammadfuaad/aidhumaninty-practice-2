@@ -1,6 +1,7 @@
-import Page_sidebar from './page_sidebar';
-import Assistance from './assistance';
-import Page_header from './page_header';
+import Page_header from "../components/page_header";
+import Page_sidebar from "../components/page_sidebar";
+import Assistance from "../components/assistance";
+
 function Donation_page() {
   return (
     <section>

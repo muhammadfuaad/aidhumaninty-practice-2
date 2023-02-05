@@ -1,6 +1,7 @@
-import Media from '../components/media';
+
 import Contact_form from '../components/contact_form';
-import Page_header from './page_header';
+import Page_header from "../components/page_header";
+import Media from './../../media';
 function Contact_page() {
   return (
     <section>

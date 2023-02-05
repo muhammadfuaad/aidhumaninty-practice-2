@@ -5,7 +5,16 @@ import './css/normalize.css';
 import Status_bug from './components/status/status--bug';
 
 import Status_section from './components/status/status-section';
-import Congratulations_page from './components/congratulations_page';
+// general pages
+import Congratulations_page from './components/general/pages/congratulations_page';
+import Story_page from './components/general/pages/story_page';
+import Contact_page from './components/general/pages/contact_page';
+import Donation_page from './components/general/pages/donation_page';
+
+
+
+
+
 import Dashboard_sidebar from './components/dashboard/dashboard_sidebar/dashboard_sidebar';
 import Profile_sidebar from './components/dashboard/profile_sidebar/profile_sidebar';
 import Portal from "./components/dashboard/portal"
@@ -57,7 +66,12 @@ function App() {
   return (
     
     <Routes>
-      <Route path="/congratulations" element={<Congratulations_page />} />
+      {/* general pages */}
+      <Route path="/general/congratulations_page" element={<Congratulations_page />} />
+      <Route path="/general/story_page" element={<Story_page />} />
+      <Route path="/general/donation_page" element={<Donation_page />} />
+      <Route path="/general/contact_page" element={<Contact_page />} />
+
       <Route path="/dashboard_sidebar" element={<Dashboard_sidebar />} />
       <Route path="/profile_sidebar" element={<Profile_sidebar />} />
       <Route path="/portal" element={<Portal />} />

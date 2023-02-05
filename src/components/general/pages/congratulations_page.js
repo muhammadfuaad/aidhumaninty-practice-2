@@ -1,4 +1,5 @@
-import Page_header from './page_header';
+import Page_header from "../components/page_header";
+
 function Congratulations_page() {
   return (
     
