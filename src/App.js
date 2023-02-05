@@ -43,6 +43,8 @@ import Appeals from './components/menu_options/appeals';
 import Emergency from './components/menu_options/emergency';
 import Zakat from './components/menu_options/zakat';
 import Login from './components/menu_options/login';
+import Donate from './components/menu_options/donate';
+
 
 
 
@@ -103,10 +105,7 @@ function App() {
       <Route path="/emergency" element={<Emergency />} />
       <Route path="/zakat" element={<Zakat />} />
       <Route path="/login" element={<Login />} />
-
-
-
-
+      <Route path="/donate" element={<Donate />} />
     </Routes>
     
   );
