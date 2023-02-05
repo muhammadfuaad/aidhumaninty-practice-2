@@ -1,10 +1,8 @@
-import Mobile_header from "./mobile_header";
-import Zakat_calculator from './zakat_calculator';
-import Facebook from "./images/facebook.svg";
-import Twitter from "./images/twitter.svg";
-import Apple from "./images/apple.svg";
-import Google from "./images/google.svg";
-import Toggle from "../dashboard/toggle"
+import Mobile_header from "../components/mobile_header";
+import Facebook from "../images/facebook.svg";
+import Apple from "../images/apple.svg";
+import Google from "../images/google.svg";
+import Toggle from "../../dashboard/toggle"
 
 function Login() {
   return (

@@ -1,4 +1,4 @@
-import Mobile_header from "./mobile_header";
+import Mobile_header from "../components/mobile_header";
 function Emergency() {
   return (
     <div className="bg-[#f5f6f7] min-h-screen relative overflow-hidden">

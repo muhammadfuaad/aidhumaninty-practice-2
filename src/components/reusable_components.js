@@ -1,30 +1,30 @@
 <div>
   {/* outline-button */}
   <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#999999] bg-transparent outline
-  outline-[#999999] rounded-xl">Edit Your Page</button>
+            outline-[#999999] rounded-xl">Edit Your Page</button>
 
   {/* background-button */}
   <button className="w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl">
-            Add Donation
-          </button>
+              Add Donation
+            </button>
   
   {/* outline-button with icon */}
   <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#999999] bg-transparent outline 
-    outline-[#999999] rounded-xl flex justify-center space-x-4">
-    <img src="./icons/share-icon.svg"></img>
-    <span>Share</span>
-  </button>
+              outline-[#999999] rounded-xl flex justify-center space-x-4">
+              <img src="./icons/share-icon.svg"></img>
+              <span>Share</span>
+            </button>
 
   {/* background-button with icon */}
   <button className='w-full py-6 uppercase text-[1.4rem] font-semibold text-white bg-primary rounded-xl 
-    flex space-x-4 justify-center'>
-    <img src="./icons/arrow-top.svg"></img>
-    <span>Share</span>
-  </button>
+              flex space-x-4 justify-center'>
+              <img src="./icons/arrow-top.svg"></img>
+              <span>Share</span>
+            </button>
 
   {/* fixed button */}
   <button className="self-start fixed left-0 sm:static bottom-0 w-full sm:w-fit sm:px-20 py-8 sm:py-6 
-  uppercase text-[1.4rem] font-semibold text-black bg-green sm:rounded-xl">Save Changes</button>
+            uppercase text-[1.4rem] font-semibold text-black bg-green sm:rounded-xl">Save Changes</button>
 
   {/* input field with top label */}
   <div class="relative">
@@ -40,15 +40,15 @@
 
   {/* dropdown */}
   <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-[#7c7c7c]
-    tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl" type="button">
-    <span className="text-[1.3rem] font-medium tracking-[0px] text-[#7c7c7c]">United Kingdom</span>
-    <img src="./icons/drop-down.svg" alt="dropdown"></img>
-  </button>
+              tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl" type="button">
+              <span className="text-[1.3rem] font-medium tracking-[0px] text-[#7c7c7c]">United Kingdom</span>
+              <img src="./icons/drop-down.svg" alt="dropdown"></img>
+            </button>
 
   {/* z-component */}
   <div className="bg-amber rounded-full w-8 h-8 flex justify-center items-center">
-    <p className="text-[1rem] font-bold text-black">Z</p>
-  </div>
+              <p className="text-[1rem] font-bold text-black">Z</p>
+            </div>
 
   {/* border-light */}
    className="border-[1px] border-[#e6e6e6]"

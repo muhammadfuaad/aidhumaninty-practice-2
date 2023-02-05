@@ -38,12 +38,13 @@ import Appeal_settings_page from './components/appeals/pages/appeal_settings_pag
 import Cart_sidebar from './components/cart_sidebar/cart_sidebar';
 
 // menu options
-import Menu from './components/menu_options/menu';
-import Appeals from './components/menu_options/appeals';
-import Emergency from './components/menu_options/emergency';
-import Zakat from './components/menu_options/zakat';
-import Login from './components/menu_options/login';
-import Donate from './components/menu_options/donate';
+import Menu from './components/menu_options/pages/menu';
+import Appeals from './components/menu_options/pages/appeals';
+import Emergency from './components/menu_options/pages/emergency';
+import Zakat from './components/menu_options/pages/zakat';
+import Login from './components/menu_options/pages/login';
+import Donate from './components/menu_options/pages/donate';
+import Donate_now from './components/menu_options/pages/donate_now';
 
 
 
@@ -106,6 +107,8 @@ function App() {
       <Route path="/zakat" element={<Zakat />} />
       <Route path="/login" element={<Login />} />
       <Route path="/donate" element={<Donate />} />
+      <Route path="/donate_now" element={<Donate_now />} />
+
     </Routes>
     
   );
