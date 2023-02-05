@@ -1,10 +1,12 @@
 import Mobile_header from "./mobile_header";
-function Menu() {
+import Zakat_calculator from './zakat_calculator';
+function Zakat() {
   return (
     <div className="bg-[#f5f6f7] min-h-screen relative overflow-hidden">
       <div className="">
-        < Mobile_header title="Appeals" display_logout="hidden"/>
+        < Mobile_header title="Zakat" display_logout="hidden"/>
       </div>
+      < Zakat_calculator />
       <div className="px-6 py-14">
         <div className="flex flex-col gap-12">
           <div>
@@ -60,4 +62,4 @@ function Menu() {
     </div>
   );
 }
-export default Menu;
+export default Zakat;

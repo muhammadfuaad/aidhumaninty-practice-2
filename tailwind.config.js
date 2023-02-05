@@ -11,6 +11,7 @@ module.exports = {
         "black": "#1D1D1D",
         "body": "#444445",
         "primary": "#00ADE9",
+        "primary-medium": "#006BA3",
         "primary-dark": "#102558",
         "primary-light": "#E0F7FF",
         "footer-text": "#8892AC",

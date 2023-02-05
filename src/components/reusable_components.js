@@ -5,8 +5,8 @@
 
   {/* background-button */}
   <button className="w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl">
-          Add Donation
-        </button>
+            Add Donation
+          </button>
   
   {/* outline-button with icon */}
   <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#999999] bg-transparent outline 
@@ -28,9 +28,9 @@
 
   {/* input field with top label */}
   <div class="relative">
-    <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-    <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c]  top-2 left-4"></label>   
-  </div>
+            <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
+            <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c]  top-2 left-4"></label>   
+          </div>
 
   {/* input field with left label */}
   <div class="relative">

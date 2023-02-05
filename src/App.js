@@ -40,6 +40,10 @@ import Cart_sidebar from './components/cart_sidebar/cart_sidebar';
 // menu options
 import Menu from './components/menu_options/menu';
 import Appeals from './components/menu_options/appeals';
+import Emergency from './components/menu_options/emergency';
+import Zakat from './components/menu_options/zakat';
+import Login from './components/menu_options/login';
+
 
 
 
@@ -96,6 +100,9 @@ function App() {
       {/* menu options */}
       <Route path="/menu" element={<Menu />} />
       <Route path="/appeals" element={<Appeals />} />
+      <Route path="/emergency" element={<Emergency />} />
+      <Route path="/zakat" element={<Zakat />} />
+      <Route path="/login" element={<Login />} />
 
 
 
