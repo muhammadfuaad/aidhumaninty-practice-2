@@ -1,7 +1,7 @@
 import Mobile_header from "../components/mobile_header";
 
 import Donation_card from '../components/donation_card';
-import Amount from "../../cart_sidebar/add_your_donation/cards/amount";
+import Amount from "../components/amount";
 
 function Donate() {
   return (
