@@ -1,4 +1,5 @@
 import Mobile_header from "../components/mobile_header";
+import Marketing_page from '../../general/pages/marketing_page';
 function Menu() {
   return (
     <div className="bg-[#f5f6f7] min-h-screen relative overflow-hidden">
@@ -56,6 +57,7 @@ function Menu() {
         
         <img src="./icons/footer-background-logo.svg" className="absolute -right-[22rem] top-40"></img>
       </div>
+      < Marketing_page />
 
     </div>
   );

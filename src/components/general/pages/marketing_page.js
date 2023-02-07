@@ -1,6 +1,9 @@
 import Page_header from "../components/page_header";
 import Page_sidebar from "../components/page_sidebar";
 import Assistance from "../components/assistance";
+import Steps from './../components/steps';
+import {Refine_message} from "../images/refine-message.svg"
+import Steps_list from "../components/steps_list";
 
 function Marketing_page() {
   return (
@@ -16,9 +19,7 @@ function Marketing_page() {
                   <p className="text-[3.6rem] font-bold tracking-[-0.54px] text-black mb-12">Marketing</p>
                   <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-8">Marketing your campaign</p>
                   <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem]">We want your campaign to be a sucess from the moment you launch it, which is why we’ve created a simple, straightforward process that covers everything. All you have to do is follow it step by step and watch as the world helps you change things for the better:</p>
-                  <div className="mt-20">
-                    <Assistance />
-                  </div>
+                  <Steps_list />
                 </div>
               </div>
             </div>
