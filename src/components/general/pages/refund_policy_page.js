@@ -2,7 +2,7 @@ import Page_header from "../components/page_header";
 import Page_sidebar from "../components/page_sidebar";
 import Assistance from "../components/assistance";
 
-function Donation_page() {
+function Refund_policy_page() {
   return (
     <section>
       <Page_header heading="Help Center" />
@@ -13,8 +13,8 @@ function Donation_page() {
             <div className="w-[80%] flex flex-col space-y-8 pb-[100px]">
               <div className="flex flex-col space-y-8">
                 <div>
-                  <p className="text-[3.6rem] font-bold tracking-[-0.54px] text-black mb-12">Donation Policy</p>
-                  <div className="flex flex-col gap-14 text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem]">
+                  <p className="text-[3.6rem] font-bold tracking-[-0.54px] text-black mb-12">Refund Policy</p>
+                  <div className="flex flex-col gap-14 text-[2.2rem] font-normal tracking-[-0.55px] text-body">
                     <p>
                       Aid Humanity understands the importance of your donation; the responsibility and 
                       accountability it brings. We pride ourselves on being completely transparent and 
@@ -41,7 +41,7 @@ function Donation_page() {
                       the trustees will select the country based on overall considerations.
                     </p>
                     <p>
-                      <span className="font-semibold">100% Donations Policy</span><br></br> (Excluding Gift Aid and specified donations 
+                      <span className="font-semibold"></span>100% Donations Policy<br></br> (Excluding Gift Aid and specified donations 
                       for administration)
                     </p>
                     <p>
@@ -70,4 +70,4 @@ function Donation_page() {
     </section>
   );
 }
-export default Donation_page;
+export default Refund_policy_page;

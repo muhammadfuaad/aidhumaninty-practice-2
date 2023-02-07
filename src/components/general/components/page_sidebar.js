@@ -1,12 +1,12 @@
 function Page_sidebar() {
   return (
-    <div className="sidebar">
-      <p className="sidebar__heading">Related Articles</p>
-      <ul className="sidebar__list">
-        <li><a className="sidebar__links">Terms & Conditions</a></li>
-        <li><a className="sidebar__links">Privacy Policy</a></li>
-        <li><a className="sidebar__links">Donation Policy</a></li>
-        <li><a className="sidebar__links">Refund Policy</a></li>
+    <div className="">
+      <p className="text-[2rem] font-bold tracking-[-0.5px] text-black mb-16">Related Articles</p>
+      <ul className="text-[1.8rem] font-medium tracking-[-0.45px] text-black flex flex-col gap-10">
+        <li><a className="" href="#">Terms & Conditions</a></li>
+        <li><a className="" href="#">Privacy Policy</a></li>
+        <li><a className="" href="#">Donation Policy</a></li>
+        <li><a className="text-primary" href="#">Refund Policy</a></li>
       </ul>
     </div>
   );

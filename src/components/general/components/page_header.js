@@ -1,7 +1,8 @@
 function Page_header({heading}) {
   return (
-    <div className="page__header">
-      <h2>{heading}</h2>
+    <div className="bg-primary-light py-20 flex gap-4 justify-center items-center">
+      <img src="./icons/question-mark-circle.svg"></img>
+      <p className="text-[3rem] font-bold tracking-[-0.75px] text-black">{heading}</p>
     </div>
   );
 }

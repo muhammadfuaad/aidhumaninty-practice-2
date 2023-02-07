@@ -5,11 +5,8 @@ import './css/normalize.css';
 import Status_bug from './components/status/status--bug';
 
 import Status_section from './components/status/status-section';
-// general pages
-import Congratulations_page from './components/general/pages/congratulations_page';
-import Story_page from './components/general/pages/story_page';
-import Contact_page from './components/general/pages/contact_page';
-import Donation_page from './components/general/pages/donation_page';
+
+
 
 
 
@@ -59,6 +56,13 @@ import Donate_now from './components/menu_options/pages/donate_now';
 
 
 
+// general pages
+import Congratulations_page from './components/general/pages/congratulations_page';
+import Story_page from './components/general/pages/story_page';
+import Contact_page from './components/general/pages/contact_page';
+import Donation_page from './components/general/pages/donation_page';
+import How_it_works_page from './components/general/pages/how_it_works_page';
+import Refund_policy_page from './components/general/pages/refund_policy_page';
 
 
 import { Route, Routes } from "react-router-dom";
@@ -71,6 +75,10 @@ function App() {
       <Route path="/general/story_page" element={<Story_page />} />
       <Route path="/general/donation_page" element={<Donation_page />} />
       <Route path="/general/contact_page" element={<Contact_page />} />
+      <Route path="/general/how_it_works_page" element={<How_it_works_page />} />
+      <Route path="/general/refund_policy_page" element={<Refund_policy_page />} />
+
+
 
       <Route path="/dashboard_sidebar" element={<Dashboard_sidebar />} />
       <Route path="/profile_sidebar" element={<Profile_sidebar />} />
