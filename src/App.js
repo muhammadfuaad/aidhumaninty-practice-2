@@ -63,6 +63,8 @@ import Contact_page from './components/general/pages/contact_page';
 import Donation_page from './components/general/pages/donation_page';
 import How_it_works_page from './components/general/pages/how_it_works_page';
 import Refund_policy_page from './components/general/pages/refund_policy_page';
+import Marketing_page from './components/general/pages/marketing_page';
+
 
 
 import { Route, Routes } from "react-router-dom";
@@ -77,6 +79,8 @@ function App() {
       <Route path="/general/contact_page" element={<Contact_page />} />
       <Route path="/general/how_it_works_page" element={<How_it_works_page />} />
       <Route path="/general/refund_policy_page" element={<Refund_policy_page />} />
+      <Route path="/general/marketing_page" element={<Marketing_page />} />
+
 
 
 
