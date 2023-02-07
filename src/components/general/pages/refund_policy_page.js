@@ -14,44 +14,27 @@ function Refund_policy_page() {
               <div className="flex flex-col space-y-8">
                 <div>
                   <p className="text-[3.6rem] font-bold tracking-[-0.54px] text-black mb-12">Refund Policy</p>
-                  <div className="flex flex-col gap-14 text-[2.2rem] font-normal tracking-[-0.55px] text-body">
+                  <div className="flex flex-col gap-14 text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem]">
                     <p>
-                      Aid Humanity understands the importance of your donation; the responsibility and 
-                      accountability it brings. We pride ourselves on being completely transparent and 
-                      aim to provide you with feedback from the moment you donate until we have carried
-                      out the work you have donated towards.
+                    If you want to cancel your donation before it is used for your requested appeal or project, please contact our team by email, telephone or post. Aid Humanity, Unit 9, Twelve o’clock Court, Sheffield, S4 7WW. <br></br>03300579957 <br></br><span className="font-semibold text-primary">info@aidhumanity.co.uk</span>
                     </p>
                     <p>
-                      When donating via the website or via bank transfer, please indicate the charitable
-                      aim(s) you wish your donation to be applied to, we treat these donations as 
-                      restricted funds. If any funds are not referenced, the trustees may use those donations
-                      for any project at their discretion. If we collect insufficient funds to complete
-                      the charitable works for which you have donated, the trustees will use their discretion
-                      to move additional funds from general funds to complete the project.
+                    If the order has not been made to distribute the aid, then we will honour your cancellation and refund your full amount.
                     </p>
                     <p>
-                      If the charitable need for which we have collected for no longer exists or has been
-                      completed, then the trustees will use their discretion to ascertain the intention of
-                      the donors and any surplus funds would be allocated towards another appropriat
-                      similar project.
+                    f you have made a donation in error or if you change your mind about wishing to donate to Aid humanity we will honour your wish and refund your donation, provided that you contact us within 14 days of the donation being made. Your refund will be credited to the card from which it was taken from.
                     </p>
                     <p>
-                      We can also collect and correctly apply donations by Islamic categories,
-                      like Fidya, Kaffarah, Zakat, these are restricted by Shariah criteria, in which 
-                      the trustees will select the country based on overall considerations.
+                    If your donations have been used, or the order for the donation to be processed has been given, we offer no refund and no cancellation.
                     </p>
                     <p>
-                      <span className="font-semibold"></span>100% Donations Policy<br></br> (Excluding Gift Aid and specified donations 
-                      for administration)
+                    To request a refund, please call us during working hours on 03300579957 or email us at <br></br><span className="font-semibold text-primary">info@aidhumanity.co.uk</span>
                     </p>
                     <p>
-                      All the charity’s administrative costs are covered by:<br></br> Donations specified 
-                      for administration and from recycled clothing. The charity has a separate account for its 
-                      administration fund to ensure the 100% donations policy is maintained. Tax reclaimed 
-                      from your donation (where specified) from the UK government’s Gift Aid scheme. This allows 
-                      taxpayers to increase the value of their donation by 25%. This additional money is 
-                      allocated to the charity’s administration fund.  
-                    </p>               
+                    Please include your name, address, contact number and the donation amount that you would like refunded.
+                    </p>     
+                    <p>If you become aware that your card has been used fraudulently, please contact your card provider.
+                    </p>          
                   </div>
                   <div className="mt-20">
                     <Assistance />
