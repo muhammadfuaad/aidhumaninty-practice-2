@@ -7,7 +7,7 @@ import Icon_6 from "../images/black-check-green-circle.svg";
 function Fundraiser_steps_list() {
   return (
     <div className="flex justify-between">
-      <div className="flex flex-col">
+      <div className="flex flex-col w-[15%]">
         <div className="flex gap-2 items-center">
           <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
             <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">1.</p>
@@ -20,7 +20,7 @@ function Fundraiser_steps_list() {
         <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mt-8">Join us by creating an account with the click of a button</p>
       </div>
 
-      <div className="flex flex-col">
+      <div className="flex flex-col w-[15%]">
         <div className="flex gap-2 items-center">
           <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
             <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">2.</p>
@@ -32,7 +32,7 @@ function Fundraiser_steps_list() {
         </div>
         <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mt-8">Find a cause that means something to you right now</p>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col w-[15%]">
         <div className="flex gap-2 items-center">
           <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
             <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">3.</p>
@@ -43,6 +43,10 @@ function Fundraiser_steps_list() {
         </div>
         <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mt-8">Raise funds and source donations to make the world a better place</p>
       </div>
+
+      <button className="mt-72 px-16 h-20 py-6 uppercase text-[1.4rem] font-semibold text-white bg-primary rounded-xl">
+        Create An Account Now
+      </button>
       
       
     </div>
