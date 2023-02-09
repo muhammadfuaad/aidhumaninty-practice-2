@@ -31,15 +31,9 @@ function Rewards_page() {
                 </ul>
               </div>
               <div className="w-[45%]"><img src={Image_2} className="rounded-l-3xl h-[60rem] w-[94rem]"></img></div>
-
-            </div>
-            
-            
-            
-            
+            </div>     
           </div>
         </div>
-
         
         <div className="pr-12 pl-64 flex flex-col">
           <div className="self-center flex gap-8 items-center w-[60%] ml-[40rem]">
@@ -62,8 +56,7 @@ function Rewards_page() {
           <div className="flex flex-col gap-24">
             <p className="self-center text-[3rem] font-bold tracking-[-0.75px] text-black">When users who also create fundraisers</p>
             <div className="flex justify-between">
-              <User_rank_list />
-              
+              <User_rank_list />        
             </div>
           </div>
         </div>
