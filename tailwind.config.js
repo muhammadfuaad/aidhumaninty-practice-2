@@ -18,7 +18,8 @@ module.exports = {
         "amber": "#FFC100",
         "green": "#00C98B",
         "light-gray": "#f1f1f1",
-        "red": "#FD4949"
+        "red": "#FD4949",
+        "purple": "#A349FD",
       }
     },
   },

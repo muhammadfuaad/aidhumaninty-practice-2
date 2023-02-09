@@ -65,6 +65,8 @@ import How_it_works_page from './components/general/pages/how_it_works_page';
 import Refund_policy_page from './components/general/pages/refund_policy_page';
 import Marketing_page from './components/general/pages/marketing_page';
 import Fundraiser_page from './components/general/pages/fundraiser_page';
+import Rewards_page from './components/general/pages/rewards_page';
+
 
 
 
@@ -82,6 +84,7 @@ function App() {
       <Route path="/general/refund_policy_page" element={<Refund_policy_page />} />
       <Route path="/general/marketing_page" element={<Marketing_page />} />
       <Route path="/general/fundraiser_page" element={<Fundraiser_page />} />
+      <Route path="/general/rewards_page" element={<Rewards_page />} />
 
 
 
