@@ -5,13 +5,19 @@ import Logo from "../images/logo-without-text.svg";
 import Yellow_ring_large from "../images/yellow-ring-large.png"
 import Yellow_ring_small from "../images/yellow-ring-small.png"
 import Blue_circle from "../images/blue-circle.png"
+import Percent from "../images/100percent.svg"
 
 
 function Story_page() {
   return (
     <section>
       <Page_header heading="Our Story" display_icon="hidden" />
-      <div className="flex flex-col mb-44 relative">
+      <div className="flex flex-col mb-44 relative overflow-hidden">
+        <div className="flex flex-col absolute top-60 right-[50rem]">
+          <p className="text-[2.4rem] font-semibold tracking-[-1.2px] text-white">we transfer</p>
+          <img src={Percent}></img>
+          <p className="text-[1.7rem] font-semibold tracking-[-0.85px] text-white">of your donation</p>
+        </div>
         <img src={Logo} className="absolute w-[30rem] h-[40rem] top-[30rem] right-[70rem]"></img>
         <img src={Yellow_ring_small} className="absolute w-36 h-36 top-[90rem] left-4"></img>
         <img src={Yellow_ring_large} className="absolute w-[30rem] h-[30rem] top-[150rem] -right-40"></img>

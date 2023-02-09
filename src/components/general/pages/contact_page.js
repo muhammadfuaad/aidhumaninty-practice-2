@@ -5,38 +5,23 @@ import Media from './../../media';
 function Contact_page() {
   return (
     <section>
-      <Page_header heading="Contact" />
-      <div className="page">
-      
-        <div className="block">
-          <p className="navigator">Home / Contact</p>
-          <div className="flex page relative">
-            <img className="absolute bottom-[120px] left-[100px]" src="/images/vectors/blue-circle-small.svg"></img>
-            <img className="absolute top-[200px] left-[-120px]" src="/images/vectors/yellow-ring-small.svg"></img>
-            <img className="absolute top-[100px] right-[-200px]" src="/images/vectors/yellow-ring-large.svg"></img>
-            <div className="basis-1/2 flex flex-col space-y-8 page__content">
-              <div className="flex flex-col space-y-8">
-      
-                <div>
-                  <h1 className="page__heading">Contact</h1>
-                  <h2 className="card__heading">Got a Question?</h2>
-                  <p className="body__text">Aid Humanity is a thoughtful, caring community of like-minded
-                   individuals ready to give back and make a difference. If you’d like to know more about
-                   what we do, or have a question about how you can help, all you have to do is ask.
-                  </p>
-                </div>
-      
-                <Media />
-      
-                <div>
-                  <h2 className="card__heading">Company Details</h2>
-                  <p className="body__text">Aid Humanity, Unit 9, Twelve o’clock Court, Sheffield, S4 7WW</p>
-                </div>
+      <Page_header heading="Contact" display_icon="hidden" />
+      <div className="flex flex-col mb-44">
+        <div className="pl-64 mb-40">
+          <p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / Contact</p>
+          <div className="flex flex-col">
+            <div className="flex justify-between">
+              <div className="flex flex-col mt-12 w-1/2">
+                <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-16">Contact</p>
+                <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-16">Got a Question?</p>
+                <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem] mb-24">Aid Humanity is a thoughtful, caring community of like-minded individuals ready to give back and make a difference. If you’d like to know more about what we do, or have a question about how you can help, all you have to do is ask.</p>
+                
               </div>
-            </div>
-            <Contact_form />
+            </div>     
           </div>
         </div>
+        
+        
       </div>
     </section>
   );
