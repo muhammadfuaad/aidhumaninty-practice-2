@@ -53,33 +53,34 @@ import Donate from './components/menu_options/pages/donate';
 import Donate_now from './components/menu_options/pages/donate_now';
 
 // generic pages
-import Congratulations_page_generic from './components/generic/pages/congratulations_page';
-import Story_page_generic from './components/generic/pages/story_page';
-import Contact_page_generic from './components/generic/pages/contact_page';
-import Donation_page_generic from './components/generic/pages/donation_page';
-import How_it_works_page_generic from './components/generic/pages/how_it_works_page';
-import Refund_policy_page_generic from './components/generic/pages/refund_policy_page';
-import Marketing_page_generic from './components/generic/pages/marketing_page';
-import Fundraiser_page_generic from './components/generic/pages/fundraiser_page';
-import Rewards_page_generic from './components/generic/pages/rewards_page';
-import Terms_page_generic from './components/generic/pages/terms_page';
-
+import Congratulations_page from './components/generic/pages/congratulations_page';
+import Story_page from './components/generic/pages/story_page';
+import Contact_page from './components/generic/pages/contact_page';
+import Donation_page from './components/generic/pages/donation_page';
+import How_it_works_page from './components/generic/pages/how_it_works_page';
+import Refund_policy_page from './components/generic/pages/refund_policy_page';
+import Marketing_page from './components/generic/pages/marketing_page';
+import Fundraiser_page from './components/generic/pages/fundraiser_page';
+import Rewards_page from './components/generic/pages/rewards_page';
+import Terms_page from './components/generic/pages/terms_page';
+import Privacy_page from './components/generic/pages/privacy_page';
 
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (    
     <Routes>
       {/* generic pages */}
-      <Route path="/generic/congratulations_page" element={<Congratulations_page_generic />} />
-      <Route path="/generic/story_page" element={<Story_page_generic />} />
-      <Route path="/generic/donation_page" element={<Donation_page_generic />} />
-      <Route path="/generic/contact_page" element={<Contact_page_generic />} />
-      <Route path="/generic/how_it_works_page" element={<How_it_works_page_generic />} />
-      <Route path="/generic/refund_policy_page" element={<Refund_policy_page_generic />} />
-      <Route path="/generic/marketing_page" element={<Marketing_page_generic />} />
-      <Route path="/generic/fundraiser_page" element={<Fundraiser_page_generic />} />
-      <Route path="/generic/rewards_page" element={<Rewards_page_generic />} />
-      <Route path="/generic/terms_page" element={<Terms_page_generic />} />
+      <Route path="/generic/congratulations_page" element={<Congratulations_page />} />
+      <Route path="/generic/story_page" element={<Story_page />} />
+      <Route path="/generic/donation_page" element={<Donation_page />} />
+      <Route path="/generic/contact_page" element={<Contact_page />} />
+      <Route path="/generic/how_it_works_page" element={<How_it_works_page />} />
+      <Route path="/generic/refund_policy_page" element={<Refund_policy_page />} />
+      <Route path="/generic/marketing_page" element={<Marketing_page />} />
+      <Route path="/generic/fundraiser_page" element={<Fundraiser_page />} />
+      <Route path="/generic/rewards_page" element={<Rewards_page />} />
+      <Route path="/generic/terms_page" element={<Terms_page />} />
+      <Route path="/generic/privacy_page" element={<Privacy_page />} />
      
       <Route path="/dashboard_sidebar" element={<Dashboard_sidebar />} />
       <Route path="/profile_sidebar" element={<Profile_sidebar />} />
