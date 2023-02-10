@@ -9,7 +9,7 @@ import Header from "../../header"
 import Logo from "../../icons/footer-background-logo.svg"
 
 
-function Privacy_page() {
+function Privacy_policy_page() {
   return (
     <section>
       < Header />
@@ -93,4 +93,4 @@ function Privacy_page() {
     </section>
   );
 }
-export default Privacy_page;
+export default Privacy_policy_page;
