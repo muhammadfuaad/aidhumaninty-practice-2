@@ -66,14 +66,20 @@ import Refund_policy_page from './components/general/pages/refund_policy_page';
 import Marketing_page from './components/general/pages/marketing_page';
 import Fundraiser_page from './components/general/pages/fundraiser_page';
 import Rewards_page from './components/general/pages/rewards_page';
-
-
-
+// generic pages
+import Congratulations_page_generic from './components/generic/pages/congratulations_page';
+import Story_page_generic from './components/generic/pages/story_page';
+import Contact_page_generic from './components/generic/pages/contact_page';
+import Donation_page_generic from './components/general/pages/donation_page';
+import How_it_works_page_generic from './components/generic/pages/how_it_works_page';
+import Refund_policy_page_generic from './components/generic/pages/refund_policy_page';
+import Marketing_page_generic from './components/generic/pages/marketing_page';
+import Fundraiser_page_generic from './components/generic/pages/fundraiser_page';
+import Rewards_page_generic from './components/generic/pages/rewards_page';
 
 import { Route, Routes } from "react-router-dom";
 function App() {
-  return (
-    
+  return (    
     <Routes>
       {/* general pages */}
       <Route path="/general/congratulations_page" element={<Congratulations_page />} />
@@ -85,6 +91,17 @@ function App() {
       <Route path="/general/marketing_page" element={<Marketing_page />} />
       <Route path="/general/fundraiser_page" element={<Fundraiser_page />} />
       <Route path="/general/rewards_page" element={<Rewards_page />} />
+      {/* generic pages */}
+      <Route path="/generic/congratulations_page" element={<Congratulations_page_generic />} />
+      <Route path="/generic/story_page" element={<Story_page_generic />} />
+      <Route path="/generic/donation_page" element={<Donation_page_generic />} />
+      <Route path="/generic/contact_page" element={<Contact_page_generic />} />
+      <Route path="/generic/how_it_works_page" element={<How_it_works_page_generic />} />
+      <Route path="/generic/refund_policy_page" element={<Refund_policy_page_generic />} />
+      <Route path="/generic/marketing_page" element={<Marketing_page_generic />} />
+      <Route path="/generic/fundraiser_page" element={<Fundraiser_page_generic />} />
+      <Route path="/generic/rewards_page" element={<Rewards_page_generic />} />
+
 
 
 
