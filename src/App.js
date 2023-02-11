@@ -64,6 +64,7 @@ import Fundraiser_page from './components/generic/pages/fundraiser_page';
 import Rewards_page from './components/generic/pages/rewards_page';
 import Terms_page from './components/generic/pages/terms_page';
 import Privacy_policy_page from './components/generic/pages/privacy_policy_page';
+import Zakat_calculator_page from './components/generic/pages/zakat_calculator_page';
 
 import { Route, Routes } from "react-router-dom";
 function App() {
@@ -81,6 +82,7 @@ function App() {
       <Route path="/generic/rewards_page" element={<Rewards_page />} />
       <Route path="/generic/terms_page" element={<Terms_page />} />
       <Route path="/generic/privacy_policy_page" element={<Privacy_policy_page />} />
+      <Route path="/generic/zakat_calculator_page" element={<Zakat_calculator_page />} />
      
       <Route path="/dashboard_sidebar" element={<Dashboard_sidebar />} />
       <Route path="/profile_sidebar" element={<Profile_sidebar />} />
