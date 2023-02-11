@@ -12,6 +12,7 @@ function How_it_works_page() {
       <Layout_page 
       banner_heading="How it works"
       heading="How it works"
+      assistance="hidden"
       navigator=<p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / How it works</p>
       content=<div className="flex flex-col">
         <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem] mb-48">We’ve build Aid Humnity to be as simple and straightforward as possible. Here’s the simplest way to make a difference with just a few clicks…</p>
