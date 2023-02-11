@@ -4,9 +4,7 @@ import Dashboard_header_mobile from "../dashboard/dashboard_header_mobile";
 import Fixed_navigator from "../fixed_navigator";
 import Button from "../dashboard/button"
 function Appeal_edit() {
-  return (
-    
-      
+  return (    
         <div>
           <div className='flex flex-col bg-white rounded-3xl'>
             <div className='p-12 border-bottom-medium'>

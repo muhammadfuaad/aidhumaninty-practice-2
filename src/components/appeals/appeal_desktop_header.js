@@ -5,8 +5,8 @@ function Appeal_desktop_header() {
   return (
     <div className="flex justify-between items-center bg-white pl-56 pr-48 py-8">
       <div className="flex items-center">
-        <img src="./icons/dashboard-sidebar-logo.svg" className="mr-8"></img>
-        <img src="./icons/dashboard-sidebar-toggler.svg" className="mr-12"></img>
+        <img src="/icons/dashboard-sidebar-logo.svg" className="mr-8"></img>
+        <img src="/icons/dashboard-sidebar-toggler.svg" className="mr-12"></img>
         <button className="flex space-x-4 items-center bg-primary-dark rounded-2xl py-4 px-6 h-fit">
           < Plus stroke="#fff" className="w-4 mb-1"/>
           <span className="text-[1.4rem] font-semibold text-white uppercase">New Appeal</span>
