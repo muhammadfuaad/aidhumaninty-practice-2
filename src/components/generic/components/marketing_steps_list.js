@@ -6,7 +6,7 @@ import Icon_5 from "../images/take-link.svg"
 import Icon_6 from "../images/black-check-green-circle.svg";
 function Marketing_steps_list() {
   return (
-    <div>
+    <div className="flex flex-col gap-16">
       <div className="flex gap-20 items-center">
         <div className="flex gap-2 items-center">
           <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
