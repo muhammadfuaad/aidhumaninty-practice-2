@@ -42,17 +42,12 @@ function Zakat_calculator_page(props) {
                 <li> Using value of gold (87.48 grams) – approximately £4,139.55</li>
               </ul>
               <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem]">Visit our Zakat page for an extensive list of <span className="font-semibold text-primary">Zakat FAQs</span>. You can also watch this <span className="font-semibold text-primary">YouTube video series</span> where scholars answer Zakat related questions.</p>
-
-              <Scholar_verified />
-
-
-              
+              <Scholar_verified />             
             </div>
           </div>
           <div className="relative w-1/5 ml-32">
             <Zakat_calculator />
             <img src={Logo} className="absolute right-[-150px] bottom-[600px]"></img>
-            <div className="h-[50rem] w-[1px] bg-[#e6e6e6] absolute -left-16 top-0"></div>
           </div>
         </div>
       </div>
