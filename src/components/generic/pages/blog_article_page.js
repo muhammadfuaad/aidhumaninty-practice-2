@@ -29,8 +29,7 @@ function Blog_page() {
             <div className="flex gap-4 items-center text-[1.1rem] font-normal tracking-[-0.17px] text-[#bdbdbd]">
               <p>April 20, 2022</p>
               <p>3 minutes to read</p>
-            </div>
-          
+            </div>          
           </div>
         <p className="mx-auto text-[3.6rem] font-bold tracking-[-0.54px] text-black mb-10">Donec turpis eros, euismod nec justo sit amet</p>
         <div className="flex gap-8">
