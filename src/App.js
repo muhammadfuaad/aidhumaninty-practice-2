@@ -19,12 +19,16 @@ import Security_page from "./components/dashboard/security_page";
 import Fundraising_page from "./components/dashboard/fundraising_page";
 import Dashboard_page from "./components/dashboard/dashboard_page";
 import Dashboard_layout from "./components/dashboard/dashboard_layout";
+// appeals
 import Appeal_edit from './components/appeals/appeal_edit';
 import Appeal_media_page from './components/appeals/appeal_media_page';
 import Appeal_donations_page from './components/appeals/pages/appeal_donations_page';
 import Appeal_view_page from './components/appeals/pages/appeal_view_page';
 import Appeal_edit_page from './components/appeals/pages/appeal_edit_page';
 import Appeal_settings_page from './components/appeals/pages/appeal_settings_page';
+import Appeal_details_donator_page from './components/appeals/pages/appeal_details_donator_page';
+import Appeal_details_fundraiser_page from './components/appeals/pages/appeal_details_fundraiser_page';
+
 
 import Circular_progress_bar from "./components/dashboard/circular_progress_bar";
 import Appeal_view from './components/appeals/appeal_view';
@@ -97,11 +101,15 @@ function App() {
       <Route path="/security_page" element={<Security_page />} />
       <Route path="/fundraising_page" element={<Fundraising_page />} />
       <Route path="/dashboard_page" element={<Dashboard_page />} />
+      {/* appeals */}
       <Route path="/appeal_media_page" element={<Appeal_media_page />} />
       <Route path="/appeal_donations_page" element={<Appeal_donations_page />} />
       <Route path="/appeal_view_page" element={<Appeal_view />} />
       <Route path="/appeal_settings_page" element={<Appeal_settings_page />} />
       <Route path="/appeal_edit_page" element={<Appeal_edit_page />} />
+      <Route path="/appeal_details_donator_page" element={<Appeal_details_donator_page />} />
+      <Route path="/appeal_details_fundraiser_page" element={<Appeal_details_fundraiser_page />} />
+
 
       <Route path="/dashboard_layout" element={<Dashboard_layout />} />
       <Route path="/appeal_view" element={<Appeal_view />} />

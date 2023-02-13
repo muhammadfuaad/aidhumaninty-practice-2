@@ -1,4 +1,6 @@
 import {ReactComponent as User_circle} from "../../icons/user-circle.svg";
+import email from "../icons/email.svg";
+import Pump from "../icons/water-hand-pumps-1.png"
 
 function Appeal_description() {
   return (
@@ -19,7 +21,7 @@ function Appeal_description() {
       </div>
       
 
-        <div className="w-full"><img src="./images/water-hand-pumps.png" className="w-full"></img></div>
+        <div className="w-full"><img src={Pump} className="w-full"></img></div>
       <div className="p-8 border-bottom-light">
         <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-8">Story</p>
         <div className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">
@@ -38,9 +40,9 @@ function Appeal_description() {
         </div>
       </div>
 
-      <div className="p-8">
-      <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-8">About</p>
-      <div className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">
+      <div className="p-8 border-bottom-light">
+        <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-8">About</p>
+        <div className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">
           <p className="mb-8 sm:mb-0">
             1 in every 3 people around the world do not have clean water to drink. Millions are forced
             to drink dirty, unsafe water that could kill them, and is spreading deadly diseases among
@@ -54,6 +56,51 @@ function Appeal_description() {
             with your charity this Ramadan.
           </p>
         </div>
+      </div>
+
+      <div className="p-8 border-bottom-light">
+        <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-8">Summary</p>
+        <div className="rounded-3xl p-8 w-full">
+          <table className="w-full">
+            <tr className="text-[1.4rem] font-normal tracking-[-0.35px] text-black">
+              <th className="w-1/4 text-start pb-2">Total raised</th>
+              <th className="w-1/4 text-start pb-2">Direct donations</th>
+              <th className="w-1/4 text-start pb-2">Donations via Fundraisers</th>
+              <th className="w-1/4 text-start pb-2">Offline donations</th>
+
+            </tr>
+            <tr className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">
+              <td>£4.342</td>
+              <td>£1.034</td>
+              <td>£1.034</td>
+              <td>£1.034</td>
+
+            </tr>
+          </table>
+          <p className="text-[1rem] font-medium tracking-[-0.15px] text-[#bdbdbd] mt-6">* Charities pay a small fee for our service. <span className="font-semibold text-primary">Find out how much its is and what we do for it.</span></p>
+        </div>        
+      </div>
+
+      <div className="p-8 border-bottom-light">
+        <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-8">Share</p>
+        <div className="flex gap-8">
+          <button className='w-full py-6 uppercase text-[1.4rem] font-semibold text-white bg-primary-medium rounded-xl
+                flex space-x-4 justify-center'>
+            <img src="./icons/facebook.svg"></img>
+            <span>Share on Facebook</span>
+          </button>
+          <button className='w-full py-6 uppercase text-[1.4rem] font-semibold text-white bg-primary rounded-xl
+            flex space-x-4 justify-center'>
+            <img src="./icons/twitter-white.svg"></img>
+            <span>Share</span>
+          </button>
+          <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#999999] bg-transparent outline
+                outline-[#999999] rounded-xl flex justify-center space-x-4">
+            <img src={email}></img>
+            <span>Share</span>
+          </button>
+        </div>
+
       </div>
     </div>
   )
