@@ -99,7 +99,7 @@ function App() {
       <Route path="/dashboard_page" element={<Dashboard_page />} />
       <Route path="/appeal_media_page" element={<Appeal_media_page />} />
       <Route path="/appeal_donations_page" element={<Appeal_donations_page />} />
-      <Route path="/appeal_view_page" element={<Appeal_view_page />} />
+      <Route path="/appeal_view_page" element={<Appeal_view />} />
       <Route path="/appeal_settings_page" element={<Appeal_settings_page />} />
       <Route path="/appeal_edit_page" element={<Appeal_edit_page />} />
 
