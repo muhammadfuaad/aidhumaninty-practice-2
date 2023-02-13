@@ -11,6 +11,7 @@ function Readable() {
             <img src={Clock}></img>
             <div className="flex gap-4 items-center text-[1.1rem] font-normal tracking-[-0.17px] text-[#bdbdbd]">
               <p>April 20, 2022</p>
+              <p className='font-bold mb-2'>.</p>
               <p>3 minutes to read</p>
             </div>
           </div>
