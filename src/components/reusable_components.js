@@ -28,7 +28,7 @@
             uppercase text-[1.4rem] font-semibold text-black bg-green sm:rounded-xl">Save Changes</button>
 
   {/* input field with top label */}
-  <div class="relative">
+  <div className="relative">
           <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
           <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4"></label>   
         </div>
