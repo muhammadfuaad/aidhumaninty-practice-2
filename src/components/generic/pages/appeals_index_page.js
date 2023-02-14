@@ -1,5 +1,5 @@
 import Toggle from "../../dashboard/toggle";
-import Generic_header from "../../Generic_header";
+import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 import Radio_component from "../components/radio_component";
 import Appeal_title from "../components/appeal_title";
@@ -16,7 +16,7 @@ import Appeals_list from "../components/appeals_list";
 function Appeals_index_page() {
   return (
     <section className="overflow-hidden">
-      < Header />
+      < Generic_header />
       <div className="flex flex-col px-64 bg-[#f9f9f9]">
         <p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / Appeals</p>
         <div className="flex justify-between">

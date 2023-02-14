@@ -5,7 +5,7 @@ import Steps from './../components/steps';
 import {Refine_message} from "../images/refine-message.svg"
 import Marketing_steps_list from "../components/marketing_steps_list";
 import Footer from "../../footer"
-import Generic_header from "../../Generic_header"
+import Generic_header from "../../generic_header"
 import Logo from "../../icons/footer-background-logo.svg"
 import Layout_page from './layout_page';
 

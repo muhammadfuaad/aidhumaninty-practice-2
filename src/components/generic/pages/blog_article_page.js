@@ -1,5 +1,5 @@
 import Page_header from "../components/page_header";
-import Generic_header from "../../Generic_header";
+import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 import Hero from "../../icons/blog-hero-1.png"
 import Readable from "../components/readable";
@@ -15,7 +15,7 @@ import Email from "../../icons/email-white.svg"
 function Blog_page() {
   return (
     <section>
-      < Header />
+      < Generic_header />
       <div className="flex flex-col px-64 bg-[#f9f9f9] pb-40">
         <div className="flex justify-between">
           <p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / Blog / Donec turpis eros, euismod nec justo sit amet</p>

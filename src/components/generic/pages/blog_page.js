@@ -1,5 +1,5 @@
 import Page_header from "../components/page_header";
-import Generic_header from "../../Generic_header";
+import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 import Hero from "../../icons/blog-hero-1.png"
 import Readable_list from "../components/readable_list";
@@ -11,7 +11,7 @@ import Clock from "../../icons/clock.svg";
 function Blog_page() {
   return (
     <section>
-      < Header />
+      < Generic_header />
       <div className="flex flex-col px-64 bg-[#f9f9f9]">
         <p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / Blog</p>
         <p className="text-[3.6rem] font-bold tracking-[-0.54px] text-black mb-12">Blog</p>

@@ -5,7 +5,7 @@ import User from "./icons/user-circle.svg";
 import Logo from "./icons/horizontal-logo.svg";
 import Heart from "./icons/heart.svg";
 
-function Header() {
+function Generic_header() {
   return (
     <div className="">
       <div className="flex justify-between text-[1.4rem] font-medium tracking-[-0.21px] text-[#999] py-4 px-64 border-b border-[#e6e6e6]">
@@ -60,4 +60,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Generic_header;

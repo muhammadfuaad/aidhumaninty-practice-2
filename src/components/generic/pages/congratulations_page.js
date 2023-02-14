@@ -1,12 +1,12 @@
 import Page_header from "../components/page_header";
-import Generic_header from "../../Generic_header";
+import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 
 function Congratulations_page() {
   return (
     
     <section>
-      < Header />
+      < Generic_header />
       <Page_header heading="Congratulations" icon="hidden" />
       <div className='bg-[#f9f9f9] pt-12 pb-52'>
         <div className='w-1/2 mx-auto bg-white p-12 rounded-3xl'>

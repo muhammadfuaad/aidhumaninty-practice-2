@@ -1,7 +1,7 @@
 import Page_header from "../components/page_header";
 import Page_sidebar from "../components/page_sidebar";
 import Assistance from "../components/assistance";
-import Generic_header from "../../Generic_header";
+import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 import Logo from "../../icons/footer-background-logo.svg";
 import Radio from "../../dashboard/radio";
@@ -21,7 +21,7 @@ import Stripe from "../../icons/stripe.png"
 function Checkout_page() {
   return (
     <section>
-      < Header />
+      < Generic_header />
       <Page_header heading="Checkout" icon="hidden" />
       <div className="px-64 pt-12 bg-[#f5f6f7]">
         <div className="flex gap-8">

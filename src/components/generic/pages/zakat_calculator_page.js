@@ -1,7 +1,7 @@
 import Page_header from "../components/page_header";
 import Page_sidebar from "../components/page_sidebar";
 import Assistance from "../components/assistance";
-import Generic_header from "../../Generic_header";
+import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 import Logo from "../../icons/footer-background-logo.svg";
 import Zakat_calculator from "../components/zakat_calculator";
@@ -10,7 +10,7 @@ import Scholar_verified from './../components/scholar_verified';
 function Zakat_calculator_page(props) {
   return (
     <section>
-      < Header />
+      < Generic_header />
       <Page_header heading="Zakat Calculator" icon="hidden" />
       <div className="px-64">
       <p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / Zakat Calculator</p>

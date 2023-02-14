@@ -1,13 +1,13 @@
 import Page_header from "../components/page_header";
 import Page_sidebar from "../components/page_sidebar";
 import Assistance from "../components/assistance";
-import Generic_header from "../../Generic_header";
+import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 
 function Layout_page(props) {
   return (
     <section>
-      < Header />
+      < Generic_header />
       <Page_header heading={props.banner_heading} icon={props.icon} />
       <div className="px-64">
         {props.navigator}
