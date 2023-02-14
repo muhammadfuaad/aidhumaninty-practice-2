@@ -27,7 +27,7 @@ function Appeal_status() {
 
       <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-black bg-green
         rounded-xl mt-4">Donate</button>
-      <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline outline-spanish-gray
+      <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline outline-spanish-gray
         rounded-xl flex justify-center space-x-4 mt-6"><img src="./icons/share-icon.svg"></img><span>Share</span></button>
     </div>
   )

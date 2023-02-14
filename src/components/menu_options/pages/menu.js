@@ -19,7 +19,7 @@ function Menu() {
 
       </ul>
       <div className="p-6 flex flex-col gap-12 mt-20">
-        <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-primary bg-transparent outline
+        <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-primary bg-transparent outline
           outline-primary rounded-xl">Donate Now</button>
         <div className="flex justify-between">
           <p className="text-[1.8rem] font-semibold tracking-[-0.27px] text-black">Languages</p>

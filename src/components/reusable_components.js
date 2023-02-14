@@ -1,7 +1,7 @@
 <div>
   <p className="text-[1rem] font-normal tracking-[-0.25px] text-[#999]"></p>
   {/* outline-button */}
-  <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline
+  <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline
             outline-spanish-gray rounded-xl">Edit Your Page</button>
 
   {/* background-button */}
@@ -10,7 +10,7 @@
             </button>
   
   {/* outline-button with icon */}
-  <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline 
+  <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline 
               outline-spanish-gray rounded-xl flex justify-center space-x-4">
               <img src="./icons/share-icon.svg"></img>
               <span>Share</span>
@@ -34,7 +34,7 @@
         </div>
 
   {/* input field with left label */}
-  <div class="relative">
+  <div className="relative">
             <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl pl-9 pr-3 py-4 w-full text-[1.3rem] font-medium tracking-[0px] text-black" placeholder=" " />
             <label for="" className="absolute text-[1.7rem] font-medium tracking-[0px] text-primary top-4 left-4">£</label>   
           </div>

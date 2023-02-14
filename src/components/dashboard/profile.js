@@ -36,34 +36,34 @@ function Profile() {
             <img src="./icons/drop-down.svg" alt="dropdown"></img>
           </button>
 
-          <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700">
-            <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+          <div id="dropdown" className="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700">
+            <ul className="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
               <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
               </li>
               <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
               </li>
               <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
               </li>
               <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+                <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
               </li>
             </ul>
           </div>
 
           <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
-            <div class="sm:w-1/2"><Input type="text" id="address-line-1" label="Address Line 1" display_toggle="hidden" /></div>
-            <div class="sm:w-1/2"><Input type="text" id="address-line-2" label="Address Line 2" display_toggle="hidden" /></div>
+            <div className="sm:w-1/2"><Input type="text" id="address-line-1" label="Address Line 1" display_toggle="hidden" /></div>
+            <div className="sm:w-1/2"><Input type="text" id="address-line-2" label="Address Line 2" display_toggle="hidden" /></div>
           </div>
 
           <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
-            <div class="w-full sm:w-2/3">
+            <div className="w-full sm:w-2/3">
               <Input type="text" id="town" label="Town" display_toggle="hidden" />            
             </div>
 
-            <div class="w-full sm:w-1/3">
+            <div className="w-full sm:w-1/3">
               <Input type="text" id="zip" label="ZIP/Postal" display_toggle="hidden" />            
             </div>
           </div>

@@ -22,7 +22,7 @@ function Water_wells_card() {
        
       </div>
       <div className="flex flex-col gap-2">
-        <div class="relative group">
+        <div className="relative group">
           <input type="text" id="name" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
           <label for="name" className="focus:hidden absolute text-[1.3rem] font-medium tracking-[0px] text-gray  top-7 left-4">Name on Plaque</label>
         </div>
@@ -30,7 +30,7 @@ function Water_wells_card() {
       </div>
 
       <div className="flex flex-col gap-2">
-        <button class="w-full px-6 py-4 uppercase text-[1.4rem] font-semibold text-primary-dark bg-transparent outline 
+        <button className="w-full px-6 py-4 uppercase text-[1.4rem] font-semibold text-primary-dark bg-transparent outline 
           outline-primary-dark rounded-xl flex space-x-4">
           < Plus stroke="#102558" />
           <span>Add Water Well</span>

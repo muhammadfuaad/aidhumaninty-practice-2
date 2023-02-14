@@ -47,7 +47,7 @@ function Blog_page() {
               < Blog_card />
             </div>
 
-            <button class="w-full py-6 text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
+            <button className="w-full py-6 text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
             outline-spanish-gray rounded-xl mt-20 mb-48">Load More</button>
           </div>
           <Readable_list />

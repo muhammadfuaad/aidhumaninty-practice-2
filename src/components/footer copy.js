@@ -26,7 +26,7 @@ function Footer() {
                     </div>
                   </div>
                 </div>
-                <p className="text-footer-text text-base font-medium leading-[26px] tracking-[-.24px] mt-6">Aid Humanity is proud to be a non-profit organization that passes 100% of our donations to charitable causes around the world.</p>
+                <p className="text-footer-text text-[1.6rem] font-medium leading-[26px] tracking-[-.24px] mt-6">Aid Humanity is proud to be a non-profit organization that passes 100% of our donations to charitable causes around the world.</p>
               </div>
               <div className="flex items-center mt-[4rem]">
                 <span className="text-xs text-white opacity-50 font-medium mr-2">Registered with</span>
@@ -37,7 +37,7 @@ function Footer() {
             {/* Second column */}
             <div className="flex flex-col basis-[20%]">
               <span className="text-white mb-3 font-semibold text-sm tracking-[-.21px]">ABOUT US</span>
-              <ul className="text-footer-text flex flex-col text-base font-medium leading-[30px] tracking-[-.24px]">
+              <ul className="text-footer-text flex flex-col text-[1.6rem] font-medium leading-[30px] tracking-[-.24px]">
                 <li><a href="/" className="hover:underline">Our Story</a></li>
                 <li><a href="/" className="hover:underline">Marketing</a></li>
                 <li><a href="/" className="hover:underline">Blog</a></li>
@@ -53,7 +53,7 @@ function Footer() {
             {/* Third column */}
             <div className="flex flex-col basis-[20%]">
               <span className="text-white mb-3 text-link-heading-color font-semibold text-sm tracking-[-.21px]">APPEALS</span>
-              <ul className="text-footer-text flex flex-col text-base font-medium leading-[30px] tracking-[-.24px]">
+              <ul className="text-footer-text flex flex-col text-[1.6rem] font-medium leading-[30px] tracking-[-.24px]">
                 <li><a href="/" className="hover:underline">Build a Mosque</a></li>
                 <li><a href="/" className="hover:underline">Disaster & Emergency</a></li>
                 <li><a href="/" className="hover:underline">Appeals</a></li>
@@ -70,8 +70,8 @@ function Footer() {
               <div className="flex mt-5 mr-0">
                 <div className="mb-3">
                   <div className="flex flex-wrap items-center w-full">
-                    <input type="search" className="form-control relative min-w-0 w-[16.8rem] h-[2.5rem] block px-3 py-0 text-base font-normal text-secondary-light bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg" placeholder="Your email" aria-label="Search" aria-describedby="button-addon2"></input>
-                    <button className="w-[45px] h-[40px] ml-3 bg-primary text-white font-medium text-xs leading-tight uppercase rounded-lg shadow-md hover:bg-blue-700 flex items-center">
+                    <input type="search" className="form-control relative min-w-0 w-[16.8rem] h-[2.5rem] block px-3 py-0 text-[1.6rem] font-normal text-secondary-light bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg" placeholder="Your email" aria-label="Search" aria-describedby="button-addon2"></input>
+                    <button className="w-[45px] h-[40px] ml-3 bg-Vivd-Cerulean text-white font-medium text-xs leading-tight uppercase rounded-lg shadow-md hover:bg-blue-700 flex items-center">
                       <svg xmlns="http://www.w3.org/2000/svg" width="45" height="10.121" viewBox="0 0 13.24 10.121">
                         <g id="arrow-right" transform="translate(0.75 1.061)">
                           <path id="Path_4820" data-name="Path 4820" d="M6.962.7l3.9113.97L6.9628.7" transform="translate(0.865 -0.702)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />

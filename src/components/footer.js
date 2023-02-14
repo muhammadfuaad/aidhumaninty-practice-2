@@ -80,7 +80,7 @@ function Footer() {
             <span className="text-[1.8rem] font-bold tracking-[-0.45px] text-white leading-[2.8rem]">Subscribe to the free newsletter and stay up-to date</span>
               
                 <div className="flex flex-wrap mt-5 items-center w-full">
-                  <input type="search" className="form-control relative min-w-0 w-[70%] h-16 block px-3 py-0 text-base font-normal text-secondary-light bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg" placeholder="Your email" aria-label="Search" aria-describedby="button-addon2"></input>
+                  <input type="search" className="form-control relative min-w-0 w-[70%] h-16 block px-3 py-0 text-[1.6rem] font-normal text-secondary-light bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg" placeholder="Your email" aria-label="Search" aria-describedby="button-addon2"></input>
                   <button className="w-[45px] h-16 ml-3 bg-primary text-white rounded-lg flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="10.121" viewBox="0 0 13.24 10.121">
                       <g id="arrow-right" transform="translate(0.75 1.061)">

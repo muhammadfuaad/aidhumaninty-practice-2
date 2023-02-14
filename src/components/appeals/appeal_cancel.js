@@ -12,7 +12,7 @@ function Appeal_cancel() {
 
       <div className='px-8'>
         <p className="text-[1.6rem] font-normal traking-[-0.4px] text-body mt-16 mb-96">Your are about to cancel the page “Water Hands Pumps”</p>
-        <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline
+        <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline
         outline-spanish-gray rounded-xl">No, Keep My Page</button>
         <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl mt-8">
           Yes, Cancel My Page

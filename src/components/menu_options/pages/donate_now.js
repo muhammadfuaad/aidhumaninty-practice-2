@@ -38,7 +38,7 @@ function Donate() {
             <p className="text-[2.6rem] font-bold tracking-[-0.65px] text-black self-center my-12">Donation amount</p>
             < Amount />
             <div className="flex mt-6 mb-8">
-              <div class="relative w-[70%]">
+              <div className="relative w-[70%]">
                 <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl pl-9 pr-3 py-4 w-full text-[1.3rem] font-medium tracking-[0px] text-black" placeholder=" " />
                 <label for="" className="absolute text-[1.7rem] font-medium tracking-[0px] text-primary top-4 left-4">£</label>
               </div>

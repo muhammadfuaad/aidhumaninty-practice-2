@@ -52,7 +52,7 @@ function Generic_header() {
           <a href="#">
             <div><img src={Heart} className="w-8 h-12"></img></div>
           </a>
-          <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-primary bg-transparent outline
+          <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-primary bg-transparent outline
             outline-primary rounded-xl">Donate now</button>
         </div>
       </div>

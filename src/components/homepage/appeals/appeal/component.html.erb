@@ -1,33 +1,33 @@
-<div class="flex flex-col space-y-6 w-[450px] shadow-xl bg-white relative rounded-lg">
+<div className="flex flex-col space-y-6 w-[450px] shadow-xl bg-white relative rounded-lg">
   <%= image_tag @detail[:image], class: "h-[40%]" %>
-  <div class="absolute right-4 px-4 py-2 rounded-lg opacity-70 bg-black text-white"><%= @detail[:category] %></div>
+  <div className="absolute right-4 px-4 py-2 rounded-lg opacity-70 bg-black text-white"><%= @detail[:category] %></div>
 
-  <div class="flex flex-col space-y-6 p-4">
-    <p class="text-black text-[22px] font-bold tracking-[-0.55]"><%= @detail[:title] %></p>
-    <p class="text-black text-base font-normal tracking-[-0.4]"><%= @detail[:description] %></p>
+  <div className="flex flex-col space-y-6 p-4">
+    <p className="text-black text-[22px] font-bold tracking-[-0.55]"><%= @detail[:title] %></p>
+    <p className="text-black text-[1.6rem] font-normal tracking-[-0.4]"><%= @detail[:description] %></p>
     <% if @detail[:progress].present? %>
-      <div class="flex justify-between">
-        <div class="flex space-x-4 items-center">
+      <div className="flex justify-between">
+        <div className="flex space-x-4 items-center">
           <%= image_tag @detail[:progress], class: "h-[55px] w-[55px]" %>
-          <div class="flex flex-col">
-            <div class="flex text-primary text-[11px] font-semibold tracking-[-0.17]"><span>Raised: &#163;</span><%= @detail[:amount] %></div>
-            <div class="flex space-x-2">
-              <p class="space-x-1 text-black text-[11px] tracking-[-0.17]"><span class="font-normal">by</span><%= image_tag "profile-icon.svg", class: "inline-block" %><span class="font-semibold"><%= @detail[:supporters] %></span><span>supporters</span></p>
+          <div className="flex flex-col">
+            <div className="flex text-primary text-[11px] font-semibold tracking-[-0.17]"><span>Raised: &#163;</span><%= @detail[:amount] %></div>
+            <div className="flex space-x-2">
+              <p className="space-x-1 text-black text-[11px] tracking-[-0.17]"><span className="font-normal">by</span><%= image_tag "profile-icon.svg", class: "inline-block" %><span className="font-semibold"><%= @detail[:supporters] %></span><span>supporters</span></p>
             </div>
           </div>
         </div>
-        <div class="flex flex-col">
-          <p class="text-green text-[11px] font-semibold  tracking-[-0.17]">Goal: 	&#163;<%= @detail[:goal] %></p>
+        <div className="flex flex-col">
+          <p className="text-green text-[11px] font-semibold  tracking-[-0.17]">Goal: 	&#163;<%= @detail[:goal] %></p>
           <%= image_tag @detail[:type], class: "h-[22px] w-[22px]" %>
         </div>
       </div>
     <% else %>
-      <button class="rounded-md py-4 text-white bg-Gray opacity-70 text-[11px] font-semibold tracking-[-0.17]">No donation yet, bet the first</button>
+      <button className="rounded-md py-4 text-white bg-Gray opacity-70 text-[11px] font-semibold tracking-[-0.17]">No donation yet, bet the first</button>
     <% end %>
 
-    <div class="flex justify-between items-center">
-      <p class="text-primary-dark text-xs font-semibold tracking-[-0.18]">Read More</p>
-      <button class="rounded-md px-4 py-2 bg-primary text-white text-xs font-semibold tracking-[-0.18]">DONATE NOW</button>
+    <div className="flex justify-between items-center">
+      <p className="text-primary-dark text-xs font-semibold tracking-[-0.18]">Read More</p>
+      <button className="rounded-md px-4 py-2 bg-primary text-white text-xs font-semibold tracking-[-0.18]">DONATE NOW</button>
     </div>
   </div>
 </div>

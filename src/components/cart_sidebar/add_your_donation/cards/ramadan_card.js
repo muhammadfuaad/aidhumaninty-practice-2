@@ -37,7 +37,7 @@ function Ramadan_card() {
       <div className="flex flex-col gap-6">
         <p className="text-[1.4rem] font-bold tracking-[-0.35px] text-black">Amount</p>
         < Amount />
-        <div class="relative">
+        <div className="relative">
           <input type="text" id="" className="h-20 focus:outline-none focus:bg-transparent block border-light rounded-xl pl-9 pr-3 py-4 w-full text-[1.3rem] font-medium tracking-[0px] text-black" placeholder=" " />
           <label for="" className="absolute text-[1.7rem] font-medium tracking-[0px] text-primary top-7 left-4">£</label>   
         </div>

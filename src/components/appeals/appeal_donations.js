@@ -36,7 +36,7 @@ function Appeal_media() {
             <p className='text-[1.6rem] font-normal tracking-[-0.4px] text-black mb-8'>Have you received any offline donations? Add the total amount here.</p>
 
             <div className='flex flex-col space-y-6 sm:space-y-0 sm:flex-row items-center sm:space-x-6'>
-              <div class="relative sm:w-[60%]">
+              <div className="relative sm:w-[60%]">
                 <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
                 <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4"></label>
               </div>

@@ -23,7 +23,7 @@ function Donor_details(props) {
       <div className="flex justify-between mt-2">
         <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-primary">{props.amount}</p>
         <div className="flex space-x-8 relative">
-          <div class="absolute top-2 left-20 w-0.5 h-4 bg-gray-600"></div>
+          <div className="absolute top-2 left-20 w-0.5 h-4 bg-gray-600"></div>
           <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-spanish-gray">Edit</button>
           <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-spanish-gray">View</button>
         </div>

@@ -59,7 +59,7 @@ function Appeal_details_donator_page(props) {
           <Appeal_card />
         </div>
         <div className='flex my-20 self-end'>
-          <button class="px-10 py-6 self-end text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
+          <button className="px-10 py-6 self-end text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
             outline-spanish-gray rounded-xl">View All</button>
         </div> 
       </div>

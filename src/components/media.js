@@ -3,7 +3,7 @@ function media() {
 
   return (
     <>
-      <div class="flex media-section justify-between">
+      <div className="flex media-section justify-between">
         <div className="media">
           <div className="media__image">
             <img className="icon" src="/icons/icon_phone-volume.svg"></img>

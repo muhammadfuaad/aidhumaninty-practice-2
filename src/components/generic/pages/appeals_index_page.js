@@ -44,7 +44,7 @@ function Appeals_index_page() {
         <div className="mt-16">
           <Appeals_list />  
         </div>  
-        <button class="px-12 py-6 self-center mt-24 mb-32 text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
+        <button className="px-12 py-6 self-center mt-24 mb-32 text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
             outline-spanish-gray rounded-xl">Load More</button>   
       </div>
       < Footer />

@@ -1,6 +1,6 @@
 function Toggle({state}) {
   return (
-    <label class="relative inline-flex items-center cursor-pointer">
+    <label className="relative inline-flex items-center cursor-pointer">
       <input type="checkbox" value="" className="sr-only peer"></input>
       <div className="w-12 h-8 bg-gray-200 rounded-full peer peer-checked:after:translate-x-4 peer-checked:after:border-white
         after:content-[''] after:absolute after:left-[3px] after:top-1 after:bg-white after:rounded-full after:h-6 after:w-6

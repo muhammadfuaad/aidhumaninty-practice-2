@@ -22,7 +22,7 @@ function Fundraising() {
             <div className="flex space-x-8 relative">
               <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-spanish-gray">Edit</button>
               <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-spanish-gray">View</button>
-              <div class="absolute top-1 left-4 w-[1px] h-4 bg-platinum"></div>
+              <div className="absolute top-1 left-4 w-[1px] h-4 bg-platinum"></div>
             </div>
           </div>
         </div>

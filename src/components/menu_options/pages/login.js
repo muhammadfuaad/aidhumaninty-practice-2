@@ -23,7 +23,7 @@ function Login() {
               <img src={Apple}></img>
               <span>Continue with Apple</span>
             </button>
-            <button class="w-full py-6 text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline
+            <button className="w-full py-6 text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline
               outline-spanish-gray rounded-xl flex justify-center items-center space-x-4">
               <img src={Google}></img>
               <span>Continue with Google</span>
@@ -31,11 +31,11 @@ function Login() {
           </div>
           <p className="self-center text-[1.2rem] font-normal tracking-[-0.3px] text-body my-6">OR</p>
           <div className="flex flex-col gap-6">
-            <div class="relative">
+            <div className="relative">
               <input type="text" id="email" className="focus:outline-primary bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
               <label for="email" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Email Address or Username *</label>
             </div>
-            <div class="relative">
+            <div className="relative">
               <input type="text" id="password" className="focus:outline-primary bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
               <label for="password" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Password*</label>
             </div>

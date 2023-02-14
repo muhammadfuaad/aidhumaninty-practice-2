@@ -6,7 +6,7 @@ function Rescue_a_child_card() {
     <div className="bg-white rounded-3xl p-8 flex flex-col space-y-4">
       <div className="flex space-x-4">
          
-        <button class="w-1/2 py-4 capitalize text-[1.2rem] font-semibold text-[#bdbdbd] bg-transparent outline outline-[1px]
+        <button className="w-1/2 py-4 capitalize text-[1.2rem] font-semibold text-[#bdbdbd] bg-transparent outline outline-[1px]
            outline-[#bdbdbd] rounded-xl">
           Single<br></br> Payment
         </button>
@@ -29,7 +29,7 @@ function Rescue_a_child_card() {
             <div className="w-1/2"><Check amount="360" title="Sponsor a Child for One Year"/></div>
           </div>
       </div>
-      <div class="relative">
+      <div className="relative">
         <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl pl-9 pr-3 py-4 w-full text-[1.3rem] font-medium tracking-[0px] text-black" placeholder=" " />
         <label for="text-[1.3rem] font-medium tracking-[0px] text-gray" className="absolute text-[1.7rem] font-medium tracking-[0px] text-primary top-4 left-4">£</label>   
       </div>
