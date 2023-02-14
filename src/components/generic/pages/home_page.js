@@ -18,7 +18,7 @@ import scale from "../../icons/scale.svg"
 import donation_1 from "../../icons/donation-1.png"
 import donation_2 from "../../icons/donation-2.png"
 import donation_3 from "../../icons/donation-3.png"
-
+import orange from "../../icons/orange-1.png"
 
 
 
@@ -182,6 +182,7 @@ function Home_page() {
           </div>
 
           <div className="basis-[40%] flex flex-col">
+            <img src={orange}></img>
             <div className="flex flex-col space-y-4 pr-48">
               <p className="text-primary text-[36px] font-bold tracking-[-0.54px]">Don’t wait for the world to improve.</p>
               <p className="text-body text-[22px] font-normal tracking-[-0.55px]">Drive meaningful change.</p>
