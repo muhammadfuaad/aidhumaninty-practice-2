@@ -9,7 +9,7 @@ import Arrow from "../../icons/arrow-left-white.svg"
 import Recent_donors from '../recent_donors';
 import Appeal_card from '../../generic/components/appeal_card';
 
-function Appeal_details_donator_page() {
+function Appeal_details_donator_page(props) {
   return (
     <div className="flex flex-col bg-[#f5f6f7] min-h-screen pb-40">
       <div className='sm:hidden'>< Dashboard_header_mobile /></div>
@@ -30,6 +30,7 @@ function Appeal_details_donator_page() {
         
         <div className='sm:px-0 sm:w-[30%] sm:order-2 flex flex-col'>
           < Appeal_status_2 />
+          {props.fundraiser_details}
           <div className="flex flex-col rounded-3xl bg-white mt-8">
             <div className="flex justify-between p-8 border-b border-[#999] text-[1.6rem] tracking-[-0.4px] text-black">
               <p className="font-bold">Recent Donors</p>
