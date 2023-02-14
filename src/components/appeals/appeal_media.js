@@ -46,7 +46,7 @@ function Appeal_media() {
             </div>
           </div>
           <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#102558] bg-transparent outline
-            outline-[#999999] rounded-xl mt-8 sm:hidden">Load More</button>
+            outline-spanish-gray rounded-xl mt-8 sm:hidden">Load More</button>
         </div>  
       </div>
     </div>

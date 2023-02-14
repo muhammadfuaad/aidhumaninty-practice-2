@@ -21,8 +21,8 @@ function Congratulations_page() {
             </div>
           <div className=''>
             <ul className='bg-[#f9f9f9] rounded-3xl px-12 py-4 text-[1.4rem] font-medium tracking-[-0.21px] text-black'>
-              <li className='py-6 border-b border-[#e6e6e6] flex justify-between items-center'><span>Rescue a street child</span><span className='font-bold'>£360.00</span></li>
-              <li className='py-6 border-b border-[#e6e6e6] flex justify-between items-center'><span>Food pack for a family</span><span className='font-bold'>£50.00</span></li>
+              <li className='py-6 border-b border-platinum flex justify-between items-center'><span>Rescue a street child</span><span className='font-bold'>£360.00</span></li>
+              <li className='py-6 border-b border-platinum flex justify-between items-center'><span>Food pack for a family</span><span className='font-bold'>£50.00</span></li>
               <li className='py-6 border-b border-[#bdbdbd] flex justify-between items-center'>
                 <div className='flex space-x-4 items-center'>
                   <img src="/icons/gift.svg"></img> 

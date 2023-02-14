@@ -8,27 +8,27 @@ function Contact_form() {
     <div class="flex flex-col gap-6">
       <div class="relative">
         <input type="text" id="full-name" className="focus:outline-primary focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-        <label for="full-name" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c]  top-2 left-4">Full Name*</label>   
+        <label for="full-name" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Full Name*</label>   
       </div>
 
       <div class="relative">
         <input type="text" id="email" className="focus:outline-primary focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-        <label for="email" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c]  top-2 left-4">Email*</label>   
+        <label for="email" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Email*</label>   
       </div>
 
       <div class="relative">
         <input type="text" id="email" className="focus:outline-primary focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-        <label for="email" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c]  top-2 left-4">Phone*</label>   
+        <label for="email" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Phone*</label>   
       </div>
 
       <div class="relative">
         <input type="text" id="email" className="focus:outline-primary focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-        <label for="email" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c]  top-2 left-4">Subject*</label>   
+        <label for="email" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Subject*</label>   
       </div>
 
       <div class="relative">
         <textarea rows="8" id="email" className="focus:outline-primary focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-        <label for="email" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c]  top-2 left-4">Message*</label>   
+        <label for="email" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Message*</label>   
       </div>   
     </div>
     <p className="self-end text-[1.4rem] font-medium tracking-[-0.35px] text-[#333333] mt-4">9/999</p>

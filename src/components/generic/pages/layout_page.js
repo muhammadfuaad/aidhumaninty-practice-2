@@ -27,7 +27,7 @@ function Layout_page(props) {
           <div className="relative w-1/5 ml-32">
             <Page_sidebar />
             <img src={Logo} className="absolute right-[-150px] bottom-[600px]"></img>
-            <div className="h-[50rem] w-[1px] bg-[#e6e6e6] absolute -left-16 top-0"></div>
+            <div className="h-[50rem] w-[1px] bg-platinum absolute -left-16 top-0"></div>
           </div>
         </div>
       </div>

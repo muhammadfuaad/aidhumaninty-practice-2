@@ -13,7 +13,7 @@ function Appeal_settings() {
           tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl sm:w-full" type="button">
           <div className="flex space-x-2">
             < Calendar_clock fill="none" stroke="#7c7c7c"/>
-            <span className="text-[1.3rem] font-medium tracking-[0px] text-[#7c7c7c]">08 March 2023</span>
+            <span className="text-[1.3rem] font-medium tracking-[0px] text-gray">08 March 2023</span>
           </div>
           < Drop_down  stroke="#444445"/>
         </button>

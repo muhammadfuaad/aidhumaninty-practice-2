@@ -12,7 +12,7 @@ function Appeal_view() {
       <div className='hidden sm:block'>< Appeal_desktop_header /></div>
       < Take_off />
       <div className="px-8 py-12 bg-white flex justify-center items-center">
-        <button class="w-full sm:w-fit sm:px-20 py-6 uppercase text-[1.4rem] font-semibold text-[#999999] bg-transparent outline outline-[#999999]
+        <button class="w-full sm:w-fit sm:px-20 py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline outline-spanish-gray
         rounded-xl">Edit Your Page</button>
       </div>
 

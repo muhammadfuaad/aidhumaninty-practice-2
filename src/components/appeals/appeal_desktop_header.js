@@ -16,7 +16,7 @@ function Appeal_desktop_header() {
       <div>
         <div className="flex space-x-8 items-center">
           <a className="flex space-x-2 items-center">
-            <span className="text-[1.4rem] font-medium tracking-[-0.21px] text-[#999999]">En</span>
+            <span className="text-[1.4rem] font-medium tracking-[-0.21px] text-spanish-gray">En</span>
             <img src="./icons/drop-down.svg"></img>
           </a>
           <a>< User_circle stroke="#444445"/></a>

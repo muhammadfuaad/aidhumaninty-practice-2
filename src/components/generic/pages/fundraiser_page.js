@@ -49,19 +49,19 @@ function Fundraiser_page() {
             <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-8">Searching for inspiration?</p>
             <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem]">Explore our projects page for ideas on how you can help, or consider a few of the following if you want to look for a good cause you feel a closer personal connection to.</p>
             <div className="flex flex-col gap-4 mt-8 mb-20">
-              <div className="p-10 rounded-3xl border border-[#e6e6e6]">
+              <div className="p-10 rounded-3xl border border-platinum">
                 <p className="text-[1.4rem] font-normal tracking-[-0.35px] text-black">The unrest in Yemen is displacing millions and causing widespread famine</p>
               </div>
 
-              <div className="p-10 rounded-3xl border border-[#e6e6e6]">
+              <div className="p-10 rounded-3xl border border-platinum">
                 <p className="text-[1.4rem] font-normal tracking-[-0.35px] text-black">TAuthoritarian rule in Afghanistan continues to limit education and healthcare</p>
               </div>
 
-              <div className="p-10 rounded-3xl border border-[#e6e6e6]">
+              <div className="p-10 rounded-3xl border border-platinum">
                 <p className="text-[1.4rem] font-normal tracking-[-0.35px] text-black">Civil unrest in Sri Lanka is causing widespread hardship and unemployment</p>
               </div>
 
-              <div className="p-10 rounded-3xl border border-[#e6e6e6]">
+              <div className="p-10 rounded-3xl border border-platinum">
                 <p className="text-[1.4rem] font-normal tracking-[-0.35px] text-black">Seasonal devastation continues to kill millions every year in Bangladesh</p>
               </div>
             </div>

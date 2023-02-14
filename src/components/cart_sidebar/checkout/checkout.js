@@ -2,7 +2,7 @@ import Checkout_card from "./checkout_card";
 function Checkout() {
   return (
     <div className="w-[80%] sm:w-[25%] min-w-[33rem] h-full bg-primary-dark overflow-hidden">
-      <div className="p-8 flex justify-between border-b border-[#7c7c7c]">
+      <div className="p-8 flex justify-between border-b border-gray">
         <div className="flex gap-2 items-center">
           <img src="./icons/cash-register.svg"></img>
 

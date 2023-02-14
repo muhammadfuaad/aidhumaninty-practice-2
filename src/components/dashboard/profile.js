@@ -30,7 +30,7 @@ function Profile() {
       <div className="p-8">
         <p className="portal-subheading mb-8">Address</p>            
         <div className="flex flex-col space-y-8">
-          <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-[#7c7c7c]
+          <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-gray
           tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl" type="button">
             <span>United Kingdom</span>
             <img src="./icons/drop-down.svg" alt="dropdown"></img>

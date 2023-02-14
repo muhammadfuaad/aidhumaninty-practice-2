@@ -17,7 +17,7 @@ function Recent_donors(props) {
       
       </div>
       <div className="flex flex-col ml-12">
-        <p className="text-[1.2rem] font-normal tracking-[-0.18px] text-[#7c7c7c] leading-[1.6rem] mb-2">{props.description}</p>
+        <p className="text-[1.2rem] font-normal tracking-[-0.18px] text-gray leading-[1.6rem] mb-2">{props.description}</p>
         <p className="text-[1.4rem] font-semibold tracking-[-0.21px] text-primary">{props.amount} <span className="text-[1.2rem] font-medium tracking-[-0.18px]">{props.gift_aid}</span></p>
       </div>
     </div>

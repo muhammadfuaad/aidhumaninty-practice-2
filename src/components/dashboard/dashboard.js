@@ -17,7 +17,7 @@ function Dashboard() {
             <div className="flex space-x-4 items-center">
               <img src="./icons/calendar-clock.svg" className="hidden sm:inline-block"></img>
               <img src="./icons/calendar.svg" className="sm:hidden"></img>
-              <p className="text-[1.3rem] font-medium tracking-[0px] text-[#7c7c7c] whitespace-nowrap hidden sm:inline-block">Last 7 Days</p>
+              <p className="text-[1.3rem] font-medium tracking-[0px] text-gray whitespace-nowrap hidden sm:inline-block">Last 7 Days</p>
               <img src="./icons/drop-down.svg" className="w-4"></img>             
             </div>
           </div>

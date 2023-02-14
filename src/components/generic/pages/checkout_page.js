@@ -84,7 +84,7 @@ function Checkout_page() {
               <div className="p-8 border-bottom-medium">
                 <p className="portal-subheading mb-8">Billing Address</p>            
                 <div className="flex flex-col space-y-8">
-                  <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-[#7c7c7c]
+                  <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-gray
                   tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl" type="button">
                     <span>United Kingdom</span>
                     <img src={Dropdown} alt="dropdown"></img>
@@ -127,14 +127,14 @@ function Checkout_page() {
               <div className="p-8 border-bottom-medium">
                 <p className="portal-subheading mb-8">Tell us about your donation</p>            
                 <div className="flex flex-col space-y-8">
-                  <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-[#7c7c7c]
+                  <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-gray
                   tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl" type="button">
                     <span>Where did you hear about us</span>
                     <img src={Dropdown} alt="dropdown"></img>
                   </button>
                   <div class="relative">
                     <textarea type="text" id="title" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px] " rows="4" placeholder=" "></textarea>
-                    <label for="title" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c]  top-2 left-4">Add any comments about your donation (Optional)</label>
+                    <label for="title" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Add any comments about your donation (Optional)</label>
                   </div>
                 </div>
                 <p className="text-[1rem] font-normal tracking-[-0.25px] text-[#999] mt-2">Max. characters: 200</p> 
@@ -180,7 +180,7 @@ function Checkout_page() {
               <div className="p-8">
                 <p className="portal-subheading mb-8">Payment Methods</p>            
                 <div className="flex flex-col gap-4 mb-6">
-                  <div className="flex justify-between bg-white p-8 rounded-xl border border-[#e6e6e6]">
+                  <div className="flex justify-between bg-white p-8 rounded-xl border border-platinum">
                     <div className="flex gap-8">
                       <Radio/>
                       <p className="text-[1.4rem] font-medium tracking-[-0.21px] text-black">Pay with card</p>
@@ -191,7 +191,7 @@ function Checkout_page() {
                     </div>
                   </div>
 
-                    <div className="flex justify-between bg-white p-8 rounded-xl border border-[#e6e6e6]">
+                    <div className="flex justify-between bg-white p-8 rounded-xl border border-platinum">
                       <div className="flex gap-8">
                         <Radio/>
                         <p className="text-[1.4rem] font-medium tracking-[-0.21px] text-black">Pay with Paypal</p>
@@ -201,7 +201,7 @@ function Checkout_page() {
                       </div>
                     </div>
 
-                    <div className="flex justify-between bg-white p-8 rounded-xl border border-[#e6e6e6]">
+                    <div className="flex justify-between bg-white p-8 rounded-xl border border-platinum">
                       <div className="flex gap-8">
                         <Radio/>
                         <p className="text-[1.4rem] font-medium tracking-[-0.21px] text-black">Pay with Stripe</p>
@@ -217,19 +217,19 @@ function Checkout_page() {
                   <div className="flex gap-8">
                     <div className="relative w-1/5">
                       <input type="text" id="number" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-                      <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Card Number</label>
+                      <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Card Number</label>
                     </div>
                     <div className="relative w-1/5">
                       <input type="text" id="number" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-                      <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Card Holder Name</label>
+                      <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Card Holder Name</label>
                     </div>
                     <div className="relative w-[15%]">
                       <input type="text" id="number" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-                      <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Expiry Date</label>
+                      <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Expiry Date</label>
                     </div>
                     <div className="relative w-[15%]">
                       <input type="text" id="number" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-                      <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Security Code</label>
+                      <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Security Code</label>
                     </div>
                   </div>
                   

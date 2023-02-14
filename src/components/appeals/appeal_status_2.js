@@ -6,7 +6,7 @@ function Appeal_status_2() {
       <div className='flex gap-16'>
         <div className='flex flex-col space-y-2'>
           <p className="text-[3rem] font-bold tracking-[-0.75px] text-black">£4.342</p>
-          <p className="text-[1.2rem] font-medium tracking-[-0.3px] text-[#999999]">raised of <span className="font-semibold text-primary">£6.200</span> target</p>
+          <p className="text-[1.2rem] font-medium tracking-[-0.3px] text-spanish-gray">raised of <span className="font-semibold text-primary">£6.200</span> target</p>
         </div>
         <div className="w-[25%]">
           <Circular_progress_bar />
@@ -27,7 +27,7 @@ function Appeal_status_2() {
 
       <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-black bg-green
         rounded-xl mt-4">Donate</button>
-      <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#999999] bg-transparent outline outline-[#999999]
+      <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline outline-spanish-gray
         rounded-xl flex justify-center space-x-4 mt-6"><img src="./icons/share-icon.svg"></img><span>Share</span></button>
     </div>
   )

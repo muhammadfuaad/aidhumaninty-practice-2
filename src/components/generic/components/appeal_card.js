@@ -6,11 +6,11 @@ function Appeal_card(props) {
   return (
     <div className=" shadow-md rounded-3xl relative">
       <div className="rounded-xl  bg-black bg-opacity-50 px-8 py-4 absolute top-4 right-4">
-        <p className="text-[1.4rem] font-medium tracking-[-0.21px] text-[#e6e6e6]">Water For All</p>
+        <p className="text-[1.4rem] font-medium tracking-[-0.21px] text-platinum">Water For All</p>
       </div>
       <img src={water_hand_pumps}></img>
       <div className="px-8">
-        <div className="py-12 border-b-2 border-[#e6e6e6]">
+        <div className="py-12 border-b-2 border-platinum">
           <p className="text-[2.2rem] font-bold tracking-[-0.55px] text-black mb-8">Water Hands Pumps</p>
           <p className="text-[1.6rem] font-normal tracking-[-0.4px] leading-[2.4rem] text-body">Every single day, women around the world have to walk miles to collect water for their household. Installing a hand pump brings this basic human right closer to home.</p>
           <div className="flex gap-4 items-center mt-12">

@@ -10,7 +10,7 @@ function Zakat_calculator() {
       <p className="text-[2rem] font-bold tracking-[-0.5px] text-black mb-6">Gold and Silver</p>
       <div class="relative">
         <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-        <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Value of Gold & Silver you possess</label>
+        <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Value of Gold & Silver you possess</label>
       </div>
     </div>
 
@@ -19,19 +19,19 @@ function Zakat_calculator() {
       <div className='flex flex-col gap-4'>
         <div class="relative">
           <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Cash at Home & Bank Accounts</label>
+          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Cash at Home & Bank Accounts</label>
         </div>
         <div class="relative">
           <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Other Savings</label>
+          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Other Savings</label>
         </div>
         <div class="relative">
           <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Investment & Share Values</label>
+          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Investment & Share Values</label>
         </div>
         <div class="relative">
           <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Money owed to you</label>
+          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Money owed to you</label>
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@ function Zakat_calculator() {
       <p className="text-[2rem] font-bold tracking-[-0.5px] text-black mb-6">Business Assets</p>
       <div class="relative">
         <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-        <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Stock Value</label>
+        <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Stock Value</label>
       </div>
     </div>
 
@@ -49,11 +49,11 @@ function Zakat_calculator() {
       <div className='flex flex-col gap-4'>
         <div class="relative">
           <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Money You Owe</label>
+          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Money You Owe</label>
         </div>
         <div class="relative">
           <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Other Outgoings Due</label>
+          <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Other Outgoings Due</label>
         </div>
       </div>
     </div>
@@ -62,13 +62,13 @@ function Zakat_calculator() {
       <p className="text-[2rem] font-bold tracking-[-0.5px] text-black mb-6">Net Assets</p>
       <div class="relative">
         <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-        <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Money You Owe</label>
+        <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Money You Owe</label>
       </div>
 
       <p className="text-[2rem] font-bold tracking-[-0.5px] text-black mb-6">Nisab Threshold</p>
       <div class="relative">
         <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-        <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] top-2 left-4">Money You Owe</label>
+        <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Money You Owe</label>
       </div>
 
       <div className='bg-primary rounded-3xl flex justify-between items-center p-8'>

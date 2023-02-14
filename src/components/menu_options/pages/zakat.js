@@ -14,7 +14,7 @@ function Zakat() {
               <img src="./icons/mosque.svg"></img>
               <p className="text-[1.8rem] font-bold tracking-[-0.27px] text-primary-dark">Build a Mosque</p>
             </div>
-            <ul className="text-[1.6rem] font-medium tracking-[-0.24px] text-[#7c7c7c] ml-16 flex flex-col gap-6">
+            <ul className="text-[1.6rem] font-medium tracking-[-0.24px] text-gray ml-16 flex flex-col gap-6">
               <li>Pay for a Brick</li>
               <li>Quran Appeal</li>
               <li>Books</li>
@@ -26,7 +26,7 @@ function Zakat() {
               <img src="./icons/emergency.svg"></img>
               <p className="text-[1.8rem] font-bold tracking-[-0.27px] text-primary-dark">Disaster & Emergency Appeals</p>
             </div>
-            <ul className="text-[1.6rem] font-medium tracking-[-0.24px] text-[#7c7c7c] ml-16 flex flex-col gap-6">
+            <ul className="text-[1.6rem] font-medium tracking-[-0.24px] text-gray ml-16 flex flex-col gap-6">
               <li>Pakistan Floods</li>
               <li>Bangladesh Floods</li>
               <li>Rohingya Appeal</li>
@@ -39,7 +39,7 @@ function Zakat() {
               <img src="./icons/water-drop.svg"></img>
               <p className="text-[1.8rem] font-bold tracking-[-0.27px] text-primary-dark">Water For All</p>
             </div>
-            <ul className="text-[1.6rem] font-medium tracking-[-0.24px] text-[#7c7c7c] ml-14 flex flex-col gap-6">
+            <ul className="text-[1.6rem] font-medium tracking-[-0.24px] text-gray ml-14 flex flex-col gap-6">
               <li>Water Wells</li>
             </ul>
           </div>

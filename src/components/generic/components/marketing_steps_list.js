@@ -9,9 +9,9 @@ function Marketing_steps_list() {
     <div className="flex flex-col gap-16">
       <div className="flex gap-20 items-center">
         <div className="flex gap-2 items-center">
-          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
+          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-platinum relative">
             <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">1.</p>
-            <div className="h-52 w-[1px] bg-[#e6e6e6] absolute left-8 top-16"></div>  
+            <div className="h-52 w-[1px] bg-platinum absolute left-8 top-16"></div>  
           </div>
           <div className="h-64 w-64"><img src={Icon_1}></img></div>
         </div>
@@ -20,9 +20,9 @@ function Marketing_steps_list() {
 
       <div className="flex gap-20 items-center">
         <div className="flex gap-2 items-center">
-          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
+          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-platinum relative">
             <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">2.</p>
-            <div className="h-52 w-[1px] bg-[#e6e6e6] absolute left-8 top-16"></div>
+            <div className="h-52 w-[1px] bg-platinum absolute left-8 top-16"></div>
           </div>
           <img src={Icon_2}></img>
         </div>
@@ -31,9 +31,9 @@ function Marketing_steps_list() {
 
       <div className="flex gap-20 items-center">
         <div className="flex gap-2 items-center">
-          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
+          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-platinum relative">
             <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">3.</p>
-            <div className="h-52 w-[1px] bg-[#e6e6e6] absolute left-8 top-16"></div>  
+            <div className="h-52 w-[1px] bg-platinum absolute left-8 top-16"></div>  
           </div>
           <img src={Icon_3}></img>
         </div>
@@ -42,9 +42,9 @@ function Marketing_steps_list() {
       
       <div className="flex gap-20 items-center">
         <div className="flex gap-2 items-center">
-          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
+          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-platinum relative">
             <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">4.</p>
-            <div className="h-52 w-[1px] bg-[#e6e6e6] absolute left-8 top-16"></div>  
+            <div className="h-52 w-[1px] bg-platinum absolute left-8 top-16"></div>  
           </div>
           <img src={Icon_4}></img>
         </div>
@@ -53,9 +53,9 @@ function Marketing_steps_list() {
 
       <div className="flex gap-20 items-center">
         <div className="flex gap-2 items-center">
-          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
+          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-platinum relative">
             <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">5.</p>
-            <div className="h-52 w-[1px] bg-[#e6e6e6] absolute left-8 top-16"></div>  
+            <div className="h-52 w-[1px] bg-platinum absolute left-8 top-16"></div>  
           </div>
           <img src={Icon_5}></img>
         </div>

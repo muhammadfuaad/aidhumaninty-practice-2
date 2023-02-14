@@ -11,16 +11,16 @@ function Appeal_media() {
           </div>
           <div className='p-12 pr-32 sm:pr-[30rem] border-bottom-medium'>
             <div className='flex flex-col text-[1.6rem] font-semibold tracking-[-0.4px] text-body'>
-              <div className='flex flex-col border-b-[1px] border-dashed border-[#7c7c7c] pb-4'>
+              <div className='flex flex-col border-b-[1px] border-dashed border-gray pb-4'>
                 <p>Number of donations:</p>
                 <p>2</p>
               </div>
               
-              <div className='flex flex-col border-b-[1px] border-dashed border-[#7c7c7c] py-4'>
+              <div className='flex flex-col border-b-[1px] border-dashed border-gray py-4'>
                 <p>Total raised:</p>
                 <p>£365.00</p>
               </div>
-              <div className='flex flex-col border-b-[1px] border-dashed border-[#7c7c7c] py-4'>
+              <div className='flex flex-col border-b-[1px] border-dashed border-gray py-4'>
                 <p>Total offline donations:</p>
                 <p>£55.00</p>
               </div>
@@ -38,7 +38,7 @@ function Appeal_media() {
             <div className='flex flex-col space-y-6 sm:space-y-0 sm:flex-row items-center sm:space-x-6'>
               <div class="relative sm:w-[60%]">
                 <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-                <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c]  top-2 left-4"></label>
+                <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4"></label>
               </div>
 
               <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl mt-4 sm:w-[40%]">

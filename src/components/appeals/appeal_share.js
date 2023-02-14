@@ -21,8 +21,8 @@ function Appeal_share() {
           <span>Twitter</span>
         </button>
 
-        <button className="w-full py-6 text-[1.4rem] font-semibold text-[#999999] bg-transparent outline 
-          outline-[#999999] rounded-xl flex justify-center space-x-4 mt-6">
+        <button className="w-full py-6 text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline 
+          outline-spanish-gray rounded-xl flex justify-center space-x-4 mt-6">
           <img src="./icons/share-icon.svg"></img>
           <span>Email</span>
         </button>

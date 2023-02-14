@@ -20,6 +20,11 @@ module.exports = {
         "light-gray": "#f1f1f1",
         "red": "#FD4949",
         "purple": "#A349FD",
+        "off-white": "f1f1f1",
+        "gray": "#7c7c7c",
+        "platinum": "#e6e6e6",
+        "spanish-gray": "#999999",
+        
       }
     },
   },

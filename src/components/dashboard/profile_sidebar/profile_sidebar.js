@@ -21,7 +21,7 @@ function Profile_sidebar() {
       <div className="flex flex-col justify-center items-center bg-[#fafafa] sm:bg-white px-8 pb-6 sm:pb-[30rem]">
         <div className="mt-20 w-48 h-48 rounded-[50%] bg-[#bdbdbd] flex justify-center items-center relative">
           <img src="./icons/user-circle.svg" className="w-24 brightness-[1000]"></img>
-          <a href="#" className="flex justify-center bg-[#e6e6e6] w-14 h-14 rounded-full absolute bottom-1 right-1 align-middle" onClick={()=>setVisibility(current=> !current)}><img src="./icons/edit.svg" className="w-8"></img></a>
+          <a href="#" className="flex justify-center bg-platinum w-14 h-14 rounded-full absolute bottom-1 right-1 align-middle" onClick={()=>setVisibility(current=> !current)}><img src="./icons/edit.svg" className="w-8"></img></a>
         </div>
         <p className="mt-6 text-[1.8rem] font-bold tracking-[-0.45px] text-black">James Matthews</p>
         <div className="flex space-x-2 items-center">

@@ -1,9 +1,9 @@
-<div class="flex flex-col justify-center space-y-2 bg-White px-6  w-[330px] h-[150px] rounded-xl">
+<div class="flex flex-col justify-center space-y-2 bg-white px-6  w-[330px] h-[150px] rounded-xl">
   <div class="flex space-x-2">
     <%= image_tag "green-check.png", class: "w-[20px] h-[20px]", alt: "green check" %>
     <p class="text-base font-bold tracking-[-0.4px] leading-[20px]"><%= @project_detail[:title] %></p>
   </div>
-  <p class="text-Vivd-Cerulean"><span class="text-[11px] font-semibold tracking-[-0.17px] leading-[13px]">Raised:</span><span class="text-[24px] font-semibold tracking-[-0.36px] leading-[13px]"> <%= @project_detail[:amount] %></span></p>
+  <p class="text-primary"><span class="text-[11px] font-semibold tracking-[-0.17px] leading-[13px]">Raised:</span><span class="text-[24px] font-semibold tracking-[-0.36px] leading-[13px]"> <%= @project_detail[:amount] %></span></p>
   <div class="flex space-x-1">
     <span class="text-[11px] font-normal tracking-[-0.17px] leading-[13px]">crowded <%= @project_detail[:date] %> by</span><%= image_tag "profile-icon.svg" %><span class="text-[11px] font-normal tracking-[-0.17px] leading-[13px]"> <%= @project_detail[:supporters] %> supporters</span>
   </div>

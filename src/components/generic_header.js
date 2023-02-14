@@ -8,7 +8,7 @@ import Heart from "./icons/heart.svg";
 function Generic_header() {
   return (
     <div className="">
-      <div className="flex justify-between text-[1.4rem] font-medium tracking-[-0.21px] text-[#999] py-4 px-64 border-b border-[#e6e6e6]">
+      <div className="flex justify-between text-[1.4rem] font-medium tracking-[-0.21px] text-[#999] py-4 px-64 border-b border-platinum">
         <a href="#" className="flex gap-2">
           <p>En</p>
           <img src={Dropdown} className="w-4"></img>
@@ -21,7 +21,7 @@ function Generic_header() {
 
         <div className="flex gap-16">
           <a href="#" className="flex gap-4 relative">
-            <div className="bg-[#e6e6e6] h-6 w-[1px] absolute -right-8"></div>
+            <div className="bg-platinum h-6 w-[1px] absolute -right-8"></div>
             <img src={Phone}></img>
             <p className="font-bold text-primary">0330 057 9957</p>
           </a>

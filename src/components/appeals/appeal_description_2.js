@@ -94,8 +94,8 @@ function Appeal_description() {
             <img src="./icons/twitter-white.svg"></img>
             <span>Share</span>
           </button>
-          <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#999999] bg-transparent outline
-                outline-[#999999] rounded-xl flex justify-center space-x-4">
+          <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline
+                outline-spanish-gray rounded-xl flex justify-center space-x-4">
             <img src={email}></img>
             <span>Share</span>
           </button>

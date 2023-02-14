@@ -9,12 +9,12 @@ function Steps_list() {
     <div className="flex justify-between">
       <div className="flex flex-col">
         <div className="flex gap-2 items-center">
-          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
+          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-platinum relative">
             <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">1.</p>
           </div>
           <div className="h-64 w-64 relative">
             <img src={Icon_1}></img>
-            <div className="w-[40rem] h-[1px] bg-[#e6e6e6] absolute left-0 top-32"></div>  
+            <div className="w-[40rem] h-[1px] bg-platinum absolute left-0 top-32"></div>  
           </div>
         </div>
         <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mt-8">Create an account</p>
@@ -22,19 +22,19 @@ function Steps_list() {
 
       <div className="flex flex-col">
         <div className="flex gap-2 items-center">
-          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
+          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-platinum relative">
             <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">2.</p>
           </div>
           <div className="h-64 w-64 relative">
             <img src={Icon_2}></img>
-            <div className="w-[40rem] h-[1px] bg-[#e6e6e6] absolute left-0 top-32"></div>  
+            <div className="w-[40rem] h-[1px] bg-platinum absolute left-0 top-32"></div>  
           </div>
         </div>
         <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mt-8">Register to create appeals</p>
       </div>
       <div className="flex flex-col">
         <div className="flex gap-2 items-center">
-          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-[#e6e6e6] relative">
+          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-platinum relative">
             <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">3.</p>
           </div>
           <div className="h-64 w-64 relative">

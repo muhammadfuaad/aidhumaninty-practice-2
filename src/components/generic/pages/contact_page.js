@@ -25,13 +25,13 @@ function Contact_page() {
                 <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-16">Got a Question?</p>
                 <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem] mb-24">Aid Humanity is a thoughtful, caring community of like-minded individuals ready to give back and make a difference. If you’d like to know more about what we do, or have a question about how you can help, all you have to do is ask.</p>
                 
-                <div className='flex justify-between py-20 border-y border-[#e6e6e6] pr-12'>
+                <div className='flex justify-between py-20 border-y border-platinum pr-12'>
                   <div className='flex gap-4'>
                     <div className="mb-8">
                       <Phone stroke="#1d1d1d" />
                     </div>
                     <div className='flex flex-col'>
-                      <p className="text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] uppercase">Phone</p>
+                      <p className="text-[1.1rem] font-semibold tracking-[0px] text-gray uppercase">Phone</p>
                       <p className="text-[3rem] font-bold tracking-[-0.75px] text-black">03300579957</p>
                     </div>
                   </div>
@@ -39,7 +39,7 @@ function Contact_page() {
                   <div className='flex gap-4'>
                     <img src={Email} className="mb-8"></img>
                     <div className='flex flex-col'>
-                      <p className="text-[1.1rem] font-semibold tracking-[0px] text-[#7c7c7c] uppercase">Email</p>
+                      <p className="text-[1.1rem] font-semibold tracking-[0px] text-gray uppercase">Email</p>
                       <p className="text-[3rem] font-bold tracking-[-0.75px] text-black">info@aidhumanity.co.uk</p>
                     </div>
                   </div>

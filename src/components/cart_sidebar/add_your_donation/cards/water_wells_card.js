@@ -9,9 +9,9 @@ function Water_wells_card() {
       <button className="w-full py-4 capitalize text-[1.2rem] font-semibold text-white bg-green rounded-xl">
         Single<br></br> Payment
       </button>
-      <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-[#7c7c7c]
+      <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-gray
         tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl" type="button">
-        <span className="text-[1.3rem] font-medium tracking-[0px] text-[#7c7c7c]">Uganda</span>
+        <span className="text-[1.3rem] font-medium tracking-[0px] text-gray">Uganda</span>
         <img src="./icons/drop-down.svg" alt="dropdown"></img>
       </button>
       
@@ -24,9 +24,9 @@ function Water_wells_card() {
       <div className="flex flex-col gap-2">
         <div class="relative group">
           <input type="text" id="name" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
-          <label for="name" className="focus:hidden absolute text-[1.3rem] font-medium tracking-[0px] text-[#7c7c7c]  top-7 left-4">Name on Plaque</label>
+          <label for="name" className="focus:hidden absolute text-[1.3rem] font-medium tracking-[0px] text-gray  top-7 left-4">Name on Plaque</label>
         </div>
-        <p className="text-[1rem] font-normal tracking-[-0.25px] text-[#999999]">27 characters left</p>
+        <p className="text-[1rem] font-normal tracking-[-0.25px] text-spanish-gray">27 characters left</p>
       </div>
 
       <div className="flex flex-col gap-2">
@@ -35,7 +35,7 @@ function Water_wells_card() {
           < Plus stroke="#102558" />
           <span>Add Water Well</span>
         </button>
-        <p className="text-[1rem] font-normal tracking-[-0.25px] text-[#999999]">Max 5 water wells</p>
+        <p className="text-[1rem] font-normal tracking-[-0.25px] text-spanish-gray">Max 5 water wells</p>
       </div>
       
 

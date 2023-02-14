@@ -20,9 +20,9 @@ function Fundraising() {
             <p className="text-[0.8rem] font-medium text-black mb-4">Disaster & Emergency Appeals</p>
           
             <div className="flex space-x-8 relative">
-              <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-[#999999]">Edit</button>
-              <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-[#999999]">View</button>
-              <div class="absolute top-1 left-4 w-[1px] h-4 bg-[#e6e6e6]"></div>
+              <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-spanish-gray">Edit</button>
+              <button className="text-[1.1rem] font-bold tracking-[-0.17px] text-spanish-gray">View</button>
+              <div class="absolute top-1 left-4 w-[1px] h-4 bg-platinum"></div>
             </div>
           </div>
         </div>
@@ -30,7 +30,7 @@ function Fundraising() {
         <div className="flex sm:w-1/2 justify-end items-center space-x-6">
           <div className="flex flex-col">
             <p className="text-[1.1rem] font-semibold tracking-[-0.17px] text-primary">Raised: £156<span className="text-green">/£634</span></p>
-            <p className="flex space-x-2 text-[1.1rem] font-medium tracking-[-0.17px] text-[#999999]">
+            <p className="flex space-x-2 text-[1.1rem] font-medium tracking-[-0.17px] text-spanish-gray">
               <span>by</span>
               <img src="./icons/user-circle.svg" className="w-5 brightness-50"></img>
               <span>117</span><span className="font-semibold">supporters</span>

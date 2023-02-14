@@ -18,10 +18,10 @@ code {
 @layer components {
   /* borders */
   .border-bottom-light {
-    @apply border-b-[1px] border-[#e6e6e6];
+    @apply border-b-[1px] border-platinum;
   }
   .border-light {
-    @apply border-[1px] border-[#e6e6e6];
+    @apply border-[1px] border-platinum;
   }
   .border-bottom-medium {
     @apply border-b-[1px] border-[#bdbdbd];

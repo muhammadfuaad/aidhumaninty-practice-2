@@ -31,18 +31,18 @@ function Rescue_a_child_card() {
       </div>
       <div class="relative">
         <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl pl-9 pr-3 py-4 w-full text-[1.3rem] font-medium tracking-[0px] text-black" placeholder=" " />
-        <label for="text-[1.3rem] font-medium tracking-[0px] text-[#7c7c7c]" className="absolute text-[1.7rem] font-medium tracking-[0px] text-primary top-4 left-4">£</label>   
+        <label for="text-[1.3rem] font-medium tracking-[0px] text-gray" className="absolute text-[1.7rem] font-medium tracking-[0px] text-primary top-4 left-4">£</label>   
       </div>
 
-      <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-[#7c7c7c]
+      <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-gray
           tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl" type="button">
         <span className="">Donation</span>
         < Drop_down stroke="#444445" />
       </button>
 
-      <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-[#7c7c7c]
+      <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full text-[1.3rem] font-medium text-gray
           tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl" type="button">
-        <span className="text-[1.3rem] font-medium tracking-[0px] text-[#7c7c7c]">Where Most Needed</span>
+        <span className="text-[1.3rem] font-medium tracking-[0px] text-gray">Where Most Needed</span>
         < Drop_down stroke="#444445" />
       </button>
 

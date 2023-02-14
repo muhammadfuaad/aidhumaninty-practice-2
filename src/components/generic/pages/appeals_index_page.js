@@ -30,8 +30,8 @@ function Appeals_index_page() {
           </div>
         </div>
 
-        <div className="flex justify-between gap-4 pb-16 border-b-2 border-[#e6e6e6]">
-          <a href="#" className="rounded-2xl bg-[#f1f1f1] hover:bg-white hover:border-2 hover:border-primary p-8 flex items-center">
+        <div className="flex justify-between gap-4 pb-16 border-b-2 border-platinum">
+          <a href="#" className="rounded-2xl bg-off-white hover:bg-white hover:border-2 hover:border-primary p-8 flex items-center">
             <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black">All</p>
           </a>
           <Appeal_title img={Mosque} label="Build a Mosque" />
@@ -45,7 +45,7 @@ function Appeals_index_page() {
           <Appeals_list />  
         </div>  
         <button class="px-12 py-6 self-center mt-24 mb-32 text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
-            outline-[#999999] rounded-xl">Load More</button>   
+            outline-spanish-gray rounded-xl">Load More</button>   
       </div>
       < Footer />
     </section>

@@ -75,23 +75,23 @@ function App() {
   return (    
     <Routes>
       {/* generic pages */}
-      <Route path="/generic/congratulations_page" element={<Congratulations_page />} />
-      <Route path="/generic/story_page" element={<Story_page />} />
-      <Route path="/generic/donation_policy_page" element={<Donation_policy_page />} />
-      <Route path="/generic/contact_page" element={<Contact_page />} />
-      <Route path="/generic/how_it_works_page" element={<How_it_works_page />} />
-      <Route path="/generic/refund_policy_page" element={<Refund_policy_page />} />
-      <Route path="/generic/marketing_page" element={<Marketing_page />} />
-      <Route path="/generic/fundraiser_page" element={<Fundraiser_page />} />
-      <Route path="/generic/rewards_page" element={<Rewards_page />} />
-      <Route path="/generic/terms_page" element={<Terms_page />} />
-      <Route path="/generic/privacy_policy_page" element={<Privacy_policy_page />} />
-      <Route path="/generic/zakat_calculator_page" element={<Zakat_calculator_page />} />
-      <Route path="/generic/blog_page" element={<Blog_page />} />
-      <Route path="/generic/blog_article_page" element={<Blog_article_page />} />
-      <Route path="/generic/appeals_index_page" element={<Appeals_index_page />} />
-      <Route path="/generic/checkout_page" element={<Checkout_page />} />
-      <Route path="/generic/home_page" element={<Home_page />} />
+      <Route path="/congratulations_page" element={<Congratulations_page />} />
+      <Route path="/story_page" element={<Story_page />} />
+      <Route path="/donation_policy_page" element={<Donation_policy_page />} />
+      <Route path="/contact_page" element={<Contact_page />} />
+      <Route path="/how_it_works_page" element={<How_it_works_page />} />
+      <Route path="/refund_policy_page" element={<Refund_policy_page />} />
+      <Route path="/marketing_page" element={<Marketing_page />} />
+      <Route path="/fundraiser_page" element={<Fundraiser_page />} />
+      <Route path="/rewards_page" element={<Rewards_page />} />
+      <Route path="/terms_page" element={<Terms_page />} />
+      <Route path="/privacy_policy_page" element={<Privacy_policy_page />} />
+      <Route path="/zakat_calculator_page" element={<Zakat_calculator_page />} />
+      <Route path="/blog_page" element={<Blog_page />} />
+      <Route path="/blog_article_page" element={<Blog_article_page />} />
+      <Route path="/appeals_index_page" element={<Appeals_index_page />} />
+      <Route path="/checkout_page" element={<Checkout_page />} />
+      <Route path="/home_page" element={<Home_page />} />
 
       {/*dashboard*/}
       <Route path="/dashboard_sidebar" element={<Dashboard_sidebar />} />

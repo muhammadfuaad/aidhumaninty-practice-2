@@ -48,7 +48,7 @@ function Blog_page() {
             </div>
 
             <button class="w-full py-6 text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
-            outline-[#999999] rounded-xl mt-20 mb-48">Load More</button>
+            outline-spanish-gray rounded-xl mt-20 mb-48">Load More</button>
           </div>
           <Readable_list />
           

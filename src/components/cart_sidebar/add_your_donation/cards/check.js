@@ -9,7 +9,7 @@ function Check(props) {
         </div>
         <p>£{props.amount}</p>
       </div>
-      <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-[#999999]">{props.title}<br></br>{props.category}</p>
+      <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-spanish-gray">{props.title}<br></br>{props.category}</p>
     </div>      
   )
 } 

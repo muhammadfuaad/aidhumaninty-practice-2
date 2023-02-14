@@ -33,9 +33,9 @@ function Donate() {
                 <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl pl-9 pr-3 py-4 w-full text-[1.3rem] font-medium tracking-[0px] text-black" placeholder=" " />
                 <label for="" className="absolute text-[1.7rem] font-medium tracking-[0px] text-primary top-4 left-4">£</label>
               </div>
-              <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-[30%] text-[1.3rem] font-medium text-[#7c7c7c]
+              <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-[30%] text-[1.3rem] font-medium text-gray
                 tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl" type="button">
-                <span className="text-[1.3rem] font-medium tracking-[0px] text-[#7c7c7c]">GBP</span>
+                <span className="text-[1.3rem] font-medium tracking-[0px] text-gray">GBP</span>
                 <img src="./icons/drop-down.svg" alt="dropdown"></img>
               </button>
             </div>
