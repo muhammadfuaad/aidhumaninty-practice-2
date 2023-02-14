@@ -1,0 +1,11 @@
+<section class="flex flex-col space-y-14 bg-White py-14 px-48">
+  <p class="text-center text-3xl font-bold tracking-[-0.75px] leading-[34px]">Upcoming Events</p>
+  <div class="flex justify-between">
+    <%= render Homepage::EventsSection::Event::Component.with_collection(@event_details) %>
+  </div>
+  <div class="flex justify-between">
+    <div class="invisible">Invisible Div</div>
+    <%= image_tag "template-pager.svg", class: "", alt: "template-pager" %>
+    <button class="text-sm border-2 border-Gray border-opacity-25 w-[80px] h-[40px] rounded-lg">View All</button>
+  </div>
+</section>

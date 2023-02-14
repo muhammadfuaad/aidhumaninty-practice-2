@@ -1,0 +1,12 @@
+<!-- question box -->
+<div class="flex flex-col border-Gray border-2 rounded-lg w-[42rem] px-4 py-6">
+  <div class="flex justify-between">
+    <p class="text-Eerie-Black text-lg font-bold tracking-[-0.45px]"><%= @detail[:question] %></p>
+    <% if @detail[:answer].present? %>
+      <%= image_tag "minus.svg", class: "w-3" %>
+    <% else %>
+      <%= image_tag "blue-plus.svg", class: "w-3" %>
+    <% end %>
+  </div>
+  <p class="text-Spanish-Gray text-base font-normal tracking-[-0.4px] mt-2"><%= @detail[:answer] %></p>
+</div>

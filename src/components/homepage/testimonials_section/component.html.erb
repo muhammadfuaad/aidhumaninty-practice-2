@@ -1,0 +1,8 @@
+<section>
+  <div class="flex flex-col space-y-14 bg-Platinum px-48 py-14">
+    <p class="text-center"><span class="text-3xl font-bold tracking-[-0.75px] leading-[34px]">Here’s what our community has to say</span></p>
+    <div class="flex justify-between space-x-6">
+      <%= render Homepage::TestimonialsSection::Testimonial::Component.with_collection(@testimonials) %>
+    </div>
+  </div>
+</section>

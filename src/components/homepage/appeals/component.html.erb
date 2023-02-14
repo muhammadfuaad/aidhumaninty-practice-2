@@ -1,0 +1,14 @@
+<section>
+  <div class="flex flex-col space-y-14 bg-Appeals-Background px-48 py-14">
+    <p><span class="text-3xl font-bold tracking-[-0.75px] leading-[34px]">Appeals that need your backing</span></p>
+    <div class="flex justify-between space-x-6">
+      <%= render Homepage::Appeals::Appeal::Component.with_collection(@details) %>
+    </div>
+
+  </div>
+  <div class="flex justify-between bg-Ghost-White px-48 pb-16 pt-36 -mt-36">
+    <div class="invisible">Invisible Content</div>
+    <%= image_tag "template-pager.svg" %>
+    <button class="px-3 py-2 border-Gray border-2 border-opacity-50 rounded-lg text-Space-Cadet text-sm font-semibold">View All</button>
+  </div>
+</section>
