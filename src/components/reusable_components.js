@@ -1,4 +1,5 @@
 <div>
+  <p className="text-[1rem] font-normal tracking-[-0.25px] text-[#999]"></p>
   {/* outline-button */}
   <button class="w-full py-6 uppercase text-[1.4rem] font-semibold text-[#999999] bg-transparent outline
             outline-[#999999] rounded-xl">Edit Your Page</button>

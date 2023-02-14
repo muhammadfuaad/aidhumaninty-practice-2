@@ -67,7 +67,7 @@ import Zakat_calculator_page from './components/generic/pages/zakat_calculator_p
 import Blog_page from './components/generic/pages/blog_page';
 import Blog_article_page from './components/generic/pages/blog_article_page';
 import Appeals_index_page from './components/generic/pages/appeals_index_page';
-
+import Checkout_page from './components/generic/pages/checkout_page';
 
 import { Route, Routes } from "react-router-dom";
 function App() {
@@ -89,6 +89,8 @@ function App() {
       <Route path="/generic/blog_page" element={<Blog_page />} />
       <Route path="/generic/blog_article_page" element={<Blog_article_page />} />
       <Route path="/generic/appeals_index_page" element={<Appeals_index_page />} />
+      <Route path="/generic/checkout_page" element={<Checkout_page />} />
+
       {/*dashboard*/}
       <Route path="/dashboard_sidebar" element={<Dashboard_sidebar />} />
       <Route path="/profile_sidebar" element={<Profile_sidebar />} />
