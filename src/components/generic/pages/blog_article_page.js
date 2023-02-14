@@ -1,5 +1,5 @@
 import Page_header from "../components/page_header";
-import Header from "../../header";
+import Generic_header from "../../Generic_header";
 import Footer from "../../footer";
 import Hero from "../../icons/blog-hero-1.png"
 import Readable from "../components/readable";

@@ -1,7 +1,7 @@
 import Page_header from "../components/page_header";
 import Page_sidebar from "../components/page_sidebar";
 import Assistance from "../components/assistance";
-import Header from "../../header";
+import Generic_header from "../../Generic_header";
 import Footer from "../../footer";
 
 function Layout_page(props) {

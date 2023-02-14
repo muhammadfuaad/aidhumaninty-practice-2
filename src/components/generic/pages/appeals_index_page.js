@@ -1,5 +1,5 @@
 import Toggle from "../../dashboard/toggle";
-import Header from "../../header";
+import Generic_header from "../../Generic_header";
 import Footer from "../../footer";
 import Radio_component from "../components/radio_component";
 import Appeal_title from "../components/appeal_title";
