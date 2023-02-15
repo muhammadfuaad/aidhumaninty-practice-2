@@ -14,10 +14,8 @@ import donation_3 from "../icons/donation-3.png"
 import orange from "../icons/orange-1.png"
 import News from "./components/news";
 import Ways from "./components/ways";
-
-
-
-
+import Achievement from './../generic/components/achievement';
+import Testimonial from './../generic/components/testimonial';
 
 function Home_page() {
   return (
@@ -91,6 +89,25 @@ function Home_page() {
           </div>
         </div>
       </section>
+      <div className="flex flex-col gap-24 px-64 py-24 bg-[#f1f1f1]">
+        <p className="self-center text-[3rem] font-medium tracking-[-0.75px] text-black"><span className="font-semibold">Our Achievements</span> with your help and more …</p>
+        <div className="flex justify-between ">
+          <Achievement/>
+          <Achievement/>
+          <Achievement/>
+          <Achievement/>
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-24 px-64 py-24 bg-[#f1f1f1]">
+        <p className="self-center text-[3rem] font-bold tracking-[-0.75px] text-black">Here’s what our community has to say</p>
+        <div className="flex gap-12">
+          <Testimonial/>
+          <Testimonial/>
+          <Testimonial/>
+          <Testimonial/>
+        </div>
+      </div>
 
       <Ways/>
 

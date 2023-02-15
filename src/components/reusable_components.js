@@ -1,5 +1,15 @@
 <div>
+  {/* text classes */}
+  <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black"></p>
+  <p className="text-[1.1rem] font-medium tracking-[-0.17px] text-body"></p>
+  <p className="text-[1.1rem] font-semibold tracking-[-0.17px] text-primary"></p>
+  <p className="text-[3rem] font-medium tracking-[-0.75px] text-black"></p>
+  <p className="text-[2.2rem] font-bold tracking-[-0.55px] text-primary"></p>
+  <p className="text-[1.1rem] font-medium tracking-[-0.17px] text-[#bdbdbd]"></p>
+  <p className="text-[1.6rem] font-normal tracking-[-0.4px] text-body leading-[2.4rem]"></p>
   <p className="text-[1rem] font-normal tracking-[-0.25px] text-[#999]"></p>
+  <p className="text-[1rem] font-normal tracking-[-0.25px] text-[#999]"></p>
+
   {/* outline-button */}
   <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline
             outline-spanish-gray rounded-xl">Edit Your Page</button>
