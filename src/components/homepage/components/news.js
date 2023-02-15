@@ -1,6 +1,6 @@
 function News() {
   return (
-      <section>
+      <section className="bg-f9">
         <div className="flex flex-col space-y-8 bg-Ghost-white px-48 py-12">
           <p className="text-black text-[3rem] font-bold tracking-[-0.75px]">Latest News</p>
           <div className="flex">

@@ -22,11 +22,6 @@ function Fundraiser_page() {
                 <div className="flex flex-col">
                     <p className="text-[3.6rem] font-bold tracking-[-0.54px] text-black mb-12">Become a Fundraiser</p>
                     <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem]">There’s nothing better in life than deciding you’re going to engage in an activity that makes life better for someone else. That’s why we want to make becoming a fundraiser as quick and easy as it should be:</p>
-              
-              
-              
-                    
-              
                 </div>
               
               </div>
@@ -54,7 +49,7 @@ function Fundraiser_page() {
               </div>
 
               <div className="p-10 rounded-3xl border border-platinum">
-                <p className="text-[1.4rem] font-normal tracking-[-0.35px] text-black">TAuthoritarian rule in Afghanistan continues to limit education and healthcare</p>
+                <p className="text-[1.4rem] font-normal tracking-[-0.35px] text-black">Authoritarian rule in Afghanistan continues to limit education and healthcare</p>
               </div>
 
               <div className="p-10 rounded-3xl border border-platinum">

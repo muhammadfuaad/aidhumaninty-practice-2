@@ -1,5 +1,13 @@
 <div>
   {/* text classes */}
+  {/* section heading */}
+  <p className="text-[3rem] font-bold tracking-[-0.75px] text-black leading-[3.4rem]"></p>
+  {/* section text */}
+  <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3.2rem]"></p>
+  {/* small text */}
+  <p className="text-[1.6rem] font-normal tracking-[-0.4px] text-body leading-[2.4rem]"></p>
+
+
   <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black"></p>
   <p className="text-[1.1rem] font-medium tracking-[-0.17px] text-body"></p>
   <p className="text-[1.1rem] font-semibold tracking-[-0.17px] text-primary"></p>
