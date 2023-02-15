@@ -24,6 +24,7 @@ module.exports = {
         "gray": "#7c7c7c",
         "platinum": "#e6e6e6",
         "spanish-gray": "#999999",
+        "f9": "#f9f9f9"
         
       }
     },

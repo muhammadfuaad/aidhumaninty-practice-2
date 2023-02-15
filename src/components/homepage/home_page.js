@@ -16,6 +16,10 @@ import News from "./components/news";
 import Ways from "./components/ways";
 import Achievement from './../generic/components/achievement';
 import Testimonial from './../generic/components/testimonial';
+import Event from './../generic/components/event';
+import Contact from "./components/contact";
+import Appeal_title from "../generic/components/appeal_title";
+import Helped from "./components/helped";
 
 function Home_page() {
   return (
@@ -46,6 +50,8 @@ function Home_page() {
         <p className="flex basis-[50%] items-center justify-center text-primary-dark text-[24px] font-semibold tracking-[-0.6px] leading-[28px]">Give Back - Deliver Better - Drive Change</p>
       </section>
 
+      <Helped/>
+
       <News/>
       
       <section>
@@ -60,7 +66,7 @@ function Home_page() {
 
       <section>
         <div className="flex px-48 py-12">
-          <p className="basis-[30%] text-black text-3xl font-bold tracking-[-0.75px] pr-48">Passionate about progress</p>
+          <p className="basis-[30%] text-black text-[3rem] font-bold tracking-[-0.75px] pr-48">Passionate about progress</p>
           <p className="basis-[70%] text-body text-[22px] font-normal tracking-[-0.55px] pl-16 border-l border-opacity-25 border-Gray">We’ve always believed that charitable donations should find their way to the people
           who need them most, and always without delay. It’s why we’ve created a simple <span className="font-bold">100%
           donation policy</span> that makes sure every donation can:</p>
@@ -109,51 +115,52 @@ function Home_page() {
         </div>
       </div>
 
-      <Ways/>
-
-
-      <div className="flex flex-col space-y-2 bg-amber px-48 py-12">
-        <div className="flex flex-col px-[260px] space-y-12">
-          <p className="text-black text-[30px] font-bold tracking-[-0.75px] leading-[34px]">Contact Us</p>
-          <div className="flex justify-center space-x-12">
-            <div className="flex flex-col space-y-12">
-              <div className="flex flex-col space-y-4">
-                <div className="flex flex-col space-y-4 bg-white border-black border-2 p-5 rounded-xl w-[330px] h-[140px]">
-                  <div className="flex justify-between">
-                    <div className="flex space-x-2 items-center">
-                      <p className="text-black text-lg font-bold tracking-[-0.45px] leading-[24px]">Register</p>
-                    </div>
-                  </div>
-                  <p className="text-body text-[1.6rem] font-normal tracking-[-0.4px] leading-[24px]">I want to help Aid Humanity and receive future appeals</p>
-                </div>
-
-                <div className="flex flex-col space-y-4 border-Gray border-opacity-25 border-2 p-5 rounded-xl w-[330px] h-[140px]">
-                  <div className="flex justify-between">
-                    <div className="flex space-x-2 items-center">
-                      <p className="text-black text-lg font-bold tracking-[-0.45px] leading-[24px]">Fundraiser</p>
-                    </div>
-                  </div>
-                  <p className="text-body text-[1.6rem] font-normal tracking-[-0.4px] leading-[24px]">Become a fundraiser and kick start your own Charity appeal</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col space-y-8">
-              <div className="flex flex-col space-y-4 w-[540px]">
-                <input className="placeholder-black text-[13px] font-normal tracking-[0px] leading-[15px] bg-amber border-2 border-opacity-50 border-black rounded-lg h-[50px] p-2" placeholder="Name and Surname*"></input>
-                <input className="placeholder-black text-[13px] font-normal tracking-[0px] leading-[15px] bg-amber border-2 border-opacity-50 border-black rounded-lg h-[50px] p-2" placeholder="Email*"></input>
-                <input className="placeholder:text-start placeholder:-translate-y-6 placeholder-black text-[13px] font-normal tracking-[0px] leading-[15px] bg-amber border-2 border-opacity-50 border-black rounded-lg h-[98px] p-2" placeholder="Please provide as much detailed information as possible. Thank you *"></input>
-              </div>
-              <button className="bg-green w-[210px] h-[50px] rounded-lg text-sm font-bold">SUBMIT MESSAGE</button>
-            </div>
-          </div>
+      <div className="flex flex-col gap-24 px-64 py-24 bg-[#f1f1f1]">
+        <p className="self-center text-[3rem] font-bold tracking-[-0.75px] text-black">Upcoming Events</p>
+        <div className="flex gap-12">
+          <Event/>
+          <Event/>
+          <Event/>
+          <Event/>
+          <Event/>
+          <Event/>
+          
+        </div>
+        <div className='flex my-20 self-end'>
+          <button className="px-10 py-6 self-end text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
+            outline-spanish-gray rounded-xl">View All</button>
         </div>
       </div>
 
 
+
+      <Ways/>
+
+      <div className="flex flex-col">
+        <div className="flex justify-between">
+          <p>FAQ</p>
+          <p>Do you have more questions? Check out our full FAQ</p>
+        </div>
+        <div>
+          <div className="bg-green-50 w-full sm:w-1/2 lg:w-96 border border-gray-200">
+            <details>
+              <summary className="question py-3 px-4 cursor-pointer select-none w-full outline-none">How is this made?</summary>
+              <p className="pt-1 pb-3 px-4">With the HTML5</p>
+            </details>
+            <details>
+              <summary className="question py-3 px-4 cursor-pointer select-none w-full">Can I use it?</summary>
+              <p className="pt-1 pb-3 px-4">Of course. It's yours to use wherever and whenever you like.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      <Contact/>
+
+
       <section>
   <div className="flex flex-col space-y-8 bg-Ghost-white px-48 py-12">
-    <p className="text-black text-3xl font-bold tracking-[-0.75px]">Latest News</p>
+    <p className="text-black text-[3rem] font-bold tracking-[-0.75px]">Latest News</p>
     <div className="flex">
       <div className="basis-[50%] p-14  bg-cover bg-center">
         <div className="w-[80px] h-[40px] bg-red text-center text-white font-semibold mt-40 px-2 py-3">

@@ -1,24 +1,22 @@
+import calendar from "../../icons/calendar-clock.svg"
 function Event() {
   return (
-    <div className="flex flex-col w-[210px] h-[250px] bg-white rounded-xl p-6 hover:shadow-[10px_10px_10px_10px_rgba(0,0,0,0.2)] shadow-[2px_2px_2px_2px_rgba(0,0,0,0.03)]">
-      <div className="flex flex-col space-y-4 h-[70%]">
-        <div className="flex justify-between">
+    <div className="px-8 bg-white rounded-3xl flex flex-col">
+      <div className="py-8  h-60 border-bottom-medium">
+        <div className="flex justify-between mb-4">
           <div className="flex flex-col">
-            <p className="text-primary-dark text-[11px] font-semibold tracking-[-0.17px] leading-[13px]"></p>
-            <p className="text-primary text-[28px] font-semibold tracking-[-0.7px] leading-[32px]"></p>
+            <p className="text-[1.1rem] font-semibold tracking-[-0.17px] text-primary-dark">December 2022</p>
+            <p className="text-[2.8rem] font-semibold tracking-[-0.7px] text-primary">16-21</p>
           </div>
+          <img src={calendar} className="w-10"></img>
         </div>
-        <p className="text-black text-[1.6rem] font-bold tracking-[-0.4px] leading-[20px]"></p>
+        <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black leading-[2rem] w-[70%]">The Pakistan Rickshaw Challenge</p>
       </div>
-
-      <div className="flex flex-col justify-around">
-          <div className="text-green flex space-x-2 items-center"><span className="text-[11px] font-semibold tracking-[-0.17px]">FR Target:</span><span className="text-[20px] font-semibold tracking-[-0.3px]"></span></div>
-          <div className="text-Spanish-Gray flex space-x-2 items-center"><span className="text-[11px] font-semibold tracking-[-0.17px]">Reg Fee:</span><span className="text-[20px] font-semibold tracking-[-0.3px]"></span></div>
-          <button className="border-2 border-amber w-[135px] h-[48px]">MORE INFO</button>
+      <div className="py-8 h-32 flex flex-col justify-center items-start">
+        <p className="flex items-center text-[1.1rem] font-semibold tracking-[-0.17px] text-green mb-1">Raised: <span className="text-[2.4rem]"> £243</span></p>
+        <p className="flex items-center text-[1.1rem] font-semibold tracking-[-0.17px] text-[#999999] mb-1">Raised: <span className="text-[2.4rem]"> £243</span></p>
       </div>
     </div>
-
-
   );
 }
 export default Event;

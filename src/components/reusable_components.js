@@ -7,8 +7,13 @@
   <p className="text-[2.2rem] font-bold tracking-[-0.55px] text-primary"></p>
   <p className="text-[1.1rem] font-medium tracking-[-0.17px] text-[#bdbdbd]"></p>
   <p className="text-[1.6rem] font-normal tracking-[-0.4px] text-body leading-[2.4rem]"></p>
+  <p className="text-[2.8rem] font-semibold tracking-[-0.7px] text-primary"></p>
   <p className="text-[1rem] font-normal tracking-[-0.25px] text-[#999]"></p>
+  <p className="text-[1.6rem] font-medium tracking-[-0.24px] text-primary-dark"></p>
   <p className="text-[1rem] font-normal tracking-[-0.25px] text-[#999]"></p>
+  <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3.2rem]"></p>
+
+
 
   {/* outline-button */}
   <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline

@@ -2,7 +2,7 @@ function News() {
   return (
       <section>
         <div className="flex flex-col space-y-8 bg-Ghost-white px-48 py-12">
-          <p className="text-black text-3xl font-bold tracking-[-0.75px]">Latest News</p>
+          <p className="text-black text-[3rem] font-bold tracking-[-0.75px]">Latest News</p>
           <div className="flex">
             <div className="basis-[50%] p-14 bg-cover bg-center">
               <div className="w-[80px] h-[40px] bg-red text-center text-white font-semibold mt-40 px-2 py-3">
