@@ -10,11 +10,11 @@ function Appeal_status_1(props) {
 
       <div className="flex flex-col w-[70%]">
         <div className="flex justify-between items-center">
-          <p className="text-[1.2rem] font-bold text-headings mt-4 mb-2">
+          <p className="text-[1.2rem] font-bold text-black mt-4 mb-2">
             {props.title}
           </p>
           <div className="bg-amber rounded-full w-8 h-8 flex justify-center items-center">
-            <p className="text-[1rem] font-[800] text-headings">{props.eligibility}</p>
+            <p className="text-[1rem] font-[800] text-black">{props.eligibility}</p>
           </div>
         </div>
         <p className="text-[0.8rem] font-medium tracking-[-0.2px] text-[#bdbdbd] mb-1">
@@ -27,7 +27,7 @@ function Appeal_status_1(props) {
             <span className=" text-[#bdbdbd]">{`/${props.amount_remaining}`}</span>
           </p>
           <div className="flex space-x-1">
-            <img src="./Icons/user-circle.svg" className='w-5 brightness-50'></img>
+            <img src="./icons/user-circle.svg" className='w-5 brightness-50'></img>
             <p className="text-[1rem] font-medium tracking-[-0.15px] text-body">
             {`${props.supporters} supporters`}
             </p>

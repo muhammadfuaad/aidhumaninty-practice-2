@@ -1,5 +1,5 @@
-import Dashboard_sidebar from "./dashboard_sidebar";
-import Profile_sidebar from "./profile_sidebar";
+import Dashboard_sidebar from "./dashboard_sidebar/dashboard_sidebar";
+import Profile_sidebar from "./profile_sidebar/profile_sidebar";
 
 function Portal() {
   return (

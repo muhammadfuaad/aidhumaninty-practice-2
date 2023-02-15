@@ -12,20 +12,20 @@ function Security() {
         </div>
         <div className="flex flex-col space-y-2 my-6">
           <div className="flex space-x-4 items-start">
-            <img src="./Icons/green-check-circle.svg"></img>
+            <img src="./icons/green-check-circle.svg"></img>
             <p className="text-[1.4rem] font-medium tracking-[-0.21px] text-[#181818] mt-1">Must be at least 12 characters</p>
           </div>
           <div className="flex space-x-4 items-start">
-            <img src="./Icons/green-check-circle.svg"></img>
+            <img src="./icons/green-check-circle.svg"></img>
             <p className="text-[1.4rem] font-medium tracking-[-0.21px] text-[#181818] mt-1">Must include at least one number, a lower
             or upper case letter and a special character (#,$,%,&,@ etc.)</p>
           </div>
           <div className="flex space-x-4 items-start">
-            <img src="./Icons/red-info-circle.svg"></img>
+            <img src="./icons/red-info-circle.svg"></img>
             <p className="text-[1.4rem] font-medium tracking-[-0.21px] text-[#FD4949] mt-1">Must not be the same as the last 6 used passwords</p>
           </div>
           <div className="flex space-x-4 items-start">
-            <img src="./Icons/green-check-circle.svg"></img>
+            <img src="./icons/green-check-circle.svg"></img>
             <p className="text-[1.4rem] font-medium tracking-[-0.21px] text-[#181818] mt-1">Must not include your email or name</p>
           </div>
         </div>
