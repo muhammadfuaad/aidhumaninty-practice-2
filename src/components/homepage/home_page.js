@@ -1,5 +1,5 @@
 import Toggle from "../dashboard/toggle";
-import Generic_header from "../generic_header";
+import Home_page_header from "../home_page_header";
 import Footer from "../footer";
 import Appeal_card from "../generic/components/appeal_card";
 import Appeals_list from "../generic/components/appeals_list";
@@ -22,7 +22,7 @@ import Ways from "./components/ways";
 function Home_page() {
   return (
     <section className="overflow-hidden">
-      < Generic_header />
+      < Home_page_header />
       <div className="flex flex-col px-64 bg-[#f9f9f9]">
         <p className="text-[3rem] font-bold tracking-[-0.75px] text-black self-center my-20">Appeals that need your backing</p>
 

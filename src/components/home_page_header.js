@@ -2,12 +2,12 @@ import React from "react";
 import Phone from "./icons/phone-volume.svg";
 import Dropdown from "./icons/drop-down.svg";
 import User from "./icons/user-circle.svg";
-import Logo from "./icons/horizontal-logo.svg";
+import Logo from "./icons/logo-without-text.svg";
 import Heart from "./icons/heart.svg";
 import Appeals_options from "./homepage/components/appeals_options";
 import Login from './menu_options/pages/login';
 
-function Generic_header() {
+function Home_page_header() {
   return (
     <div className="">
       <div className="flex justify-between text-[1.4rem] font-medium tracking-[-0.21px] text-[#999] py-4 px-64 border-b border-platinum">
@@ -66,4 +66,4 @@ function Generic_header() {
   );
 }
 
-export default Generic_header;
+export default Home_page_header;

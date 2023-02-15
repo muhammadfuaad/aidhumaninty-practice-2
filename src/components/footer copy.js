@@ -71,7 +71,7 @@ function Footer() {
                 <div className="mb-3">
                   <div className="flex flex-wrap items-center w-full">
                     <input type="search" className="form-control relative min-w-0 w-[16.8rem] h-[2.5rem] block px-3 py-0 text-[1.6rem] font-normal text-secondary-light bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg" placeholder="Your email" aria-label="Search" aria-describedby="button-addon2"></input>
-                    <button className="w-[45px] h-[40px] ml-3 bg-Vivd-Cerulean text-white font-medium text-xs leading-tight uppercase rounded-lg shadow-md hover:bg-blue-700 flex items-center">
+                    <button className="w-[45px] h-[40px] ml-3 bg-primary text-white font-medium text-xs leading-tight uppercase rounded-lg shadow-md hover:bg-blue-700 flex items-center">
                       <svg xmlns="http://www.w3.org/2000/svg" width="45" height="10.121" viewBox="0 0 13.24 10.121">
                         <g id="arrow-right" transform="translate(0.75 1.061)">
                           <path id="Path_4820" data-name="Path 4820" d="M6.962.7l3.9113.97L6.9628.7" transform="translate(0.865 -0.702)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
