@@ -50,6 +50,7 @@ import Zakat from './components/menu_options/pages/zakat';
 import Login from './components/menu_options/pages/login';
 import Donate from './components/menu_options/pages/donate';
 import Donate_now from './components/menu_options/pages/donate_now';
+import Filters from './components/menu_options/pages/filters';
 
 // generic pages
 import Congratulations_page from './components/generic/pages/congratulations_page';
@@ -145,6 +146,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/donate" element={<Donate />} />
       <Route path="/donate_now" element={<Donate_now />} />
+      <Route path="/filters" element={<Filters />} />
     </Routes>
   );
 }
