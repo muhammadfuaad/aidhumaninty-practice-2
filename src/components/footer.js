@@ -11,6 +11,7 @@ import Regular from "./icons/regulator.svg"
 import Percent from "./icons/100percent.svg"
 import Footer_logo from "./icons/footer-logo.svg"
 import Phone from "./icons/phone-volume.svg"
+import arrow_right from "./icons/arrow-right-white.svg"
 
 function Footer() {
   return (
@@ -20,16 +21,16 @@ function Footer() {
         <div className="flex gap-12">
           {/* First col */}
           <div className="flex flex-col basis-[40%]">
-            <div className="mr-12 ">
-              <div className="flex">
-                <img src={Footer_logo} className= "h-[17rem] w-[12rem]" alt= "footer logo" />
+            <div className="w-3/4">
+              <div className="flex my-8">
+                <img src={Footer_logo} className= "w-[12rem]" alt= "footer logo" />
                 <div className="ml-12 flex flex-col gap-4">
                   <div className="flex space-x-2 items-center">
                     <img src={Phone} className= "w-[17px] h-[1.6rem] mr-1" alt= "phone icon" />
                     <div><p className="text-[1.8rem] font-bold tracking-[-0.27px] text-primary leading-[2rem]">0330 057 9957</p></div>
                   </div>
                   <div><p className="text-[1.8rem] font-semibold tracking-[-0.27px] text-amber leading-[2.6rem]">info@aidhumanity.co.uk</p></div>
-                  <div className="flex justify-between items-center w-[10.3rem]">
+                  <div className="flex gap-12 items-center w-[10.3rem]">
                     <img src={Facebook} className= "w-[0.9rem] h-[1.6rem]" alt= "facebook icon" />
                     <img src={Twitter} className= "w-[2rem] h-[1.7rem]" alt= "twitter icon" />
                     <img src={Instagram} className= "w-[2.5rem] h-[2.5rem]" alt= "instagram icon" />
@@ -39,7 +40,7 @@ function Footer() {
               </div>
               <p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#8892ac] leading-[2.6rem]">Aid Humanity is proud to be a non-profit organization that passes 100% of our donations to charitable causes around the world.</p>
             </div>
-            <div className="flex items-center mt-[4rem]">
+            <div className="flex items-center mt-32">
               <span className="text-[1.2rem] font-normal tracking-[0.06px] text-white leading-[1.5rem] mr-2">Registered with</span>
               <img src={Regular} className= "w-[12rem] h-[3.6rem] mix-blend-luminosity" alt= "regulator icon" />
             </div>
@@ -47,7 +48,7 @@ function Footer() {
     
           {/* Second column */}
           <div className="flex flex-col basis-[20%]">
-            <span className="text-[1.4rem] font-semibold tracking-[-0.21px] text-white leading-[1.6rem]">ABOUT US</span>
+            <span className="text-[1.4rem] font-semibold tracking-[-0.21px] text-white leading-[1.6rem] mb-8">ABOUT US</span>
             <ul className="text-[1.6rem] font-medium tracking-[-0.24px] text-[#8892ac] leading-[3rem]">
               <li><a href="#" className="hover:underline">Our Story</a></li>
               <li><a href="#" className="hover:underline">Marketing</a></li>
@@ -63,7 +64,7 @@ function Footer() {
     
           {/* Third column */}
           <div className="flex flex-col basis-[20%]">
-            <span className="text-[1.4rem] font-semibold tracking-[-0.21px] text-white leading-[1.6rem]">APPEALS</span>
+            <span className="text-[1.4rem] font-semibold tracking-[-0.21px] text-white leading-[1.6rem] mb-8">APPEALS</span>
             <ul className="text-[1.6rem] font-medium tracking-[-0.24px] text-[#8892ac] leading-[3rem]">
               <li><a href="#" className="hover:underline">Build a Mosque</a></li>
               <li><a href="#" className="hover:underline">Disaster & Emergency</a></li>
@@ -76,21 +77,16 @@ function Footer() {
     
           {/* Fourth colmn */}
           <div className="flex flex-col">
-            <span className="text-[1.4rem] font-semibold tracking-[-0.21px] text-white leading-[1.6rem]">NEWSLETTER</span>
-            <span className="text-[1.8rem] font-bold tracking-[-0.45px] text-white leading-[2.8rem]">Subscribe to the free newsletter and stay up-to date</span>
+            <span className="text-[1.4rem] font-semibold tracking-[-0.21px] text-white leading-[1.6rem] mb-8">NEWSLETTER</span>
+            <span className="text-[1.8rem] font-bold tracking-[-0.45px] text-white leading-[2.8rem] w-3/4">Subscribe to the free newsletter and stay up-to date</span>
               
-                <div className="flex flex-wrap mt-5 items-center w-full">
+                <div className="flex flex-wrap mt-8 items-center w-full">
                   <input type="search" className="form-control relative min-w-0 w-[70%] h-16 block px-3 py-0 text-[1.6rem] font-normal text-secondary-light bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg" placeholder="Your email" aria-label="Search" aria-describedby="button-addon2"></input>
-                  <button className="w-[45px] h-16 ml-3 bg-primary text-white rounded-lg flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="10.121" viewBox="0 0 13.24 10.121">
-                      <g id="arrow-right" transform="translate(0.75 1.061)">
-                        <path id="Path_4820" data-name="Path 4820" d="M6.962.7l3.9113.97L6.9628.7" transform="translate(0.865 -0.702)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
-                        <line id="Line_158" data-name="Line 158" x1="11.74" transform="translate(0 4)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5" />
-                      </g>
-                    </svg>
+                  <button className="w-[45px] h-16 ml-3 bg-primary text-white rounded-lg flex justify-center items-center">
+                    <img src={arrow_right}/>
                   </button>
                 </div>
-            <div className="flex items-center text-white font-semibold">
+            <div className="flex items-center text-white font-semibold mt-56">
               <span className="text-[1.8rem] tracking-[-0.9px] mr-4">we transfer</span>
               <img src={Percent} className= "w-[11rem] h-[4rem]" alt= "100percent" />
               <span className="text-[1.2rem] tracking-[-0.6px] ml-1">of your donation</span>
@@ -98,7 +94,7 @@ function Footer() {
           </div>
         </div>
     
-        <ul className="flex justify-center space-x-6 text-white opacity-50 mt-[50px] text-[1.2rem] font-normal tracking-[-.06px]">
+        <ul className="flex justify-center space-x-6 text-white opacity-50 mt-24 mb-6 text-[1.2rem] font-normal tracking-[-.06px]">
           <li><a href="/" className="">Terms & Conditions</a></li>
           <li><a href="/" className="">Privacy Policy</a></li>
           <li><a href="/" className="">Donation Policy</a></li>
@@ -106,7 +102,7 @@ function Footer() {
         </ul>
         <hr className="my-3 bg-white opacity-25 h-[0.15rem]"></hr>
     
-        <div className="flex justify-between items-center mt-4">
+        <div className="flex justify-between items-center my-12">
           <p className="text-white opacity-50 text-[1.2rem] font-normal tracking-[-.06px]">
             <span>&copy; 2022 </span>
             <span className="font-semibold"> Aid Humanity. </span>

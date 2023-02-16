@@ -15,7 +15,7 @@ function Filters() {
         < Mobile_header title="Filters" display_logout="hidden"/>
       </div>
       <div className="flex flex-col px-6 pb-32">
-        <div className="flex flex-col gap-4 mt-20">
+        <div className="flex flex-col gap-8 mt-20">
           <Radio_component label="All" />
           <Radio_component label="Zakat" />
           <Radio_component label="Sadaqah" />
