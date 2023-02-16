@@ -1,3 +1,5 @@
+import Heart from "./heart";
+
 function Home_page_header_mobile() {
   return (
     <div className="flex justify-between bg-white p-6">
@@ -6,9 +8,9 @@ function Home_page_header_mobile() {
         <img src="./icons/dashboard-sidebar-logo.svg"></img>
       </div>
 
-      <div className="flex space-x-4">
-        <img src="./icons/plus-circle.svg" className="w-8"></img>
+      <div className="flex space-x-6 items-center">
         <img src="./icons/user-circle.svg" className="w-8"></img>
+        <div className="w-8"><Heart/></div>
       </div>
     </div>
   );
