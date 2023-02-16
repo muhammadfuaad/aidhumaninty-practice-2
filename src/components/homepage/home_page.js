@@ -1,5 +1,5 @@
 import Toggle from "../dashboard/toggle";
-import Home_page_header from "../home_page_header";
+import Home_page_header from "./components/home_page_header";
 import kid from "../icons/kid.png"
 import Footer from "../footer";
 import Appeal_card from "../generic/components/appeal_card";

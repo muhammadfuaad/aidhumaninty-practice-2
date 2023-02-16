@@ -1,11 +1,10 @@
 import React from "react";
-import Phone from "./icons/phone-volume.svg";
-import Dropdown from "./icons/drop-down.svg";
-import User from "./icons/user-circle.svg";
-import Logo from "./icons/logo-without-text.svg";
-import Heart from "./homepage/components/heart";
-import Appeals_options from "./homepage/components/appeals_options";
-import Login from './menu_options/pages/login';
+import Dropdown from "../../icons/drop-down.svg";
+import User from "../../icons/user-circle.svg";
+import Logo from "../../icons/logo-without-text.svg";
+import Heart from "./heart";
+import Appeals_options from "./appeals_options";
+import Login from '../../menu_options/pages/login';
 
 function Home_page_header() {
   return (
