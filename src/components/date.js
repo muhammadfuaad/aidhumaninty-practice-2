@@ -1,9 +1,14 @@
+import Clock from "./icons/clock.svg";
+
 function Date() {
   return (
-    <div className="flex space-x-2 items-center">
-      <p className="text-Testimonial-Gray text-[11px] font-normal tracking-[-0.17px]">July 3, 2022</p>
-      <p>.</p>
-      <p className="text-Testimonial-Gray text-[11px] font-normal tracking-[-0.17px]">5 minutes to read</p>
+    <div className="flex gap-2 items-center">
+      <img src={Clock}></img>
+      <div className="flex gap-4 items-center text-[1.1rem] font-normal tracking-[-0.17px] text-[#bdbdbd]">
+        <p>April 20, 2022</p>
+        <p className='font-bold mb-2'>.</p>
+        <p>3 minutes to read</p>
+      </div>
     </div>
   );
 }
