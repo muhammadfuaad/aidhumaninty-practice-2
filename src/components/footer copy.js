@@ -15,9 +15,9 @@ function Footer() {
                   <div className="ml-12 flex flex-col justify-between">
                     <div className="flex space-x-2 items-center">
                       <img src="./icons/phone-volume.svg" className= "w-[17px] h-[1rem] mr-1" alt= "phone icon" />
-                      <div><p className="text-primary text-lg font-bold tracking-[-.27px]">0330 057 9957</p></div>
+                      <div><p className="text-primary text-[1.8rem] font-bold tracking-[-.27px]">0330 057 9957</p></div>
                     </div>
-                    <div><p className="text-amber text-lg font-semibold tracking-[-.27px]">info@aidhumanity.co.uk</p></div>
+                    <div><p className="text-amber text-[1.8rem] font-semibold tracking-[-.27px]">info@aidhumanity.co.uk</p></div>
                     <div className="flex justify-between items-center w-[10.3rem]">
                       <img src="./icons/facebook.png" className= "w-[9px] h-[1rem]" alt= "facebook icon" />
                       <img src="./icons/twitter.png" className= "w-[20px] h-[17px]" alt= "twitter icon" />
@@ -66,7 +66,7 @@ function Footer() {
             {/* Fourth colmn */}
             <div className="flex flex-col">
               <span className="text-white mb-3 text-link-heading-color font-semibold text-sm tracking-[-.21px]">NEWSLETTER</span>
-              <span className="text-white font-bold text-lg leading-7 tracking-[-.45px]">Subscribe to the free newsletter and stay up-to date</span>
+              <span className="text-white font-bold text-[1.8rem] leading-7 tracking-[-.45px]">Subscribe to the free newsletter and stay up-to date</span>
               <div className="flex mt-5 mr-0">
                 <div className="mb-3">
                   <div className="flex flex-wrap items-center w-full">
@@ -83,7 +83,7 @@ function Footer() {
                 </div>
               </div>
               <div className="flex items-center text-white mt-[6.8rem]">
-                <span className="font-semibold text-lg tracking-[-.9px] mr-4">we transfer</span>
+                <span className="font-semibold text-[1.8rem] tracking-[-.9px] mr-4">we transfer</span>
                 <img src="./icons/100percent.svg" className= "w-[113px] h-[46px]" alt= "100percent" />
                 <span className="font-semibold text-xs tracking-[-.6px] ml-1">of your donation</span>
               </div>

@@ -20,7 +20,7 @@ function News() {
 
             <div className="basis-[25%] flex-col">
               <div className="px-8 space-y-1">
-                <p className="text-black text-lg font-bold tracking-[-0.45px]">Mauris vel ornare massa, at ullamcorper ligula</p>
+                <p className="text-black text-[1.8rem] font-bold tracking-[-0.45px]">Mauris vel ornare massa, at ullamcorper ligula</p>
                 <p className="text-Gray text-[1.6rem] font-normal tracking-[-0.4px]">Cras ullamcorper dolor ac viverra finibus. Fusce iaculis accumsan ex, in placerat arcu
                 luctus vitae. Fusce velit lacus, hendrerit scelerisque efficitur eget, placerat eu lectus.</p>
                 <div className="flex space-x-2 items-center">
@@ -33,7 +33,7 @@ function News() {
 
             <div className="basis-[25%] flex-col">
               <div className="px-8 space-y-1">
-                <p className="text-black text-lg font-bold tracking-[-0.45px]">Aenean ac iaculis urna, quis condimentum elit</p>
+                <p className="text-black text-[1.8rem] font-bold tracking-[-0.45px]">Aenean ac iaculis urna, quis condimentum elit</p>
                 <p className="text-Gray text-[1.6rem] font-normal tracking-[-0.4px]">Nullam eleifend faucibus mi, ac dapibus lectus interdum eu. Suspendisse sed semper augue,
                 nec pulvinar orci. Praesent tincidunt purus condimentum efficitur fermentum.</p>
                 <div className="flex space-x-2 items-center">

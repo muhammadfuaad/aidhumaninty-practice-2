@@ -1,7 +1,7 @@
 const heroImage = new URL("../../../assets/images/water-hand-pumps.png",import.meta.url)
 function Slider() {
   return (
-    <div className="flex flex-col bg-[url('/pakistan-floods.png')]">
+    <div className="flex flex-col">
       <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-white bg-transparent outline outline-white rounded-xl">Water for all</button>
 
       <p className="text-white text-[3rem] font-bold tracking-[-0.75px]">Build a water well</p>

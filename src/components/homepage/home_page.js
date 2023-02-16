@@ -1,13 +1,12 @@
 import Toggle from "../dashboard/toggle";
 import Home_page_header from "../home_page_header";
+import kid from "../icons/kid.png"
 import Footer from "../footer";
 import Appeal_card from "../generic/components/appeal_card";
 import Appeals_list from "../generic/components/appeals_list";
 import Logo from "../icons/logo-without-text.svg"
 import quotes from "../icons/double-quotes-yellow.svg"
-import bulb from "../icons/bulb.svg"
-import sun from "../icons/sun.svg"
-import scale from "../icons/scale.svg"
+
 import donation_1 from "../icons/donation-1.png"
 import donation_2 from "../icons/donation-2.png"
 import donation_3 from "../icons/donation-3.png"
@@ -22,6 +21,7 @@ import Appeal_title from "../generic/components/appeal_title";
 import Helped from "./components/helped";
 import Slider from "./components/slider";
 import Alone from "./components/alone";
+import Passionate from "./components/passionate";
 
 function Home_page() {
   return (
@@ -55,37 +55,7 @@ function Home_page() {
 
       <Helped/>
 
-      <section>
-        <div className="flex px-48 py-12">
-          <p className="basis-[30%] text-black text-[3rem] font-bold tracking-[-0.75px] pr-48">Passionate about progress</p>
-          <p className="basis-[70%] text-body text-[22px] font-normal tracking-[-0.55px] pl-16 border-l border-opacity-25 border-Gray">We’ve always believed that charitable donations should find their way to the people
-          who need them most, and always without delay. It’s why we’ve created a simple <span className="font-bold">100%
-          donation policy</span> that makes sure every donation can:</p>
-        </div>
-        <div className="flex px-48 pb-20 relative">
-          <div className="basis-[60%]">
-          </div>
-          <div className="flex flex-col bg-white w-[330px] h-[175px] px-16 py-8 border-amber border-2 rounded-lg absolute top-[10rem] left-[55rem]">
-            <img src={bulb} className="w-20 absolute -top-10 left-[40%]"></img>
-            <p className="text-center text-primary-dark text-lg font-normal tracking-[-0.45px]"><span className="text-black font-bold">Get Distributed Fairly</span> because never take a penny towards our running costs</p>
-          </div>
-
-          <div className="basis-[40%] flex flex-col pt-24 pl-48 space-y-12">
-            <div className="flex flex-col bg-white w-[330px] h-[175px] px-16 py-8 border-primary border-2 rounded-lg relative">
-              <img src={scale} className="w-20 absolute -top-10 left-[40%]"></img>
-              <p className="text-center text-primary-dark text-lg font-normal tracking-[-0.45px]"><span className="text-black font-bold">Make A Difference</span> to the people in the world who need you</p>
-            </div>
-            <div className="flex flex-col bg-white w-[330px] h-[175px] px-16 py-8 border-primary-dark border-2 rounded-lg relative">
-              <img src={sun} className="w-20 absolute -top-10 left-[40%]"></img>
-              <p className="text-center text-primary-dark text-lg font-normal tracking-[-0.45px]"><span className="text-black font-bold">Be Spent Wisely</span> on projects that change lives and build communities</p>
-            </div>
-          </div>
-          <div className="flex space-x-4 absolute top-[27rem] left-[21rem]">
-            <p className="text-white text-[25px] font-semibold tracking-[-1.25px]">we transfer</p>
-            <p className="text-white text-[17px] font-semibold tracking-[-0.85px]">of your donation</p>
-          </div>
-        </div>
-      </section>
+      <Passionate/>
 
       <div className="flex flex-col gap-24 px-64 py-24 bg-[#f1f1f1]">
         <p className="self-center text-[3rem] font-medium tracking-[-0.75px] text-black"><span className="font-semibold">Our Achievements</span> with your help and more …</p>
@@ -116,11 +86,10 @@ function Home_page() {
 
       <div className="flex flex-col gap-24 px-64 py-24 bg-[#f1f1f1]">
         <p className="self-center text-[3rem] font-bold tracking-[-0.75px] text-black">Here’s what our community has to say</p>
-        <div className="flex gap-12">
-          <Testimonial/>
-          <Testimonial/>
-          <Testimonial/>
-          <Testimonial/>
+        <div className="flex justify-between">
+          <Testimonial name="Andrew" age="9" feedback="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." img={kid}/>
+          <Testimonial name="Sumayia" age="12" feedback="Suspendisse quis nulla cursus, elementum eros quis, consequat tortor. Nullam sed ex vel mi dignissim molestie id at est. Integer feugiat gravida purus, vel ultrices mauris." img={kid}/>
+          <Testimonial name="Zakya" age="13" feedback="Donec non justo diam. Fusce egestas diam sit amet turpis condimentum, vel imperdiet lectus aliquam. Nunc malesuada enim viverra eros laoreet, eget tincidunt erat aliquet." img={kid}/>
         </div>
       </div>
 
