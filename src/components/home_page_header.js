@@ -3,7 +3,7 @@ import Phone from "./icons/phone-volume.svg";
 import Dropdown from "./icons/drop-down.svg";
 import User from "./icons/user-circle.svg";
 import Logo from "./icons/logo-without-text.svg";
-import Heart from "./icons/heart.svg";
+import Heart from "./homepage/components/heart";
 import Appeals_options from "./homepage/components/appeals_options";
 import Login from './menu_options/pages/login';
 
@@ -45,12 +45,7 @@ function Home_page_header() {
             </div>
           </a>
           <a href="#">
-            <div className="relative">
-              <img src={Heart} className="w-20"></img>
-              <div className="bg-primary rounded-full w-6 h-6 flex justify-center items-center absolute -bottom-2 -right-2">
-                <p className="text-[1rem] font-bold text-white">1</p>
-              </div>
-            </div>
+            <Heart/>
             
           </a>
           <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-primary bg-transparent outline

@@ -22,11 +22,13 @@ import Helped from "./components/helped";
 import Slider from "./components/slider";
 import Alone from "./components/alone";
 import Passionate from "./components/passionate";
+import Home_page_header_mobile from './components/home_page_header_mobile';
 
 function Home_page() {
   return (
     <section className="overflow-hidden">
-      < Home_page_header />
+      <div className="hidden sm:block">< Home_page_header /></div>
+      <div className="sm:hidden block">< Home_page_header_mobile /></div>
       <Slider/>
       <div className="flex flex-col px-64 bg-[#f9f9f9]">
         <p className="text-[3rem] font-bold tracking-[-0.75px] text-black self-center my-20">Appeals that need your backing</p>
@@ -57,7 +59,7 @@ function Home_page() {
 
       <Passionate/>
 
-      <div className="flex flex-col gap-24 px-64 py-24 bg-[#f1f1f1]">
+      <div className="flex flex-col gap-24 px-48 py-24 bg-[#f1f1f1]">
         <p className="self-center text-[3rem] font-medium tracking-[-0.75px] text-black"><span className="font-semibold">Our Achievements</span> with your help and more …</p>
         <div className="flex justify-between ">
           <Achievement/>
