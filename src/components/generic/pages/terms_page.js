@@ -13,7 +13,7 @@ function Terms_page() {
       banner_heading="Help Center"
       heading="Terms & Conditions" 
       navigator=<p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / <span className="text-body">Help Center</span> / Terms & Conditions</p>
-      content=<div className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem] flex flex-col gap-10">
+      content=<div className="generic-body flex flex-col gap-10">
                 <p>Please read the following carefully</p>
                 <div className="flex flex-col gap-2">
                   <p className="font-semibold">Aid Humanity</p> 
