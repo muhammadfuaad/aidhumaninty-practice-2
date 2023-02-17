@@ -37,7 +37,7 @@ function Contact() {
             <div className="flex flex-col space-y-4">
               <input className="placeholder-black text-[13px] font-normal tracking-[0px] leading-[15px] bg-amber border-2 border-opacity-50 border-black rounded-lg h-[50px] p-2" placeholder="Name and Surname*"></input>
               <input className="placeholder-black text-[13px] font-normal tracking-[0px] leading-[15px] bg-amber border-2 border-opacity-50 border-black rounded-lg h-[50px] p-2" placeholder="Email*"></input>
-              <textarea rows="6" className="placeholder:text-start placeholder:-translate-y-6 placeholder-black text-[13px] font-normal tracking-[0px] leading-[15px] bg-amber border-2 border-opacity-50 border-black rounded-lg h-[98px] p-2" placeholder="Please provide as much detailed information as possible. Thank you *"></textarea>
+              <textarea rows="6" className="placeholder:text-start placeholder-black text-[13px] font-normal tracking-[0px] leading-[15px] bg-amber border-2 border-opacity-50 border-black rounded-lg h-[98px] p-2" placeholder="Please provide as much detailed information as possible. Thank you *"></textarea>
             </div>
             <button className="self-start px-20 h-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl">
               Submit Message

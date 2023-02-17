@@ -32,7 +32,7 @@ function Home_page() {
       <div className="sm:hidden block">< Home_page_header_mobile /></div>
       <Slider/>
       <div className="flex flex-col px-64 bg-[#f9f9f9]">
-        <p className="text-[3rem] font-bold tracking-[-0.75px] text-black self-center my-20">Appeals that need your backing</p>
+        <p className="self-start text-[3rem] font-bold tracking-[-0.75px] text-black my-20">Appeals that need your backing</p>
 
         <div className="flex gap-12">
           <Appeal_card />
