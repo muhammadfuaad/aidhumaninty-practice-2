@@ -20,10 +20,8 @@ function Layout_page(props) {
             <div>
               <p className="text-[3.6rem] font-bold tracking-[-0.54px] text-black mb-12">{props.heading}</p>
               {props.content}
-              <div className="">
-                <div className={`${props.assistance} mt-20`}>
-                  <Assistance />
-                </div>
+              <div className={`${props.assistance} mt-20`}>
+                <Assistance />
               </div>
             </div>
           </div>
