@@ -2,8 +2,11 @@ import Accordion from "./accordion";
 
 function Faq() {
   return (
-    <div className="flex flex-col w-full px-4 py-24 bg-f5">
-      <img src="./icons/"></img>
+    <div className="flex flex-col w-full px-4 py-24 bg-f5 relative">
+      <img src="./icons/yellow-ring-large.png" className="w-[30rem] absolute right-0 -top-60"></img>
+      <img src="./icons/yellow-ring-small.png" className="w-40 absolute bottom-60 left-60"></img>
+      <img src="./icons/blue-circle.png" className="w-20 absolute top-[25rem] right-[30rem]"></img>
+
       <div className="flex flex-col w-1/2 self-center">
         <div className="flex justify-between mb-20">
           <p className="text-[3rem] font-bold tracking-[-0.75px] text-black leading-[3.4rem]">FAQ</p>
@@ -16,8 +19,6 @@ function Faq() {
         </div>
       </div>
     </div>
-
-
   );
 }
 export default Faq;
