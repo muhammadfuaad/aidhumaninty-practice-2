@@ -8,7 +8,6 @@ function Slider() {
   return (
     <div className="flex flex-col px-96 py-48 bg-gradient-to-r from-slate-500 to-slate-200 bg-no-repeat bg-cover 
     h-screen relative">
-      <img src={hero} className="absolute object-cover w-full h-full top-0 left-0"></img>
       <img src={decorators} className="absolute"></img>
       <div className="absolute right-[50rem] top-[30rem]"><Percentage_vertical/></div>
       <button className="mb-12 self-start px-20 py-6 uppercase text-[1.4rem] font-semibold text-white bg-transparent outline outline-white rounded-xl">Water for all</button>

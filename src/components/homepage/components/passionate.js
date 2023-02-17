@@ -28,6 +28,8 @@ function Passionate() {
 
         <div className="flex flex-col gap-24 pt-24 pl-48 relative">
           <img src={logo} className="absolute"></img>
+          <img src="./icons/footer-background-logo.svg" className="absolute left-0 top-[0rem] z-0"></img>
+
           <div className="absolute top-64 -left-[25rem]">
             <Distribution img={sun} title="Get Distributed Fairly" description="because never take a penny towards our running costs" border_color="border-amber"/>
           </div>

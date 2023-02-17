@@ -15,7 +15,9 @@ import arrow_right from "./icons/arrow-right-white.svg"
 
 function Footer() {
   return (
-    <footer className="bg-primary-dark p-5 px-48 pt-16 relative overflow-hidden z-0">
+    <footer className="bg-primary-dark p-5 px-48 pt-16 relative overflow-hidden">
+      <img src="./icons/footer-background-logo.svg" className="absolute right-0 top-0 z-10"></img>
+
       <div className="">
         <p className="text-[1.2rem] font-normal tracking-[0.06px] text-white leading-[1.5rem] mb-4 opacity-50">Aid Humanity is a UK registered charity 1184639.</p>
         <div className="flex gap-12">

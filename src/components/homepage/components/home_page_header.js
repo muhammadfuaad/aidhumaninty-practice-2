@@ -1,6 +1,6 @@
 import React from "react";
 import Dropdown from "../../icons/drop-down.svg";
-import User from "../../icons/user-circle.svg";
+import User from "../../icons/user-circle-black.svg";
 import Logo from "../../icons/logo-without-text.svg";
 import Heart from "./heart";
 import Appeals_options from "./appeals_options";

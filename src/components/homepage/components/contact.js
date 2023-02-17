@@ -3,7 +3,7 @@ import profile from "../../icons/profile-plus.png"
 
 function Contact() {
   return (
-    <div className="flex flex-col space-y-2 bg-amber px-48 py-12">
+    <div className="flex flex-col space-y-2 bg-amber py-24">
       <div className="flex flex-col space-y-12 w-1/2 self-center">
         <p className="text-black text-[30px] font-bold tracking-[-0.75px] leading-[34px]">Contact Us</p>
         <div className="flex space-x-12">

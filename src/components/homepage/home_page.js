@@ -23,6 +23,7 @@ import Slider from "./components/slider";
 import Alone from "./components/alone";
 import Passionate from "./components/passionate";
 import Home_page_header_mobile from './components/home_page_header_mobile';
+import Faq from './components/faq';
 
 function Home_page() {
   return (
@@ -119,24 +120,7 @@ function Home_page() {
 
       <Ways/>
 
-      <div className="flex flex-col">
-        <div className="flex justify-between">
-          <p>FAQ</p>
-          <p>Do you have more questions? Check out our full FAQ</p>
-        </div>
-        <div>
-          <div className="bg-green-50 w-full sm:w-1/2 lg:w-96 border border-gray-200">
-            <details>
-              <summary className="question py-3 px-4 cursor-pointer select-none w-full outline-none">How is this made?</summary>
-              <p className="pt-1 pb-3 px-4">With the HTML5</p>
-            </details>
-            <details>
-              <summary className="question py-3 px-4 cursor-pointer select-none w-full">Can I use it?</summary>
-              <p className="pt-1 pb-3 px-4">Of course. It's yours to use wherever and whenever you like.</p>
-            </details>
-          </div>
-        </div>
-      </div>
+      <Faq/>
 
       <Contact/>
 
