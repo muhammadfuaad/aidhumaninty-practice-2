@@ -18,7 +18,7 @@ function Layout_page(props) {
         <div className="flex">
           <div className="w-full sm:w-[80%] flex flex-col">
             <div>
-              <p className="text-[3.6rem] font-bold tracking-[-0.54px] text-black mb-12">{props.heading}</p>
+              <p className="generic-heading mb-12">{props.heading}</p>
               {props.content}
               <div className={`${props.assistance} mt-20`}>
                 <Assistance />

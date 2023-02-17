@@ -16,6 +16,20 @@ code {
 @tailwind utilities;
 
 @layer components {
+  /* generic_heading */
+  .generic-body {
+    @apply text-[1.8rem] font-normal tracking-[-0.45px] text-body leading-[2.4rem] sm:text-[2.2rem] 
+    sm:font-normal sm:tracking-[-0.55px] sm:text-body sm:leading-[3.2rem];
+  }
+  .generic-heading {
+    @apply text-[3.6rem] font-bold tracking-[-0.54px] text-black leading-[4rem] sm:text-[3.2rem] 
+    sm:font-bold sm:tracking-[-0.48px] sm:text-black sm:leading-[3.6rem];
+  }
+  .generic-sub-heading {
+    @apply text-[2.6rem] font-bold tracking-[-0.65px] text-black leading-[3rem] sm:text-[3rem] 
+    sm:font-bold sm:tracking-[-0.75px] sm:text-black sm:leading-[3.4rem];
+  }
+
   /* borders */
   .border-bottom-light {
     @apply border-b-[1px] border-platinum;

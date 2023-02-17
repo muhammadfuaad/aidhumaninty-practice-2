@@ -16,16 +16,16 @@ function How_it_works_page() {
       navigator=<p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / How it works</p>
       content=
       <div className="flex flex-col">
-        <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem] mb-16 sm:mb-48">We’ve build Aid Humnity to be as simple and straightforward as possible. Here’s the simplest way to make a difference with just a few clicks…</p>
+        <p className="generic-body mb-16 sm:mb-48">We’ve build Aid Humnity to be as simple and straightforward as possible. Here’s the simplest way to make a difference with just a few clicks…</p>
         <Steps_list />
         <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body my-28">It’s the simple, straightforward, and transparent way to bring people together to make the world a better place. Just what you want to hear when it’s time to devote your time and energy to a good cause that really means something to you.</p>
         <div className="mb-32">
-          <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-8">Want to do even more?</p>
-          <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem]">To help incentivise kind-hearted people to do even more, we’ve proud to be able to offfer the chance to make referrals and earn rewards. It’s our way of making sure every good deed is noticed the right way.</p>
+          <p className="generic-sub-heading mb-8">Want to do even more?</p>
+          <p className="generic-body">To help incentivise kind-hearted people to do even more, we’ve proud to be able to offfer the chance to make referrals and earn rewards. It’s our way of making sure every good deed is noticed the right way.</p>
         </div>
         <div className="mb-32">
-          <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-8">What can you do with us?</p>
-          <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem]">With Aid Humanity, you have the choice to help in a variety of different ways so that chrity work always fits seamlessly into your everyday life:</p>
+          <p className="generic-sub-heading mb-8">What can you do with us?</p>
+          <p className="generic-body">With Aid Humanity, you have the choice to help in a variety of different ways so that chrity work always fits seamlessly into your everyday life:</p>
         </div>
         <div className="flex flex-col sm:flex-row justify-between gap-16 mb-20">
           < Role title="Donator" description="You’re the core of what we do, giving funds to help those in need." number="01."/>
