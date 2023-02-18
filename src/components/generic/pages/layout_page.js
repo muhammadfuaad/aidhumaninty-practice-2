@@ -4,6 +4,7 @@ import Assistance from "../components/assistance";
 import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
+import Footer_mobile from '../../footer_mobile';
 
 function Layout_page(props) {
   return (
@@ -31,7 +32,8 @@ function Layout_page(props) {
           </div>
         </div>
       </div>
-      < Footer />
+      <div className="hidden sm:block">< Footer /></div>
+      <div className="sm:hidden">< Footer_mobile /></div>
     </section>
   );
 }
