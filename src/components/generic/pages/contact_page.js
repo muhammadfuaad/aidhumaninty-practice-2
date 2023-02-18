@@ -25,7 +25,7 @@ function Contact_page() {
             <div className="flex flex-col sm:flex-row sm:justify-between">
               <div className="flex flex-col mt-12 w-full sm:w-1/2">
                 <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-16">Contact</p>
-                <p className="generic-subheading mb-16">Got a Question?</p>
+                <p className="generic-sub-heading mb-16">Got a Question?</p>
                 <p className="generic-body mb-24">Aid Humanity is a thoughtful, caring community of like-minded individuals ready to give back and make a difference. If you’d like to know more about what we do, or have a question about how you can help, all you have to do is ask.</p>
                 
                 <div className='flex flex-col gap-12 sm:flex-row sm:justify-between py-20 border-y border-platinum pr-12'>
@@ -48,7 +48,7 @@ function Contact_page() {
                   </div>
                 </div>
 
-                <p className="generic-subheading mt-16 sm:mt-12 mb-16">Company Details</p>
+                <p className="generic-sub-heading mt-16 sm:mt-12 mb-16">Company Details</p>
                 <p className="generic-body mb-24">Aid Humanity, Unit 9, Twelve o’clock Court, Sheffield, S4 7WW</p>
               </div>
 

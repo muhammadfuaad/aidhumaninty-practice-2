@@ -43,8 +43,8 @@ function Zakat_calculator_page() {
 
                 <p className="text-[2.4rem] font-bold tracking-[-0.6px] text-black">Current Nisab threshold (as of 06/04/2022):</p>
                 <ul className="marker:text-primary list-outisde list-disc ml-8">
-                  <li>Using value of silver (612.36 grams) – approximately £366.80</li>
-                  <li> Using value of gold (87.48 grams) – approximately £4,139.55</li>
+                  <li className="pl-8">Using value of silver (612.36 grams) – approximately £366.80</li>
+                  <li className="pl-8">Using value of gold (87.48 grams) – approximately £4,139.55</li>
                 </ul>
                 <p className="generic-body mt-4">Visit our Zakat page for an extensive list of <span className="font-semibold text-primary">Zakat FAQs</span>. You can also watch this <span className="font-semibold text-primary">YouTube video series</span> where scholars answer Zakat related questions.</p>
                 <Scholar_verified />             
