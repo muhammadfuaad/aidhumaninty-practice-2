@@ -14,7 +14,7 @@ function Fundraiser_steps_list() {
           </div>
           <div className="h-64 w-64 relative">
             <img src={Icon_1}></img>
-            <div className="w-[40rem] h-[1px] bg-platinum absolute left-0 top-32"></div>  
+            <div className="w-40 h-[1px] bg-platinum absolute left-64 top-32"></div>  
           </div>
         </div>
         <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mt-8">Join us by creating an account with the click of a button</p>
@@ -27,7 +27,8 @@ function Fundraiser_steps_list() {
           </div>
           <div className="h-64 w-64 relative">
             <img src={Icon_2}></img>
-            <div className="w-[40rem] h-[1px] bg-platinum absolute left-0 top-32"></div>  
+            <div className="w-40 h-[1px] bg-platinum absolute left-64 top-32"></div>  
+  
           </div>
         </div>
         <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mt-8">Find a cause that means something to you right now</p>
