@@ -29,6 +29,10 @@ code {
     @apply text-[2.6rem] font-bold tracking-[-0.65px] text-black leading-[3rem] sm:text-[3rem] 
     sm:font-bold sm:tracking-[-0.75px] sm:text-black sm:leading-[3.4rem];
   }
+  .generic-list {
+    @apply text-[1.6rem] font-normal tracking-[-0.4px] text-body leading-[2rem] sm:text-[2rem] 
+    sm:font-normal sm:tracking-[-0.5px] sm:text-body sm:leading-[2.4rem];
+  }
 
   /* borders */
   .border-bottom-light {

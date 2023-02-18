@@ -3,7 +3,6 @@ import Page_sidebar from "../components/page_sidebar";
 import Assistance from "../components/assistance";
 import Generic_header from "../../generic_header";
 import Footer from "../../footer";
-import Logo from "../../icons/footer-background-logo.svg";
 import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
 
 function Layout_page(props) {

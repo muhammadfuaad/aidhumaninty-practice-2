@@ -3,21 +3,25 @@ import Icon_1 from "../images/yellow-quotes.svg"
 import Image_2 from "../images/child-watching-1.png"
 import User_rank from "../components/user_rank";
 import User_badge from './../components/user_badge';
+import Generic_header from "../../generic_header";
+import Footer from "../../footer";
+import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
 
 function Rewards_page() {
   return (
-    <section>
+    <section className="flex flex-col">
+      <div className="hidden sm:block">< Generic_header /></div>
+      <div className="sm:hidden block">< Home_page_header_mobile /></div>
       <Page_header heading="Our Rewards" icon="hidden" />
-      <div className="flex flex-col pb-44">
-        <div className="pl-12 sm:pl-64 pb-40">
-          <p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / Our Rewards</p>
+        <div className="pl-12 sm:pl-64">
+          <p className="hidden sm:block text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / Our Rewards</p>
           <div className="flex flex-col">
             <div className="flex flex-col sm:flex-row sm:justify-between">
               <div className="pr-12 flex flex-col w-full sm:w-1/2">
-                <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-16">Our Rewards</p>
-                <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem] mb-24">We’ve always believed that raising money for charity is reward in itself, but we also recognise the need to incentivise everyone to help spread the word.</p>
-                <p className="mb-16 text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem]">Here’s how you can get an additional <span className="font-semibold">morale boost</span> and <span className="font-semibold">take pride in the work</span> you’ve done:</p>
-                <ul className="flex flex-col gap-12 text-[2rem] font-normal tracking-[-0.5px] text-body">
+                <p className="generic-heading mb-16 mt-20">Our Rewards</p>
+                <p className="generic-body mb-24">We’ve always believed that raising money for charity is reward in itself, but we also recognise the need to incentivise everyone to help spread the word.</p>
+                <p className="mb-16 generic-body">Here’s how you can get an additional <span className="font-semibold">morale boost</span> and <span className="font-semibold">take pride in the work</span> you’ve done:</p>
+                <ul className="flex flex-col gap-12 generic-list mb-16 sm:mb-0">
                   <li className="list-disc list-outside marker:text-primary ml-8 leading-[2.5rem]">Get rewards based on how many appeals you’ve created and the money raised</li>
                   <li className="list-disc list-outside marker:text-primary ml-8 leading-[2.5rem]">Earn recognition based on the number of people who donate to your appeal</li>
                   <li className="list-disc list-outside marker:text-primary ml-8 leading-[2.5rem]">Be recognised for contributing to the wider Aid Humanity community online</li>
@@ -28,13 +32,13 @@ function Rewards_page() {
           </div>
         </div>
         
-        <div className="flex flex-col px-12 pt-16 pb-24 sm:px-64">
-          <div className="self-center w-full sm:w-[40%] flex flex-col">
+        <div className="flex flex-col px-12 pb-40 mt-28 sm:px-64">
+          <div className="self-center w-full sm:w-[40%] flex flex-col mb-6">
             <div className="self-start sm:self-center flex justify-between items-center">
               <p className="text-[2.4rem] font-bold tracking-[-0.6px] text-primary">By putting all of these together, we hope to empower you to achieve more than anyone else thought possible. With you by your side, we know anything is possible.</p>
-              <img src={Icon_1} className="self-end"></img>
+              <img src={Icon_1} className="self-end sm:self-center"></img>
             </div>
-            <button className="mt-12 mb-20 self-center w-full sm:w-auto sm:px-12 h-20 py-6 uppercase text-[1.4rem] font-semibold text-white bg-primary rounded-xl">
+            <button className="mt-12 self-center w-full sm:w-auto sm:px-12 h-20 py-6 uppercase text-[1.4rem] font-semibold text-white bg-primary rounded-xl">
               Start Fundraising Now
             </button>
           </div>
@@ -59,7 +63,7 @@ function Rewards_page() {
             </div>
           </div>
         </div>
-      </div>
+        <Footer/>
     </section>
   );
 }
