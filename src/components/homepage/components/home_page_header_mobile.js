@@ -9,7 +9,7 @@ function Home_page_header_mobile() {
       </div>
 
       <div className="flex space-x-6 items-center">
-        <img src="./icons/user-circle.svg" className="w-8"></img>
+        <img src="./icons/user-circle-black.svg" className="w-8"></img>
         <div className="w-8"><Heart/></div>
       </div>
     </div>

@@ -18,6 +18,7 @@ import Mastercard from "../../icons/mastercard.png"
 import Stripe from "../../icons/stripe.png"
 import Generic_header from "../../generic_header";
 import Footer from "../../footer";
+import Footer_mobile from "../../footer_mobile";
 import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
 function Checkout_page() {
   return (
@@ -252,10 +253,11 @@ function Checkout_page() {
           
         </div>
       </div>
-      < Footer />
+      <div className="hidden sm:block">< Footer /></div>
+      <div className="sm:hidden">< Footer_mobile /></div>
       <button className="sm:hidden block fixed bottom-0 left-0 w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl">
-                  Proceed to payment
-                </button>
+        Proceed to payment
+      </button>
     </section>
   );
 }
