@@ -10,7 +10,10 @@ function Congratulations_page() {
       <Page_header heading="Congratulations" icon="hidden" />
       <div className='bg-[#f9f9f9] pt-12 pb-52'>
         <div className='w-1/2 mx-auto bg-white p-12 rounded-3xl'>
-          <div className='h-72 w-72 rounded-full my-6 bg-[#999] flex justify-center items-center mx-auto'><img src='/icons/logo-without-text.svg' className="w-24"></img></div>
+          <div className='h-72 w-72 rounded-full my-6 bg-[#999] flex justify-center items-center mx-auto'>
+            <img src='/icons/logo-without-text.svg' className="w-24 absolute"></img>
+            <img src="./images/heart-hands.png" className="h-72 w-72 rounded-full"></img>
+          </div>
             <div className='w-[70%] mx-auto text-[1.8rem] font-normal tracking-[-0.45px] text-black text-center '>
               <p className="font-semibold text-primary mb-6">You’ve madde a significant difference to people in need and played a major part in
                 making the world a better place.
