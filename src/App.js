@@ -71,13 +71,14 @@ import Appeals_index_page from './components/generic/pages/appeals_index_page';
 import Checkout_page from './components/generic/pages/checkout_page';
 import Home_page from './components/homepage/home_page';
 import Appeals_options from './components/homepage/components/appeals_options';
-
+import Notifications_page from './components/generic/pages/notifications_page';
 
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (    
     <Routes>
       {/* generic pages */}
+      <Route path="/notifications_page" element={<Notifications_page />} />
       <Route path="/congratulations_page" element={<Congratulations_page />} />
       <Route path="/story_page" element={<Story_page />} />
       <Route path="/donation_policy_page" element={<Donation_policy_page />} />
