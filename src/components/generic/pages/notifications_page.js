@@ -17,8 +17,7 @@ function Notifications_page() {
             <img src="./icons/cookie.svg"></img>
             <div className="flex flex-col gap-2">
               <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black">Can we use Cookies?</p>
-              <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">They help our site run at 100% efficiency but you can opt out.</p>
-            
+              <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">They help our site run at 100% efficiency but you can opt out.</p>            
             </div>
           </div>
           <button className="self-center px-10 h-20 py-6 uppercase text-[1.4rem] font-semibold text-white bg-primary rounded-xl">

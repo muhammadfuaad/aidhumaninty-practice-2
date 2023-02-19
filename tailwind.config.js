@@ -22,6 +22,8 @@ module.exports = {
         "amber": "#FFC100",
         "green": "#00C98B",
         "light-gray": "#f1f1f1",
+        "light-red": "#FFEAEA",
+        "light-green": "#B4FFE8",
         "red": "#FD4949",
         "purple": "#A349FD",
         "off-white": "#f1f1f1",
@@ -31,7 +33,6 @@ module.exports = {
         "f9": "#f9f9f9",
         "f5": "#f5f6f7",
         "bd": "#bdbdbd"
-        
       }
     },
   },
