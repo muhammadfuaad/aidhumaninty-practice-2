@@ -25,7 +25,7 @@ code {
     @apply text-[3.2rem] font-bold tracking-[-0.48px] text-black leading-[3.6rem] sm:text-[3.6rem] 
     sm:font-bold sm:tracking-[-0.54px] sm:text-black sm:leading-[4rem];
   }
-  .generic-sub-heading {
+  .generic-subheading {
     @apply text-[2.6rem] font-bold tracking-[-0.65px] text-black leading-[3rem] sm:text-[3rem] 
     sm:font-bold sm:tracking-[-0.75px] sm:text-black sm:leading-[3.4rem];
   }
@@ -50,7 +50,7 @@ code {
     @apply sm:text-[2rem] text-[2.6rem] font-bold sm:tracking-[-0.5px] tracking-[-0.65px] text-black;
   }
   .portal-subheading {
-    @apply text-[1.8rem] font-bold tracking-[-0.45px] text-black;
+    @apply text-[1.6rem] font-bold tracking-[-0.4px] text-black sm:text-[1.8rem] sm:font-bold sm:tracking-[-0.45px] sm:text-black;
   }
   .portal-body {
     @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;

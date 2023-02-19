@@ -1,7 +1,8 @@
 import Checkout_card from "./checkout_card";
 function Checkout() {
   return (
-    <div className="w-[80%] sm:w-[25%] min-w-[33rem] h-full bg-primary-dark overflow-hidden">
+    <div className="w-[80%] sm:w-[25%] sm:min-w-[33rem] h-full bg-primary-dark overflow-hidden border-l-[1rem] border-primary relative">
+      <div className="h-full w-4 bg-white absolute"></div>
       <div className="p-8 flex justify-between border-b border-gray">
         <div className="flex gap-2 items-center">
           <img src="./icons/cash-register.svg"></img>
@@ -11,7 +12,7 @@ function Checkout() {
         <img src="./icons/white-cross-circle.svg"></img>
       </div>
       <div className="p-8 flex flex-col">
-        <p className="text-[1.6rem] font-semibold tracking-[-0.4px] text-white mb-16">Help us furthr</p>
+        <p className="text-[1.6rem] font-semibold tracking-[-0.4px] text-white mb-16">Help us further</p>
         <div className="flex flex-col gap-6">
           < Checkout_card title=<div className="flex space-x-2 items-center"><img src="./icons/donate-to-admin.svg"></img><p className="whitespace-wrap">Donate to Admin cost 1.5%</p></div>
             text_color="#1d1d1d" amount="100" />

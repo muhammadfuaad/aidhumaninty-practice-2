@@ -20,11 +20,11 @@ function How_it_works_page() {
         <Steps_list />
         <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body my-28">It’s the simple, straightforward, and transparent way to bring people together to make the world a better place. Just what you want to hear when it’s time to devote your time and energy to a good cause that really means something to you.</p>
         <div className="mb-32">
-          <p className="generic-sub-heading mb-8">Want to do even more?</p>
+          <p className="generic-subheading mb-8">Want to do even more?</p>
           <p className="generic-body">To help incentivise kind-hearted people to do even more, we’ve proud to be able to offfer the chance to make referrals and earn rewards. It’s our way of making sure every good deed is noticed the right way.</p>
         </div>
         <div className="mb-32">
-          <p className="generic-sub-heading mb-8">What can you do with us?</p>
+          <p className="generic-subheading mb-8">What can you do with us?</p>
           <p className="generic-body">With Aid Humanity, you have the choice to help in a variety of different ways so that chrity work always fits seamlessly into your everyday life:</p>
         </div>
         <div className="flex flex-col sm:flex-row justify-between gap-16 mb-20">

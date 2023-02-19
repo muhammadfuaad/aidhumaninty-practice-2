@@ -6,7 +6,8 @@ import Amount from "./amount";
 
 function Ramadan_card() {
   return (
-    <div className="bg-white rounded-3xl p-8 flex flex-col gap-10">  
+    <div className="bg-white rounded-3xl p-8 flex flex-col gap-10 relative">  
+      <img src="./icons/footer-background-logo.svg" className="absolute -bottom-[35rem] right-1"></img>
       <button className="w-full py-4 capitalize text-[1.2rem] font-semibold text-white bg-green rounded-xl">
         Recurring<br></br> Payments
       </button>

@@ -1,8 +1,6 @@
 import Page_header from "../components/page_header";
 import Page_sidebar from "../components/page_sidebar";
 import Assistance from "../components/assistance";
-import Generic_header from "../../generic_header";
-import Footer from "../../footer";
 import Logo from "../../icons/footer-background-logo.svg";
 import Radio from "../../dashboard/radio";
 import Button from "../../dashboard/button";
@@ -18,14 +16,18 @@ import Paypal from "../../icons/paypal.png"
 import Visa from "../../icons/visa.png"
 import Mastercard from "../../icons/mastercard.png"
 import Stripe from "../../icons/stripe.png"
+import Generic_header from "../../generic_header";
+import Footer from "../../footer";
+import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
 function Checkout_page() {
   return (
     <section>
-      < Generic_header />
+      <div className="hidden sm:block">< Generic_header /></div>
+      <div className="sm:hidden block">< Home_page_header_mobile /></div>
       <Page_header heading="Checkout" icon="hidden" />
-      <div className="px-64 pt-12 bg-[#f5f6f7]">
-        <div className="flex gap-8">
-          <div className="flex flex-col p-8 rounded-2xl bg-white border-2 border-primary w-[30%]">
+      <div className="px-12 pt-12 bg-[#f5f6f7]">
+        <div className="flex flex-col sm:flex-row gap-8">
+          <div className="flex flex-col p-8 rounded-2xl bg-white border-2 border-primary w-full sm:w-[30%]">
             <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mb-8">Donation Summary</p>
             <p className="text-[1.6rem] font-semibold tracking-[-0.4px] text-body mb-12">You are donating to <span className="text-red">3 causes</span></p>
             <div className="flex flex-col gap-12">
@@ -48,11 +50,17 @@ function Checkout_page() {
               </div>
               < Checkout_card title="Rescue a street child" amount="10"/>
               < Checkout_card title="Food pack for a family" amount="100"/>
+              <div className="bg-primary p-12 rounded-3xl">
+                <div className="flex justify-between">
+                  <p className="text-[1.4rem] font-semibold tracking-[0px] text-white uppercase">Total</p>
+                  <p className="text-[1.8rem] font-bold tracking-[-0.27px] text-white">£380.00</p>
+                </div>
+              </div>
               
             </div>
           </div>
 
-          <div className="w-[70%] flex flex-col pb-[100px]">
+          <div className="w-full sm:w-[70%] flex flex-col pb-[100px]">
             <div>
               
             <div className="bg-white rounded-2xl">          
@@ -214,27 +222,27 @@ function Checkout_page() {
 
                 <div className="p-8 rounded-2xl bg-[#f5f6f7] mb-6">
                   <p className="text-[1.5rem] font-semibold tracking-[-0.38px] text-black mb-8">Enter your card details</p>
-                  <div className="flex gap-8">
-                    <div className="relative w-1/5">
+                  <div className="flex flex-col sm:flex-row gap-8">
+                    <div className="relative w-full sm:w-1/5">
                       <input type="text" id="number" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
                       <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Card Number</label>
                     </div>
-                    <div className="relative w-1/5">
+                    <div className="relative w-full sm:w-1/5">
                       <input type="text" id="number" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
                       <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Card Holder Name</label>
                     </div>
-                    <div className="relative w-[15%]">
+                    <div className="relative w-full sm:w-[15%]">
                       <input type="text" id="number" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
                       <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Expiry Date</label>
                     </div>
-                    <div className="relative w-[15%]">
+                    <div className="relative w-full sm:w-[15%]">
                       <input type="text" id="number" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
                       <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray top-2 left-4">Security Code</label>
                     </div>
                   </div>
                   
                 </div>
-                <button className="w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl">
+                <button className="hidden sm:block w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl">
                   Proceed to payment
                 </button>
               </div>
@@ -245,6 +253,9 @@ function Checkout_page() {
         </div>
       </div>
       < Footer />
+      <button className="sm:hidden block fixed bottom-0 left-0 w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl">
+                  Proceed to payment
+                </button>
     </section>
   );
 }
