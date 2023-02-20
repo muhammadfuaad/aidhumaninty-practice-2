@@ -1,35 +1,42 @@
 import Mobile_header from "../components/mobile_header";
 import Header from "../components/header"
-import Donation_card from '../components/donation_card';
 import Amount from "../components/amount";
+import Category from "../../category";
+import Radio from "../components/radio";
 
-function Donate_now() {
+function Quick_donate() {
   return (
-    <div className="min-h-screen relative overflow-hidden sm:w-[60rem] sm:rounded-3xl">
+    <div className="min-h-screen sm:min-h-fit sm:h-fit relative overflow-hidden sm:w-[60rem] sm:rounded-3xl">
       <div className="block sm:hidden">
-        < Mobile_header title="Donate Now" display_logout="hidden"/>
+        < Mobile_header title="Quick Donate" display_logout="hidden"/>
       </div>
       <div className="sm:block hidden">
         < Header title="Donate Now"/>
       </div>
-        <div className="flex flex-col h-screen">
-          <div className="flex flex-col px-6 py-10 bg-[#f5f6f7]">
-            <div className="flex gap-8 mt-12">
-              <div className="">< Donation_card /></div>
-              <div className="">< Donation_card /></div>
-            </div>
-            <div className="flex flex-col mt-12 mx-auto w-[90%]">
-              <p className="text-[1.6rem] font-normal tracking-[-0.4px] text-body mb-2">Donate to Support an <span className="font-bold">Orphaned Child</span></p>
-              <div className="flex gap-2 items-center self-center">
-                <p className="text-[1.1rem] font-normal tracking-[-0.28px] text-body">fundraised by</p>
-                <img src="./icons/user-circle.svg"></img>
-                <p className="text-[1.1rem] font-semibold tracking-[-0.28px] text-primary-dark">Ron Hill</p>
+        <div className="flex flex-col">
+          <div className="flex flex-col px-6 py-10 bg-[#f5f6f7] text-[1.4rem] font-medium tracking-[-0.22px] text-black">
+            <div className="flex gap-16 sm:justify-between px-8">
+              <div className="flex flex-col items-center">
+                < Category category="Z" />
+                <div className="h-12 text-center mt-2"><p>Sadaqah</p></div>
+                < Radio />
+              </div>
+              <div className="flex flex-col items-center">
+                < Category category="Z" />
+                <div className="h-12 text-center mt-2"><p>Sadaqah Jariyah</p></div>
+                < Radio />
+              </div>
+              <div className="flex flex-col items-center">
+                < Category category="Z" />
+                <div className="h-12 text-center mt-2"><p>Sadaqah</p></div>
+                < Radio />
               </div>
             </div>
+            
           </div>
 
-          <div className="flex flex-col bg-[#f9f9f9] px-6 h-full">
-            <p className="text-[2.6rem] font-bold tracking-[-0.65px] text-black self-center my-12">Donation Amount</p>
+          <div className="flex flex-col bg-[#f9f9f9] px-6 h-screen">
+            <p className="text-[2.6rem] font-bold tracking-[-0.65px] text-black self-center my-12">Donation amount</p>
             < Amount />
             <div className="h-28 flex mt-6 mb-8 relative">
               <div className="bg-platinum h-[4.75rem] w-px absolute right-40 top-5 z-10"></div>
@@ -51,4 +58,4 @@ function Donate_now() {
     </div>
   );
 }
-export default Donate_now;
+export default Quick_donate;

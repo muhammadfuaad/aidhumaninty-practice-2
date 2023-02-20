@@ -48,7 +48,7 @@ import Appeals from './components/menu_options/pages/appeals';
 import Emergency from './components/menu_options/pages/emergency';
 import Zakat from './components/menu_options/pages/zakat';
 import Login from './components/menu_options/pages/login';
-import Donate from './components/menu_options/pages/donate';
+import Quick_donate from './components/menu_options/pages/quick_donate';
 import Donate_now from './components/menu_options/pages/donate_now';
 import Filters from './components/menu_options/pages/filters';
 
@@ -151,7 +151,7 @@ function App() {
       <Route path="/emergency" element={<Emergency />} />
       <Route path="/zakat" element={<Zakat />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/donate" element={<Donate />} />
+      <Route path="/quick_donate" element={<Quick_donate />} />
       <Route path="/donate_now" element={<Donate_now />} />
       <Route path="/filters" element={<Filters />} />
     </Routes>

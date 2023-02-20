@@ -4,20 +4,16 @@ import Apple from "../images/apple.svg";
 import Google from "../images/google.svg";
 import Toggle from "../../dashboard/toggle"
 import bar from "../../icons/blue-bar.svg"
-import cross from "../../icons/cross-circle.svg"
-
+import Header from "../components/header";
 function Login() {
   return (
-    <div className="bg-[#f5f6f7] min-h-screen w-[60rem] overflow-hidden relative sm:rounded-3xl">
+    <div className="bg-[#f5f6f7] min-h-screen sm:min-h-fit sm:h-fit w-full sm:w-[60rem] overflow-hidden relative sm:rounded-3xl">
       <img src={bar} className="absolute hidden sm:block"></img>
       <div className="sm:hidden">
         < Mobile_header title="Login" display_logout="hidden"/>
       </div>
       <div className="hidden sm:block">
-        <div className="flex justify-between p-14 border-bottom-medium">
-          <p className="text-[3rem] font-bold tracking-[-0.75px] text-black">Log In</p>
-          <img src={cross}></img>
-        </div>
+        <Header title="Login"/>
       </div>
         <div className="px-6 flex flex-col sm:px-14">
           <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-[#999] my-10">To continue, log in to Aid Humanity.</p>
@@ -45,8 +41,9 @@ function Login() {
               <label for="email" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Email Address or Username *</label>
             </div>
             <div className="relative">
-              <input type="text" id="password" className="focus:outline-primary bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
+              <input type="password" id="password" className="focus:outline-primary bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
               <label for="password" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Password*</label>
+              <img src="./icons/eye-gray.svg" className="absolute right-4 top-6"></img>
             </div>
           </div>
 
