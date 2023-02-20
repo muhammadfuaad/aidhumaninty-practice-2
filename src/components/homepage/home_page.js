@@ -1,23 +1,15 @@
-import Toggle from "../dashboard/toggle";
 import Home_page_header from "./components/home_page_header";
 import kid from "../icons/kid.png"
 import Footer from "../footer";
 import Appeal_card from "../generic/components/appeal_card";
-import Appeals_list from "../generic/components/appeals_list";
 import Logo from "../icons/logo-without-text.svg"
 import quotes from "../icons/double-quotes-yellow.svg"
-
-import donation_1 from "../icons/donation-1.png"
-import donation_2 from "../icons/donation-2.png"
-import donation_3 from "../icons/donation-3.png"
-import orange from "../icons/orange-1.png"
 import News from "./components/news";
 import Ways from "./components/ways";
 import Achievement from './../generic/components/achievement';
 import Testimonial from './../generic/components/testimonial';
 import Event from './../generic/components/event';
 import Contact from "./components/contact";
-import Appeal_title from "../generic/components/appeal_title";
 import Helped from "./components/helped";
 import Slider from "./components/slider";
 import Alone from "./components/alone";
@@ -31,8 +23,8 @@ function Home_page() {
       <div className="hidden sm:block">< Home_page_header /></div>
       <div className="sm:hidden block">< Home_page_header_mobile /></div>
       <Slider/>
-      <div className="flex flex-col px-64 bg-[#f9f9f9]">
-        <p className="self-start text-[3rem] font-bold tracking-[-0.75px] text-black my-20">Appeals that need your backing</p>
+      <div className="flex flex-col px-48 bg-[#f9f9f9] mb-[-25rem]">
+        <p className="self-start text-[3rem] font-bold tracking-[-0.75px] text-black mt-36 mb-28">Appeals that need your backing</p>
 
         <div className="flex gap-12">
           <Appeal_card />
@@ -44,7 +36,7 @@ function Home_page() {
             outline-spanish-gray rounded-xl">View All</button>
         </div>   
       </div>
-
+      <div className="bg-f5 h-[25rem]"></div>
       <section className="flex bg-amber px-48 py-12">
         <p className="basis-[25%] text-primary-dark text-[26px] font-semibold tracking-[-0.65px] leading-[30px] ">What if one action could change the world?</p>
         <div className="flex basis-[25%] items-center space-x-4">
@@ -55,11 +47,8 @@ function Home_page() {
         </div>
         <p className="flex basis-[50%] items-center justify-center text-primary-dark text-[24px] font-semibold tracking-[-0.6px] leading-[28px]">Give Back - Deliver Better - Drive Change</p>
       </section>
-
       <Helped/>
-
       <Passionate/>
-
       <div className="flex flex-col gap-24 px-48 py-24 bg-[#f1f1f1]">
         <p className="self-center text-[3rem] font-medium tracking-[-0.75px] text-black"><span className="font-semibold">Our Achievements</span> with your help and more …</p>
         <div className="flex justify-between ">
@@ -68,9 +57,7 @@ function Home_page() {
           <Achievement/>
           <Achievement/>
         </div>
-      </div>
-
-      
+      </div>     
       <section>
         <div className="flex items-center h-[150px] space-y-2 bg-primary px-48">
           <p className="text-white text-[1.8rem] font-semibold tracking-[-0.45px] leading-[28px] basis-[70%]">Faithful believers are to each other as the bricks of a wall, supporting and reinforcing each other.<br></br>So saying, the Prophet Muhammad clasped his hands by interlocking his fingers.</p>
@@ -80,13 +67,7 @@ function Home_page() {
           </div>
         </div>
       </section>
-
       <Alone/>
-
-
-      
-      
-
       <div className="flex flex-col gap-24 px-64 py-24 bg-[#f1f1f1]">
         <p className="self-center text-[3rem] font-bold tracking-[-0.75px] text-black">Here’s what our community has to say</p>
         <div className="flex justify-between">
@@ -112,32 +93,10 @@ function Home_page() {
             outline-spanish-gray rounded-xl">View All</button>
         </div>
       </div>
-
       <News/>
-      
-
-
-
       <Ways/>
-
       <Faq/>
-
       <Contact/>
-
-
-      <section>
-  
-</section>
-
-
-
-
-
-
-
-
-
-
       < Footer />
     </section>
   );

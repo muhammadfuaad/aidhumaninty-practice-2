@@ -15,9 +15,9 @@ function Passionate() {
         donation policy</span> that makes sure every donation can:</p>
       </div>
       <div className="flex justify-between px-48 pb-64 relative">
-        <div className="basis-[60%]">
+        <div className="basis-[60%] relative">
           <img src={grains} className="rounded-3xl"></img>
-          <div className="flex space-x-4 absolute top-[60rem] left-[30rem]">
+          <div className="flex space-x-4 absolute -bottom-20 left-40">
             <p className="text-white text-[2.5rem] font-semibold tracking-[-1.25px]">we transfer</p>
             <img src={percent} className="w-[27.4rem] h-44"></img>
             <p className="text-white text-[1.7rem] font-semibold tracking-[-0.85px]">of your donation</p>
