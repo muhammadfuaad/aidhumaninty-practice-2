@@ -1,8 +1,8 @@
-function Zakat_calculator() {
+function Zakat_calculator_horizontal() {
   return (
-    <div className="bg-primary-light px-6 py-10">
-      <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-6">Quick Zakat Calculator</p>
-      <div className="flex flex-col gap-6 items-center">
+    <div className="flex justify-between items-center px-28 py-12 bg-primary-light">
+      <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black">Quick Zakat Calculator</p>
+      <div className="flex gap-6 items-center w-[70%]">
         <div className="w-full flex flex-col border border-black rounded-xl p-4">
           <p className="text-[1.1rem] font-semibold tracking-[0px] text-black mb-1">Total Savings inc. Gold</p>
           <p className="text-[1.3rem] font-medium tracking-[0px] text-black">£980</p>
@@ -20,4 +20,4 @@ function Zakat_calculator() {
     </div>
   );
 }
-export default Zakat_calculator;
+export default Zakat_calculator_horizontal;

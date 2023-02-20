@@ -72,6 +72,8 @@ import Checkout_page from './components/generic/pages/checkout_page';
 import Home_page from './components/homepage/home_page';
 import Appeals_options from './components/homepage/components/appeals_options';
 import Emergency_options from './components/homepage/components/emergency_options';
+import Zakat_options from './components/homepage/components/zakat_options';
+
 import Notifications_page from './components/generic/pages/notifications_page';
 
 import { Route, Routes } from "react-router-dom";
@@ -99,6 +101,8 @@ function App() {
       <Route path="/home_page" element={<Home_page />} />
       <Route path="/appeals_options" element={<Appeals_options />} />
       <Route path="/emergency_options" element={<Emergency_options />} />
+      <Route path="/zakat_options" element={<Zakat_options />} />
+
       {/*dashboard*/}
       <Route path="/dashboard_sidebar" element={<Dashboard_sidebar />} />
       <Route path="/profile_sidebar" element={<Profile_sidebar />} />
