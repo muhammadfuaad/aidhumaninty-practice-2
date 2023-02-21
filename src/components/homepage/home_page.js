@@ -16,6 +16,7 @@ import Alone from "./components/alone";
 import Passionate from "./components/passionate";
 import Home_page_header_mobile from './components/home_page_header_mobile';
 import Faq from './components/faq';
+import Circular_progress_bar from './../dashboard/circular_progress_bar';
 
 function Home_page() {
   return (
@@ -23,8 +24,8 @@ function Home_page() {
       <div className="hidden sm:block">< Home_page_header /></div>
       <div className="sm:hidden block">< Home_page_header_mobile /></div>
       <Slider/>
-      <div className="flex flex-col px-48 bg-[#f9f9f9] mb-[-25rem]">
-        <p className="self-start text-[3rem] font-bold tracking-[-0.75px] text-black mt-36 mb-28">Appeals that need your backing</p>
+      <div className="flex flex-col px-8 sm:px-48 bg-[#f9f9f9] mb-[-25rem]">
+        <p className="self-center text-center sm:self-start text-[3rem] font-bold tracking-[-0.75px] text-black mt-36 mb-28">Appeals that need your backing</p>
 
         <div className="flex gap-12">
           <Appeal_card />
@@ -37,20 +38,20 @@ function Home_page() {
         </div>   
       </div>
       <div className="bg-f5 h-[25rem]"></div>
-      <section className="flex bg-amber px-48 py-12">
+      <section className="flex flex-col sm:flex-row bg-amber px-8 sm:px-48 py-12">
         <p className="basis-[25%] text-primary-dark text-[26px] font-semibold tracking-[-0.65px] leading-[30px] ">What if one action could change the world?</p>
         <div className="flex basis-[25%] items-center space-x-4">
-          <div className="flex bg-primary-dark rounded-full relative w-[5rem] h-[5rem]">
+          <div className="flex bg-primary-dark rounded-full relative w-[5rem] h-[5rem] px-8 sm:px-0">
             <img src={Logo} className="absolute top-[20%] left-[25%]"></img>
           </div>
           <p className="text-body text-[1.6rem] font-medium tracking-[-0.24px] leading-[20px]">Aid Humanity helps you make it happen…</p>
         </div>
-        <p className="flex basis-[50%] items-center justify-center text-primary-dark text-[24px] font-semibold tracking-[-0.6px] leading-[28px]">Give Back - Deliver Better - Drive Change</p>
+        <p className="flex basis-[50%] items-center justify-center text-primary-dark text-[24px] font-semibold tracking-[-0.6px] leading-[28px] px-10 sm:px-10 text-center">Give Back - Deliver Better - Drive Change</p>
       </section>
       <Helped/>
       <Passionate/>
-      <div className="flex flex-col gap-24 px-48 py-24 bg-[#f1f1f1]">
-        <p className="self-center text-[3rem] font-medium tracking-[-0.75px] text-black"><span className="font-semibold">Our Achievements</span> with your help and more …</p>
+      <div className="flex flex-col gap-24 px-8 sm:px-48 py-24 bg-[#f1f1f1]">
+        <p className="self-center text-[3rem] font-medium tracking-[-0.75px] text-black text-center sm:text-start"><span className="font-semibold">Our Achievements</span> with your help and more …</p>
         <div className="flex justify-between ">
           <Achievement/>
           <Achievement/>
@@ -59,7 +60,7 @@ function Home_page() {
         </div>
       </div>     
       <section>
-        <div className="flex items-center h-[150px] space-y-2 bg-primary px-48">
+        <div className="flex flex-col sm:flex-row items-center px-8 py-16 space-y-2 bg-primary sm:px-48">
           <p className="text-white text-[1.8rem] font-semibold tracking-[-0.45px] leading-[28px] basis-[70%]">Faithful believers are to each other as the bricks of a wall, supporting and reinforcing each other.<br></br>So saying, the Prophet Muhammad clasped his hands by interlocking his fingers.</p>
           <div className="basis-[30%] flex space-x-6 items-end justify-end ">
             <p className="text-off-white text-[1.6rem] font-medium tracking-[-0.24px] leading-[20px] whitespace-nowrap mb-4">Prophet Muhammed (Al-Bukhari)</p>
@@ -68,17 +69,17 @@ function Home_page() {
         </div>
       </section>
       <Alone/>
-      <div className="flex flex-col gap-24 px-64 py-24 bg-[#f1f1f1]">
-        <p className="self-center text-[3rem] font-bold tracking-[-0.75px] text-black">Here’s what our community has to say</p>
-        <div className="flex justify-between">
-          <Testimonial name="Andrew" age="9" feedback="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." img={kid}/>
-          <Testimonial name="Sumayia" age="12" feedback="Suspendisse quis nulla cursus, elementum eros quis, consequat tortor. Nullam sed ex vel mi dignissim molestie id at est. Integer feugiat gravida purus, vel ultrices mauris." img={kid}/>
-          <Testimonial name="Zakya" age="13" feedback="Donec non justo diam. Fusce egestas diam sit amet turpis condimentum, vel imperdiet lectus aliquam. Nunc malesuada enim viverra eros laoreet, eget tincidunt erat aliquet." img={kid}/>
+      <div className="flex flex-col px-8 sm:px-48 py-24 bg-[#f1f1f1]">
+        <p className="self-center text-[3rem] font-bold tracking-[-0.75px] text-black text-center sm:text-start mb-12 sm:mb-24">Here’s what our community has to say</p>
+        <div className="flex flex-col sm:flex-row sm:justify-between gap-12">
+          <div className="w-full sm:w-[30%] h-[25rem]"><Testimonial name="Andrew" age="9" feedback="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." img={kid}/></div>
+          <div className="w-full sm:w-[30%] h-[25rem]"><Testimonial name="Sumayia" age="12" feedback="Suspendisse quis nulla cursus, elementum eros quis, consequat tortor. Nullam sed ex vel mi dignissim molestie id at est. Integer feugiat gravida purus, vel ultrices mauris." img={kid}/></div>
+          <div className="w-full sm:w-[30%] h-[25rem]"><Testimonial name="Zakya" age="13" feedback="Donec non justo diam. Fusce egestas diam sit amet turpis condimentum, vel imperdiet lectus aliquam. Nunc malesuada enim viverra eros laoreet, eget tincidunt erat aliquet." img={kid}/></div>
         </div>
       </div>
 
-      <div className="flex flex-col gap-24 px-64 py-24 bg-white">
-        <p className="self-center text-[3rem] font-bold tracking-[-0.75px] text-black">Upcoming Events</p>
+      <div className="flex flex-col px-8 sm:px-48 py-20 sm:py-24 bg-white">
+        <p className="self-center text-[3rem] font-bold tracking-[-0.75px] text-black mb-24 sm:mb-24">Upcoming Events</p>
         <div className="flex gap-12">
           <Event/>
           <Event/>
@@ -88,8 +89,10 @@ function Home_page() {
           <Event/>
           
         </div>
-        <div className='flex my-20 self-end'>
-          <button className="px-10 py-6 self-end text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
+        <div className='flex flex-col gap-8 sm:gap-0 sm:flex-row sm:justify-between'>
+          <img src="./icons/template-pager.svg" className="invisible"></img>
+          <img src="./icons/template-pager.svg" className="self-center"></img>
+          <button className="self-center sm:self-auto px-10 py-6 text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
             outline-spanish-gray rounded-xl">View All</button>
         </div>
       </div>

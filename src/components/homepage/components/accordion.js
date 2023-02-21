@@ -10,11 +10,11 @@ function Accordion(props) {
   return (
     <div className="flex flex-col gap-4 rounded-3xl border-2 border-bd p-12">
       <div className="w-full flex justify-between items-center">
-        <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black leading-[2.4rem]">{props.question}</p>
+        <p className="portal-subheading">{props.question}</p>
         {!showResults ? <img src="./icons/blue-plus.svg" onClick={onClick}></img> : <img src="./icons/minus-circle.svg" onClick={onClick}></img>}
       </div>
       
-        { showResults ? <p className="text-[1.6rem] font-normal tracking-[-0.4px] text-spanish-gray leading-[2.4rem]">{props.answer}</p> : null }
+        { showResults ? <p className="accordion-text">{props.answer}</p> : null }
     </div>
   );
 }
