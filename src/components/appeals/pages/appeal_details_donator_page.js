@@ -8,11 +8,15 @@ import Appeal_desktop_header from '../appeal_desktop_header';
 import Arrow from "../../icons/arrow-left-white.svg"
 import Recent_donors from '../recent_donors';
 import Appeal_card from '../../generic/components/appeal_card';
+import Mobile_header from '../../generic/components/mobile_header';
+import Appeal_details_header_mobile from '../appeal_details_header_mobile';
 
 function Appeal_details_donator_page(props) {
   return (
     <div className="flex flex-col bg-[#f5f6f7] min-h-screen pb-40">
-      <div className='sm:hidden'>< Dashboard_header_mobile /></div>
+      <div className='sm:hidden'>
+        <Appeal_details_header_mobile/>  
+      </div>
       <div className='hidden sm:block'>< Appeal_desktop_header /></div>
       <div className='bg-primary-dark h-80'>
         <div className="flex justify-between w-full mt-20 px-8 sm:pl-56 sm:pr-48">
@@ -31,7 +35,7 @@ function Appeal_details_donator_page(props) {
         <div className='sm:px-0 sm:w-[30%] sm:order-2 flex flex-col'>
           < Appeal_status_2 />
           {props.fundraiser_details}
-          <div className="flex flex-col rounded-3xl bg-white mt-8">
+          <div className="hidden sm:flex flex-col rounded-3xl bg-white mt-8">
             <div className="flex justify-between p-8 border-b border-[#999] text-[1.6rem] tracking-[-0.4px] text-black">
               <p className="font-bold">Recent Donors</p>
               <p className="font-medium">175</p>

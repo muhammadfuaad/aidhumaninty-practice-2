@@ -1,14 +1,4 @@
-import Appeal_layout from "../appeal_layout";
-import Appeal_donations from "../appeal_donations";
 import Fundraiser from "../../icons/fundraiser-hand.svg"
-
-import Appeal_view from '../appeal_view';
-import Take_off from '../../take_off';
-import Appeal_status from '../appeal_status_2';
-import Fixed_navigator from '../../fixed_navigator';
-import Appeal_description from "../appeal_description"
-import Dashboard_header_mobile from '../../dashboard/dashboard_header_mobile';
-import Appeal_desktop_header from '../appeal_desktop_header';
 import Appeal_details_donator_page from "./appeal_details_donator_page";
 import Fundraisers from './../fundraisers';
 function Appeal_details_fundraiser_page() {

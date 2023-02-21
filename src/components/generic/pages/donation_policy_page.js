@@ -6,7 +6,7 @@ function Donation_policy_page() {
     banner_heading="Help Center"
     heading="Donation Policy" 
     navigator=<p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / <span className="text-body">Help Center</span> / Donation Policy</p>
-    content=<div className="flex flex-col gap-14 text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem]">
+    content=<div className="flex flex-col gap-14 generic-body">
     <p>
       Aid Humanity understands the importance of your donation; the responsibility and 
       accountability it brings. We pride ourselves on being completely transparent and 

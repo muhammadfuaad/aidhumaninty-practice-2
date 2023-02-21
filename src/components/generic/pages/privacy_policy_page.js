@@ -16,7 +16,7 @@ function Privacy_policy_page() {
     banner_heading="Help Center" 
     heading="Privacy Policy" 
     navigator=<p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / <span className="text-body">Help Center</span> / Terms & Conditions</p>
-    content=<div className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem] flex flex-col gap-10">
+    content=<div className="generic-body flex flex-col gap-10">
     <p className="font-semibold">1 Policy Statement</p>
     <p> 1.1 Aid humanity is committed to protecting your personal data, whether you are a supporter of our cause, or a volunteer. In order to protect your data, please read this policy carefully. This will help you understand how we collect, use and store your personal data.</p>
     <p> 1.2 Aid humanity is a registered UK charity; registration number 1184639 If you have any questions regarding this policy, please feel free to contact our Data Protection Officer at the following address:<br></br> Unit 9, Twelve o’clock Court, Sheffield, S4 7WW<br></br> Email: <span className="font-semibold text-primary">amar@aidhumanity.co.uk</span></p>

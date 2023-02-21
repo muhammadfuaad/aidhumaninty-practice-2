@@ -48,8 +48,9 @@ import Appeals from './components/menu_options/pages/appeals';
 import Emergency from './components/menu_options/pages/emergency';
 import Zakat from './components/menu_options/pages/zakat';
 import Login from './components/menu_options/pages/login';
-import Donate from './components/menu_options/pages/donate';
+import Quick_donate from './components/menu_options/pages/quick_donate';
 import Donate_now from './components/menu_options/pages/donate_now';
+import Filters from './components/menu_options/pages/filters';
 
 // generic pages
 import Congratulations_page from './components/generic/pages/congratulations_page';
@@ -70,13 +71,17 @@ import Appeals_index_page from './components/generic/pages/appeals_index_page';
 import Checkout_page from './components/generic/pages/checkout_page';
 import Home_page from './components/homepage/home_page';
 import Appeals_options from './components/homepage/components/appeals_options';
+import Emergency_options from './components/homepage/components/emergency_options';
+import Zakat_options from './components/homepage/components/zakat_options';
 
+import Notifications_page from './components/generic/pages/notifications_page';
 
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (    
     <Routes>
       {/* generic pages */}
+      <Route path="/notifications_page" element={<Notifications_page />} />
       <Route path="/congratulations_page" element={<Congratulations_page />} />
       <Route path="/story_page" element={<Story_page />} />
       <Route path="/donation_policy_page" element={<Donation_policy_page />} />
@@ -95,6 +100,9 @@ function App() {
       <Route path="/checkout_page" element={<Checkout_page />} />
       <Route path="/home_page" element={<Home_page />} />
       <Route path="/appeals_options" element={<Appeals_options />} />
+      <Route path="/emergency_options" element={<Emergency_options />} />
+      <Route path="/zakat_options" element={<Zakat_options />} />
+
       {/*dashboard*/}
       <Route path="/dashboard_sidebar" element={<Dashboard_sidebar />} />
       <Route path="/profile_sidebar" element={<Profile_sidebar />} />
@@ -143,8 +151,9 @@ function App() {
       <Route path="/emergency" element={<Emergency />} />
       <Route path="/zakat" element={<Zakat />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/donate" element={<Donate />} />
+      <Route path="/quick_donate" element={<Quick_donate />} />
       <Route path="/donate_now" element={<Donate_now />} />
+      <Route path="/filters" element={<Filters />} />
     </Routes>
   );
 }

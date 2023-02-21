@@ -31,7 +31,7 @@ function Generic_header() {
         </div>
       </div>
 
-      <div className="flex justify-between px-64">
+      <div className="flex justify-between px-64 py-8">
         <div className="flex gap-24">
           <img src={Logo}></img>
           <ul className="flex justify-between gap-24 items-center text-[1.8rem] font-semibold tracking-[-0.27px] text-black
@@ -51,12 +51,12 @@ function Generic_header() {
           <a href="#">
             <div className="flex gap-4 items-center mr-4 group relative">
               <div className="hidden group-hover:block absolute top-8 left-[-25rem] z-10"><Login/></div>
-              <img src={User} className="w-8"></img>
+              <img src="./icons/user-circle-black.svg" className="w-8"></img>
               <p className="text-[1.4rem] font-semibold tracking-[-0.21px] text-black whitespace-nowrap">My Account</p>
             </div>
           </a>
           <a href="#">
-            <div><img src={Heart} className="w-8 h-12"></img></div>
+            <div><img src="./icons/heart.svg" className="w-8 h-12"></img></div>
           </a>
           <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-primary bg-transparent outline
             outline-primary rounded-xl">Donate now</button>

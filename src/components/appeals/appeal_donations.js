@@ -6,10 +6,10 @@ function Appeal_media() {
   return (
     
         <div className='flex flex-col bg-white rounded-3xl'>
-          <div className='p-12 border-bottom-medium'>
-            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-black'>Donations total</p>
+          <div className='p-8 sm:p-12 border-bottom-medium'>
+            <p className='portal-subheading'>Donations total</p>
           </div>
-          <div className='p-12 pr-32 sm:pr-[30rem] border-bottom-medium'>
+          <div className='p-8 sm:p-12 pr-32 sm:pr-[30rem] border-bottom-medium'>
             <div className='flex flex-col text-[1.6rem] font-semibold tracking-[-0.4px] text-body'>
               <div className='flex flex-col border-b-[1px] border-dashed border-gray pb-4'>
                 <p>Number of donations:</p>
@@ -31,12 +31,12 @@ function Appeal_media() {
             </div>
           </div>
           
-          <div className='p-12 border-bottom-medium'>
-            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-black mb-6'>Offline donations</p>
+          <div className='p-8 sm:p-12 border-bottom-medium'>
+            <p className='portal-subheading mb-6'>Offline donations</p>
             <p className='text-[1.6rem] font-normal tracking-[-0.4px] text-black mb-8'>Have you received any offline donations? Add the total amount here.</p>
 
             <div className='flex flex-col space-y-6 sm:space-y-0 sm:flex-row items-center sm:space-x-6'>
-              <div className="relative sm:w-[60%]">
+              <div className="relative w-full sm:w-[60%]">
                 <input type="text" id="" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
                 <label for="" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4"></label>
               </div>
@@ -47,8 +47,8 @@ function Appeal_media() {
             </div>
           </div>
 
-          <div className='p-12'>
-            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-black mb-6'>Donations made to your page</p>
+          <div className='p-8 sm:p-12'>
+            <p className='portal-subheading mb-6'>Donations made to your page</p>
             <p className='text-[1.6rem] font-normal tracking-[-0.4px] text-black mb-4'>You have 0 donations.</p>
             <p className='text-[1.2rem] font-semibold tracking-[-0.3px] text-primary mb-4'>See what happens to your donations</p>
             <table className='w-full'>
@@ -64,8 +64,8 @@ function Appeal_media() {
                 </td>
                 <td className='text-primary py-4'>£231.50</td>
                 <td className='flex space-x-2 items-center py-4'>
-                  <img src="./icons/calendar-clock.svg"></img>
-                  <p className='font-medium text-black'>Tue 12 Dec, 08:15</p>
+                  <img src="./icons/calendar-clock-black.svg"></img>
+                  <p className='font-medium text-black whitespace-nowrap'>Tue 12 Dec, 08:15</p>
                 </td>
               </tr>
             </table>

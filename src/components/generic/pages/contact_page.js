@@ -6,26 +6,29 @@ import Media from './../../media';
 import Yellow_ring_large from "../../icons/yellow-ring-large.png";
 import Yellow_ring_small from "../../icons/yellow-ring-small.png";
 import Blue_circle from "../../icons/blue-circle.png";
+import Generic_header from "../../generic_header";
+import Footer from "../../footer";
+import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
 
 function Contact_page() {
   return (
     <section className="relative overflow-hidden">
-      <img src={Yellow_ring_small} className="absolute top-[50rem]"></img>
-      <img src={Yellow_ring_large} className="absolute top-[30rem] -right-[30rem]"></img>
-      <img src={Blue_circle} className="absolute top-[90rem] left-[20rem]"></img>
+      <img src={Yellow_ring_small} className="hidden sm:block w-40 absolute top-[50rem]"></img>
+      <img src={Blue_circle} className="hidden sm:block w-16 absolute top-[100rem] left-[20rem]"></img>
+
+      <div className="hidden sm:block">< Generic_header /></div>
+      <div className="sm:hidden block">< Home_page_header_mobile /></div>
 
       <Page_header heading="Contact" icon="hidden" />
-      <div className="flex flex-col mb-44">
-        <div className="pl-64 pr-8 mb-40">
-          <p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / Contact</p>
-          <div className="flex flex-col">
-            <div className="flex justify-between">
-              <div className="flex flex-col mt-12 w-1/2">
+        <div className="px-12 sm:pl-64 sm:pr-8 pb-40">
+          <p className="hidden sm:block text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16">Home / Contact</p>
+            <div className="flex flex-col sm:flex-row sm:justify-between">
+              <div className="flex flex-col mt-12 w-full sm:w-1/2">
                 <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-16">Contact</p>
-                <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-16">Got a Question?</p>
-                <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem] mb-24">Aid Humanity is a thoughtful, caring community of like-minded individuals ready to give back and make a difference. If you’d like to know more about what we do, or have a question about how you can help, all you have to do is ask.</p>
+                <p className="generic-subheading mb-16">Got a Question?</p>
+                <p className="generic-body mb-24">Aid Humanity is a thoughtful, caring community of like-minded individuals ready to give back and make a difference. If you’d like to know more about what we do, or have a question about how you can help, all you have to do is ask.</p>
                 
-                <div className='flex justify-between py-20 border-y border-platinum pr-12'>
+                <div className='flex flex-col gap-12 sm:flex-row sm:justify-between py-20 border-y border-platinum pr-12'>
                   <div className='flex gap-4'>
                     <div className="mb-8">
                       <Phone stroke="#1d1d1d" />
@@ -40,22 +43,26 @@ function Contact_page() {
                     <img src={Email} className="mb-8"></img>
                     <div className='flex flex-col'>
                       <p className="text-[1.1rem] font-semibold tracking-[0px] text-gray uppercase">Email</p>
-                      <p className="text-[3rem] font-bold tracking-[-0.75px] text-black">info@aidhumanity.co.uk</p>
+                      <p className="text-[2.4rem] font-bold tracking-[-0.6px] text-black">info@aidhumanity.co.uk</p>
                     </div>
                   </div>
                 </div>
 
-                <p className="text-[3rem] font-bold tracking-[-0.75px] text-black mb-16">Company Details</p>
-                <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3rem] mb-24">Aid Humanity, Unit 9, Twelve o’clock Court, Sheffield, S4 7WW</p>
+                <p className="generic-subheading mt-16 sm:mt-12 mb-16">Company Details</p>
+                <p className="generic-body mb-24">Aid Humanity, Unit 9, Twelve o’clock Court, Sheffield, S4 7WW</p>
               </div>
 
-              <Contact_form />
+              <div className="relative">
+                <img src={Yellow_ring_large} className="w-[30rem] absolute top-20 -right-40"></img>
+                <img src={Yellow_ring_small} className="sm:hidden w-40 absolute -bottom-20 left-60"></img>
+                <img src={Blue_circle} className="sm:hidden w-16 absolute top-[30rem] -left-12"></img>
+                <Contact_form />
+              </div>
             </div>     
-          </div>
         </div>
         
         
-      </div>
+      <Footer/>
     </section>
   );
 }

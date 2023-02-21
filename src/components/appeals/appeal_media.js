@@ -4,27 +4,27 @@ function Appeal_media() {
   return (
     <div>
       <div className="flex flex-col bg-white rounded-3xl sm:pb-10">
-        <div className="p-12 border-bottom-medium">
-          <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black">Page Cover</p>
+        <div className="p-8 sm:p-12 border-bottom-medium">
+          <p className="portal-subheading">Page Cover</p>
         </div>
-        <div className="p-12">
+        <div className="p-8 sm:p-12">
           <p className="text-[1.6rem] font-normal tracking-[-0.4px] text-body">Upload a photo, select a photo from your gallery, or add a live stream video.</p>
         </div>
         <div className="bg-[#bdbdbd] h-96 w-full flex justify-center items-center relative">
           <img src="./icons/image.svg"></img>
-          <button className="px-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl absolute right-12 bottom-12">
+          <button className="px-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl absolute right-12 bottom-12 hidden sm:block">
             Change Cover
           </button>
         </div>
         <div className="m-12 sm:hidden">
           <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl">
-            Donate
+            Change Cover
           </button>
         </div>
       </div>
       <div className="flex flex-col bg-white rounded-3xl mt-8">
-        <div className="p-12">
-          <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-12">Gallery</p>
+        <div className="p-8 sm:p-12">
+          <p className="portal-subheading mb-12">Gallery</p>
           <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl sm:hidden">
             Select From Gallery
           </button>

@@ -1,7 +1,7 @@
 import calendar from "../../icons/calendar-clock.svg"
 function Event() {
   return (
-    <div className="px-8 bg-white rounded-3xl flex flex-col">
+    <div className="px-8 bg-white rounded-3xl flex flex-col shadow-md">
       <div className="py-8  h-60 border-bottom-medium">
         <div className="flex justify-between mb-4">
           <div className="flex flex-col">

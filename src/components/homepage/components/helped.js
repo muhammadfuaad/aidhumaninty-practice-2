@@ -12,10 +12,10 @@ import ramadan from "../../icons/ramadan.svg";
 
 function Helped() {
   return (
-    <div className="flex justify-between px-48 py-32 bg-f9">
-      <div className="flex flex-col w-[20%]">
-        <p className="text-black text-[3rem] font-bold tracking-[-0.75px] mb-8">Who have we helped?</p>
-        <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-body leading-[3.2rem]">We take pride in providing help to people around the world.</p>
+    <div className="flex flex-col sm:flex-row sm:justify-between px-8 sm:px-48 py-32 bg-f9">
+      <div className="flex flex-col sm:w-[30%]">
+        <p className="generic-heading mb-8 text-center sm:text-start px-8 sm:pl-0 sm:pr-80">Who have we helped?</p>
+        <p className="generic-body text-center sm:text-start px-8 sm:px-0">We take pride in providing help to people around the world.</p>
       </div>
       <div className="w-[60%] flex gap-8 items-center flex-wrap">
           <Appeal_title img={Mosque} label="Build a Mosque" />

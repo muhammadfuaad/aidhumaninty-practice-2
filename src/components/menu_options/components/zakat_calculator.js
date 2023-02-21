@@ -1,4 +1,3 @@
-import Mobile_header from "./mobile_header";
 function Zakat_calculator() {
   return (
     <div className="bg-primary-light px-6 py-10">

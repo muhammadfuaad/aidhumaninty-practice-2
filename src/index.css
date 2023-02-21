@@ -16,6 +16,46 @@ code {
 @tailwind utilities;
 
 @layer components {
+  /* generic_heading */
+  .generic-body {
+    @apply text-[1.8rem] font-normal tracking-[-0.45px] text-body leading-[2.4rem] sm:text-[2.2rem] 
+    sm:font-normal sm:tracking-[-0.55px] sm:text-body sm:leading-[3.2rem];
+  }
+  .generic-heading {
+    @apply text-[3.2rem] font-bold tracking-[-0.48px] text-black leading-[3.6rem] sm:text-[3.6rem] 
+    sm:font-bold sm:tracking-[-0.54px] sm:text-black sm:leading-[4rem];
+  }
+  .generic-subheading {
+    @apply text-[2.6rem] font-bold tracking-[-0.65px] text-black leading-[3rem] sm:text-[3rem] 
+    sm:font-bold sm:tracking-[-0.75px] sm:text-black sm:leading-[3.4rem];
+  }
+  .generic-list {
+    @apply text-[1.6rem] font-normal tracking-[-0.4px] text-body leading-[2rem] sm:text-[2rem] 
+    sm:font-normal sm:tracking-[-0.5px] sm:text-body sm:leading-[2.4rem];
+  }
+  .accordion-text {
+    @apply text-[1.4rem] font-normal tracking-[-0.35px] leading-[1.8rem] text-spanish-gray sm:text-[1.6rem] 
+    sm:font-normal sm:tracking-[-0.4px] sm:text-spanish-gray sm:leading-[2.4rem];
+  }
+  .portal-heading {
+    @apply sm:text-[2rem] text-[2.6rem] font-bold sm:tracking-[-0.5px] tracking-[-0.65px] text-black;
+  }
+  .portal-subheading {
+    @apply text-[1.6rem] font-bold tracking-[-0.4px] text-black sm:text-[1.8rem] sm:font-bold sm:tracking-[-0.45px] sm:text-black;
+  }
+  .portal-body {
+    @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;
+  }
+  .portal-toggle-label {
+    @apply text-[1.4rem] font-medium tracking-[0px] text-black;
+  }
+  .portal-toggle-text {
+    @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;
+  }
+  .appeals-heading {
+    @apply text-[2.6rem] font-bold tracking-[-0.65px] text-primary sm:text-[2.4rem] sm:font-bold sm:tracking-[-0.6px] sm:text-primary;
+  }
+
   /* borders */
   .border-bottom-light {
     @apply border-b-[1px] border-platinum;
@@ -28,21 +68,7 @@ code {
   }
 
   /* black */
-  .portal-heading {
-    @apply sm:text-[2rem] text-[2.6rem] font-bold sm:tracking-[-0.5px] tracking-[-0.65px] text-black;
-  }
-  .portal-subheading {
-    @apply text-[1.8rem] font-bold tracking-[-0.45px] text-black;
-  }
-  .portal-body {
-    @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;
-  }
-  .portal-toggle-label {
-    @apply text-[1.4rem] font-medium tracking-[0px] text-black;
-  }
-  .portal-toggle-text {
-    @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;
-  }
+  
 
   /* button */
   .btn {
