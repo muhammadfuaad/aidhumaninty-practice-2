@@ -2,10 +2,10 @@ function Appeal_edit() {
   return (    
         <div>
           <div className='flex flex-col bg-white rounded-3xl'>
-            <div className='p-12 border-bottom-medium'>
+            <div className='p-8 sm:p-12 border-bottom-medium'>
               <p className='portal-subheading'>Info</p>
             </div>
-            <div className="p-12 flex flex-col space-y-6 border-bottom-medium">
+            <div className="p-8 sm:p-12 flex flex-col space-y-6 border-bottom-medium">
               <div className="relative">
                 <input type="text" id="title" className="focus:outline-none focus:bg-transparent block border-light rounded-xl px-4 pt-8 pb-3 w-full text-[1.3rem] font-medium text-black tracking-[0px]" placeholder=" " />
                 <label for="title" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Page title</label>
@@ -29,7 +29,7 @@ function Appeal_edit() {
                 <label for="title" className="absolute text-[1.1rem] font-semibold tracking-[0px] text-gray  top-2 left-4">Page summary</label>
               </div>
             </div>
-            <div className="p-12">
+            <div className="p-8 sm:p-12">
               <p className='portal-subheading mb-12'>Story</p>
               <div className="relative mb-8 rounded-3xl border border-platinum px-4">
                 <div className="flex gap-8 border-b border-platinum p-4">

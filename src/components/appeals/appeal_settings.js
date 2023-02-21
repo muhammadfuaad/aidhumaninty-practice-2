@@ -4,10 +4,10 @@ import {ReactComponent as Drop_down} from "../../icons/drop-down.svg";
 function Appeal_settings() {
   return (
     <div className='flex flex-col bg-white rounded-3xl'>
-      <div className='p-12 border-bottom-medium'>
+      <div className='p-8 sm:p-12 border-bottom-medium'>
         <p className='portal-subheading'>Extend your page</p>
       </div>
-      <div className='p-12 border-bottom-medium'>
+      <div className='p-8 sm:p-12 border-bottom-medium'>
         <p className='text-[1.6rem] font-normal tracking-[-0.4px] leading-9 text-body mb-8'>Your page will stop taking donations on <span className="font-semibold">08 March 2023</span></p>
         <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" className="w-full
           tracking-[0px] px-4 py-5 inline-flex justify-between items-center border-light rounded-xl sm:w-full" type="button">
@@ -18,7 +18,7 @@ function Appeal_settings() {
           < Drop_down  stroke="#444445"/>
         </button>
       </div>
-      <div className='p-12 border-bottom-medium'>
+      <div className='p-8 sm:p-12 border-bottom-medium'>
         <p className='portal-subheading mb-12'>Thank you message</p>
         <p className='text-[1.6rem] font-normal tracking-[-0.4px] leading-9 text-body mb-8'>Its really good idea to personalize the thank you message, which is sent automatically to 
           anyone who makes a donation through your Aid Humanity page.
@@ -31,14 +31,14 @@ function Appeal_settings() {
         </div>
       </div>
 
-      <div className='p-12 border-bottom-medium flex flex-col'>
+      <div className='p-8 sm:p-12 border-bottom-medium flex flex-col'>
         <p className='portal-subheading mb-12'>Send a QR code</p>
         <p className='text-[1.6rem] font-normal tracking-[-0.4px] leading-9 text-body mb-8'>Here’s your very own QR code to help your supporters find your page more easily. Just open up the camera on your smart phone and point it at this screen and it’ll take you directly to the page. You can either save, screenshot, print posters, and send your QR code with family and friends on WhatsApp, text or email. It couldn’t be easier.
         </p>
         <img src="./icons/qr-code.svg" className="self-center w-60 h-60"></img>
       </div>
 
-      <div className='p-12 flex flex-col'>
+      <div className='p-8 sm:p-12 flex flex-col'>
         <p className='portal-subheading mb-12'>Cancel page</p>
         <p className='text-[1.6rem] font-normal tracking-[-0.4px] leading-9 text-body mb-8'>Canceling your page is inreveraible and means:</p>
         <ul className="flex flex-col space-y-6">
