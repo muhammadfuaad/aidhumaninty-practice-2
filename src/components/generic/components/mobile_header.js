@@ -14,8 +14,7 @@ function Mobile_header() {
             <p className="text-[1rem] font-bold text-black">1</p>
           </div>
         </div>
-      </div>
-      
+      </div>     
     </div>
   );
 }
