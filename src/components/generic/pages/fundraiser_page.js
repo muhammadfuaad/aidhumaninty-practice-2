@@ -4,6 +4,7 @@ import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
 import Fundraiser_step from "../components/fundraiser_step";
+import Footer_mobile from '../../footer_mobile';
 
 function Fundraiser_page() {
   return (
@@ -90,7 +91,8 @@ function Fundraiser_page() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <div className="hidden sm:block">< Footer /></div>
+      <div className="sm:hidden">< Footer_mobile /></div>
     </section>
   );
 }

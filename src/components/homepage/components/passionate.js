@@ -8,8 +8,8 @@ import Distribution from "./distribution"
 function Passionate() {
   return (
     <section>
-      <div className="flex px-8 sm:px-48 py-32">
-        <p className="basis-[30%] generic-subheading sm:pr-20">Passionate about progress</p>
+      <div className="flex flex-col sm:flex-row px-8 sm:px-48 pt-16 pb-8 sm:py-32">
+        <p className="text-center sm:text-start basis-[30%] generic-subheading sm:pr-20 sm:pl-0 sm:mb-0 px-28 mb-8">Passionate about progress</p>
         <p className="basis-[70%] generic-body sm:pl-16 border-l border-platinum">We’ve always believed that charitable donations should find their way to the people
         who need them most, and always without delay. It’s why we’ve created a simple <span className="font-bold">100%
         donation policy</span> that makes sure every donation can:</p>
@@ -26,11 +26,11 @@ function Passionate() {
         
         
 
-        <div className="flex flex-col gap-24 pt-24 pl-48 relative">
+        <div className="flex flex-col gap-24 pt-24 sm:pl-48 relative">
           <img src={logo} className="absolute"></img>
           <img src="./icons/footer-background-logo.svg" className="absolute left-0 top-[0rem] z-0"></img>
 
-          <div className="absolute top-64 -left-[25rem]">
+          <div className="sm:absolute sm:top-64 sm:-left-[25rem] relative">
             <Distribution img={sun} title="Get Distributed Fairly" description="because never take a penny towards our running costs" border_color="border-amber"/>
           </div>
           

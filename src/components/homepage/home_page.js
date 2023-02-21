@@ -17,6 +17,7 @@ import Passionate from "./components/passionate";
 import Home_page_header_mobile from './components/home_page_header_mobile';
 import Faq from './components/faq';
 import Circular_progress_bar from './../dashboard/circular_progress_bar';
+import Footer_mobile from "../footer_mobile";
 
 function Home_page() {
   return (
@@ -100,7 +101,8 @@ function Home_page() {
       <Ways/>
       <Faq/>
       <Contact/>
-      < Footer />
+      <div className="hidden sm:block">< Footer /></div>
+      <div className="sm:hidden">< Footer_mobile /></div>
     </section>
   );
 }

@@ -11,6 +11,8 @@ import Footer from "../../footer";
 import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
 import Percentage_vertical from "../../percentage_vertical"
 import Appeal_card from "../components/appeal_card";
+import Footer_mobile from '../../footer_mobile';
+
 
 
 function Story_page() {
@@ -79,7 +81,8 @@ function Story_page() {
           </div>   
         </div>
       </div>
-      <Footer/>
+      <div className="hidden sm:block">< Footer /></div>
+      <div className="sm:hidden">< Footer_mobile /></div>
     </section>
   );
 }
