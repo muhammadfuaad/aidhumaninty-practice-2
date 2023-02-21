@@ -37,19 +37,6 @@ code {
     @apply text-[1.4rem] font-normal tracking-[-0.35px] leading-[1.8rem] text-spanish-gray sm:text-[1.6rem] 
     sm:font-normal sm:tracking-[-0.4px] sm:text-spanish-gray sm:leading-[2.4rem];
   }
-
-  /* borders */
-  .border-bottom-light {
-    @apply border-b-[1px] border-platinum;
-  }
-  .border-light {
-    @apply border-[1px] border-platinum;
-  }
-  .border-bottom-medium {
-    @apply border-b-[1px] border-[#bdbdbd];
-  }
-
-  /* black */
   .portal-heading {
     @apply sm:text-[2rem] text-[2.6rem] font-bold sm:tracking-[-0.5px] tracking-[-0.65px] text-black;
   }
@@ -65,6 +52,23 @@ code {
   .portal-toggle-text {
     @apply text-[1.3rem] font-normal tracking-[-0.33px] text-body;
   }
+  .appeals-heading {
+    @apply text-[2.6rem] font-bold tracking-[-0.65px] text-primary sm:text-[2.4rem] sm:font-bold sm:tracking-[-0.6px] sm:text-primary;
+  }
+
+  /* borders */
+  .border-bottom-light {
+    @apply border-b-[1px] border-platinum;
+  }
+  .border-light {
+    @apply border-[1px] border-platinum;
+  }
+  .border-bottom-medium {
+    @apply border-b-[1px] border-[#bdbdbd];
+  }
+
+  /* black */
+  
 
   /* button */
   .btn {

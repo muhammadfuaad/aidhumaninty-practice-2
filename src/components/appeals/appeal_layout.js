@@ -10,7 +10,7 @@ function Appeal_layout(props) {
       <div className="hidden sm:block">< Appeal_desktop_header /></div>
       <div className='px-6 flex flex-col items-center'>
         <div className="flex flex-col sm:min-w-[73rem] sm:w-[65%]">
-          <p className='text-[2.6rem] font-bold tracking-[-0.65px] text-primary sm:ml-12 my-20'>{props.title}</p>
+          <p className='appeals-heading sm:ml-12 my-20'>{props.title}</p>
           <div>{props.appeal_page}</div>
         </div>  
       </div>

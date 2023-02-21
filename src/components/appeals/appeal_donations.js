@@ -7,7 +7,7 @@ function Appeal_media() {
     
         <div className='flex flex-col bg-white rounded-3xl'>
           <div className='p-12 border-bottom-medium'>
-            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-black'>Donations total</p>
+            <p className='portal-subheading'>Donations total</p>
           </div>
           <div className='p-12 pr-32 sm:pr-[30rem] border-bottom-medium'>
             <div className='flex flex-col text-[1.6rem] font-semibold tracking-[-0.4px] text-body'>
@@ -32,7 +32,7 @@ function Appeal_media() {
           </div>
           
           <div className='p-12 border-bottom-medium'>
-            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-black mb-6'>Offline donations</p>
+            <p className='portal-subheading mb-6'>Offline donations</p>
             <p className='text-[1.6rem] font-normal tracking-[-0.4px] text-black mb-8'>Have you received any offline donations? Add the total amount here.</p>
 
             <div className='flex flex-col space-y-6 sm:space-y-0 sm:flex-row items-center sm:space-x-6'>
@@ -48,7 +48,7 @@ function Appeal_media() {
           </div>
 
           <div className='p-12'>
-            <p className='text-[1.6rem] sm:text-[1.8rem] font-bold tracking-[-0.4px] text-black mb-6'>Donations made to your page</p>
+            <p className='portal-subheading mb-6'>Donations made to your page</p>
             <p className='text-[1.6rem] font-normal tracking-[-0.4px] text-black mb-4'>You have 0 donations.</p>
             <p className='text-[1.2rem] font-semibold tracking-[-0.3px] text-primary mb-4'>See what happens to your donations</p>
             <table className='w-full'>

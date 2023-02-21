@@ -5,7 +5,7 @@ function Appeal_media() {
     <div>
       <div className="flex flex-col bg-white rounded-3xl sm:pb-10">
         <div className="p-12 border-bottom-medium">
-          <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black">Page Cover</p>
+          <p className="portal-subheading">Page Cover</p>
         </div>
         <div className="p-12">
           <p className="text-[1.6rem] font-normal tracking-[-0.4px] text-body">Upload a photo, select a photo from your gallery, or add a live stream video.</p>
@@ -24,7 +24,7 @@ function Appeal_media() {
       </div>
       <div className="flex flex-col bg-white rounded-3xl mt-8">
         <div className="p-12">
-          <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-12">Gallery</p>
+          <p className="portal-subheading mb-12">Gallery</p>
           <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl sm:hidden">
             Select From Gallery
           </button>
