@@ -1,8 +1,3 @@
-import Page_header from "../components/page_header";
-import Generic_header from "../../generic_header";
-import Footer from "../../footer";
-import Hero from "../../icons/blog-hero-1.png"
-import Readable from "../components/readable";
 import Blog_card from "../components/blog_card"
 import Clock from "../../icons/clock.svg";
 import Arrow from "../../icons/arrow-left.svg"
@@ -11,8 +6,6 @@ import Facebook from "../../icons/facebook.png"
 import Twitter from "../../icons/twitter.png"
 import Email from "../../icons/email-white.svg"
 import Layout_1 from './layout_1';
-
-
 
 function Blog_page() {
   return (

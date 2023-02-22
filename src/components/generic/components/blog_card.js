@@ -5,7 +5,7 @@ function Blog_card(props) {
   return (
     <div className="flex flex-col">
       <div className=''><img src={props.img} className="rounded-3xl h-80 w-full mb-10"></img></div>
-      <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mb-4 h-[40%]">{props.title}</p>
+      <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mb-4 h-[20%]">{props.title}</p>
       <p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] mb-8 h-3/4">{props.description}</p>
       <div className="flex gap-2 items-center">
         <img src={Clock}></img>

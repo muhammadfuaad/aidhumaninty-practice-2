@@ -4,7 +4,7 @@ import Icon_3 from "../../icons/administrate.svg"
 
 function Quick_ways(props) {
   return (
-    <div className="flex flex-col sm:flex-row w-full sm:w-1/4">
+    <div className="flex flex-col sm:flex-row">
       <div className="flex gap-2 items-center pb-8 sm:pb-0 border-b border-b-platinum sm:border-none">
         <div className="flex justify-center items-center h-16 w-16 rounded-full bg-platinum relative">
           <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">{props.number}.</p>
