@@ -1,16 +1,7 @@
-import Page_header from "../components/page_header";
-import Generic_header from "../../generic_header";
-import Footer from "../../footer";
-import Hero from "../../icons/blog-hero-1.png"
 import Readable_list from "../components/readable_list";
 import Blog_card from "../components/blog_card"
 import Clock from "../../icons/clock.svg";
-import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
-import Footer_mobile from '../../footer_mobile';
 import Layout_1 from './layout_1';
-import Layout_page from "./layout_page";
-
-
 
 function Blog_page() {
   return (
