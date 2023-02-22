@@ -33,10 +33,23 @@ code {
     @apply text-[1.6rem] font-normal tracking-[-0.4px] text-body leading-[2rem] sm:text-[2rem] 
     sm:font-normal sm:tracking-[-0.5px] sm:text-body sm:leading-[2.4rem];
   }
+  /* accordions */
+
+  /* accordion heading == portal-subheading */
   .accordion-text {
     @apply text-[1.4rem] font-normal tracking-[-0.35px] leading-[1.8rem] text-spanish-gray sm:text-[1.6rem] 
     sm:font-normal sm:tracking-[-0.4px] sm:text-spanish-gray sm:leading-[2.4rem];
   }
+
+  /* cards */
+  .card-heading {
+    @apply text-[1.8rem] font-bold tracking-[-0.45px] text-black leading-[2.4rem];
+  }
+  .card-body {
+    @apply text-[1.6rem] font-normal tracking-[-0.4px] leading-[2.4rem];
+  }
+  /* text color will change in accordion body */
+
   .portal-heading {
     @apply sm:text-[2rem] text-[2.6rem] font-bold sm:tracking-[-0.5px] tracking-[-0.65px] text-black;
   }
