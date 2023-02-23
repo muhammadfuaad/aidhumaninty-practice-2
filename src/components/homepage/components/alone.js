@@ -6,7 +6,7 @@ import Icon_3 from "../../icons/administrate.svg"
 function Alone() {
   return (
     <div className="flex flex-col px-8 sm:px-48 pb-20 sm:py-24">
-      <p className="generic-subheading mb-8">We can’t do this alone</p>
+      <p className="generic-subheading mb-8 mt-16 sm:mt-0">We can’t do this alone</p>
       <p className="generic-body mb-12">Making a difference means coming together to do something bigger and bolder than anyone thought possible.
         To make it happen, we need you to join us and make a commitment to changing the world.
       </p>

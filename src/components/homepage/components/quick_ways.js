@@ -6,10 +6,11 @@ function Quick_ways(props) {
   return (
     <div className="flex flex-col sm:flex-row">
       <div className="flex gap-2 items-center pb-8 sm:pb-0 border-b border-b-platinum sm:border-none">
-        <div className="flex justify-center items-center h-16 w-16 rounded-full bg-platinum relative">
-          <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">{props.number}.</p>
-        </div>
-        <div className="h-64 w-64 relative">
+        
+        <div className="h-64 w-64 ml-8 relative">
+          <div className="flex justify-center items-center h-16 w-16 rounded-full bg-platinum absolute -left-8 top-24">
+            <p className="text-[1.8rem] font-semibold tracking-[-0.45px] text-black">{props.number}.</p>
+          </div>
           <img src={props.img}></img>
         </div>
         <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black leading-[2.4rem] sm:hidden">{props.title}</p>
