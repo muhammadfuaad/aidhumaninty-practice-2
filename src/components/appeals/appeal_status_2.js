@@ -3,7 +3,7 @@ import Circular_progress_bar from "../dashboard/circular_progress_bar";
 function Appeal_status_2() {
   return (
     <div className="flex flex-col bg-white rounded-3xl px-8 py-16">
-      <div className='flex gap-16'>
+      <div className='flex justify-between sm:gap-16'>
         <div className='flex flex-col space-y-2'>
           <p className="text-[3rem] font-bold tracking-[-0.75px] text-black">£4.342</p>
           <p className="text-[1.2rem] font-medium tracking-[-0.3px] text-spanish-gray">raised of <span className="font-semibold text-primary">£6.200</span> target</p>
@@ -13,10 +13,10 @@ function Appeal_status_2() {
         </div>
       </div>
 
-      <div className="flex justify-between items-center mt-16">
+      <div className="flex justify-between items-center mt-8">
         <div className="flex space-x-2 items-center">
           <span className="text-[1rem] font-medium tracking-[-0.15px] text-body">by</span>
-          <img src="./icons/user-circle.svg"></img>
+          <img src="./icons/user-circle-black.svg"></img>
           <span className="text-[1rem] font-medium tracking-[-0.15px] text-body">supporters</span>
         </div>
         <div className="flex space-x-2 items-center">
