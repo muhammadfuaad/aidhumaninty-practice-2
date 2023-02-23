@@ -7,6 +7,8 @@ import Recent_donors from '../recent_donors';
 import Appeal_details_header_mobile from '../appeal_details_header_mobile';
 import Footer from "../../footer";
 import Footer_mobile from '../../footer_mobile';
+import Generic_header_1 from './../../generic/components/generic_header_1';
+import Appeal_details_header from './../appeal_details_header';
 
 function Appeal_details_donator_page(props) {
   return (
@@ -14,7 +16,8 @@ function Appeal_details_donator_page(props) {
       <div className='sm:hidden'>
         <Appeal_details_header_mobile/>  
       </div>
-      <div className='hidden sm:block'>< Appeal_desktop_header /></div>
+      <div className='hidden sm:block'>< Appeal_details_header /></div>
+
       <div className='bg-primary-dark h-[26rem] sm:h-80'>
         <div className="flex justify-between w-full mt-10 sm:mt-20 px-8 sm:pl-56 sm:pr-48">
           <p className="hidden sm:flex text-[1.2rem] font-medium tracking-[-0.3px] text-[#e0f7ff]">Home / Appeals / Water for all / Water Hands Pumps</p>
