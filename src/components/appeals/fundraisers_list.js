@@ -1,6 +1,7 @@
+import Fundraisers from "./fundraisers";
 function Fundraisers_list(props) {
   return (
-    <div className="flex flex-col rounded-3xl bg-white mt-8">
+    <div className="flex flex-col rounded-3xl bg-white">
       <div className="flex justify-between p-8 border-b border-[#999] text-[1.6rem] tracking-[-0.4px] text-black">
         <p className="font-bold">Fundraisers</p>
         <p className="font-medium">175</p>

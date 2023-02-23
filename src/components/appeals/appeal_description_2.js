@@ -34,8 +34,8 @@ function Appeal_description_2() {
             the world just collecting water.
           </p>
           <p className="text-[1rem] font-medium tracking-[-0.15px] text-primary-dark self-center">Read More</p>
-          <button className="mt-12 w-full py-6 uppercase text-[1.4rem] font-semibold text-primary bg-transparent outline
-            outline-primary rounded-xl">Start Funfraising Now</button>
+          <button className="sm:hidden mt-12 w-full py-6 uppercase text-[1.4rem] font-semibold text-primary bg-transparent outline
+            outline-primary rounded-xl">Start Fundraising Now</button>
         </div>
       </div>
 
