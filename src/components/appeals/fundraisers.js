@@ -11,11 +11,13 @@ function Fundraisers(props) {
           <img src={User} className="w-8"></img>
           <p className="text-[1.4rem] font-semibold tracking-[-0.21px] text-primary-dark">{props.name}</p>
         </div>
-        
+        <div className="w-[30%] sm:hidden">
+          <Progress_bar progress="30" option="1"/>
+        </div>
       
       </div>
       <div className="flex justify-between items-center ml-12">
-        <div className="flex gap-8">
+        <div className="flex gap-4">
           <p className="text-[1.8rem] font-semibold tracking-[-0.27px] text-primary">{props.amount}</p>
           <div className="flex gap-2 items-center text-[1rem] font-medium tracking-[-0.15px] text-body">
             <p>raised by</p>
@@ -23,7 +25,7 @@ function Fundraisers(props) {
             <p>12 people</p>
           </div>
         </div>
-        <div className="w-[30%]">
+        <div className="w-[30%] hidden sm:block">
           <Progress_bar progress="30" option="1"/>
         </div>
 

@@ -9,6 +9,7 @@ import Footer_mobile from '../../footer_mobile';
 import Appeal_details_header from './../appeal_details_header';
 import Appeal_card from '../../generic/components/appeal_card';
 import Scroller from '../../scroller';
+import Recent_donors_list from './../recent_donors_list';
 function Appeal_details_donator_page(props) {
   return (
     <div>
@@ -29,37 +30,21 @@ function Appeal_details_donator_page(props) {
         </div>
         <div className='-mt-80 sm:-mt-40 flex flex-col'>
           <div className='flex flex-col gap-8 px-8 sm:gap-12 sm:flex-row sm:px-56'>
-            <div className='sm:px-0 sm:w-[30%] sm:order-2 flex flex-col relative'>
-              < Appeal_status_2 />
+              <div className='flex flex-col gap-8 sm:px-0 sm:w-[70%] sm:order-1'>
+                <div className='sm:hidden'><Appeal_status_2/></div>
+                < Appeal_description_2 />
+              </div>
+            <div className='sm:px-0 sm:w-[30%] sm:order-2 flex flex-col gap-8 relative'>
+              <div className='hidden sm:flex'>< Appeal_status_2 /></div>
               {props.fundraiser_details}
-              <div className="hidden sm:flex flex-col rounded-3xl bg-white mt-8 relative">
-                <div className="flex justify-between p-8 border-b border-[#999] text-[1.6rem] tracking-[-0.4px] text-black">
-                  <p className="font-bold">Recent Donors</p>
-                  <p className="font-medium">175</p>
-                </div>
-                <Recent_donors name="Matt Watson" time="17 hours ago" amount="£60.00" gift_aid="+ £15.00 Gift Aid" description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."/>
-                <Recent_donors name="Frederic Johannson" time="2 days ago" amount="£20.00"/>
-                <Recent_donors name="Anonymous" time="17 hours ago" amount="£60.00" />
-                <Recent_donors name="Benjamin Russow" time="17 hours ago" amount="£60.00" />
-                <p className="text-[1rem] font-medium tracking-[-0.15px] text-primary-dark mb-8 self-center">Show more</p>
-              </div>
-      
+              <div className="flex flex-col gap-8">
+                {props.content}
+                <Recent_donors_list/>
+              </div>     
             </div>
-            <div className='flex flex-col sm:px-0 sm:w-[70%] sm:order-1'>
-              < Appeal_description_2 />
-            </div>
+            
 
-            <div className="flex flex-col rounded-3xl bg-white sm:hidden mb-24">
-              <div className="flex justify-between p-8 border-b border-[#999] text-[1.6rem] tracking-[-0.4px] text-black">
-                <p className="font-bold">Recent Donors</p>
-                <p className="font-medium">175</p>
-              </div>
-              <Recent_donors name="Matt Watson" time="17 hours ago" amount="£60.00" gift_aid="+ £15.00 Gift Aid" description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."/>
-              <Recent_donors name="Frederic Johannson" time="2 days ago" amount="£20.00"/>
-              <Recent_donors name="Anonymous" time="17 hours ago" amount="£60.00" />
-              <Recent_donors name="Benjamin Russow" time="17 hours ago" amount="£60.00" />
-              <p className="text-[1rem] font-medium tracking-[-0.15px] text-primary-dark mb-3 self-center">Show more</p>
-            </div>
+            
           </div>
           
           <div className="sm:flex flex-col px-8 sm:px-48 hidden">

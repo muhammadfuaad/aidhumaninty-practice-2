@@ -85,8 +85,7 @@ function Appeal_details_fundraiser_page(props) {
                   <div className="flex flex-col gap-2">
                     <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black">Be a Fundraiser</p>
                     <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">Create your own appeal page for “Water for All” and help support this cause.</p>
-                  </div>
-              
+                  </div>   
                 </div>
                 <button className="mt-8 w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-primary rounded-xl">
                   Start Fundraising

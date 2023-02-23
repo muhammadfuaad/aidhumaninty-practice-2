@@ -33,7 +33,7 @@ function Progress_bar(props) {
   const option = props.option
   if (option == 1) {
     return (
-      <div className='flex justify-between'>
+      <div className='flex gap-8 items-center'>
         <div style={Parentdiv}>
           <div style={Childdiv}></div>
         </div>
