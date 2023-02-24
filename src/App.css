@@ -18,7 +18,12 @@
   --border-dark: 1px solid var(--color-body);
   font-size: 62.5%;
 }
-
+.hero {
+  background: linear-gradient(270deg,rgba(19,38,85,0),#132655),url(assets/images/hero.png),0 0 no-repeat padding-box;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 body {
   font-size: 22px;
   font-weight: normal;

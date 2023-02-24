@@ -30,6 +30,7 @@ function Circular_progress_bar() {
             fill: '#1d1d1d',
             // Text size
             fontSize: '2.5rem',
+            fontWeight: "700"
           },
         })}
       />

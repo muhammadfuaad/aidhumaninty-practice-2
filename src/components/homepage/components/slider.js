@@ -7,7 +7,7 @@ import Hero_card from './hero_card';
 
 function Slider() {
   return (
-    <div className="flex flex-col px-8 sm:px-80 py-48 sm:py-40 bg-gradient-to-r from-slate-500 to-slate-200 bg-[url('assets/images/hero.png')] bg-no-repeat bg-cover 
+    <div className="hero flex flex-col px-8 sm:px-80 py-48 sm:py-40 bg-gradient-to-r from-slate-500 to-slate-200 bg-[url('assets/images/hero.png')] bg-no-repeat bg-cover 
     h-[60vh] sm:h-[70vh] relative">
       <img src={decorators} className="absolute right-24 bottom-4 hidden sm:block"></img>
       <div className="hidden sm:flex gap-10 absolute bottom-20 right-56">

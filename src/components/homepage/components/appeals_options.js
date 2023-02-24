@@ -7,13 +7,13 @@ import Popular_donations from "./popular_donations"
 
 function Appeals_options() {
   return (
-    <div className="w-4/5 mx-auto border border-black flex flex-col rounded-3xl relative mt-16">
+    <div className="w-full mx-auto border border-black flex flex-col rounded-3xl relative">
       <div className="absolute -top-4 w-full">
         <img src="./icons/blue-bar.svg" className="w-full"></img>
-        <img src="./icons/triangle-up.png" className="absolute -top-4 left-[25rem]"></img>
+        <img src="./icons/triangle-up.png" className="absolute -top-4 left-[43rem]"></img>
       </div>
-      <div class="px-28 py-20 h-[40rem] flex gap-10 relative overflow-hidden">
-        <img src="./icons/footer-background-logo.svg" className="absolute -right-[25rem] top-40 -z-10"></img>
+      <div class="bg-white px-28 py-20 h-[40rem] flex gap-10 relative overflow-hidden rounded-t-3xl">
+        <img src="./icons/footer-background-logo.svg" className="absolute -right-[25rem] top-40"></img>
 
           <div class="w-1/3">
             <div class="flex items-center gap-8">
