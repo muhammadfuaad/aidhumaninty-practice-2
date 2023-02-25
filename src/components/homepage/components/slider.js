@@ -7,8 +7,7 @@ import Hero_card from './hero_card';
 
 function Slider() {
   return (
-    <div className="hero flex flex-col px-8 sm:px-80 py-48 sm:py-40 bg-gradient-to-r from-slate-500 to-slate-200 bg-[url('assets/images/hero.png')] bg-no-repeat bg-cover 
-    h-[60vh] sm:h-[70vh] relative">
+    <div className="hero flex flex-col px-8 sm:px-80 py-48 sm:py-40 h-[60vh] sm:h-[70vh] relative">
       <img src={decorators} className="absolute right-24 bottom-4 hidden sm:block"></img>
       <div className="hidden sm:flex gap-10 absolute bottom-20 right-56">
         <Hero_card title="Pakistan Floods"/>
@@ -17,9 +16,9 @@ function Slider() {
       <div className="absolute top-80 right-[30rem] hidden sm:block"><Percentage_vertical/></div>
       <button className="mt-60 sm:mt-0 mb-6 self-start px-8 py-6 uppercase text-[1.4rem] font-semibold text-white bg-transparent outline outline-white rounded-xl">Water for all</button>
 
-      <div className="sm:w-[60%]">
+      <div className="sm:w-[65%]">
         <p className="text-white text-[5rem] font-bold tracking-[-0.75px] mb-6">Build<br></br> a water well</p>
-        <p className="text-[2.2rem] font-normal tracking-[-0.55px] text-white leading-[3.2rem] mb-20 w-[80%] hidden sm:block">1 in 3 people around the world do not have access to clean drinking water. Women and children often walk for miles each day to collect water to drink, denying them the opportunity to go to school, to work and to thrive.</p>
+        <p className="opacity-[85%] text-[2.2rem] font-normal tracking-[-0.55px] text-white leading-[3.2rem] mb-28 hidden sm:block">1 in 3 people around the world do not have access to clean drinking water. Women and children often walk for miles each day to collect water to drink, denying them the opportunity to go to school, to work and to thrive.</p>
       </div>
 
       <div className="flex gap-12 items-center">
@@ -29,7 +28,7 @@ function Slider() {
         <span>Donate Now</span>
         <Arrow stroke="#fff"/>
       </button>
-      <p className="text-amber">from 140</p>
+      <p className="text-amber">from <span className="font-bold">£ 140</span></p>
       </div>
     </div>
   );
