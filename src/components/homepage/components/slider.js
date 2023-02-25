@@ -7,18 +7,18 @@ import Hero_card from './hero_card';
 
 function Slider() {
   return (
-    <div className="hero flex flex-col px-8 sm:px-80 py-48 sm:py-40 h-[60vh] sm:h-[70vh] relative">
+    <div className="hero flex flex-col px-8 sm:px-80 py-48 sm:py-20 h-[60vh] sm:h-[70vh] relative">
       <img src={decorators} className="absolute right-24 bottom-4 hidden sm:block"></img>
       <div className="hidden sm:flex gap-10 absolute bottom-20 right-56">
         <Hero_card title="Pakistan Floods"/>
         <Hero_card title="Support an orphan child"/>
       </div>
       <div className="absolute top-80 right-[30rem] hidden sm:block"><Percentage_vertical/></div>
-      <button className="mt-60 sm:mt-0 mb-6 self-start px-8 py-6 uppercase text-[1.4rem] font-semibold text-white bg-transparent outline outline-white rounded-xl">Water for all</button>
+      <button className="opacity-[75%] mt-8 mb-6 self-start px-8 py-3 text-[1.4rem] font-semibold text-white bg-transparent outline outline-white rounded-xl">Water for all</button>
 
       <div className="sm:w-[65%]">
-        <p className="text-white text-[5rem] font-bold tracking-[-0.75px] mb-6">Build<br></br> a water well</p>
-        <p className="opacity-[85%] text-[2.2rem] font-normal tracking-[-0.55px] text-white leading-[3.2rem] mb-28 hidden sm:block">1 in 3 people around the world do not have access to clean drinking water. Women and children often walk for miles each day to collect water to drink, denying them the opportunity to go to school, to work and to thrive.</p>
+        <p className="text-white text-[5rem] font-bold tracking-[-0.75px] mb-12 sm:mb-6">Build<br></br> a water well</p>
+        <p className="opacity-[75%] text-[2.2rem] font-normal tracking-[-0.55px] text-white leading-[3.2rem] mb-28 sm:mb-16 hidden sm:block">1 in 3 people around the world do not have access to clean drinking water. Women and children often walk for miles each day to collect water to drink, denying them the opportunity to go to school, to work and to thrive.</p>
       </div>
 
       <div className="flex gap-12 items-center">

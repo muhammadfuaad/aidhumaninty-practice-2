@@ -42,9 +42,9 @@ function Home_page() {
       <div className="bg-f5 h-[25rem]"></div>
       <section className="flex flex-col sm:flex-row bg-amber px-8 sm:px-48 py-12">
         <p className="px-8 sm:px-0 text-center sm:text-start basis-[25%] text-primary-dark text-[2.4rem] sm:text-[26px] font-semibold tracking-[-0.6px] sm:tracking-[-0.65px] leading-[2.8rem] sm:leading-[30px] ">What if one action could change the world?</p>
-        <div className="flex basis-[25%] items-center space-x-4">
-          <div className="flex bg-primary-dark rounded-full relative w-[5rem] h-[5rem] px-11 sm:px-0">
-            <img src={Logo} className="absolute top-[20%] left-[25%]"></img>
+        <div className="flex basis-[25%] items-center space-x-4 px-16 my-8">
+          <div className="flex justify-center items-center bg-primary-dark rounded-[100%] relative h-20 w-28 sm:px-0 ">
+            <img src={Logo} className=""></img>
           </div>
           <p className="text-body text-[1.6rem] font-medium tracking-[-0.24px] leading-[20px]">Aid Humanity helps you make it happen…</p>
         </div>

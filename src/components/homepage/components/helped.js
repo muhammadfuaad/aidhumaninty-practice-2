@@ -14,7 +14,7 @@ function Helped() {
   return (
     <div className="flex flex-col sm:flex-row sm:justify-between px-8 sm:px-48 pt-16 pb-20 sm:py-32  bg-f9">
       <div className="flex flex-col sm:w-[30%]">
-        <p className="generic-heading mb-8 text-center sm:text-start px-8 sm:pl-0 sm:pr-80">Who have we helped?</p>
+        <p className="generic-heading mb-8 text-center sm:text-start">Who have<br></br> we helped?</p>
         <p className="generic-body text-center sm:text-start px-8 sm:px-0">We take pride in providing help to people around the world.</p>
       </div>
       <div className="w-full sm:w-[60%] flex gap-8 items-center flex-wrap">

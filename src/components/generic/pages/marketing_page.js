@@ -1,14 +1,5 @@
-import Page_header from "../components/page_header";
-import Page_sidebar from "../components/page_sidebar";
-import Assistance from "../components/assistance";
-import Steps from './../components/steps';
-import {Refine_message} from "../images/refine-message.svg"
 import Marketing_steps_list from "../components/marketing_steps_list";
-import Footer from "../../footer"
-import Generic_header from "../../generic_header"
-import Logo from "../../icons/footer-background-logo.svg"
 import Layout_page from './layout_page';
-
 
 function Marketing_page() {
   return (
