@@ -54,11 +54,11 @@ function Home_page() {
       <Passionate/>
       <div className="flex flex-col gap-16 sm:gap-24 px-8 sm:px-48 py-24 bg-[#f1f1f1]">
         <p className="self-center generic-subheading text-center sm:text-start">Our Achievements<span className="font-semibold"> with your help and more …</span></p>
-        <div className="flex justify-between ">
-          <div><Achievement/></div>
-          <div className="hidden sm:flex"><Achievement/></div>
-          <div className="hidden sm:flex"><Achievement/></div>
-          <div className="hidden sm:flex"><Achievement/></div>
+        <div className="flex gap-10">
+          <div className="w-full sm:w-1/4 flex"><Achievement/></div>
+          <div className="w-1/4 hidden sm:flex"><Achievement/></div>
+          <div className="w-1/4 hidden sm:flex"><Achievement/></div>
+          <div className="w-1/4 hidden sm:flex"><Achievement/></div>
         </div>
         <img src="./icons/template-pager.svg" className="sm:hidden self-center"></img>
       </div>     

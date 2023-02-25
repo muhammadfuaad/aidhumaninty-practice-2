@@ -10,7 +10,7 @@ function Event() {
           </div>
           <img src={calendar} className="w-10"></img>
         </div>
-        <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black leading-[2rem] w-[70%]">The Pakistan Rickshaw Challenge</p>
+        <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black leading-[2rem] w-[80%]">The Pakistan Rickshaw Challenge</p>
       </div>
       <div className="py-8 h-32 flex flex-col justify-center items-start">
         <p className="flex items-center text-[1.1rem] font-semibold tracking-[-0.17px] text-green mb-1">Raised: <span className="text-[2.4rem]"> £243</span></p>
