@@ -75,11 +75,16 @@ import Emergency_options from './components/homepage/components/emergency_option
 import Zakat_options from './components/homepage/components/zakat_options';
 
 import Notifications_page from './components/generic/pages/notifications_page';
+import Image_slider_page from './components/image_slider_page';
+import Tailwind_slider from './components/tailwind_slider';
 
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (    
     <Routes>
+      <Route path="/tailwind_slider" element={<Tailwind_slider />} />
+      <Route path="/image_slider_page" element={<Image_slider_page />} />
+
       {/* generic pages */}
       <Route path="/notifications_page" element={<Notifications_page />} />
       <Route path="/congratulations_page" element={<Congratulations_page />} />
