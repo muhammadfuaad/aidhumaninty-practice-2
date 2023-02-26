@@ -5,12 +5,14 @@ import Emergency_options from "../../homepage/components/emergency_options";
 import Login from '../../menu_options/pages/login';
 import Heart from "../../homepage/components/heart"
 import Donate_now from './../../menu_options/pages/donate_now';
+import Quick_donate from "../../menu_options/pages/quick_donate";
 
 function Generic_header_1() {
   const [appealsOptions, setAppealsOptions] = React.useState(false)
   const [zakatOptions, setZakatOptions] = React.useState(false)
   const [emergencyOptions, setEmergencyOptions] = React.useState(false)
   const [donate, setDonate] = React.useState(false)
+  const [quickDonate, setQuickDonate] = React.useState(false)
 
   return (
     <div className="">
@@ -41,6 +43,7 @@ function Generic_header_1() {
           { zakatOptions ? <div className="absolute top-[100%] z-10 w-full"><Zakat_options/></div> : null }
           { emergencyOptions ? <div className="absolute top-[100%] z-10 w-full"><Emergency_options/></div> : null }
           { donate ? <div className="absolute top-[120%] left-[30%] z-10 w-full"><Donate_now/></div> : null }
+          { quickDonate ? <div className="absolute top-[120%] left-[30%] z-10 w-full"><Quick_donate/></div> : null }
 
 
           <div className="flex justify-between w-[65%]">
@@ -65,7 +68,7 @@ function Generic_header_1() {
               </div>
             </a>
             <a href="#" className="mr-6">
-              <div className="w-8"><Heart/></div>
+              <div className="w-8" onClick={()=>setQuickDonate(current=> !current)}><Heart/></div>
             </a>
             <button className="px-10 py-4 uppercase text-[1.4rem] font-semibold text-primary-medium bg-transparent outline
               outline-primary rounded-xl" onClick={()=>setDonate(current=> !current)}>Donate now</button>
