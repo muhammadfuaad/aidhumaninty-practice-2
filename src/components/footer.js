@@ -32,11 +32,11 @@ function Footer() {
                     <div><p className="text-[1.8rem] font-bold tracking-[-0.27px] text-primary leading-[2rem]">0330 057 9957</p></div>
                   </div>
                   <div><p className="text-[1.8rem] font-semibold tracking-[-0.27px] text-amber leading-[2.6rem]">info@aidhumanity.co.uk</p></div>
-                  <div className="flex gap-12 items-center w-[10.3rem]">
-                    <img src={Facebook} className= "w-[0.9rem] h-[1.6rem]" alt= "facebook icon" />
-                    <img src={Twitter} className= "w-[2rem] h-[1.7rem]" alt= "twitter icon" />
-                    <img src={Instagram} className= "w-[2.5rem] h-[2.5rem]" alt= "instagram icon" />
-                    <img src={Linkedin} className= "w-[1.8rem] h-[1.7rem]" alt= "linkedin icon" />
+                  <div className="flex gap-12 items-center">
+                    <a href="#"><img src={Facebook} className= "w-[0.9rem] h-[1.6rem]" alt= "facebook icon" /></a>
+                    <a href="#"><img src={Twitter} className= "w-[2rem] h-[1.7rem]" alt= "twitter icon" /></a>
+                    <a href="#"><img src={Instagram} className= "w-[2.5rem] h-[2.5rem]" alt= "instagram icon" /></a>
+                    <a href="#"><img src={Linkedin} className= "w-[1.8rem] h-[1.7rem]" alt= "linkedin icon" /></a>
                   </div>
                 </div>
               </div>
@@ -82,9 +82,9 @@ function Footer() {
             <span className="text-[1.4rem] font-semibold tracking-[-0.21px] text-white leading-[1.6rem] mb-8">NEWSLETTER</span>
             <span className="text-[1.8rem] font-bold tracking-[-0.45px] text-white leading-[2.8rem] w-3/4">Subscribe to the free newsletter and stay up-to date</span>
               
-                <div className="flex flex-wrap mt-8 items-center w-full">
-                  <input type="search" className="form-control relative min-w-0 w-[70%] h-16 block px-3 py-0 text-[1.6rem] font-normal text-secondary-light bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg" placeholder="Your email" aria-label="Search" aria-describedby="button-addon2"></input>
-                  <button className="w-[45px] h-16 ml-3 bg-primary text-white rounded-lg flex justify-center items-center">
+                <div className="flex gap-2 flex-wrap mt-8 items-center w-full">
+                  <input type="text"  className="h-full w-[70%] rounded-xl px-6 py-4 focus:outline-none text-[1.2rem] font-normal tracking-[0px] text-[#999]" placeholder="Your email"></input>
+                  <button className="cursor-pointer w-[45px] h-16 ml-3 bg-primary text-white rounded-xl flex justify-center items-center">
                     <img src={arrow_right}/>
                   </button>
                 </div>
@@ -97,10 +97,10 @@ function Footer() {
         </div>
     
         <ul className="flex justify-center space-x-6 text-white opacity-50 mt-24 mb-6 text-[1.2rem] font-normal tracking-[-.06px]">
-          <li><a href="/" className="">Terms & Conditions</a></li>
-          <li><a href="/" className="">Privacy Policy</a></li>
-          <li><a href="/" className="">Donation Policy</a></li>
-          <li><a href="/" className="">Refund Policy</a></li>
+          <li><a href="#" className="">Terms & Conditions</a></li>
+          <li><a href="#" className="">Privacy Policy</a></li>
+          <li><a href="#" className="">Donation Policy</a></li>
+          <li><a href="#" className="">Refund Policy</a></li>
         </ul>
         <hr className="my-3 bg-white opacity-25 h-[0.15rem]"></hr>
     
@@ -111,10 +111,10 @@ function Footer() {
             <span> All rights reserved.</span>
           </p>
           <div className="flex justify-between items-center basis-[25%]">
-            <img src={Visa} className= "w-[4.3rem] h-[1.4rem] mix-blend-luminosity" alt= "visa logo" />
-            <img src={Mastercard} className= "w-[2.9rem] h-[1.8rem] mix-blend-luminosity" alt= "mastercard logo" />
-            <img src={Paypal} className= "w-[8.7rem] h-[2.1rem] mix-blend-luminosity" alt= "paypal logo" />
-            <img src={Stripe} className= "w-[5.3rem] h-[2.2rem] mix-blend-luminosity" alt= "stripe logo" />
+            <a href="#"><img src={Visa} className="w-[4.3rem] h-[1.4rem] mix-blend-luminosity" alt="visa logo" /></a>
+            <a href="#"><img src={Mastercard} className="w-[2.9rem] h-[1.8rem] mix-blend-luminosity" alt="mastercard logo" /></a>
+            <a href="#"><img src={Paypal} className="w-[8.7rem] h-[2.1rem] mix-blend-luminosity" alt="paypal logo" /></a>
+            <a href="#"><img src={Stripe} className="w-[5.3rem] h-[2.2rem] mix-blend-luminosity" alt="stripe logo" /></a>
           </div>
         </div>
       </div>

@@ -32,6 +32,13 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.congratulations-image {
+  background: linear-gradient(180deg,hsla(0,0%,48.6%,0),#000),url(assets/images/heart-hands-1.png),0 0 no-repeat padding-box;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 body {
   font-size: 22px;
   font-weight: normal;
