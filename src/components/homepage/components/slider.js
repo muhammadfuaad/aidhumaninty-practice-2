@@ -8,7 +8,7 @@ import Hero_card from './hero_card';
 function Slider() {
   return (
     <div className="hero flex flex-col px-8 sm:px-80 py-48 sm:py-20 h-[60vh] sm:h-[70vh] relative">
-      <img src={decorators} className="absolute right-24 bottom-4 hidden sm:block"></img>
+      <img src={decorators} className="absolute right-0 bottom-40 hidden sm:block"></img>
       <div className="hidden sm:flex gap-10 absolute bottom-20 right-56">
         <Hero_card title="Pakistan Floods"/>
         <Hero_card title="Support an orphan child"/>

@@ -1,5 +1,5 @@
 import Mobile_header from "../components/mobile_header";
-import Header from "../components/header"
+import Header_1 from "../components/header_1"
 import Amount from "../components/amount";
 import Category from "../../category";
 import Radio from "../components/radio";
@@ -11,10 +11,10 @@ function Quick_donate() {
         < Mobile_header title="Quick Donate" display_logout="hidden"/>
       </div>
       <div className="sm:block hidden">
-        < Header title="Donate Now"/>
+        < Header_1 title="Donate Now"/>
       </div>
         <div className="flex flex-col">
-          <div className="flex flex-col px-6 py-10 bg-[#f5f6f7] text-[1.4rem] font-medium tracking-[-0.22px] text-black">
+          <div className="flex flex-col px-10 py-10 bg-[#f5f6f7] text-[1.4rem] font-medium tracking-[-0.22px] text-black">
             <div className="flex gap-16 sm:justify-between px-8">
               <div className="flex flex-col items-center">
                 < Category category="Z" />

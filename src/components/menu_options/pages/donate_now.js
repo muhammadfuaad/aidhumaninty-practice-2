@@ -1,5 +1,5 @@
 import Mobile_header from "../components/mobile_header";
-import Header from "../components/header"
+import Header_1 from "../components/header_1"
 import Donation_card from '../components/donation_card';
 import Amount from "../components/amount";
 import React from "react"
@@ -12,10 +12,10 @@ function Donate_now() {
         < Mobile_header title="Donate Now" display_logout="hidden"/>
       </div>
       <div className="sm:block hidden">
-        < Header title="Donate Now"/>
+        < Header_1 title="Donate Now"/>
       </div>
         <div className="flex flex-col">
-          <div className="flex flex-col px-6 py-10 bg-[#f5f6f7]">
+          <div className="flex flex-col px-10 py-10 bg-[#f5f6f7]">
             <div className="flex gap-8 mt-12">
               <div className="">< Donation_card /></div>
               <div className="">< Donation_card /></div>
@@ -30,8 +30,8 @@ function Donate_now() {
             </div>
           </div>
 
-          <div className="flex flex-col bg-[#f9f9f9] px-6 pb-6">
-            <p className="text-[2.6rem] font-bold tracking-[-0.65px] text-black self-center my-12">Donation Amount</p>
+          <div className="flex flex-col bg-[#f9f9f9] px-10 pb-10 rounded-b-3xl">
+            <p className="text-[2.6rem] font-bold tracking-[-0.65px] leading-[3rem] text-black sm:text-[3.6rem] sm:tracking-[-0.54px] sm:leading-[4rem] self-center my-12">Donation Amount</p>
             < Amount />
             <Input_dropdown/>
             <button className="w-full h-20 py-6 uppercase text-[1.4rem] font-semibold text-black bg-green rounded-xl">

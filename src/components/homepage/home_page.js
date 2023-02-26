@@ -75,9 +75,9 @@ function Home_page() {
       <div className="flex flex-col px-8 sm:px-48 py-24 bg-[#f1f1f1]">
         <p className="self-center generic-subheading text-center sm:text-start mb-12 sm:mb-24">Here’s what our community has to say</p>
         <div className="flex flex-col sm:flex-row gap-12">
-          <div className="w-full sm:w-[30%] h-[25rem]"><Testimonial name="Andrew" age="9" feedback="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." img={kid}/></div>
-          <div className="w-full sm:w-[30%] h-[25rem]"><Testimonial name="Sumayia" age="12" feedback="Suspendisse quis nulla cursus, elementum eros quis, consequat tortor. Nullam sed ex vel mi dignissim molestie id at est. Integer feugiat gravida purus, vel ultrices mauris." img={kid}/></div>
-          <div className="w-full sm:w-[30%] h-[25rem]"><Testimonial name="Zakya" age="13" feedback="Donec non justo diam. Fusce egestas diam sit amet turpis condimentum, vel imperdiet lectus aliquam. Nunc malesuada enim viverra eros laoreet, eget tincidunt erat aliquet." img={kid}/></div>
+          <div className="w-full sm:flex-1 h-[25rem]"><Testimonial name="Andrew" age="9" feedback="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." img={kid}/></div>
+          <div className="w-full sm:flex-1 h-[25rem]"><Testimonial name="Sumayia" age="12" feedback="Suspendisse quis nulla cursus, elementum eros quis, consequat tortor. Nullam sed ex vel mi dignissim molestie id at est. Integer feugiat gravida purus, vel ultrices mauris." img={kid}/></div>
+          <div className="w-full sm:flex-1 h-[25rem]"><Testimonial name="Zakya" age="13" feedback="Donec non justo diam. Fusce egestas diam sit amet turpis condimentum, vel imperdiet lectus aliquam. Nunc malesuada enim viverra eros laoreet, eget tincidunt erat aliquet." img={kid}/></div>
         </div>
       </div>
 
@@ -89,8 +89,7 @@ function Home_page() {
           <Event/>
           <Event/>
           <Event/>
-          <Event/>
-          
+          <Event/>  
         </div>
         <div className="mt-16">
           <Scroller/>
