@@ -1,14 +1,9 @@
 import React from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Line, Chart } from 'react-chartjs-2'
-import { useEffect } from 'react';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-
 export const data = {
-  
-
   labels: ['Disaster & Emergency Appeals', 'Water for All', 'Hunger Appeal'],
   datasets: [
     {

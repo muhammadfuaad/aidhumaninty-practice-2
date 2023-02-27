@@ -1,5 +1,3 @@
-import Toggle from "./toggle";
-import Button from "./button";
 import Table from "../table";
 import Appeal_status_1 from "./appeal_status_1";
 import Circular_chart from "./circular_chart";
@@ -37,9 +35,9 @@ function Dashboard() {
           <div className="p-8">
             <div className="flex flex-col space-y-6">
               <Appeal_status_1 title="Pakistan Floods" category="Disaster & Emergency Appeals" amount_raised="£113"
-              amount_remaining="£243" supporters="4" eligibility="Z" />
-              <Appeal_status_1 title="Pakistan Floods" category="Disaster & Emergency Appeals" amount_raised="£113"
-              amount_remaining="£243" supporters="4" eligibility="Z" />
+              amount_remaining="£243" supporters="12" eligibility="Z" />
+              <Appeal_status_1 title="Water Hands Pumps" category="Water for All" amount_raised="£142"
+              amount_remaining="£234" supporters="4" eligibility="Z" />
             </div>
           </div>
         </div>

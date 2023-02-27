@@ -45,7 +45,7 @@ function Progress_bar(props) {
     return (
       <div className='relative' style={Parentdiv2}>
         <div style={Childdiv}></div>
-        <span className='absolute right-0 top-5' style={progresstext}>{`${props.progress}%`}</span>
+        <span className='absolute right-0 top-6' style={progresstext}>{`${props.progress}%`}</span>
       </div>
     )
   }
