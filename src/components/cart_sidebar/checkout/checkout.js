@@ -6,7 +6,6 @@ function Checkout() {
       <div className="p-8 flex justify-between border-b border-gray">
         <div className="flex gap-2 items-center">
           <img src="./icons/cash-register.svg"></img>
-
           <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-white">Checkout</p>
         </div>
         <img src="./icons/white-cross-circle.svg"></img>

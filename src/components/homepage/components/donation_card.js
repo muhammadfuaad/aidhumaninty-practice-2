@@ -15,7 +15,6 @@ function Donation_card(props) {
         <img src="./icons/arrow-right-primary.svg" className="w-4"></img>
       </div>
     </div>
-
   );
 }
 export default Donation_card;
