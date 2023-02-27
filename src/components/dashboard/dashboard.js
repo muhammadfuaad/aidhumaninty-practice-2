@@ -61,7 +61,7 @@ function Dashboard() {
         <div className="px-8 pb-8 hidden sm:block">
           <Table />
         </div>
-        <div className="p-6 sm:hidden">
+        <div className="flex flex-col px-6 sm:hidden">
           < Table_mobile />
         </div>
       </div>
