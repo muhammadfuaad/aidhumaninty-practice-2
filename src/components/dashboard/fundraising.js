@@ -10,7 +10,7 @@ function Fundraising() {
       <div className="flex flex-col sm:flex-row sm:justify-between">
         <div className="flex sm:w-1/2 justify-start items-center">
           <div className="relative">
-            <img src="./images/pakistan-floods.png"></img>
+            <img src="./images/pakistan-floods.png" className="w-32 h-32 rounded-xl"></img>
             <div className="bg-amber rounded-full w-8 h-8 absolute -right-4 top-[40%] flex justify-center items-center">
               <p className="text-[1rem] font-bold text-black">Z</p>
             </div>
