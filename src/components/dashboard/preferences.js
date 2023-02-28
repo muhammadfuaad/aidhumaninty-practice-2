@@ -2,7 +2,7 @@ import Toggle from "./toggle";
 import Button from "./button";
 function Preferences() {
   return (
-    <div className="bg-white rounded-2xl">          
+    <div className="bg-white rounded-3xl">          
       <div className="px-8 py-12 border-bottom-medium">
         <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-black mb-10">Aid Humanity communication</p>
         

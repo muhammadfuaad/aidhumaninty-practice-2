@@ -21,8 +21,9 @@ function Fundraising() {
             
               <div className="flex gap-8 relative text-[1.1rem] font-bold tracking-[-0.17px] text-spanish-gray">
                 <button className="">Edit</button>
-                <button className="">View</button>
-                <div className="absolute top-1 left-4 w-[1px] h-4 bg-platinum"></div>
+                <button className="relative">View
+                  <div className="absolute top-1 -left-4 w-[1px] h-4 bg-bd"></div>
+                </button>
               </div>
             </div>
             <div className="flex flex-col gap-2">
