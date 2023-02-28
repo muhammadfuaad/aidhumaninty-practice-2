@@ -12,7 +12,6 @@ function Blog_page() {
         <p className="text-[3.6rem] font-bold tracking-[-0.54px] text-black mt-12 sm:mt-0 mb-12">Blog</p>
         <div className="flex gap-8">
           <div className="w-full sm:w-[80%]">
-    
             <Blog_banner/>
             <div className="sm:hidden mt-16">
               <Readable_list />
@@ -32,8 +31,7 @@ function Blog_page() {
           </div>
           <div className="hidden sm:flex">
             <Readable_list />
-          </div>
-    
+          </div> 
         </div>
       </div>
     />
