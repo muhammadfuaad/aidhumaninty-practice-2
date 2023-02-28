@@ -4,7 +4,7 @@ function Progress_bar(props) {
 	
 	const Parentdiv = {
 		height: 10,
-    width: "80%",
+    width: "100%",
 		backgroundColor: '#f1f1f1',
 		borderRadius: 40,
 	}
@@ -28,7 +28,6 @@ function Progress_bar(props) {
 		fontWeight: 900,
     fontSize: "1.1rem"
 	}
-	
   
   const option = props.option
   if (option == 1) {
@@ -48,8 +47,7 @@ function Progress_bar(props) {
         <span className='absolute right-0 top-6' style={progresstext}>{`${props.progress}%`}</span>
       </div>
     )
-  }
-	
+  }	
 }
 
 export default Progress_bar;

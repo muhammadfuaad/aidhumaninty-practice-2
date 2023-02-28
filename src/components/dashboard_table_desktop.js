@@ -1,8 +1,8 @@
-import Badge_bronze from "./badge_bronze";
+import Badge_bronze from "./dashboard/badge_bronze";
 import React from "react";
-
-function Table() {
+function Dashboard_table_desktop() {
   const [visibility, setVisibility]= React.useState(false)
+
   return (
     <table className="w-full bg-white">
       <tr className="text-[0.9rem] font-medium tracking-[0px] text-[#bdbdbd] uppercase">
@@ -23,8 +23,8 @@ function Table() {
           <span className="font-medium text-black">Tue 12 Dec, 08:15</span>
         </td>
         <td className="py-2 border-bottom-light"><span className="font-semibold text-primary">£231.50</span></td>
-        <td className="py-2 border-bottom-light pr-2" onClick={()=>setVisibility(current => !current)}><img src="./icons/eye.svg" ></img></td>
-        {visibility ? <div className="absolute"><Badge_bronze/></div> : null}
+        <td className="py-2 border-bottom-light pr-2" onClick={()=>setVisibility(current => !current)}><img src="./icons/eye.svg"></img></td>
+        {visibility ? <div className="absolute bottom-60 z-50"><Badge_bronze/></div> : null}
       </tr>
 
       <tr className="text-[1.1rem] tracking-[-0.28px]">
@@ -71,4 +71,4 @@ function Table() {
     </table>
   );
 }
-export default Table;
+export default Dashboard_table_desktop;

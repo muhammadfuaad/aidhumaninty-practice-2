@@ -6,7 +6,7 @@ import Dashboard_header_mobile from "./dashboard_header_mobile";
 function Dashboard_layout(props) {
   return (
     <section className="flex overflow-hidden">
-      <div className="w-[20%] min-w-[26.5rem] hidden sm:block">
+      <div className="w-[20%] min-w-[25rem] hidden sm:block">
         < Dashboard_sidebar />
       </div>
       <div className="w-full sm:w-[50%] h-full sm:h-auto relative">
@@ -23,7 +23,7 @@ function Dashboard_layout(props) {
           < Dashboard_bottom_links />
         </div>
       </div>
-      <div className="w-[30%] hidden sm:block">
+      <div className="w-[30%] min-w-[30rem] hidden sm:block">
         <Profile_sidebar />
       </div>   
     </section>

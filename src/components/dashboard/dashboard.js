@@ -1,4 +1,4 @@
-import Table from "../table";
+import Dashboard_table_desktop from "../dashboard_table_desktop";
 import Appeal_status_1 from "./appeal_status_1";
 import Circular_chart from "./circular_chart";
 import Line_chart from "./line_chart";
@@ -51,7 +51,7 @@ function Dashboard() {
           <div className="p-8">< Circular_chart /></div>
         </div>
       </div>
-      <div className="rounded-2xl bg-white">
+      <div className="rounded-2xl bg-white mb-16">
         <div className="p-8 border-bottom-medium">
           <div className="flex justify-between items-center">
             <p className="portal-subheading">Donation history</p>
@@ -59,10 +59,13 @@ function Dashboard() {
           </div>
         </div>
         <div className="px-8 pb-8 hidden sm:block">
-          <Table />
+          <Dashboard_table_desktop />
         </div>
         <div className="flex flex-col px-6 sm:hidden">
-          < Table_mobile />
+          <div className="border-bottom-light">< Table_mobile /></div>
+          <div className="border-bottom-light">< Table_mobile /></div>
+          <div className="border-bottom-light">< Table_mobile /></div>
+          <div>< Table_mobile /></div>
         </div>
       </div>
       <div className="absolute bottom-8 sm:hidden">

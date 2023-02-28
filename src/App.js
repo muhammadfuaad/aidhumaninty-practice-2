@@ -120,6 +120,7 @@ function App() {
       <Route path="/security_page" element={<Security_page />} />
       <Route path="/fundraising_page" element={<Fundraising_page />} />
       <Route path="/dashboard_page" element={<Dashboard_page />} />
+      <Route path="/badge_bronze" element={<Badge_bronze />} />
       {/* appeals */}
       <Route path="/appeal_media_page" element={<Appeal_media_page />} />
       <Route path="/appeal_donations_page" element={<Appeal_donations_page />} />
