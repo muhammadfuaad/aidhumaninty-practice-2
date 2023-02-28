@@ -34,8 +34,11 @@ function Donation_history() {
         <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-black">24 results</p>
         <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-black">1234</p>
         <div className="flex space-x-4">
-          < Button text="Previous" classNames="outline outline-1 outline-[#999] text-[#999] text-[1rem] bg-platinum px-8 py-4"/>
-          < Button text="Next" classNames="outline outline-1 outline-[#999] text-[#999] text-[1rem] px-8 py-4 bg-[#f5f6f7]"/>
+          
+          <button className="px-8 py-2 uppercase text-[1.4rem] font-semibold text-bd bg-platinum outline
+            outline-bd rounded-xl">Previous</button>
+          <button className="px-16 py-6 uppercase text-[1.4rem] font-semibold text-bd bg-transparent outline
+          outline-bd rounded-xl">Next</button>
         </div>
       </div>
     </div>      
