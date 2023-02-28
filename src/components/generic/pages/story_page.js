@@ -5,36 +5,30 @@ import Logo from "../images/logo-without-text.svg";
 import Yellow_ring_large from "../images/yellow-ring-large.png"
 import Yellow_ring_small from "../images/yellow-ring-small.png"
 import Blue_circle from "../images/blue-circle.png"
-import Percent from "../images/100percent.svg"
-import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
 import Percentage_vertical from "../../percentage_vertical"
 import Appeal_card from "../components/appeal_card";
 import Footer_mobile from '../../footer_mobile';
-
-
+import Generic_header_1 from './../components/generic_header_1';
 
 function Story_page() {
   return (
     <section>
-      <div className="hidden sm:block">< Generic_header /></div>
+      <div className="hidden sm:block">< Generic_header_1 /></div>
       <div className="sm:hidden block">< Home_page_header_mobile /></div>
       <Page_header heading="Our Story" icon="hidden" />
       <div className="flex flex-col relative overflow-hidden">
-        
-        <img src={Yellow_ring_small} className="hidden sm:block absolute w-36 h-36 top-[90rem] left-4"></img>
-        
+        <img src={Yellow_ring_small} className="hidden sm:block absolute w-36 h-36 top-[90rem] left-4"></img>       
         <img src={Blue_circle} className="hidden sm:block absolute w-16 h-16 top-[140rem] left-[30rem]"></img>
 
-
-        <div className="flex flex-col px-8 sm:pl-64 sm:pr-0 relative">
+        <div className="flex flex-col px-8 sm:pl-48 sm:pr-0 relative">
           <img src={Yellow_ring_large} className="hidden sm:block absolute w-[30rem] h-[30rem] -bottom-20 right-8"></img>
           <p className="text-[1.6rem] font-normal tracking-[-0.24px] text-[#999] my-16 hidden sm:block">Home / Our Story</p>
           <div className="flex flex-col sm:flex-row sm:gap-48">
             <div className="w-full sm:w-1/2 flex flex-col">
-              <p className="generic-heading mt-16 sm:mt-0 mb-16">Our Story</p>
-              <p className="generic-subheading mb-12">About Us</p>
+              <p className="generic-heading mt-16 sm:mt-0 mb-12 sm:mb-16">Our Story</p>
+              <p className="generic-subheading mb-8 sm:mb-12">About Us</p>
               <p className="generic-body mb-8 sm:mb-36">Aid Humanity is proud to be a non-profit organisation that passes 100% of our donations to charitable causes around the world.</p>
               <div className="hidden sm:block relative">
                 <img src={Mother_daughter}></img>
@@ -52,7 +46,6 @@ function Story_page() {
               <div className="sm:hidden relative">
                 <img src={Mother_daughter}></img>
                 <img src={Logo} className="absolute w-60 sm:w-[30rem] -top-20 sm:-top-40 right-8 sm:-right-60 z-10"></img>
-
               </div>
             </div>
           </div>
@@ -67,7 +60,7 @@ function Story_page() {
           </div>
         </div>
 
-        <div className="flex flex-col px-8 sm:px-64 bg-[#f9f9f9]">
+        <div className="flex flex-col px-8 sm:px-48 bg-[#f9f9f9]">
           <p className="self-center generic-subheading my-20">Recent Appeals</p>
 
           <div className="flex gap-12">

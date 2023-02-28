@@ -1,4 +1,3 @@
-import { DomPlatform } from "chart.js";
 import Funding_stats from "./funding_stats";
 import Zakat from "./zakat";
 import React from "react";

@@ -10,7 +10,10 @@ function Appeal_details_header() {
 
       <div className="flex justify-between px-48 py-8 bg-primary-dark">
         <div className="flex justify-between w-[65%]">
-          <img src="./icons/logo-horizontal-white.svg" className="w-[23rem]"></img>
+          <div>
+            <img src="./icons/logo-horizontal-white.svg" className="w-[23rem]"></img>
+            <div className="bg-white h-20 w-[1px] absolute top-0 -right-24"></div>
+          </div>
           <ul className="w-[65%] flex justify-between items-center text-[1.8rem] font-semibold tracking-[-0.27px] text-white
               relative">
             <div className="h-16 w-px absolute -left-20 bg-white opacity-25"></div>

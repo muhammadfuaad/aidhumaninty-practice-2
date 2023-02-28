@@ -2,13 +2,12 @@ import {ReactComponent as Phone} from "../../icons/phone-volume-props.svg"
 import Email from "../../icons/email.svg";
 import Contact_form from '../components/contact_form';
 import Page_header from "../components/page_header";
-import Media from './../../media';
 import Yellow_ring_large from "../../icons/yellow-ring-large.png";
 import Yellow_ring_small from "../../icons/yellow-ring-small.png";
 import Blue_circle from "../../icons/blue-circle.png";
-import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
+import Generic_header_1 from './../components/generic_header_1';
 
 function Contact_page() {
   return (
@@ -16,7 +15,7 @@ function Contact_page() {
       <img src={Yellow_ring_small} className="hidden sm:block w-40 absolute top-[50rem]"></img>
       <img src={Blue_circle} className="hidden sm:block w-16 absolute top-[100rem] left-[20rem]"></img>
 
-      <div className="hidden sm:block">< Generic_header /></div>
+      <div className="hidden sm:block">< Generic_header_1 /></div>
       <div className="sm:hidden block">< Home_page_header_mobile /></div>
 
       <Page_header heading="Contact" icon="hidden" />

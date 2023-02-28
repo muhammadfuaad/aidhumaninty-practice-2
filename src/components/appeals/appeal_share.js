@@ -2,7 +2,6 @@
 function Appeal_share() {
   return (
     <div className="flex flex-col bg-[#f5f6f7] min-h-screen pb-40">
-
       <div className="flex justify-between items-center bg-white px-4 h-28 border-bottom-light">
         <a className="flex space-x-4">
           <img src="./icons/angle-left.svg" className="w-3"></img>

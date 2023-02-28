@@ -97,7 +97,7 @@ function Appeal_description_2() {
         </div>        
       </div>
 
-      <div className="p-8 border-bottom-light">
+      <div className="px-8 pt-8 pb-12 sm:pb-20 border-bottom-light">
         <p className="card-heading mb-8">Share</p>
         <div className="flex flex-col gap-6 sm:flex-row sm:gap-8">
           <button className='w-full py-6 uppercase text-[1.4rem] font-semibold text-white bg-primary-medium rounded-xl
@@ -111,7 +111,7 @@ function Appeal_description_2() {
             <span>Share</span>
           </button>
           <button className="w-full py-6 uppercase text-[1.4rem] font-semibold text-spanish-gray bg-transparent outline
-                outline-spanish-gray rounded-xl flex justify-center space-x-4">
+                outline-spanish-gray rounded-xl flex justify-center items-center space-x-4">
             <img src={email}></img>
             <span>Share</span>
           </button>

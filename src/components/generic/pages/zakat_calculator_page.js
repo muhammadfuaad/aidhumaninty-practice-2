@@ -2,18 +2,18 @@ import Page_header from "../components/page_header";
 import Yellow_ring_large from "../../icons/yellow-ring-large.png";
 import Yellow_ring_small from "../../icons/yellow-ring-small.png";
 import Blue_circle from "../../icons/blue-circle.png";
-import Generic_header from "../../generic_header";
 import Footer from "../../footer";
 import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
 import Zakat_calculator from "../components/zakat_calculator";
 import Scholar_verified from './../components/scholar_verified';
+import Generic_header_1 from './../components/generic_header_1';
 
 function Zakat_calculator_page() {
   return (
     <section className="relative overflow-hidden">
       <img src={Yellow_ring_small} className="hidden sm:block w-40 absolute top-[50rem]"></img>
 
-      <div className="hidden sm:block">< Generic_header /></div>
+      <div className="hidden sm:block">< Generic_header_1 /></div>
       <div className="sm:hidden block">< Home_page_header_mobile /></div>
 
       <Page_header heading="Zakat Calculator" icon="hidden" />

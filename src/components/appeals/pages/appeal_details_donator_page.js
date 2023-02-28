@@ -1,16 +1,7 @@
-import Appeal_status_2 from '../appeal_status_2';
-import Fixed_navigator_1 from '../../fixed_navigator_1';
-import Appeal_description_2 from "../appeal_description_2"
-import Arrow from "../../icons/arrow-left-white.svg"
-import Recent_donors from '../recent_donors';
-import Appeal_details_header_mobile from '../appeal_details_header_mobile';
-import Footer from "../../footer";
-import Footer_mobile from '../../footer_mobile';
-import Appeal_details_header from './../appeal_details_header';
 import Appeal_card from '../../generic/components/appeal_card';
 import Scroller from '../../scroller';
-import Recent_donors_list from './../recent_donors_list';
 import Appeal_details_layout from './appeal_details_layout';
+
 function Appeal_details_donator_page(props) {
   return (
     <Appeal_details_layout
