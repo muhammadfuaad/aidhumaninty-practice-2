@@ -23,10 +23,8 @@ function Emergency() {
         </div>
         <button className="w-[95%] py-6 uppercase text-[1.4rem] font-semibold text-[#006ba3] bg-transparent outline
           outline-primary rounded-xl fixed bottom-8">Donate Now</button>
-        
         <img src="./icons/footer-background-logo.svg" className="absolute -right-[22rem] top-40"></img>
       </div>
-
     </div>
   );
 }
