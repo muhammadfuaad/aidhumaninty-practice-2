@@ -1,6 +1,5 @@
 import Mobile_header from "./mobile_header";
 import Header_1 from "./header_1"
-import Donation_card from './donation_card';
 import Amount from "./amount";
 import React from "react"
 import Input_dropdown from "./input_dropdown";

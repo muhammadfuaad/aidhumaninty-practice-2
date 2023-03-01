@@ -17,9 +17,7 @@ function Appeal_description() {
           <p className="text-[1.1rem] font-semibold tracking-[-0.28px] text-primary-dark">Ron Hill</p>
         </div>
       </div>
-      
-
-        <div className="w-full"><img src="./images/water-hand-pumps.png" className="w-full"></img></div>
+      <div className="w-full"><img src="./images/water-hand-pumps-1.png" className="w-full"></img></div>
       <div className="p-8 border-bottom-light">
         <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-8">Story</p>
         <div className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">
