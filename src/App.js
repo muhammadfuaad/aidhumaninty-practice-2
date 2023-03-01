@@ -28,6 +28,8 @@ import Appeal_edit_page from './components/appeals/pages/appeal_edit_page';
 import Appeal_settings_page from './components/appeals/pages/appeal_settings_page';
 import Appeal_details_donator_page from './components/appeals/pages/appeal_details_donator_page';
 import Appeal_details_fundraiser_page from './components/appeals/pages/appeal_details_fundraiser_page';
+import Appeals_carousel from './components/appeals_carousel';
+
 
 
 import Circular_progress_bar from "./components/dashboard/circular_progress_bar";
@@ -84,6 +86,7 @@ function App() {
     <Routes>
       <Route path="/tailwind_slider" element={<Tailwind_slider />} />
       <Route path="/image_slider_page" element={<Image_slider_page />} />
+      <Route path="/appeals_carousel" element={<Appeals_carousel />} />
 
       {/* generic pages */}
       <Route path="/notifications_page" element={<Notifications_page />} />

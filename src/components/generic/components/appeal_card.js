@@ -6,7 +6,7 @@ import Circular_progress_bar from "../../dashboard/circular_progress_bar";
 function Appeal_card(props) {
   const [display, setDisplay] = React.useState(false);
   return (
-    <div className=" shadow-md rounded-3xl relative">
+    <div className="w-full shadow-md rounded-3xl relative">
       <div className="rounded-xl  bg-black bg-opacity-50 px-8 py-4 absolute top-4 right-4">
         <p className="text-[1.4rem] font-medium tracking-[-0.21px] text-platinum">Water For All</p>
       </div>
