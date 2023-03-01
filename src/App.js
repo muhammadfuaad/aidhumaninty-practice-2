@@ -81,12 +81,14 @@ import Image_slider_page from './components/image_slider_page';
 import Tailwind_slider from './components/tailwind_slider';
 
 import { Route, Routes } from "react-router-dom";
+import Pagination from './components/pagination';
 function App() {
   return (    
     <Routes>
       <Route path="/tailwind_slider" element={<Tailwind_slider />} />
       <Route path="/image_slider_page" element={<Image_slider_page />} />
       <Route path="/appeals_carousel" element={<Appeals_carousel />} />
+      <Route path="/pagination" element={<Pagination />} />
 
       {/* generic pages */}
       <Route path="/notifications_page" element={<Notifications_page />} />
