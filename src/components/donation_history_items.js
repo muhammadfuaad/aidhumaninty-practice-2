@@ -7,7 +7,7 @@ export default function Donation_history_items(props) {
   const [itemOffset, setItemOffset] = useState(0);
   const [currentItems, setCurrentItems] = useState([]);
   const [pageCount, setPageCount] = useState(0);
-  const itemsPerPage  = 1;
+  const itemsPerPage  = 2;
   
   useEffect (()=> {
   const endOffset = itemOffset + itemsPerPage;
@@ -23,48 +23,41 @@ export default function Donation_history_items(props) {
 
   return (
     <>
-      <div className='flex gap-12'>
+      <div className='flex flex-col gap-4 min-h-[25rem]'>
         {currentItems.map(image => {
-          return (
-            <div className='flex flex-col gap-4 w-full mb-8'>
-              <div className='flex'>
-                <Donor_details donor_name = {image.donor_name}
-                location = {image.location}
-                date = {image.date}
-                appeal = {image.appeal}
-                category = {image.category}
-                amount = {image.amount}
-                />
-              </div>
-              <div className='flex'>
-                <Donor_details donor_name = {image.donor_name}
-                location = {image.location}
-                date = {image.date}
-                appeal = {image.appeal}
-                category = {image.category}
-                amount = {image.amount}
-                />
-              </div>
-            </div>
+          return (           
+            <Donor_details donor_name = {image.donor_name}
+            location = {image.location}
+            date = {image.date}
+            appeal = {image.appeal}
+            category = {image.category}
+            amount = {image.amount}
+            />           
           );
         })}
       </div>
-      <ReactPaginate
-        breakLabel="..."
-        nextLabel="NEXT"
-        onPageChange={handlePageClick}
-        pageRangeDisplayed={1}
-        pageCount={pageCount}
-        previousLabel="PREVIOUS"
-        renderOnZeroPageCount={null}
-        containerClassName="pagination"
-        pageLinkClassName=""
-        previousLinkClassName='px-8 py-2 uppercase text-[1.4rem] font-semibold text-bd bg-platinum outline
-        outline-bd rounded-xl'
-        nextLinkClassName='px-16 py-6 uppercase text-[1.4rem] font-semibold text-bd bg-transparent outline
-        outline-bd rounded-xl'
-        activeLinkClassName='p-4 rounded-full bg-platinum'
-      />
+      <div className="flex justify-between items-center mt-10 sm:mt-8">
+        <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-black">24 results</p>
+        <div>
+          <ReactPaginate
+            breakLabel="..."
+            nextLabel="NEXT"
+            onPageChange={handlePageClick}
+            pageRangeDisplayed={1}
+            pageCount={pageCount}
+            previousLabel="PREVIOUS"
+            renderOnZeroPageCount={null}
+            containerClassName="flex justify-between items-center w-full"
+            pageClassName=''
+            pageLinkClassName="w-8 h-8 rounded-full text-[1.2rem] font-normal tracking-[-0.3px] text-black flex justify-center items-center"
+            previousLinkClassName='px-6 py-4 uppercase text-[1.4rem] font-semibold text-bd bg-platinum outline
+            outline-bd rounded-xl'
+            nextLinkClassName='px-10 py-4 uppercase text-[1.4rem] font-semibold text-bd bg-transparent outline
+            outline-bd rounded-xl'
+            activeLinkClassName='h-8 w-8 rounded-full bg-platinum'
+          />
+        </div>
+      </div>
     </>
   );
 }
