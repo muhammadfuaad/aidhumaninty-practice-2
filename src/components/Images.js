@@ -11,8 +11,8 @@ export default function Images(props) {
   
   useEffect (()=> {
   const endOffset = itemOffset + itemsPerPage;
-  setCurrentItems = data.slice(itemOffset, endOffset);
-  setPageCount = Math.ceil(data.length / itemsPerPage);
+  setCurrentItems(data.slice(itemOffset, endOffset));
+  setPageCount(Math.ceil(data.length / itemsPerPage));
   }, [itemOffset, itemsPerPage, data]);
 
   const handlePageClick = (event) => {
@@ -23,11 +23,12 @@ export default function Images(props) {
 
   return (
     <>
-      <div className=''>
+      <div className='images flex gap-12'>
         {currentItems.map(image => {
           return (
             <div>
-              <img src={image.url} alt={image.title}/>
+              <p>{image.id}</p>
+              <div><img src={image.url} alt={image.title}/></div>
             </div>
           );
         })}

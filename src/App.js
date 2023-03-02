@@ -82,6 +82,7 @@ import Tailwind_slider from './components/tailwind_slider';
 
 import { Route, Routes } from "react-router-dom";
 import Pagination from './components/pagination';
+import Share from './components/share';
 function App() {
   return (    
     <Routes>
@@ -151,7 +152,7 @@ function App() {
 
       <Route path="/" element={<Home_page />} />
 
-
+      <Route path="/share" element={<Share />} />
       <Route path="/image_upload" element={<Image_upload />} />
       <Route path="/badge_bronze" element={<Badge_bronze />} />
       <Route path="/circular_progress_bar" element={<Circular_progress_bar />} />
