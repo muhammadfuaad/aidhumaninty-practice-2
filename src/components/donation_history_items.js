@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactPaginate from 'react-paginate';
 import Donor_details from './dashboard/donor_details';
+import Donor_details_mobile from './dashboard/donor_details_mobile';
 
 export default function Donation_history_items(props) {
   const {data} = props;   
@@ -26,19 +27,32 @@ export default function Donation_history_items(props) {
       <div className='flex flex-col gap-4 min-h-[25rem]'>
         {currentItems.map(image => {
           return (           
-            <Donor_details donor_name = {image.donor_name}
-            location = {image.location}
-            date = {image.date}
-            appeal = {image.appeal}
-            category = {image.category}
-            amount = {image.amount}
-            />           
+            <div>
+              <div className='hidden sm:flex'>
+                <Donor_details donor_name = {image.donor_name}
+                location = {image.location}
+                date = {image.date}
+                appeal = {image.appeal}
+                category = {image.category}
+                amount = {image.amount}
+                />
+              </div>
+              <div className='sm:hidden flex'>
+                <Donor_details_mobile donor_name = {image.donor_name}
+                location = {image.location}
+                date = {image.date}
+                appeal = {image.appeal}
+                category = {image.category}
+                amount = {image.amount}
+              />
+              </div>
+            </div>           
           );
         })}
       </div>
       <div className="flex justify-between items-center mt-10 sm:mt-8">
-        <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-black">24 results</p>
-        <div>
+        <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-black hidden sm:flex">24 results</p>
+        <div className='w-full sm:w-[60%]'>
           <ReactPaginate
             breakLabel="..."
             nextLabel="NEXT"
