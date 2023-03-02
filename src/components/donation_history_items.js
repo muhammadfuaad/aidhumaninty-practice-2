@@ -7,7 +7,7 @@ export default function Donation_history_items(props) {
   const [itemOffset, setItemOffset] = useState(0);
   const [currentItems, setCurrentItems] = useState([]);
   const [pageCount, setPageCount] = useState(0);
-  const itemsPerPage  = 6;
+  const itemsPerPage  = 1;
   
   useEffect (()=> {
   const endOffset = itemOffset + itemsPerPage;
@@ -23,16 +23,29 @@ export default function Donation_history_items(props) {
 
   return (
     <>
-      <div className='images flex gap-12'>
+      <div className='flex gap-12'>
         {currentItems.map(image => {
           return (
-            <Donor_details donor_name = {image.donor_name}
-            location = {image.location}
-            date = {image.date}
-            appeal = {image.appeal}
-            category = {image.category}
-            amount = {image.amount}
-            />
+            <div className='flex flex-col gap-4 w-full mb-8'>
+              <div className='flex'>
+                <Donor_details donor_name = {image.donor_name}
+                location = {image.location}
+                date = {image.date}
+                appeal = {image.appeal}
+                category = {image.category}
+                amount = {image.amount}
+                />
+              </div>
+              <div className='flex'>
+                <Donor_details donor_name = {image.donor_name}
+                location = {image.location}
+                date = {image.date}
+                appeal = {image.appeal}
+                category = {image.category}
+                amount = {image.amount}
+                />
+              </div>
+            </div>
           );
         })}
       </div>
@@ -45,12 +58,12 @@ export default function Donation_history_items(props) {
         previousLabel="PREVIOUS"
         renderOnZeroPageCount={null}
         containerClassName="pagination"
-        pageLinkClassName="p-4 rounded-full bg-platinum"
+        pageLinkClassName=""
         previousLinkClassName='px-8 py-2 uppercase text-[1.4rem] font-semibold text-bd bg-platinum outline
         outline-bd rounded-xl'
         nextLinkClassName='px-16 py-6 uppercase text-[1.4rem] font-semibold text-bd bg-transparent outline
         outline-bd rounded-xl'
-        activeLinkClassName='active'
+        activeLinkClassName='p-4 rounded-full bg-platinum'
       />
     </>
   );

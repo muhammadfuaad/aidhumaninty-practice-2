@@ -1,6 +1,6 @@
 function Donor_details(props) {
   return (
-    <div className="p-8 bg-white sm:bg-[#f9f9f9] rounded-3xl">
+    <div className="p-8 bg-white border border-platinum rounded-3xl w-full">
       <div className="flex justify-between items-center">
         <div className="flex space-x-4">
           <img src="./icons/user-circle.svg" className=""></img>
@@ -10,7 +10,7 @@ function Donor_details(props) {
           <p className="text-[1.1rem] font-normal tracking-[-0.28px] text-black">From 
           <span className="font-semibold"> {props.location}</span></p>
           <div className="flex space-x-1 items-center">
-            <img src="./icons/calendar-clock.svg"></img>
+            <img src="./icons/calendar-clock-black.svg"></img>
             <span className="text-[1.1rem] font-medium tracking-[-0.28px] text-black whitespace-nowrap">{props.date}</span>
           </div>
         </div>
