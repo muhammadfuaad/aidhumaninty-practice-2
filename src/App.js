@@ -83,6 +83,8 @@ import Tailwind_slider from './components/tailwind_slider';
 import { Route, Routes } from "react-router-dom";
 import Pagination from './components/pagination';
 import Share from './components/share';
+import Donation_history_pagination from './components/donation_history_pagination';
+
 function App() {
   return (    
     <Routes>
@@ -166,6 +168,8 @@ function App() {
       <Route path="/quick_donate" element={<Quick_donate />} />
       <Route path="/donate_now" element={<Donate_now />} />
       <Route path="/filters" element={<Filters />} />
+
+      <Route path="/donation_history_pagination" element={<Donation_history_pagination />} />
     </Routes>
   );
 }
