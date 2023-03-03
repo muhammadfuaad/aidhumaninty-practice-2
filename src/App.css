@@ -23,6 +23,13 @@
   background: linear-gradient(270deg,rgba(19,38,85,0),#132655),url(assets/images/hero.png),0 0 no-repeat padding-box;
 
 }
+.carousel .control-dots .dot {
+  border-radius: 0% !important;
+  width: 20px !important;
+  height: 5px !important;
+  background: gray !important;
+}
+
 .hero {
   background: linear-gradient(270deg,rgba(19,38,85,0),#132655),url(assets/images/hero.png),0 0 no-repeat padding-box;
   opacity: 1;

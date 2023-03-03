@@ -21,6 +21,7 @@ import Footer_mobile from "../footer_mobile";
 import Generic_header_1 from "../generic/components/generic_header_1";
 import Scroller from "../scroller";
 import Homepage_hero_slider_collection from "../homepage_hero_slider_collection";
+import Appeals_slider_collection from './../appeals_slider_collection';
 
 function Home_page() {
   return (
@@ -31,11 +32,7 @@ function Home_page() {
       <div className="flex flex-col px-8 sm:px-48 bg-[#f9f9f9] mb-[-25rem]">
         <p className="self-center text-center sm:self-start generic-subheading mt-16 sm:mt-36 mb-16 sm:mb-28">Appeals <span className="font-medium">that need your backing</span></p>
 
-        <div className="flex gap-12">
-          <div><Appeal_card /></div>
-          <div className="hidden sm:flex"><Appeal_card /></div>
-          <div className="hidden sm:flex"><Appeal_card /></div>
-        </div> 
+        <Appeals_slider_collection/> 
         <div className="my-20">
           <Scroller/>
         </div>   

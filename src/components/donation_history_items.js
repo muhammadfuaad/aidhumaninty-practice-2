@@ -5,7 +5,6 @@ import Donor_details_mobile from './dashboard/donor_details_mobile';
 
 export default function Donation_history_items(props) {
   const {data} = props;   
-  let results = data.strength;
   const [itemOffset, setItemOffset] = useState(0);
   const [currentItems, setCurrentItems] = useState([]);
   const [pageCount, setPageCount] = useState(0);
@@ -16,7 +15,7 @@ export default function Donation_history_items(props) {
   setCurrentItems(data.slice(itemOffset, endOffset));
   setPageCount(Math.ceil(data.length / itemsPerPage));
   }, [itemOffset, itemsPerPage, data]);
-
+  let results = data.length
   const handlePageClick = (event) => {
     const newOffset = (event.selected * itemsPerPage) % data.length;
     
@@ -52,7 +51,7 @@ export default function Donation_history_items(props) {
         })}
       </div>
       <div className="flex justify-between items-center mt-10 sm:mt-8">
-        <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-black hidden sm:flex">{data.strength} results</p>
+        <p className="text-[1.2rem] font-normal tracking-[-0.3px] text-black hidden sm:flex">{results} results</p>
         <div className='w-full sm:w-[60%]'>
           <ReactPaginate
             breakLabel="..."

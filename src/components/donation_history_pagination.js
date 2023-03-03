@@ -86,7 +86,6 @@ function Donation_history_pagination() {
    "card_number": "9"
   }, 
 ]
-let results = data.count();
 
   useEffect (()=> {
     setCards(data);
