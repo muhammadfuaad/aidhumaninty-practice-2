@@ -5,10 +5,14 @@ import { Carousel } from 'react-responsive-carousel';
 import Homepage_hero_slider from './homepage/components/homepage_hero_slider';
 import Hero_card from './homepage/components/hero_card';
 import Appeal_card from './generic/components/appeal_card';
+
 function Appeals_slider_collection() {    
   return (
-    <div>
+    <div className='relative'>
+      <button className="px-10 py-6 text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
+          outline-spanish-gray rounded-xl self-center sm:self-auto absolute bottom-10 right-0">View All</button>
       <Carousel
+        slidesToShow={3}
         showStatus={false}
         showArrows={false}
         className="relative"
@@ -41,21 +45,9 @@ function Appeals_slider_collection() {
           );
         }}
       >
-        <div className='flex gap-12'>
-          <div className='w-1/3'><Appeal_card/></div>
-          <div className='w-1/3'><Appeal_card/></div>
-          <div className='w-1/3'><Appeal_card/></div>
-        </div>
-        <div className='flex gap-12'>
-          <div className='w-1/3'><Appeal_card/></div>
-          <div className='w-1/3'><Appeal_card/></div>
-          <div className='w-1/3'><Appeal_card/></div>
-        </div>
-        <div className='flex gap-12'>
-          <div className='w-1/3'><Appeal_card/></div>
-          <div className='w-1/3'><Appeal_card/></div>
-          <div className='w-1/3'><Appeal_card/></div>
-        </div>
+          <div className='w-full'><Appeal_card/></div>
+          <div className='w-full'><Appeal_card/></div>
+          <div className='w-full'><Appeal_card/></div>
       </Carousel>
     </div>
   );

@@ -22,6 +22,7 @@ import Generic_header_1 from "../generic/components/generic_header_1";
 import Scroller from "../scroller";
 import Homepage_hero_slider_collection from "../homepage_hero_slider_collection";
 import Appeals_slider_collection from './../appeals_slider_collection';
+import Appeals_slick from "../appeals_slick";
 
 function Home_page() {
   return (
@@ -29,15 +30,15 @@ function Home_page() {
       <div className="hidden sm:block">< Generic_header_1 /></div>
       <div className="sm:hidden block">< Home_page_header_mobile /></div>
       <Homepage_hero_slider_collection/>
-      <div className="flex flex-col px-8 sm:px-48 bg-[#f9f9f9] mb-[-25rem]">
+      <div className="flex flex-col px-8 sm:px-48 bg-[#f9f9f9] mb-[-35rem] sm:mb-[-27rem] pb-40">
         <p className="self-center text-center sm:self-start generic-subheading mt-16 sm:mt-36 mb-16 sm:mb-28">Appeals <span className="font-medium">that need your backing</span></p>
 
-        <Appeals_slider_collection/> 
-        <div className="my-20">
-          <Scroller/>
-        </div>   
+        <Appeals_slick/> 
+        <button className="self-center sm:hidden mt-20 px-10 py-6 text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
+        outline-spanish-gray rounded-xl sm:self-auto">View All</button>
+         
       </div>
-      <div className="bg-f5 h-[25rem]"></div>
+      <div className="bg-f5 h-[30rem] sm:h-[25rem]"></div>
       <section className="flex flex-col sm:flex-row bg-amber px-8 sm:px-48 py-12">
         <p className="px-8 sm:px-0 text-center sm:text-start basis-[25%] text-primary-dark text-[2.4rem] sm:text-[26px] font-semibold tracking-[-0.6px] sm:tracking-[-0.65px] leading-[2.8rem] sm:leading-[30px] ">What if one action could change the world?</p>
         <div className="flex basis-[25%] items-center space-x-4 px-16 my-8">

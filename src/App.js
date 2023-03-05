@@ -86,6 +86,7 @@ import Share from './components/share';
 import Donation_history_pagination from './components/donation_history_pagination';
 import Homepage_slider from './components/homepage_slider';
 import Homepage_hero_slider_collection from './components/homepage_hero_slider_collection';
+import Appeals_slick from './components/appeals_slick';
 
 function App() {
   return (    
@@ -174,6 +175,8 @@ function App() {
       <Route path="/donation_history_pagination" element={<Donation_history_pagination />} />
       <Route path="/homepage_slider" element={<Homepage_slider />} />
       <Route path="/homepage_hero_slider" element={<Homepage_hero_slider_collection />} />
+      <Route path="/appeals_slick" element={<Appeals_slick />} />
+
 
     </Routes>
   );

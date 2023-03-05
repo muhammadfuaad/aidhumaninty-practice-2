@@ -18,17 +18,42 @@
   --border-dark: 1px solid var(--color-body);
   font-size: 62.5%;
 }
+/* appeals slick */
 
+.appeals .slick-list {
+  padding-bottom: 4rem;
+}
+
+.appeals .slick-dots li button:before {
+  background-color: gray;
+  height: 5px;
+  width: 20px;
+  overflow: hidden;
+  text-indent: -9999px;
+  }
+@media only screen and (min-width: 640px) {
+  .slick-slide {
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+   }
+   .appeals .slick-list {
+    padding-bottom: 7rem;
+  }
+}
 .homepage-slider {
   background: linear-gradient(270deg,rgba(19,38,85,0),#132655),url(assets/images/hero.png),0 0 no-repeat padding-box;
 
 }
+/* appeals carousel */
 .carousel .control-dots .dot {
   border-radius: 0% !important;
   width: 20px !important;
   height: 5px !important;
   background: gray !important;
 }
+
+
+
 
 .hero {
   background: linear-gradient(270deg,rgba(19,38,85,0),#132655),url(assets/images/hero.png),0 0 no-repeat padding-box;
