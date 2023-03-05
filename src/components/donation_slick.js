@@ -13,8 +13,20 @@ function Donation_slick() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [    
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 1,
+          infinite: true,
+          className: "myCustomCarousel",
+        }
+      }
+    ],
     beforeChange: handleBeforeChange,
     afterChange: handleBeforeChange,
     customPaging: () => (
@@ -28,8 +40,29 @@ function Donation_slick() {
     ),
   };
 
+  const completedWidth = ((currentSlide + 1) / 3) * 100;
+  const remainingWidth = 100 - completedWidth;
+
+  const completedStyle = {
+    height: "5px",
+    backgroundColor: "darkgray",
+    transition: "width 0.3s ease-in-out",
+    width: `${completedWidth}%`
+  };
+
+  const remainingStyle = {
+    height: "5px",
+    transition: "width 0.3s ease-in-out",
+    width: `${remainingWidth}%`
+  };
+
+  const progressBarStyle = {
+    height: "5px",
+    backgroundColor: "lightgray"
+  };
+
   return (
-    <div>
+    <div className="slick donation">
       <Slider {...settings}>
         <Donation_card/>
         <Donation_card/>
@@ -38,18 +71,13 @@ function Donation_slick() {
         <Donation_card/>
         <Donation_card/>
         <Donation_card/>
-
       </Slider>
-      <div>
-        <div
-          style={{
-            width: `${((currentSlide + 1) / 3) * 100}%`,
-            height: "5px",
-            backgroundColor: "grey",
-          }}
-        ></div>
+      <div style={progressBarStyle}>
+        <div style={completedStyle}></div>
+        <div style={remainingStyle}></div>
       </div>
     </div>
   );
 }
+
 export default Donation_slick;

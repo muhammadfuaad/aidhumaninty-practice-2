@@ -63,6 +63,14 @@
   }
 }
 
+/* donation slick */
+.donation .slick-slide {
+  padding: 0 0.75rem;
+  box-sizing: border-box;
+ }
+ .donation .slick-list {
+  padding-bottom: 2rem;
+}
 
 
 .homepage-slider {

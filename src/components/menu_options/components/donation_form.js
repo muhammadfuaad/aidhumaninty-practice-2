@@ -6,7 +6,7 @@ import Input_dropdown from "./input_dropdown";
 
 function Donation_form(props) {
   return (
-    <div className="min-h-screen sm:min-h-0 relative overflow-hidden sm:w-[60rem] sm:rounded-3xl">
+    <div className="min-h-screen sm:min-h-0 relative overflow-hidden sm:w-[60rem] sm:rounded-3xl sm:border sm:border-black">
       <div className="block sm:hidden">
         < Mobile_header title={props.title} display_logout="hidden"/>
       </div>
