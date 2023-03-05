@@ -23,8 +23,13 @@
 .appeals .slick-list {
   padding-bottom: 4rem;
 }
-
-.appeals .slick-dots li button:before {
+.achievements .slick-list {
+  padding-bottom: 5rem;
+}
+.slick-arrow {
+  visibility: hidden;
+}
+.slick .slick-dots li button:before {
   background-color: gray;
   height: 5px;
   width: 20px;
@@ -40,6 +45,26 @@
     padding-bottom: 7rem;
   }
 }
+
+/* achievements slick */
+
+
+/* events slick */
+.events .slick-slide {
+  padding: 0 1rem;
+  box-sizing: border-box;
+ }
+ .events .slick-list {
+  padding-bottom: 4.5rem;
+}
+@media only screen and (min-width: 640px) {
+  .events .slick-list {
+    padding-bottom: 7rem;
+  }
+}
+
+
+
 .homepage-slider {
   background: linear-gradient(270deg,rgba(19,38,85,0),#132655),url(assets/images/hero.png),0 0 no-repeat padding-box;
 

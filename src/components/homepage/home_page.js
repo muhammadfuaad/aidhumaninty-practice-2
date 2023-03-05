@@ -23,6 +23,9 @@ import Scroller from "../scroller";
 import Homepage_hero_slider_collection from "../homepage_hero_slider_collection";
 import Appeals_slider_collection from './../appeals_slider_collection';
 import Appeals_slick from "../appeals_slick";
+import Achievements_slick from './../achievements_slick';
+import General_slick from "../general_slick";
+import Events_slick from './../events_slick';
 
 function Home_page() {
   return (
@@ -32,11 +35,9 @@ function Home_page() {
       <Homepage_hero_slider_collection/>
       <div className="flex flex-col px-8 sm:px-48 bg-[#f9f9f9] mb-[-35rem] sm:mb-[-27rem] pb-40">
         <p className="self-center text-center sm:self-start generic-subheading mt-16 sm:mt-36 mb-16 sm:mb-28">Appeals <span className="font-medium">that need your backing</span></p>
-
-        <Appeals_slick/> 
+        <General_slick card=<Appeal_card/> number_of_elements={3}/> 
         <button className="self-center sm:hidden mt-20 px-10 py-6 text-[1.4rem] font-semibold text-primary-dark bg-transparent outline
-        outline-spanish-gray rounded-xl sm:self-auto">View All</button>
-         
+        outline-spanish-gray rounded-xl sm:self-auto">View All</button>        
       </div>
       <div className="bg-f5 h-[30rem] sm:h-[25rem]"></div>
       <section className="flex flex-col sm:flex-row bg-amber px-8 sm:px-48 py-12">
@@ -51,15 +52,9 @@ function Home_page() {
       </section>
       <Helped/>
       <Passionate/>
-      <div className="flex flex-col gap-16 sm:gap-24 px-8 sm:px-48 py-24 bg-[#f1f1f1]">
+      <div className="flex flex-col gap-16 sm:gap-24 px-8 sm:px-48 pt-24 pb-32 bg-[#f1f1f1]">
         <p className="self-center generic-subheading text-center sm:text-start">Our Achievements<span className="font-semibold"> with your help and more …</span></p>
-        <div className="flex gap-10">
-          <div className="w-full sm:w-1/4 flex"><Achievement/></div>
-          <div className="w-1/4 hidden sm:flex"><Achievement/></div>
-          <div className="w-1/4 hidden sm:flex"><Achievement/></div>
-          <div className="w-1/4 hidden sm:flex"><Achievement/></div>
-        </div>
-        <img src="./icons/template-pager.svg" className="sm:hidden self-center"></img>
+        <Achievements_slick/>
       </div>     
       <section>
         <div className="flex flex-col sm:flex-row items-center px-8 py-16 space-y-2 bg-primary sm:px-48">
@@ -80,19 +75,9 @@ function Home_page() {
         </div>
       </div>
 
-      <div className="flex flex-col px-8 sm:px-48 py-20 sm:py-24 bg-white">
+      <div className="flex flex-col px-8 sm:px-48 py-24 sm:pt-24 sm:pb-32 bg-white">
         <p className="self-center generic-subheading mb-16 sm:mb-24">Upcoming Events</p>
-        <div className="flex gap-12">
-          <Event/>
-          <Event/>
-          <Event/>
-          <Event/>
-          <Event/>
-          <Event/>  
-        </div>
-        <div className="mt-16">
-          <Scroller/>
-        </div>
+        <Events_slick/>
       </div>
       <News/>
       <Ways/>
