@@ -65,7 +65,7 @@
 
 /* donation slick */
 .donation .slick-slide {
-  padding: 0 0.75rem;
+  padding-right: 0.75rem;
   box-sizing: border-box;
  }
  .donation .slick-list {

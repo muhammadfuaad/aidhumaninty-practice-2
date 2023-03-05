@@ -7,7 +7,7 @@ function Quick_donate() {
     <Donation_form
       title="Quick Donate"
       content=
-      <div className="flex flex-col px-10 py-10 bg-[#f5f6f7] text-[1.4rem] font-medium tracking-[-0.22px] text-black">
+      <div className="flex flex-col px-6 py-10 bg-[#f5f6f7] text-[1.4rem] font-medium tracking-[-0.22px] text-black">
         <div className="flex gap-16 sm:justify-between px-8">
           <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
             <div className="sm:order-2">< Category category="Z" /></div>

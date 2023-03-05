@@ -45,7 +45,7 @@ function Donation_slick() {
 
   const completedStyle = {
     height: "5px",
-    backgroundColor: "darkgray",
+    backgroundColor: "#444445",
     transition: "width 0.3s ease-in-out",
     width: `${completedWidth}%`
   };

@@ -16,7 +16,7 @@ function Donation_form(props) {
         <div className="flex flex-col">
           {props.content}
 
-          <div className="flex flex-col bg-[#fafafa] sm:bg-white px-10 pb-10 rounded-b-3xl min-h-screen sm:min-h-fit">
+          <div className="flex flex-col bg-[#fafafa] sm:bg-white px-6 pb-10 rounded-b-3xl min-h-screen sm:min-h-fit">
             <p className="text-[2.6rem] font-bold tracking-[-0.65px] leading-[3rem] text-black sm:text-[3.6rem] sm:tracking-[-0.54px] sm:leading-[4rem] self-center my-12">Donation Amount</p>
             < Amount />
             <Input_dropdown/>
