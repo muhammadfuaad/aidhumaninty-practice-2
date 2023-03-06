@@ -18,6 +18,8 @@
   --border-dark: 1px solid var(--color-body);
   font-size: 62.5%;
 }
+/* homepage-hero */
+
 /* appeals slick */
 
 .appeals .slick-list {
@@ -31,10 +33,11 @@
 }
 .slick .slick-dots li button:before {
   background-color: gray;
-  height: 5px;
-  width: 20px;
+  height: 7px;
+  width: 17px;
   overflow: hidden;
   text-indent: -9999px;
+  border-radius: 30%;
   }
 @media only screen and (min-width: 640px) {
   .slick-slide {
@@ -79,10 +82,10 @@
 }
 /* appeals carousel */
 .carousel .control-dots .dot {
-  border-radius: 0% !important;
+  border-radius: 50% !important;
   width: 20px !important;
   height: 5px !important;
-  background: gray !important;
+  background: #e6e6e6 !important;
 }
 
 

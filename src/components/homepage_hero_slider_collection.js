@@ -6,8 +6,8 @@ import Homepage_hero_slider from './homepage/components/homepage_hero_slider';
 import Hero_card from './homepage/components/hero_card';
 function Homepage_hero_slider_collection() {    
   return (
-    <div>
-      <div className="hidden sm:flex gap-10 absolute bottom-80 right-40 z-10">
+    <div className='homepage-hero'>
+      <div className="hidden sm:flex gap-10 absolute bottom-[17rem] right-40 z-10">
         <Hero_card title="Pakistan Floods"/>
         <Hero_card title="Support an orphan child"/>
       </div>
@@ -19,7 +19,7 @@ function Homepage_hero_slider_collection() {
             <div
               className={`${
                 hasPrev ? 'absolute' : 'hidden'
-              } top-[50%] left-0 flex justify-center items-center cursor-pointer z-20`}
+              } top-[50%] left-0 justify-center items-center cursor-pointer z-20 hidden sm:flex`}
               onClick={clickHandler}
             >
               <div className="bg-white rounded-r-full px-4 py-2">
@@ -33,7 +33,7 @@ function Homepage_hero_slider_collection() {
             <div
               className={`${
                 hasNext ? 'absolute' : 'hidden'
-              } top-[50%] right-0 flex justify-center items-center cursor-pointer z-20`}
+              } top-[50%] right-0 justify-center items-center cursor-pointer z-20 hidden sm:flex`}
               onClick={clickHandler}
             >
               <div className="bg-white rounded-l-full px-4 py-2">

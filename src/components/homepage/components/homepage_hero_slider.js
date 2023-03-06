@@ -11,7 +11,7 @@ function Homepage_hero_slider(props) {
       <button className="opacity-[75%] mt-8 sm:mt-40 mb-6 self-start px-8 py-3 text-[1.4rem] font-semibold text-white bg-transparent outline outline-white rounded-xl">{props.category}</button>
 
       <div className="sm:w-[65%]">
-        <p className="sm:text-start text-white text-[5rem] font-bold tracking-[-0.75px] mb-12 sm:mb-6">{props.title}</p>
+        <p className="text-start text-white text-[5rem] font-bold tracking-[-0.75px] mb-12 sm:mb-6">{props.title}</p>
         <p className="sm:text-start opacity-[75%] text-[2.2rem] font-normal tracking-[-0.55px] text-white leading-[3.2rem] mb-28 sm:mb-40 sm:w-3/4 hidden sm:block">{props.content}</p>
       </div>
 
