@@ -1,10 +1,12 @@
+import React from "react";
 import User from "../../icons/user-circle-black.svg";
 import water_hand_pumps from "../../icons/water-hand-pumps.png"
 import Circular_progress_bar from "../../dashboard/circular_progress_bar";
 
 function Appeal_card(props) {
+  const [display, setDisplay] = React.useState(false);
   return (
-    <div className=" shadow-md rounded-3xl relative">
+    <div className="w-full bg-white shadow-md rounded-3xl relative">
       <div className="rounded-xl  bg-black bg-opacity-50 px-8 py-4 absolute top-4 right-4">
         <p className="text-[1.4rem] font-medium tracking-[-0.21px] text-platinum">Water For All</p>
       </div>
@@ -22,11 +24,15 @@ function Appeal_card(props) {
                 <p className="text-primary">Raised: £243</p>
                 <p className="text-green">Goal: £870</p>
               </div>
-              <div className="flex justify-between">
+              <div className="flex justify-between relative">
+                {display ? 
+                <div className="rounded-3xl bg-white p-12 absolute -top-48 left-48 whitespace-nowrap">
+                  <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body leading-[1.8rem]">This appeal is Sadaka Jaraiya applicable.</p>
+                </div> : null}
                 <div className="text-body flex gap-2 items-center">
                   <span className="font-medium">by</span><img src={User}></img><span> 12 supporters</span>
                 </div>
-                <div className="bg-amber rounded-full w-8 h-8 flex justify-center items-center">
+                <div className="bg-amber rounded-full w-9 h-9 flex justify-center items-center" onClick={()=>setDisplay(current => !current)}>
                   <p className="text-[1rem] font-bold text-black">Z</p>
                 </div>
               </div>

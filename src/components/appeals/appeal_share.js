@@ -1,13 +1,13 @@
 
 function Appeal_share() {
   return (
-    <div className="flex flex-col bg-[#f5f6f7] min-h-screen pb-40">
-
-      <div className="flex justify-between items-center bg-white px-4 h-28 border-bottom-light">
+    <div className="flex flex-col bg-[#f5f6f7] min-h-screen sm:min-h-fit pb-40 sm:pb-0 sm:rounded-3xl sm:w-[64rem]">
+      <div className="flex justify-between items-center bg-white px-4 h-28 border-bottom-light sm:border-bottom-medium">
         <a className="flex space-x-4">
-          <img src="./icons/angle-left.svg" className="w-3"></img>
+          <img src="./icons/angle-left.svg" className="w-3 sm:hidden"></img>
           <span className="text-[1.8rem] font-bold tracking-[-0.27px] text-black">Share your page</span>
-        </a>      
+        </a> 
+        <img src="./icons/cross-circle.svg" className="hidden sm:flex"></img>     
       </div>
 
       <div className='px-8'>

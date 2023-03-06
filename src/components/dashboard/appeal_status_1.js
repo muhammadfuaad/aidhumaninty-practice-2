@@ -5,7 +5,7 @@ function Appeal_status_1(props) {
   return (
     <div className="flex space-x-4">
       <div className="w-[30%]">
-        <img src="./images/pakistan-floods.png"></img>
+        <img src="./images/pakistan-floods.png" className='rounded-xl'></img>
       </div>
 
       <div className="flex flex-col w-[70%]">
@@ -26,13 +26,13 @@ function Appeal_status_1(props) {
             <span className="text-primary">{amount_raised}</span>
             <span className=" text-[#bdbdbd]">{`/${props.amount_remaining}`}</span>
           </p>
-          <div className="flex space-x-1">
+          <div className="flex space-x-1 items-center relative">
+            <div className='h-4 w-[1px] bg-body absolute -left-2 top-[1px]'></div>
             <img src="./icons/user-circle.svg" className='w-5 brightness-50'></img>
             <p className="text-[1rem] font-medium tracking-[-0.15px] text-body">
             {`${props.supporters} supporters`}
             </p>
           </div>
-          <div className='h-4 w-[1px] bg-body absolute left-12 top-[1px]'></div>
         </div>
       </div>
     </div>

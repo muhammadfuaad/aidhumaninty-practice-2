@@ -1,9 +1,13 @@
 import {ReactComponent as Calendar_clock} from "../../icons/calendar-clock.svg";
 import {ReactComponent as Drop_down} from "../../icons/drop-down.svg";
+import Appeal_cancel from "./appeal_cancel";
+import React from "react";
 
 function Appeal_settings() {
+  const [visibility, setVisibility] = React.useState(false)
   return (
     <div className='flex flex-col bg-white rounded-3xl'>
+      {visibility? <div className="fixed right-0 top-0 z-10"><Appeal_cancel /></div> : null}
       <div className='p-8 sm:p-12 border-bottom-medium'>
         <p className='portal-subheading'>Extend your page</p>
       </div>
@@ -46,11 +50,10 @@ function Appeal_settings() {
           <li className="marker:text-primary list-inside list-disc mr-3 text-[1.4rem] font-normal tracking-[-0.35px] text-body">You won’t be able to see this page</li>
         </ul>
         <p className='text-[1.6rem] font-normal tracking-[-0.4px] leading-9 text-body mt-8'>Any donations already received on the fundraising page will be automatically paid to the charity you have selected. You do not need to do anything else.</p>
-        <button className="w-full sm:w-fit px-20 py-6 uppercase text-[1.4rem] font-semibold text-white bg-red rounded-xl mt-8">
+        <button className="w-full sm:w-fit px-20 py-6 uppercase text-[1.4rem] font-semibold text-white bg-red rounded-xl mt-8" onClick={()=>setVisibility(current=> !current)}>
           Cancel My Aid Humanity Page
         </button>
-      </div>
-      
+      </div>    
     </div>
   )
 }

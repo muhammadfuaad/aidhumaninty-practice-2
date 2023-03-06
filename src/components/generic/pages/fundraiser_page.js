@@ -1,6 +1,6 @@
 import Page_header from "../components/page_header";
 import Icon_1 from "../images/yellow-quotes.svg"
-import Generic_header from "../../generic_header";
+import Generic_header_1 from "../components/generic_header_1";
 import Footer from "../../footer";
 import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
 import Fundraiser_step from "../components/fundraiser_step";
@@ -9,7 +9,7 @@ import Footer_mobile from '../../footer_mobile';
 function Fundraiser_page() {
   return (
     <section>
-      <div className="hidden sm:block">< Generic_header /></div>
+      <div className="hidden sm:block">< Generic_header_1 /></div>
       <div className="sm:hidden block">< Home_page_header_mobile /></div>
       <Page_header heading="Become a Fundraiser" icon="hidden" />
       <div className="flex flex-col pt-16 pb-20">

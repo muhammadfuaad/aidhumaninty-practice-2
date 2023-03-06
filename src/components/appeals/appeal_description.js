@@ -5,8 +5,8 @@ function Appeal_description() {
     <div className="flex flex-col bg-white rounded-3xl">
       <div className="py-8 px-8">
         <p className="text-[1.2rem] font-medium tracking-[-0.3px] text-[#bdbdbd] mb-1">Water for All</p>
-        <div className="flex justify-between">
-          <p className="text-[2rem] font-bold tracking-[-0.75px] text-black mb-12 sm:mb-4">Water Hand Pumps</p>
+        <div className="flex justify-between items-center">
+          <p className="text-[2.6rem] font-bold tracking-[-0.65px] text-black leading-[3rem] sm:text-[3.6rem] sm:tracking-[-0.54px] sm:leading-[4rem] mb-12 sm:mb-4">Water Hand Pumps</p>
           <div className="bg-amber rounded-full w-10 h-10 hidden sm:flex justify-center items-center">
             <p className="text-[1.2rem] font-bold text-black">Z</p>
           </div>
@@ -17,9 +17,7 @@ function Appeal_description() {
           <p className="text-[1.1rem] font-semibold tracking-[-0.28px] text-primary-dark">Ron Hill</p>
         </div>
       </div>
-      
-
-        <div className="w-full"><img src="./images/water-hand-pumps.png" className="w-full"></img></div>
+      <div className="w-full"><img src="./images/water-hand-pumps-1.png" className="w-full"></img></div>
       <div className="p-8 border-bottom-light">
         <p className="text-[1.6rem] font-bold tracking-[-0.4px] text-black mb-8">Story</p>
         <div className="text-[1.3rem] font-normal tracking-[-0.33px] text-body">

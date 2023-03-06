@@ -1,10 +1,10 @@
-import Mobile_header from "../components/mobile_header";
-function Menu() {
+import Menu_options_layout from './menu_options_layout';
+
+function Appeals() {
   return (
-    <div className="bg-[#f5f6f7] min-h-screen relative overflow-hidden">
-      <div className="">
-        < Mobile_header title="Appeals" display_logout="hidden"/>
-      </div>
+    <Menu_options_layout
+    title="Appeals"
+      content=
       <div className="px-6 py-14">
         <div className="flex flex-col gap-12">
           <div>
@@ -50,13 +50,8 @@ function Menu() {
             <p className="text-[1.8rem] font-bold tracking-[-0.27px] text-primary-dark">Hunger Appeal</p>
           </div>
         </div>
-        
-        <button className="w-[95%] py-6 uppercase text-[1.4rem] font-semibold text-[#006ba3] bg-transparent outline
-          outline-primary rounded-xl fixed bottom-8">Donate Now</button>
-        
-        <img src="./icons/footer-background-logo.svg" className="absolute -right-[22rem] top-40"></img>
       </div>
-    </div>
+    />
   );
 }
-export default Menu;
+export default Appeals;

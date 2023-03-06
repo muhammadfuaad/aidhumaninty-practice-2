@@ -28,6 +28,8 @@ import Appeal_edit_page from './components/appeals/pages/appeal_edit_page';
 import Appeal_settings_page from './components/appeals/pages/appeal_settings_page';
 import Appeal_details_donator_page from './components/appeals/pages/appeal_details_donator_page';
 import Appeal_details_fundraiser_page from './components/appeals/pages/appeal_details_fundraiser_page';
+import Appeals_carousel from './components/appeals_carousel';
+
 
 
 import Circular_progress_bar from "./components/dashboard/circular_progress_bar";
@@ -75,11 +77,25 @@ import Emergency_options from './components/homepage/components/emergency_option
 import Zakat_options from './components/homepage/components/zakat_options';
 
 import Notifications_page from './components/generic/pages/notifications_page';
+import Image_slider_page from './components/image_slider_page';
+import Tailwind_slider from './components/tailwind_slider';
 
 import { Route, Routes } from "react-router-dom";
+import Pagination from './components/pagination';
+import Share from './components/share';
+import Donation_history_pagination from './components/donation_history_pagination';
+import Homepage_slider from './components/homepage_slider';
+import Homepage_hero_slider_collection from './components/homepage_hero_slider_collection';
+import Appeals_slick from './components/appeals_slick';
+
 function App() {
   return (    
     <Routes>
+      <Route path="/tailwind_slider" element={<Tailwind_slider />} />
+      <Route path="/image_slider_page" element={<Image_slider_page />} />
+      <Route path="/appeals_carousel" element={<Appeals_carousel />} />
+      <Route path="/pagination" element={<Pagination />} />
+
       {/* generic pages */}
       <Route path="/notifications_page" element={<Notifications_page />} />
       <Route path="/congratulations_page" element={<Congratulations_page />} />
@@ -115,6 +131,7 @@ function App() {
       <Route path="/security_page" element={<Security_page />} />
       <Route path="/fundraising_page" element={<Fundraising_page />} />
       <Route path="/dashboard_page" element={<Dashboard_page />} />
+      <Route path="/badge_bronze" element={<Badge_bronze />} />
       {/* appeals */}
       <Route path="/appeal_media_page" element={<Appeal_media_page />} />
       <Route path="/appeal_donations_page" element={<Appeal_donations_page />} />
@@ -140,7 +157,7 @@ function App() {
 
       <Route path="/" element={<Home_page />} />
 
-
+      <Route path="/share" element={<Share />} />
       <Route path="/image_upload" element={<Image_upload />} />
       <Route path="/badge_bronze" element={<Badge_bronze />} />
       <Route path="/circular_progress_bar" element={<Circular_progress_bar />} />
@@ -154,6 +171,13 @@ function App() {
       <Route path="/quick_donate" element={<Quick_donate />} />
       <Route path="/donate_now" element={<Donate_now />} />
       <Route path="/filters" element={<Filters />} />
+
+      <Route path="/donation_history_pagination" element={<Donation_history_pagination />} />
+      <Route path="/homepage_slider" element={<Homepage_slider />} />
+      <Route path="/homepage_hero_slider" element={<Homepage_hero_slider_collection />} />
+      <Route path="/appeals_slick" element={<Appeals_slick />} />
+
+
     </Routes>
   );
 }

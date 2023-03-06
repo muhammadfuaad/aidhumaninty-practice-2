@@ -35,7 +35,7 @@ function Security() {
         <p className="portal-subheading mb-6">Two-factor authentication</p>
         <p className="text-[1.3rem] font-normal tracking-[-0.33px] text-body mb-8">An additional layer of security, using email address to generate a secret access code</p>
         < Toggle state="Enabled" />
-        < Button text="Save Changes" type="fixed" />
+        <div className="mt-12">< Button text="Save Changes" type="fixed" /></div>
       </div>
     </div>
   );

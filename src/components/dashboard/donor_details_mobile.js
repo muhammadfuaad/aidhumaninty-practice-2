@@ -1,6 +1,6 @@
 function Donor_details_mobile(props) {
   return (
-    <div className="p-8 bg-white sm:bg-[#f9f9f9] rounded-3xl">
+    <div className="p-8 bg-white sm:bg-[#f9f9f9] rounded-3xl w-full">
       <div className="flex justify-between items-center"> 
         <div className="flex space-x-4">
           <img src="./icons/user-circle.svg" className=""></img>

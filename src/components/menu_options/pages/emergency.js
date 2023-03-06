@@ -1,10 +1,9 @@
-import Mobile_header from "../components/mobile_header";
+import Menu_options_layout from "./menu_options_layout";
 function Emergency() {
   return (
-    <div className="bg-[#f5f6f7] min-h-screen relative overflow-hidden">
-      <div className="">
-        < Mobile_header title="Emergency" display_logout="hidden"/>
-      </div>
+    <Menu_options_layout
+    title="Emergency"
+      content=
       <div className="px-6 py-14">
         <div className="flex flex-col gap-12">         
           <div>
@@ -21,13 +20,8 @@ function Emergency() {
             </ul>
           </div>
         </div>
-        <button className="w-[95%] py-6 uppercase text-[1.4rem] font-semibold text-[#006ba3] bg-transparent outline
-          outline-primary rounded-xl fixed bottom-8">Donate Now</button>
-        
-        <img src="./icons/footer-background-logo.svg" className="absolute -right-[22rem] top-40"></img>
       </div>
-
-    </div>
+    />
   );
 }
 export default Emergency;

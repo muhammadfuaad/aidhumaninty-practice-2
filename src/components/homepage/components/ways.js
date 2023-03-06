@@ -6,8 +6,8 @@ import Giving_ways from "./giving_ways"
 
 function Ways() {
   return (
-    <div className="flex flex-col sm:flex-row space-x-8 py-16 sm:py-24">
-      <div className="sm:w-[60%] space-y-8 flex flex-col px-8 sm:pl-48 bg-white">
+    <div className="flex flex-col sm:flex-row py-16 sm:py-24">
+      <div className="sm:w-[60%] gap-10 sm:space-y-8 flex flex-col px-8 sm:pl-48 bg-white">
         <div className="flex flex-col sm:w-[60%] space-y-4">
           <p className="generic-subheading mb-2 sm:mb-0">Ways to give</p>
           <p className="generic-body">Crowd funding lets people play a more important role in their charity.
@@ -23,12 +23,12 @@ function Ways() {
         </div>
       </div>
 
-      <div className="basis-[40%] flex flex-col mt-12 sm:mt-0">
+      <div className="basis-[40%] flex flex-col mt-12 sm:mt-0 pl-8 sm:pl-0">
         <img src={orange} className="rounded-l-3xl"></img>
-        <div className="flex flex-col sm:pr-48">
+        <div className="flex flex-col pr-8 sm:pr-48">
           <p className="text-primary text-[36px] font-bold tracking-[-0.54px] mt-16 mb-8">Don’t wait for the world to improve.</p>
-          <p className="text-body text-[22px] font-normal tracking-[-0.55px] mb-8">Drive meaningful change.</p>
-          <button className="px-20 self-start py-6 uppercase text-[1.4rem] font-semibold text-primary-medium bg-transparent outline
+          <p className="text-body text-[22px] font-normal tracking-[-0.55px] mb-12 sm:mb-8">Drive meaningful change.</p>
+          <button className="w-full sm:w-fit px-20 self-start py-6 uppercase text-[1.4rem] font-semibold text-primary-medium bg-transparent outline
               outline-primary rounded-xl">
             Register now
           </button>

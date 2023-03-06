@@ -1,12 +1,11 @@
 import Checkout_card from "./checkout_card";
 function Checkout() {
   return (
-    <div className="w-[80%] sm:w-[25%] sm:min-w-[33rem] h-full bg-primary-dark overflow-hidden border-l-[1rem] border-primary relative">
+    <div className="bg-primary-dark overflow-hidden border-l-[1rem] border-primary relative">
       <div className="h-full w-4 bg-white absolute"></div>
       <div className="p-8 flex justify-between border-b border-gray">
         <div className="flex gap-2 items-center">
           <img src="./icons/cash-register.svg"></img>
-
           <p className="text-[1.8rem] font-bold tracking-[-0.45px] text-white">Checkout</p>
         </div>
         <img src="./icons/white-cross-circle.svg"></img>

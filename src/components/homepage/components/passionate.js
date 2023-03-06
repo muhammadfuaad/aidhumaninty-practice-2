@@ -8,13 +8,13 @@ import Distribution from "./distribution"
 function Passionate() {
   return (
     <section>
-      <div className="flex flex-col sm:flex-row px-8 sm:px-48 pt-16 pb-8 sm:py-32">
+      <div className="flex flex-col sm:flex-row px-8 sm:px-48 pt-16 pb-10 sm:pb-8 sm:py-32">
         <p className="text-center sm:text-start basis-[30%] generic-subheading sm:pr-20 sm:pl-0 sm:mb-0 px-28 mb-8">Passionate about progress</p>
-        <p className="basis-[70%] generic-body sm:pl-16 border-l border-platinum">We’ve always believed that charitable donations should find their way to the people
+        <p className="w-ful sm:w-[70%] generic-body sm:pl-16 sm:border-l sm:border-platinum text-center sm:text-start">We’ve always believed that charitable donations should find their way to the people
         who need them most, and always without delay. It’s why we’ve created a simple <span className="font-bold">100%
         donation policy</span> that makes sure every donation can:</p>
       </div>
-      <div className="flex flex-col sm:flex-row sm:justify-between px-8 sm:px-48 pb-64 relative">
+      <div className="flex flex-col sm:flex-row sm:justify-between px-8 sm:px-48 pb-24 sm:pb-64 sm:mt-20 relative">
         <div className="basis-[60%] relative">
           <img src={grains} className="rounded-3xl"></img>
           <div className="flex space-x-4 absolute -bottom-20 left-40">
@@ -26,7 +26,7 @@ function Passionate() {
         
         
 
-        <div className="flex flex-col gap-24 pt-24 sm:pl-48 relative">
+        <div className="flex flex-col gap-24 pt-32 sm:pt-24 sm:pl-48 relative">
           <img src={logo} className="absolute"></img>
           <img src="./icons/footer-background-logo.svg" className="absolute left-0 top-[0rem] z-0"></img>
 

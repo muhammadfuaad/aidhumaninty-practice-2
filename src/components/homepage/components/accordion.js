@@ -11,7 +11,7 @@ function Accordion(props) {
     <div className="flex flex-col gap-4 rounded-3xl border-2 border-bd p-12">
       <div className="w-full flex justify-between items-center">
         <p className="portal-subheading">{props.question}</p>
-        {!showResults ? <img src="./icons/blue-plus.svg" onClick={onClick}></img> : <img src="./icons/minus-circle.svg" onClick={onClick}></img>}
+        {!showResults ? <img src="./icons/blue-plus.svg" onClick={onClick}></img> : <img src="./icons/minus-gray.svg" onClick={onClick}></img>}
       </div>
       
         { showResults ? <p className="accordion-text">{props.answer}</p> : null }

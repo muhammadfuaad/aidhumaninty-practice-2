@@ -1,7 +1,7 @@
 import Page_header from "../components/page_header";
 import Page_sidebar from "../components/page_sidebar";
 import Assistance from "../components/assistance";
-import Generic_header from "../../generic_header";
+import Generic_header_1 from "../components/generic_header_1";
 import Footer from "../../footer";
 import Home_page_header_mobile from './../../homepage/components/home_page_header_mobile';
 import Footer_mobile from '../../footer_mobile';
@@ -9,11 +9,11 @@ import Footer_mobile from '../../footer_mobile';
 function Layout_page(props) {
   return (
     <section>
-      <div className="hidden sm:block">< Generic_header /></div>
+      <div className="hidden sm:block">< Generic_header_1 /></div>
       <div className="sm:hidden block">< Home_page_header_mobile /></div>
 
       <Page_header heading={props.banner_heading} icon={props.icon} />
-      <div className="px-8 pt-16 pb-24 sm:px-64">
+      <div className="px-8 pt-16 pb-24 sm:px-48">
         <div className="hidden sm:block">{props.navigator}</div>
         <div className="flex">
           <div className="w-full sm:w-[80%] flex flex-col">

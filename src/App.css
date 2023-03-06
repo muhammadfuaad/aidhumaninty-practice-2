@@ -18,7 +18,100 @@
   --border-dark: 1px solid var(--color-body);
   font-size: 62.5%;
 }
+/* homepage-hero */
 
+/* appeals slick */
+
+.appeals .slick-list {
+  padding-bottom: 4rem;
+}
+.achievements .slick-list {
+  padding-bottom: 5rem;
+}
+.slick-arrow {
+  visibility: hidden;
+}
+.slick .slick-dots li button:before {
+  background-color: gray;
+  height: 7px;
+  width: 17px;
+  overflow: hidden;
+  text-indent: -9999px;
+  border-radius: 30%;
+  }
+@media only screen and (min-width: 640px) {
+  .slick-slide {
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+   }
+   .appeals .slick-list {
+    padding-bottom: 7rem;
+  }
+}
+
+/* achievements slick */
+
+
+/* events slick */
+.events .slick-slide {
+  padding: 0 1rem;
+  box-sizing: border-box;
+ }
+ .events .slick-list {
+  padding-bottom: 4.5rem;
+}
+@media only screen and (min-width: 640px) {
+  .events .slick-list {
+    padding-bottom: 7rem;
+  }
+}
+
+/* donation slick */
+.donation .slick-slide {
+  padding-right: 0.75rem;
+  box-sizing: border-box;
+ }
+ .donation .slick-list {
+  padding-bottom: 2rem;
+}
+
+
+.homepage-slider {
+  background: linear-gradient(270deg,rgba(19,38,85,0),#132655),url(assets/images/hero.png),0 0 no-repeat padding-box;
+
+}
+/* appeals carousel */
+.carousel .control-dots .dot {
+  border-radius: 50% !important;
+  width: 20px !important;
+  height: 5px !important;
+  background: #e6e6e6 !important;
+}
+
+
+
+
+.hero {
+  background: linear-gradient(270deg,rgba(19,38,85,0),#132655),url(assets/images/hero.png),0 0 no-repeat padding-box;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.blog-banner {
+  background: linear-gradient(180deg,hsla(0,0%,48.6%,0),#000),url(assets/images/smiling-children-1.png),0 0 no-repeat padding-box;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.congratulations-image {
+  background: linear-gradient(180deg,hsla(0,0%,48.6%,0),#000),url(assets/images/heart-hands-1.png),0 0 no-repeat padding-box;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 body {
   font-size: 22px;
   font-weight: normal;

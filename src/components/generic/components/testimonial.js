@@ -5,7 +5,7 @@ function Testimonial(props) {
     <div className="bg-white p-12 rounded-3xl h-full relative">
       <img src={bar} className="absolute top-0 left-2 w-[90%]"></img>
       <div className="h-3/4">
-        <p className="text-[1.6rem] font-normal tracking-[-0.4px] text-body leading-[2.4rem] mb-12">{props.feedback}</p>
+        <p className="text-[1.6rem] font-normal tracking-[-0.4px] text-body leading-[2.4rem] sm:mb-12">{props.feedback}</p>
       </div>
       <div className="flex gap-8 items-center">
         <img src={props.img} className="w-[4.5rem] h-[4.5rem]"></img>

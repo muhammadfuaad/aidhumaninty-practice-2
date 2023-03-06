@@ -32,7 +32,8 @@ module.exports = {
         "spanish-gray": "#999999",
         "f9": "#f9f9f9",
         "f5": "#f5f6f7",
-        "bd": "#bdbdbd"
+        "bd": "#bdbdbd",
+        "fa": "#fafafa",
       }
     },
   },

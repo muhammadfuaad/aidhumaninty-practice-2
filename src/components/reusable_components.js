@@ -1,4 +1,6 @@
 <div>
+  style={{ backgroundImage: `url(${slides[currentIndex].url})`}}
+  style={{ backgroundImage: `url(${Hero_1})`}}
   {/* text classes */}
   {/* section heading */}
   <p className="text-[3rem] font-bold tracking-[-0.75px] text-black leading-[3.4rem]"></p>
