@@ -19,7 +19,12 @@
   font-size: 62.5%;
 }
 /* homepage-hero */
-
+.homepage .slick-slide {
+  padding: 0;
+}
+.homepage .slick-arrow {
+  position: static;
+}
 /* appeals slick */
 
 .appeals .slick-list {
@@ -28,9 +33,7 @@
 .achievements .slick-list {
   padding-bottom: 5rem;
 }
-.slick-arrow {
-  visibility: hidden;
-}
+
 .slick .slick-dots li button:before {
   background-color: gray;
   height: 7px;
