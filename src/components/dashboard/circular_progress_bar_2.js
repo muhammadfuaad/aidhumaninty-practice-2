@@ -4,7 +4,7 @@ import { CircularProgressbarWithChildren } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 function Circular_progress_bar_2() {
-  const percentage = 100;
+  const percentage = 50;
   const rotateDeg = 180 - (percentage * 3.6) / 2;
   return (
     <div>
@@ -21,7 +21,8 @@ function Circular_progress_bar_2() {
             fill: "#102558"
           },
           path: {
-            stroke: "#00ade9"
+            stroke: "#00ade9",
+            backgroundColor: "#00ade9",
           },
           trail: {
             stroke: "transparent",

@@ -18,6 +18,22 @@
   --border-dark: 1px solid var(--color-body);
   font-size: 62.5%;
 }
+.CircularProgressbar.inverted .CircularProgressbar-background {
+  fill: #3e98c7;
+}
+
+.CircularProgressbar.inverted .CircularProgressbar-text {
+  fill: #fff;
+}
+
+.CircularProgressbar.inverted .CircularProgressbar-path {
+  stroke: #fff;
+}
+
+.CircularProgressbar.inverted .CircularProgressbar-trail {
+  stroke: transparent;
+}
+
 /* homepage-hero */
 .homepage .slick-slide {
   padding: 0;
