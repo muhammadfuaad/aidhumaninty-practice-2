@@ -22,9 +22,7 @@
 .homepage .slick-slide {
   padding: 0;
 }
-.homepage .slick-arrow {
-  position: static;
-}
+
 /* appeals slick */
 
 .appeals .slick-list {
@@ -53,6 +51,7 @@
 }
 
 /* achievements slick */
+
 
 
 /* events slick */
