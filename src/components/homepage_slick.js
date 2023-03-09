@@ -69,8 +69,11 @@ function CustomNextArrow(props) {
   const { onClick } = props;
   return (
     <div className="slick-arrow slick-next" onClick={onClick}>
-      <span className="icon-arrow-right"></span>
+      <div className="bg-white rounded-r-full px-4 py-2">
+        <img src="./icons/arrow-left-gray.svg"></img>
+      </div>
     </div>
+    
   );
 }
 

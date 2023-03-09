@@ -13,16 +13,12 @@ function Circular_progress_bar() {
         text={`${percentage}%`}
         background
         backgroundPadding={0}
-    
-       
-
-
         styles={{
           background: {
             fill: "#102558"
           },
           path: {
-            stroke: "#00ade9"
+            stroke: "#00ade9",
           },
           trail: {
             stroke: "transparent",
@@ -38,8 +34,6 @@ function Circular_progress_bar() {
             fontWeight: "bold",
           }
         }}
-
-
       />
     </div>
   );
