@@ -3,7 +3,7 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import { CircularProgressbarWithChildren } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-function Circular_progress_bar_3(props) {
+function circularProgressbar3(props) {
   const percentage = props.percentage;
   const rotateDeg = 180 - (percentage * 3.6) / 2;
   return (
@@ -73,4 +73,4 @@ function Circular_progress_bar_3(props) {
   );
 }
 
-export default Circular_progress_bar_3;
+export default circularProgressbar3;
