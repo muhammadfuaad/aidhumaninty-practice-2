@@ -49,7 +49,7 @@ function Circular_progress_bar_3(props) {
           bottom: 0,
           left: 0,
           width: "100%",
-          height: `${percentage}%`,
+          height: `${percentage > 50 ? percentage + 5 : percentage < 50 ? percentage - 5 : percentage}%`,
           background: "#00ade9",
           opacity: "0.5",
         }}
@@ -61,7 +61,7 @@ function Circular_progress_bar_3(props) {
           left: 0,
           width: "100%",
           fontSize: `${props.fontSize}rem`,
-          transform: "translateY(-50%) translateX(15%)",
+          transform: "translateY(-50%) translateX(0%)",
           fontWeight: "bold",
           color: "#fff",
           zIndex: "100"
