@@ -26,13 +26,14 @@ import Appeals_slick from "../appeals_slick";
 import Achievements_slick from './../achievements_slick';
 import General_slick from "../general_slick";
 import Events_slick from './../events_slick';
+import Homepage_slick from './../homepage_slick';
 
 function Home_page() {
   return (
     <section className="overflow-hidden">
       <div className="hidden sm:block">< Generic_header_1 /></div>
       <div className="sm:hidden block">< Home_page_header_mobile /></div>
-      <Homepage_hero_slider_collection/>
+      <Homepage_slick/>
       <div className="flex flex-col px-8 sm:px-48 bg-[#f9f9f9] mb-[-35rem] sm:mb-[-27rem] pb-40">
         <p className="self-center text-center sm:self-start generic-subheading mt-16 sm:mt-36 mb-16 sm:mb-28">Appeals <span className="font-medium">that need your backing</span></p>
         <General_slick card=<Appeal_card/> number_of_elements={3}/> 

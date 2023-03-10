@@ -7,12 +7,12 @@ import Appeal_card from './generic/components/appeal_card';
 function Appeals_slick() {
     const settings = {
       dots: true,
+      arrows: true,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 3,
       showThumbs: false,
-      arrows: false,
       responsive: [    
         {
           breakpoint: 640,

@@ -7,6 +7,7 @@ import Achievement from "./generic/components/achievement";
 function Achievements_slick() {
     const settings = {
       dots: true,
+      arrows: false,
       infinite: true,
       speed: 500,
       slidesToShow: 3,

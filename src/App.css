@@ -18,7 +18,33 @@
   --border-dark: 1px solid var(--color-body);
   font-size: 62.5%;
 }
+.CircularProgressbar.inverted .CircularProgressbar-background {
+  fill: #3e98c7;
+}
+
+.CircularProgressbar.inverted .CircularProgressbar-text {
+  fill: #fff;
+}
+
+.CircularProgressbar.inverted .CircularProgressbar-path {
+  stroke: #fff;
+}
+
+.CircularProgressbar.inverted .CircularProgressbar-trail {
+  stroke: transparent;
+}
+
 /* homepage-hero */
+.homepage .slick-slide {
+  padding: 0;
+}
+  .homepage .slick-dots {
+    bottom: 20px; 
+  }
+  .homepage .slick-dots li button:before {
+    background-color: white !important;
+  }
+
 
 /* appeals slick */
 
@@ -28,9 +54,7 @@
 .achievements .slick-list {
   padding-bottom: 5rem;
 }
-.slick-arrow {
-  visibility: hidden;
-}
+
 .slick .slick-dots li button:before {
   background-color: gray;
   height: 7px;
@@ -50,6 +74,7 @@
 }
 
 /* achievements slick */
+
 
 
 /* events slick */
@@ -87,9 +112,6 @@
   height: 5px !important;
   background: #e6e6e6 !important;
 }
-
-
-
 
 .hero {
   background: linear-gradient(270deg,rgba(19,38,85,0),#132655),url(assets/images/hero.png),0 0 no-repeat padding-box;
