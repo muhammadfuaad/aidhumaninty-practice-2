@@ -65,7 +65,9 @@ function CustomPrevArrow(props) {
   const { onClick } = props;
   return (
     <div className="slick-arrow slick-prev" onClick={onClick}>
-      <span className="icon-arrow-left"></span>
+      <div className="bg-white rounded-r-full w-[3.5rem] h-[3.5rem] flex items-center justify-center">
+        <img src="./icons/arrow-left-gray.svg" className="w-6"></img>
+      </div>
     </div>
   );
 }
@@ -74,8 +76,8 @@ function CustomNextArrow(props) {
   const { onClick } = props;
   return (
     <div className="slick-arrow slick-next" onClick={onClick}>
-      <div className="bg-white rounded-r-full px-4 py-2">
-        <img src="./icons/arrow-left-gray.svg"></img>
+      <div className="bg-white rounded-l-full w-[3.5rem] h-[3.5rem] flex items-center justify-center">
+        <img src="./icons/arrow-right-gray.svg" className="w-6"></img>
       </div>
     </div>
     

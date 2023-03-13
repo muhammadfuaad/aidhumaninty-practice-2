@@ -18,34 +18,32 @@
   --border-dark: 1px solid var(--color-body);
   font-size: 62.5%;
 }
-.CircularProgressbar.inverted .CircularProgressbar-background {
-  fill: #3e98c7;
-}
-
-.CircularProgressbar.inverted .CircularProgressbar-text {
-  fill: #fff;
-}
-
-.CircularProgressbar.inverted .CircularProgressbar-path {
-  stroke: #fff;
-}
-
-.CircularProgressbar.inverted .CircularProgressbar-trail {
-  stroke: transparent;
-}
 
 /* homepage-hero */
 .homepage .slick-slide {
   padding: 0;
 }
-  .homepage .slick-dots {
-    bottom: 20px; 
+.homepage .slick-dots {
+  bottom: 20px; 
+}
+.homepage .slick-dots li button:before {
+  background-color: white !important;
+}
+.homepage .slick-prev {
+  left: 0;
+  z-index: 100;
+}
+.homepage .slick-next {
+  right: 1.5rem;
+}
+.homepage .slick-arrow:before {
+  visibility: hidden;
+}
+@media only screen and (max-width: 640px) {
+  .homepage .slick-arrow {
+    visibility: hidden;
   }
-  .homepage .slick-dots li button:before {
-    background-color: white !important;
-  }
-
-
+}
 /* appeals slick */
 
 .appeals .slick-list {
