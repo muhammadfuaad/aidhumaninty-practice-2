@@ -79,8 +79,7 @@ function CustomNextArrow(props) {
       <div className="bg-white rounded-l-full w-[3.5rem] h-[3.5rem] flex items-center justify-center">
         <img src="./icons/arrow-right-gray.svg" className="w-6"></img>
       </div>
-    </div>
-    
+    </div>    
   );
 }
 
