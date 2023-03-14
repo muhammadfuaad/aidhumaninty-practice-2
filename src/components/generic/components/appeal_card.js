@@ -18,7 +18,7 @@ function Appeal_card(props) {
           <p className="text-[1.6rem] font-normal tracking-[-0.4px] leading-[2.4rem] text-body">Every single day, women around the world have to walk miles to collect water for their household. Installing a hand pump brings this basic human right closer to home.</p>
           <div className="flex gap-4 items-center mt-12">
             <div className="w-1/5">
-              <CircularProgressbarComponent percentage={60} fontSize="2" width="7rem" height="7rem"/>
+              <CircularProgressbarComponent percentage={60} style={{ width: "7rem", height: "7rem", fontSize: "2rem" }}/>
             </div>
             <div className="flex flex-col w-4/5 text-[1.1rem] font-semibold tracking-[-0.17px]">
               <div className="flex justify-between mb-1">
