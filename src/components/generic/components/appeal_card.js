@@ -2,7 +2,7 @@ import React from "react";
 import User from "../../icons/user-circle-black.svg";
 import water_hand_pumps from "../../icons/water-hand-pumps.png"
 import Circular_progress_bar from "../../dashboard/circular_progress_bar";
-import Circular_progress_bar_3 from "../../dashboard/circular_progress_bar_3";
+import CircularProgressbarComponent from "../../dashboard/CircularProgressbarComponent";
 
 function Appeal_card(props) {
   const [display, setDisplay] = React.useState(false);
@@ -18,7 +18,7 @@ function Appeal_card(props) {
           <p className="text-[1.6rem] font-normal tracking-[-0.4px] leading-[2.4rem] text-body">Every single day, women around the world have to walk miles to collect water for their household. Installing a hand pump brings this basic human right closer to home.</p>
           <div className="flex gap-4 items-center mt-12">
             <div className="w-1/5">
-              <Circular_progress_bar_3 percentage="50" fontSize="2" />
+              <CircularProgressbarComponent percentage={60} style={{ width: "7rem", height: "7rem", fontSize: "2rem" }}/>
             </div>
             <div className="flex flex-col w-4/5 text-[1.1rem] font-semibold tracking-[-0.17px]">
               <div className="flex justify-between mb-1">

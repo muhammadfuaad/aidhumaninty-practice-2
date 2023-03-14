@@ -1,21 +1,21 @@
-import React, { useState } from "react";
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-import { CircularProgressbarWithChildren } from "react-circular-progressbar";
+import React from "react";
+import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-function Circular_progress_bar_3(props) {
+function CircularProgressBar(props) {
   const percentage = props.percentage;
+  const { fontSize, width, height} = props.style
   const rotateDeg = 180 - (percentage * 3.6) / 2;
+  const style = {
+    position: "relative",
+    width: width,
+    height: height,
+    overflow: "hidden",
+    borderRadius: "100%",
+  };
+
   return (
-    <div
-      style={{
-        position: "relative",
-        width: `${props.width}`,
-        height: `${props.height}`,
-        overflow: "hidden",
-        borderRadius: "100%"
-      }}
-    >
+    <div style={style}>
       <CircularProgressbar
         value={percentage}
         background
@@ -60,11 +60,11 @@ function Circular_progress_bar_3(props) {
           top: "50%",
           left: 0,
           width: "100%",
-          fontSize: `${props.fontSize}`,
           transform: "translateY(-50%) translateX(15%)",
           fontWeight: "bold",
           color: "#fff",
-          zIndex: "100"
+          zIndex: "100",
+          fontSize: fontSize
         }}
       >
         {percentage}%
@@ -73,4 +73,4 @@ function Circular_progress_bar_3(props) {
   );
 }
 
-export default Circular_progress_bar_3;
+export default CircularProgressBar;
